@@ -120,7 +120,7 @@
       ]
     }
   ],
-  "label": "CLOUD TESTING Dataiku Resource  Usage Monitoring",
+  "label": "LLM Cost Guard Dataiku Resource Usage Monitoring",
   "shortDesc": "The template *CLOUD TESTING Dataiku Resource  Usage Monitoring* was created by martin.clark on Mar 22nd 2024",
   "tags": [],
   "instantiationPermission": "USE_APP_MASTER_PERMISSIONS",
