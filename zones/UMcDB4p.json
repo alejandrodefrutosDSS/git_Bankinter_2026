@@ -1,0 +1,20 @@
+{
+  "name": "data prep",
+  "color": "#31439C",
+  "items": [
+    {
+      "objectId": "compute_audit_logs_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "logs_filtered_unnested",
+      "objectType": "DATASET"
+    }
+  ],
+  "shared": [],
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

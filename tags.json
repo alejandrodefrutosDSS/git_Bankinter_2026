@@ -1,0 +1,62 @@
+{
+  "tags": {
+    "solutionLineOfBusiness:IT / Cybersecurity / Data": {
+      "color": "#123883"
+    },
+    "SolutionLineOfBusiness:IT / Cybersecurity": {
+      "color": "#77bec2"
+    },
+    "SolutionType:Plug and Play": {
+      "color": "#d66b9b"
+    },
+    "recipe-editor": {
+      "color": "#1ac2ab"
+    },
+    "dataiku-application": {
+      "color": "#1ac2ab"
+    },
+    "Version:1.3.2": {},
+    "solutionLineOfBusiness:Governance": {
+      "color": "#d66b9b"
+    },
+    "SolutionLineOfBusiness:IT / Cybersecurity / Data": {
+      "color": "#FFD83D"
+    },
+    "Dataiku Solution": {
+      "color": "#d66b9b"
+    },
+    "duplicated": {
+      "color": "#3A85AD"
+    },
+    "Section:Solutions": {
+      "color": "#a088bd"
+    },
+    "deleted-recipe-editor": {
+      "color": "#90a8b7"
+    },
+    "downloads": {
+      "color": "#de1ea5"
+    },
+    "Industry Solution": {
+      "color": "#77bec2"
+    },
+    "imported": {
+      "color": "#263238"
+    },
+    "dashboarding": {
+      "color": "#00a55a"
+    },
+    "SolutionCategory:Cross-Vertical": {
+      "color": "#123883"
+    },
+    "solutionCategories:Cross-Vertical": {
+      "color": "#90a8b7"
+    },
+    "solutionType:Plug and Play": {
+      "color": "#90a8b7"
+    },
+    "SolutionLineOfBusiness:Data / Analytics": {
+      "color": "#28aadd"
+    }
+  }
+}

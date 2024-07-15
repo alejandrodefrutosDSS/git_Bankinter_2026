@@ -1,0 +1,154 @@
+{
+  "name": "Input Data",
+  "layout": "WIKI_ARTICLE",
+  "attachments": [
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "DATASET",
+      "smartId": "compute_resource_usage_logs_",
+      "details": {
+        "objectDisplayName": "compute_resource_usage_logs",
+        "datasetType": "FilesInFolder",
+        "userDisplayName": "antoine.detorcy@dataiku.com (deleted)"
+      },
+      "attachedBy": "martin.clark@dataiku.com",
+      "attachedOn": 1710816694260
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "FLOW_ZONE",
+      "smartId": "default",
+      "details": {
+        "objectDisplayName": "Data Ingestion",
+        "userDisplayName": "antoine.detorcy@dataiku.com (deleted)"
+      },
+      "attachedBy": "antoine.detorcy@dataiku.com",
+      "attachedOn": 1662735331797
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "RECIPE",
+      "smartId": "compute_logs_clean",
+      "details": {
+        "objectDisplayName": "compute_logs_clean",
+        "recipeType": "python",
+        "userDisplayName": "antoine.detorcy@dataiku.com (deleted)"
+      },
+      "attachedBy": "antoine.detorcy@dataiku.com",
+      "attachedOn": 1662735534951
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "RECIPE",
+      "smartId": "compute_logs_normalized",
+      "details": {
+        "objectDisplayName": "compute_logs_normalized",
+        "recipeType": "shaker",
+        "userDisplayName": "antoine.detorcy@dataiku.com (deleted)",
+        "itemNotFound": true,
+        "failedToEnrichItem": true
+      },
+      "attachedBy": "antoine.detorcy@dataiku.com",
+      "attachedOn": 1662735665396
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "DATASET",
+      "smartId": "logs_local_process",
+      "details": {
+        "objectDisplayName": "logs_local_process",
+        "datasetType": "Filesystem",
+        "userDisplayName": "antoine.detorcy@dataiku.com (deleted)",
+        "itemNotFound": true,
+        "failedToEnrichItem": true
+      },
+      "attachedBy": "antoine.detorcy@dataiku.com",
+      "attachedOn": 1662735863662
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "DATASET",
+      "smartId": "logs_sql_connection",
+      "details": {
+        "objectDisplayName": "logs_sql_connection",
+        "datasetType": "Filesystem",
+        "userDisplayName": "antoine.detorcy@dataiku.com (deleted)",
+        "itemNotFound": true,
+        "failedToEnrichItem": true
+      },
+      "attachedBy": "antoine.detorcy@dataiku.com",
+      "attachedOn": 1662735873469
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "DATASET",
+      "smartId": "logs_k8s",
+      "details": {
+        "objectDisplayName": "logs_k8s",
+        "datasetType": "Filesystem",
+        "userDisplayName": "antoine.detorcy@dataiku.com (deleted)",
+        "itemNotFound": true,
+        "failedToEnrichItem": true
+      },
+      "attachedBy": "antoine.detorcy@dataiku.com",
+      "attachedOn": 1662735884307
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "ARTICLE",
+      "smartId": "6",
+      "details": {
+        "objectDisplayName": "Local resources",
+        "userDisplayName": "antoine.detorcy@dataiku.com (deleted)"
+      },
+      "attachedBy": "antoine.detorcy@dataiku.com",
+      "attachedOn": 1662736210235
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "ARTICLE",
+      "smartId": "7",
+      "details": {
+        "objectDisplayName": "SQL resources",
+        "userDisplayName": "antoine.detorcy@dataiku.com (deleted)"
+      },
+      "attachedBy": "antoine.detorcy@dataiku.com",
+      "attachedOn": 1662736219682
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "ARTICLE",
+      "smartId": "8",
+      "details": {
+        "objectDisplayName": "Kubernetes resources",
+        "userDisplayName": "antoine.detorcy@dataiku.com (deleted)"
+      },
+      "attachedBy": "antoine.detorcy@dataiku.com",
+      "attachedOn": 1662736229001
+    },
+    {
+      "attachmentType": "FILE",
+      "smartId": "ecQA0TW9vnwU",
+      "details": {
+        "objectDisplayName": "Capture d’écran 2022-09-09 à 17.12.51.png",
+        "size": 42132,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "antoine.detorcy@dataiku.com",
+      "attachedOn": 1662736388467
+    }
+  ],
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "antoine.detorcy@dataiku.com"
+    },
+    "lastModifiedOn": 1662735254692,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

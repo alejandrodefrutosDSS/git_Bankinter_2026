@@ -1,0 +1,87 @@
+{
+  "type": "step_based",
+  "name": "2. Setup and Build",
+  "active": false,
+  "runAsUser": "fabien.daoulas@dataiku.com",
+  "checklists": {
+    "checklists": []
+  },
+  "delayedTriggersBehavior": {
+    "delayWhileRunning": true,
+    "squashDelayedTriggers": true,
+    "suppressTriggersWhileRunning": true
+  },
+  "tags": [],
+  "triggers": [],
+  "reporters": [],
+  "params": {
+    "steps": [
+      {
+        "id": "reload_schema__d_compute_resource_usage_logs",
+        "type": "reload_schema",
+        "name": "Reload Schema dataset compute_resource_usage_logs",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "items": [
+            {
+              "type": "DATASET",
+              "itemId": "compute_resource_usage_logs",
+              "partitionsSpec": ""
+            }
+          ],
+          "proceedOnFailure": false
+        }
+      },
+      {
+        "id": "custom_python_Rc0Twzkn1grkudKfHts9mQ",
+        "type": "custom_python",
+        "name": "Apply setup options",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "script": "import dataiku\nimport dataikuapi\n\nproject_key \u003d dataiku.get_custom_variables()[\"projectKey\"]\nclient \u003d dataiku.api_client()\nproject \u003d client.get_project(project_key)\nvariables \u003d project.get_variables()\n\nactivate_night_build \u003d variables[\"local\"][\"activate_night_build\"]\n\nif activate_night_build: \n    scenario \u003d project.get_scenario(\"BUILDFLOW\")\n    settings \u003d scenario.get_settings()\n    settings.active \u003d True\n    settings.save()",
+          "envSelection": {
+            "envMode": "INHERIT"
+          },
+          "proceedOnFailure": false
+        }
+      },
+      {
+        "id": "run_scenario_null.BUILDFLOW",
+        "type": "run_scenario",
+        "name": "Build flow",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "scenarioId": "BUILDFLOW",
+          "handleWarningsAs": "WARNING",
+          "proceedOnFailure": false
+        }
+      }
+    ]
+  },
+  "automationLocal": false,
+  "customFields": {}
+}

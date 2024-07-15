@@ -1,0 +1,74 @@
+{
+  "name": "Resource Consumption Dashboard",
+  "layout": "WIKI_ARTICLE",
+  "attachments": [
+    {
+      "attachmentType": "FILE",
+      "smartId": "DyaFNSQfrJIw",
+      "details": {
+        "objectDisplayName": "Capture d’écran 2022-09-13 à 13.51.47.png",
+        "size": 121696,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "antoine.detorcy@dataiku.com",
+      "attachedOn": 1663069918030
+    },
+    {
+      "attachmentType": "FILE",
+      "smartId": "ZYdZmuRpdvsd",
+      "details": {
+        "objectDisplayName": "Capture d’écran 2022-10-04 à 11.31.50.png",
+        "size": 1161467,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "antoine.detorcy@dataiku.com",
+      "attachedOn": 1664875938701
+    },
+    {
+      "attachmentType": "FILE",
+      "smartId": "zshn7B85Gz3u",
+      "details": {
+        "objectDisplayName": "Capture d’écran 2022-10-04 à 11.32.02.png",
+        "size": 734036,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "antoine.detorcy@dataiku.com",
+      "attachedOn": 1664875938730
+    },
+    {
+      "attachmentType": "FILE",
+      "smartId": "Yk3thyy0Tqvw",
+      "details": {
+        "objectDisplayName": "Capture d’écran 2022-10-04 à 11.31.57.png",
+        "size": 1014165,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "antoine.detorcy@dataiku.com",
+      "attachedOn": 1664875938876
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "DASHBOARD",
+      "smartId": "XbtxCLG",
+      "details": {
+        "objectDisplayName": "Resource Consumption Report",
+        "userDisplayName": "antoine.detorcy"
+      },
+      "attachedBy": "antoine.detorcy@dataiku.com",
+      "attachedOn": 1664875981677
+    }
+  ],
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "antoine.detorcy@dataiku.com"
+    },
+    "lastModifiedOn": 1663069643135,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

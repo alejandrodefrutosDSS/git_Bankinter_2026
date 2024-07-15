@@ -1,0 +1,20 @@
+{
+  "name": "to_dashboard",
+  "color": "#465A64",
+  "items": [
+    {
+      "objectId": "logs_llm_usage_prepared",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_llm_logs_prep",
+      "objectType": "RECIPE"
+    }
+  ],
+  "shared": [],
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

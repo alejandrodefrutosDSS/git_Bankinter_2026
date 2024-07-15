@@ -1,0 +1,362 @@
+{
+  "dashboardAuthorizations": {
+    "allAuthorized": false,
+    "authorizations": [
+      {
+        "objectRef": {
+          "objectId": "total_logs_by_day",
+          "objectType": "DATASET"
+        },
+        "modes": [
+          "READ"
+        ]
+      },
+      {
+        "objectRef": {
+          "objectId": "YInqtg7",
+          "objectType": "WEB_APP"
+        },
+        "modes": [
+          "READ"
+        ]
+      },
+      {
+        "objectRef": {
+          "objectId": "logs_local_process_by_minutes",
+          "objectType": "DATASET"
+        },
+        "modes": [
+          "READ"
+        ]
+      },
+      {
+        "objectRef": {
+          "objectId": "logs_local_process_grouped",
+          "objectType": "DATASET"
+        },
+        "modes": [
+          "READ"
+        ]
+      },
+      {
+        "objectRef": {
+          "objectId": "logs_local_process_memory_rank",
+          "objectType": "DATASET"
+        },
+        "modes": [
+          "READ"
+        ]
+      },
+      {
+        "objectRef": {
+          "objectId": "logs_local_process_by_hours",
+          "objectType": "DATASET"
+        },
+        "modes": [
+          "READ"
+        ]
+      },
+      {
+        "objectRef": {
+          "objectId": "logs_local_process_CPU_ranked",
+          "objectType": "DATASET"
+        },
+        "modes": [
+          "READ"
+        ]
+      },
+      {
+        "objectRef": {
+          "objectId": "total_logs_by_execution_location",
+          "objectType": "DATASET"
+        },
+        "modes": [
+          "READ"
+        ]
+      },
+      {
+        "objectRef": {
+          "objectId": "logs_local_process_frequencies_stats_prepared",
+          "objectType": "DATASET"
+        },
+        "modes": [
+          "READ"
+        ]
+      },
+      {
+        "objectRef": {
+          "objectId": "logs_llm_usage_prepared",
+          "objectType": "DATASET"
+        },
+        "modes": [
+          "READ"
+        ]
+      }
+    ]
+  },
+  "exposedObjects": {
+    "objects": []
+  },
+  "projectType": "REGULAR",
+  "projectAppType": "APP_TEMPLATE",
+  "hasSetupSection": false,
+  "bundleContainerSettings": {
+    "remapping": {
+      "connections": [],
+      "codeEnvs": []
+    },
+    "codeEnvsBehavior": {
+      "envImportSpecificationMode": "SPECIFIED",
+      "importTimeMode": "INSTALL_IF_MISS"
+    }
+  },
+  "bundleExporterSettings": {
+    "exportOptions": {
+      "exportUploads": false,
+      "exportManagedFS": false,
+      "exportAnalysisModels": false,
+      "exportSavedModels": false,
+      "exportManagedFolders": false,
+      "exportModelEvaluationStores": false,
+      "exportProjectResources": false,
+      "exportLabelingTasks": false,
+      "exportAllInputDatasets": false,
+      "exportAllDatasets": false,
+      "exportAllInputManagedFolders": false,
+      "exportGitRepository": false,
+      "exportInsightsData": false,
+      "useManualPluginsInfo": false,
+      "exportSavedModelsRequiredVersions": false,
+      "exportNotebooksWithOutputs": true,
+      "exportForNewBranch": false,
+      "exportKnowledgeBanks": false,
+      "includedDatasetsData": [
+        {
+          "name": "compute_resource_usage_logs",
+          "type": "S3"
+        }
+      ],
+      "includedSavedModels": [],
+      "includedModelEvaluationStores": [],
+      "includedManagedFolders": [],
+      "includedCodeStudios": [],
+      "includedKnowledgeBanks": [],
+      "includedLabelingTasks": [],
+      "shareAllInputDatasets": false,
+      "exportForeignObjectsReferences": true
+    }
+  },
+  "owner": "fabien.daoulas@dataiku.com",
+  "permissionsVersion": "V2",
+  "permissions": [],
+  "additionalDashboardUsers": {
+    "users": []
+  },
+  "tutorialProject": true,
+  "tutorialId": "SOL_DKU_MONITORING",
+  "settings": {
+    "flowAnchorSourcesAndSinks": true,
+    "flowDisplaySettings": {
+      "zonesGraphRenderingAlgorithm": "DOT_OLDRANK",
+      "zonesGraphConnectZones": true,
+      "zonesGraphForJobs": true
+    },
+    "gitCommitMode": "AUTO",
+    "disableAutomaticTriggers": false,
+    "integrations": {
+      "integrations": []
+    },
+    "flowBuildSettings": {
+      "mergeSparkPipelines": false,
+      "pruneBeforeSparkPipelines": true,
+      "mergeSqlPipelines": false,
+      "pruneBeforeSqlPipelines": true,
+      "defaultRecipeHashPropagationBehavior": "ENABLED"
+    },
+    "sharingRequestsEnabled": "INHERIT",
+    "limitedVisibilityEnabled": "INHERIT",
+    "accessRequestsEnabled": "INHERIT",
+    "limitsSettings": {
+      "memSampleBytes": {
+        "soft": -1,
+        "hard": -1
+      },
+      "shakerMemTableBytes": {
+        "soft": -1,
+        "hard": -1
+      },
+      "attachmentBytes": {
+        "soft": -1,
+        "hard": -1
+      }
+    },
+    "relocationSettings": {
+      "sqlLikeRecipesInitializationMode": "RESOLVED_TABLE_REFERENCES"
+    },
+    "recipeEnginesPreferences": {
+      "forbiddenEngines": [],
+      "enginesPreferenceOrder": [],
+      "forbiddenByRecipeType": {},
+      "preferenceByRecipeType": {}
+    },
+    "codeEnvs": {
+      "python": {
+        "mode": "INHERIT",
+        "preventOverride": false
+      },
+      "r": {
+        "mode": "INHERIT",
+        "preventOverride": false
+      },
+      "julia": {
+        "mode": "INHERIT",
+        "preventOverride": false
+      }
+    },
+    "container": {
+      "containerMode": "INHERIT"
+    },
+    "containerForVisualRecipesWorkloads": {
+      "containerMode": "INHERIT"
+    },
+    "datasetsCreationSettings": {
+      "useGlobal": true,
+      "preferedStorageFormats": "CSV_ESCAPING_NOGZIP_FORHIVE,CSV_EXCEL_GZIP,PARQUET_HIVE",
+      "virtualizable": false,
+      "allowUploadsWithoutConnection": true
+    },
+    "hiveEngineCreationSettings": {
+      "useGlobal": true,
+      "executionEngine": "HIVECLI_LOCAL"
+    },
+    "sparkEngineCreationSettings": {
+      "useGlobal": true,
+      "executionEngine": "SPARK_SUBMIT",
+      "useGlobalMetastore": false
+    },
+    "impalaEngineCreationSettings": {
+      "useGlobal": true,
+      "streamMode": true
+    },
+    "wikiSettings": {
+      "promoted": false
+    },
+    "cluster": {
+      "clusterMode": "INHERIT"
+    },
+    "k8sCluster": {
+      "clusterMode": "INHERIT"
+    },
+    "virtualWebAppBackendSettings": {
+      "mode": "INHERIT",
+      "preventOverride": false,
+      "infra": {
+        "containerSelection": {
+          "containerMode": "INHERIT"
+        },
+        "overrideGlobalK8sExposition": false,
+        "exposition": {
+          "type": "local_process",
+          "params": {}
+        },
+        "scaling": {
+          "initialReplicas": 1,
+          "progressDeadlineSeconds": 600,
+          "hpa": false,
+          "hpaTargetCPUPercent": 0,
+          "hpaMetrics": [],
+          "hpaMinPods": 0,
+          "hpaMaxPods": 0,
+          "hpaAnnotations": []
+        },
+        "deploymentModifier": {
+          "config": {}
+        }
+      }
+    },
+    "dkuProperties": []
+  },
+  "name": "CLOUD TESTING Dataiku Resource  Usage Monitoring",
+  "imgPattern": 6,
+  "showInitials": false,
+  "metrics": {
+    "probes": [],
+    "engineConfig": {
+      "padRunsWithMetrics": false,
+      "hive": {
+        "active": true,
+        "extraConf": []
+      },
+      "basic": {},
+      "dss": {
+        "active": true,
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "ascending": true,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        }
+      },
+      "sql": {
+        "active": true
+      },
+      "impala": {
+        "active": true
+      },
+      "spark": {
+        "active": true,
+        "extraConf": []
+      },
+      "python": {}
+    },
+    "displayedState": {
+      "columns": [],
+      "metrics": []
+    }
+  },
+  "metricsChecks": {
+    "runOnBuild": false,
+    "checks": [],
+    "displayedState": {
+      "checks": []
+    }
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "antoine.detorcy@dataiku.com"
+    },
+    "lastModifiedOn": 1655479615293,
+    "extendedProperties": {}
+  },
+  "description": "**[Learn more about the project\u0027s goal and value](article:1)**\n\n****\nTo use this project you should \n1. Go back to the homepage of the platform  in the **Applications** section and select the *Dataiku Resource Usage Monitoring*  application.\n2. Create a new application : it will instanciate a new instance of this project with dedicated settings to configure\n3. Follow the [instructions](article:14) to configure your application",
+  "shortDesc": "[See Requirements](https://knowledge.dataiku.com/latest/solutions/governance/solution-cru.html). Leverage real-time tracking data of incoming trucks and optimize the dock usage of your warehouses\nThe project *CLOUDTESTINGDATAIKURESOURCEUSAGEMONITORING* was copied from *SOL_DKU_MONITORING* by Martin on Feb 25th 2024",
+  "tags": [
+    "SolutionCategory:Cross-Vertical",
+    "Section:Solutions",
+    "SolutionType:Plug and Play",
+    "downloads",
+    "SolutionLineOfBusiness:IT / Cybersecurity / Data",
+    "Industry Solution",
+    "duplicated",
+    "imported",
+    "Version:1.3.2"
+  ],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

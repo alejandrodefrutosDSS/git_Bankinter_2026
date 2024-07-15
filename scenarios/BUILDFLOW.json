@@ -1,0 +1,72 @@
+{
+  "type": "step_based",
+  "name": "3. Build flow",
+  "active": false,
+  "runAsUser": "fabien.daoulas@dataiku.com",
+  "checklists": {
+    "checklists": []
+  },
+  "delayedTriggersBehavior": {
+    "delayWhileRunning": true,
+    "squashDelayedTriggers": true,
+    "suppressTriggersWhileRunning": true
+  },
+  "tags": [],
+  "triggers": [
+    {
+      "id": "84aUtt5O",
+      "type": "temporal",
+      "name": "Time-based",
+      "delay": 5,
+      "active": true,
+      "params": {
+        "repeatFrequency": 1,
+        "frequency": "Daily",
+        "startingFrom": "2022-07-01",
+        "daysOfWeek": [
+          "Friday"
+        ],
+        "minute": 30,
+        "hour": 3,
+        "timezone": "SERVER",
+        "lastUpdate": 1711085969523
+      }
+    }
+  ],
+  "reporters": [],
+  "params": {
+    "steps": [
+      {
+        "id": "build_0_true_d_total_logs_by_day_d_logs_local_process_CPU_ranked_d_logs_local_process_memory_rank_d_logs_local_process_by_minutes_d_logs_local_process_by_hours_d_logs_local_process_frequencies_stats_prepared",
+        "type": "build_flowitem",
+        "name": "Build output datasets",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "builds": [
+            {
+              "type": "DATASET",
+              "itemId": "logs_llm_usage_prepared",
+              "partitionsSpec": ""
+            }
+          ],
+          "jobType": "RECURSIVE_FORCED_BUILD",
+          "autoUpdateSchemaBeforeEachRecipeRun": false,
+          "stopAtFlowZoneBoundary": false,
+          "refreshHiveMetastore": true,
+          "handleWarningsAs": "WARNING",
+          "proceedOnFailure": false
+        }
+      }
+    ]
+  },
+  "automationLocal": false,
+  "customFields": {}
+}

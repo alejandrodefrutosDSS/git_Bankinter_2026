@@ -1,0 +1,30 @@
+{
+  "name": "Flow",
+  "layout": "WIKI_ARTICLE",
+  "attachments": [
+    {
+      "attachmentType": "FILE",
+      "smartId": "hUEuVinw047J",
+      "details": {
+        "objectDisplayName": "Capture d’écran 2024-01-11 à 17.52.21.png",
+        "size": 218727,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "antoine.detorcy@dataiku.com",
+      "attachedOn": 1704991957492
+    }
+  ],
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "antoine.detorcy@dataiku.com"
+    },
+    "lastModifiedOn": 1662381877350,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

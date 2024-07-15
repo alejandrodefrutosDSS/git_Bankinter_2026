@@ -1,0 +1,24 @@
+{
+  "type": "custom_python",
+  "name": "1. Reconfigure input",
+  "active": false,
+  "runAsUser": "fabien.daoulas@dataiku.com",
+  "checklists": {
+    "checklists": []
+  },
+  "delayedTriggersBehavior": {
+    "delayWhileRunning": true,
+    "squashDelayedTriggers": true,
+    "suppressTriggersWhileRunning": true
+  },
+  "tags": [],
+  "triggers": [],
+  "reporters": [],
+  "params": {
+    "envSelection": {
+      "envMode": "INHERIT"
+    }
+  },
+  "automationLocal": false,
+  "customFields": {}
+}

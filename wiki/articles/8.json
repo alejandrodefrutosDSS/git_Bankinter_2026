@@ -1,0 +1,72 @@
+{
+  "name": "Kubernetes resources",
+  "layout": "WIKI_ARTICLE",
+  "attachments": [
+    {
+      "attachmentType": "FILE",
+      "smartId": "ID7PkRSNPgyO",
+      "details": {
+        "objectDisplayName": "Capture d’écran 2022-09-13 à 10.45.24.png",
+        "size": 23261,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "antoine.detorcy@dataiku.com",
+      "attachedOn": 1663059309351
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "RECIPE",
+      "smartId": "compute_logs_k8s_prepared",
+      "details": {
+        "objectDisplayName": "compute_logs_k8s_prepared",
+        "recipeType": "shaker",
+        "userDisplayName": "antoine.detorcy"
+      },
+      "attachedBy": "antoine.detorcy@dataiku.com",
+      "attachedOn": 1663059321014
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "RECIPE",
+      "smartId": "compute_logs_k8s_grouped_by_activity_id",
+      "details": {
+        "objectDisplayName": "compute_logs_k8s_grouped_by_activity_id",
+        "recipeType": "grouping",
+        "userDisplayName": "antoine.detorcy"
+      },
+      "attachedBy": "antoine.detorcy@dataiku.com",
+      "attachedOn": 1663059469808
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "RECIPE",
+      "smartId": "compute_logs_k8s_prepared_windows",
+      "details": {
+        "objectDisplayName": "compute_logs_k8s_prepared_windows",
+        "recipeType": "window",
+        "userDisplayName": "antoine.detorcy"
+      },
+      "attachedBy": "antoine.detorcy@dataiku.com",
+      "attachedOn": 1663059480800
+    }
+  ],
+  "versionTag": {
+    "versionNumber": 15,
+    "lastModifiedBy": {
+      "login": "antoine.detorcy@dataiku.com"
+    },
+    "lastModifiedOn": 1678283759970
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "antoine.detorcy@dataiku.com"
+    },
+    "lastModifiedOn": 1662736165261
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

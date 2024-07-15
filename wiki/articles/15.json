@@ -1,0 +1,30 @@
+{
+  "name": "Technical Requirements",
+  "layout": "WIKI_ARTICLE",
+  "attachments": [
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "ARTICLE",
+      "smartId": "9",
+      "details": {
+        "objectDisplayName": "Compute Resource Usage logs",
+        "userDisplayName": "antoine.detorcy"
+      },
+      "attachedBy": "antoine.detorcy@dataiku.com",
+      "attachedOn": 1663595769039
+    }
+  ],
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "antoine.detorcy@dataiku.com"
+    },
+    "lastModifiedOn": 1663595317199,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

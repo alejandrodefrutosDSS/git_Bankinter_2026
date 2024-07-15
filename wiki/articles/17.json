@@ -1,0 +1,36 @@
+{
+  "name": "Performance Improvements",
+  "layout": "WIKI_ARTICLE",
+  "attachments": [
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "SCENARIO",
+      "smartId": "BUILDFLOW",
+      "details": {
+        "objectDisplayName": "Build flow",
+        "userDisplayName": "antoine.detorcy"
+      },
+      "attachedBy": "antoine.detorcy@dataiku.com",
+      "attachedOn": 1663600358843
+    }
+  ],
+  "versionTag": {
+    "versionNumber": 6,
+    "lastModifiedBy": {
+      "login": "garance.miltin@dataiku.com"
+    },
+    "lastModifiedOn": 1665392300701
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "antoine.detorcy@dataiku.com"
+    },
+    "lastModifiedOn": 1663600287772
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

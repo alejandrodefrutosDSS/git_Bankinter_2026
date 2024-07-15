@@ -1,0 +1,18 @@
+{
+  "name": "Release Notes",
+  "layout": "WIKI_ARTICLE",
+  "attachments": [],
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "antoine.detorcy@dataiku.com"
+    },
+    "lastModifiedOn": 1678904332699,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

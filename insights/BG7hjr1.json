@@ -1,0 +1,23 @@
+{
+  "type": "filters",
+  "params": {
+    "datasetSmartName": "logs_llm_usage_prepared"
+  },
+  "owner": "lea.senequier@dataiku.com",
+  "listed": false,
+  "name": "Filters on logs_llm_usage_prepared",
+  "dashboardCreationId": "tJacKJV",
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "lea.senequier@dataiku.com"
+    },
+    "lastModifiedOn": 1704791632541,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

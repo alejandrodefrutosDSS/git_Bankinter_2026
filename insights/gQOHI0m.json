@@ -1,0 +1,465 @@
+{
+  "checklists": {
+    "checklists": []
+  },
+  "creationTag": {
+    "extendedProperties": {},
+    "lastModifiedBy": {
+      "login": "lea.senequier@dataiku.com"
+    },
+    "lastModifiedOn": 1704791632532,
+    "versionNumber": 0
+  },
+  "customFields": {},
+  "dashboardCreationId": "tJacKJV",
+  "listed": true,
+  "name": "Sum of llmUsage_estimatedCostUSD on logs_llm_usage_prepared",
+  "owner": "lea.senequier@dataiku.com",
+  "params": {
+    "customMeasures": [],
+    "datasetSmartName": "logs_llm_usage_prepared",
+    "def": {
+      "animationDimension": [],
+      "animationFrameDuration": 3000,
+      "animationRepeat": true,
+      "boxplotBreakdownDim": [],
+      "boxplotValue": [],
+      "bubblesOptions": {
+        "defaultRadius": 5.0,
+        "singleShape": "FILLED_CIRCLE"
+      },
+      "chartHeight": 200,
+      "colorMeasure": [],
+      "colorOptions": {
+        "ccScaleMode": "NORMAL",
+        "colorPalette": "default",
+        "customColors": {},
+        "customPalette": {
+          "colors": [],
+          "fixedValues": false,
+          "id": "__dku_custom__",
+          "name": "Custom Palette",
+          "values": []
+        },
+        "heatDensityMapIntensity": 0.5,
+        "heatDensityMapRadius": 0.5,
+        "numQuantizeSteps": 5,
+        "paletteMiddleValue": 0.0,
+        "paletteType": "CONTINUOUS",
+        "quantizationMode": "NONE",
+        "singleColor": "#2678B1",
+        "transparency": 0.75
+      },
+      "computeMode": "NORMAL",
+      "displayWithEChartsByDefault": true,
+      "facetDimension": [],
+      "fillOpacity": 0.6,
+      "filters": [],
+      "genericDimension0": [],
+      "genericDimension1": [],
+      "genericMeasures": [
+        {
+          "colorRules": [],
+          "column": "llmUsage_estimatedCostUSD",
+          "computeMode": "NORMAL",
+          "computeModeDim": 0,
+          "decimalPlaces": 2,
+          "digitGrouping": "DEFAULT",
+          "displayAxis": "axis1",
+          "displayLabel": "Total Estimated Cost ($)",
+          "displayType": "column",
+          "displayed": true,
+          "function": "SUM",
+          "isA": "measure",
+          "labelPosition": "BOTTOM",
+          "multiplier": "Auto",
+          "prefix": "",
+          "showDisplayLabel": true,
+          "suffix": "",
+          "type": "NUMERICAL"
+        },
+        {
+          "colorRules": [],
+          "column": "llmUsage_estimatedCostUSD",
+          "computeMode": "NORMAL",
+          "computeModeDim": 0,
+          "decimalPlaces": 3,
+          "digitGrouping": "DEFAULT",
+          "displayAxis": "axis1",
+          "displayLabel": "Average Estimated Cost by Request ($)",
+          "displayType": "column",
+          "displayed": true,
+          "function": "AVG",
+          "isA": "measure",
+          "labelPosition": "BOTTOM",
+          "multiplier": "Auto",
+          "prefix": "",
+          "showDisplayLabel": true,
+          "suffix": "",
+          "type": "NUMERICAL"
+        },
+        {
+          "colorRules": [],
+          "column": "id",
+          "computeMode": "NORMAL",
+          "computeModeDim": 0,
+          "digitGrouping": "DEFAULT",
+          "displayAxis": "axis1",
+          "displayLabel": "Number of LLM Usages",
+          "displayType": "column",
+          "displayed": true,
+          "function": "COUNTD",
+          "isA": "measure",
+          "labelPosition": "BOTTOM",
+          "multiplier": "Auto",
+          "prefix": "",
+          "showDisplayLabel": true,
+          "suffix": "",
+          "type": "ALPHANUM"
+        }
+      ],
+      "geoLayers": [
+        {
+          "colorOptions": {
+            "ccScaleMode": "NORMAL",
+            "colorPalette": "default",
+            "customColors": {},
+            "customPalette": {
+              "colors": [],
+              "fixedValues": false,
+              "id": "__dku_custom__",
+              "name": "Custom Palette",
+              "values": []
+            },
+            "heatDensityMapIntensity": 0.5,
+            "heatDensityMapRadius": 0.5,
+            "numQuantizeSteps": 5,
+            "paletteMiddleValue": 0.0,
+            "paletteType": "CONTINUOUS",
+            "quantizationMode": "NONE",
+            "singleColor": "#2678B1",
+            "transparency": 0.75
+          },
+          "geometry": [],
+          "uaColor": []
+        }
+      ],
+      "geometry": [],
+      "groupDimension": [],
+      "hexbinNumber": 20,
+      "hexbinRadius": 20,
+      "hexbinRadiusMode": "NUM_HEXAGONS",
+      "legendFormatting": {
+        "fontColor": "#333",
+        "fontSize": 11,
+        "hasBackground": false
+      },
+      "legendPlacement": "OUTER_RIGHT",
+      "mapGridOptions": {
+        "gridLatDeg": 0.6,
+        "gridLonDeg": 0.6
+      },
+      "mapOptions": {
+        "lockSquareGrid": false,
+        "tilesLayer": "cartodb-positron"
+      },
+      "multiTooltips": false,
+      "name": "Sum of llmUsage_estimatedCostUSD",
+      "pieOptions": {
+        "donutHoleSize": 54.0
+      },
+      "pivotTableOptions": {
+        "displayTotals": {
+          "grandTotal": {
+            "column": true,
+            "row": true
+          },
+          "subTotals": {
+            "columns": true,
+            "rows": true
+          }
+        },
+        "measureDisplayMode": "ROWS",
+        "tableFormatting": {
+          "columnHeaders": {
+            "fontColor": "#333",
+            "fontSize": 12,
+            "hasBackground": false
+          },
+          "rowHeaders": {
+            "fontColor": "#333",
+            "fontSize": 12,
+            "hasBackground": false
+          },
+          "values": {
+            "fontColor": "#333",
+            "fontSize": 12,
+            "hasBackground": false
+          }
+        }
+      },
+      "radarOptions": {
+        "filled": false,
+        "lineStyle": {
+          "type": "SOLID",
+          "width": 2.0
+        },
+        "polygonsSource": "MEASURES"
+      },
+      "radialAxisFormatting": {
+        "axisTitleFormatting": {
+          "fontColor": "#333",
+          "fontSize": 15,
+          "hasBackground": false
+        },
+        "customExtent": {},
+        "includeZero": true,
+        "isLogScale": false,
+        "showAxisTitle": false,
+        "ticksConfig": {
+          "mode": "INTERVAL"
+        }
+      },
+      "sankeyOptions": {
+        "curveness": 0.5,
+        "linkColorVariant": "GRADIENT",
+        "nodeLabelFormatting": {
+          "backgroundColor": "#D9D9D9BF",
+          "fontColor": "AUTO",
+          "fontSize": 11,
+          "hasBackground": false
+        }
+      },
+      "scatterMPOptions": {
+        "numberOfRecords": 100000.0,
+        "pairColorOptions": {
+          "colorPalette": "default",
+          "customColors": {},
+          "customPalette": {
+            "colors": [],
+            "fixedValues": false,
+            "id": "__dku_custom__",
+            "name": "Custom Palette",
+            "values": []
+          },
+          "singleColor": "#659a88",
+          "transparency": 0.75
+        }
+      },
+      "scatterOptions": {
+        "equalScales": false,
+        "identityLine": false,
+        "numberOfRecords": 100000.0,
+        "regression": {
+          "displayFormula": false,
+          "labelPosition": "INSIDE_END",
+          "lineColor": "#000",
+          "lineFormatting": {
+            "color": "#000",
+            "size": 1
+          },
+          "lineSize": 1,
+          "show": false,
+          "textFormatting": {
+            "backgroundColor": "#D9D9D9BF",
+            "fontColor": "#333",
+            "fontSize": 11,
+            "hasBackground": false
+          },
+          "type": "LINEAR"
+        }
+      },
+      "scatterZoomOptions": {
+        "enabled": true,
+        "persisted": true,
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "translate": [
+          0.0,
+          0.0
+        ]
+      },
+      "showLegend": true,
+      "singleXAxis": true,
+      "sizeMeasure": [],
+      "smoothing": true,
+      "strokeWidth": 2,
+      "tooltipMeasures": [],
+      "tooltipOptions": {
+        "display": true
+      },
+      "type": "kpi",
+      "uaColor": [],
+      "uaDimensionPair": [],
+      "uaShape": [],
+      "uaSize": [],
+      "uaTooltip": [],
+      "uaXDimension": [],
+      "uaYDimension": [],
+      "useLiveProcessingIfAvailable": true,
+      "userEditedName": false,
+      "valuesInChartDisplayOptions": {
+        "displayMode": "VALUES",
+        "displayPieLabelsOrValues": false,
+        "displayValues": false,
+        "overlappingStrategy": "AUTO",
+        "textFormatting": {
+          "backgroundColor": "#D9D9D9BF",
+          "fontColor": "AUTO",
+          "fontSize": 11,
+          "hasBackground": false
+        }
+      },
+      "variant": "normal",
+      "xAxisFormatting": {
+        "axisTitleFormatting": {
+          "fontColor": "#333",
+          "fontSize": 15,
+          "hasBackground": false
+        },
+        "axisValuesFormatting": {
+          "axisTicksFormatting": {
+            "fontColor": "#333",
+            "fontSize": 12,
+            "hasBackground": false
+          },
+          "numberFormatting": {
+            "digitGrouping": "DEFAULT",
+            "multiplier": "Auto",
+            "prefix": "",
+            "suffix": ""
+          }
+        },
+        "customExtent": {
+          "editMode": "AUTO",
+          "manualExtent": [
+            null,
+            null
+          ]
+        },
+        "displayAxis": true,
+        "includeZero": true,
+        "isLogScale": false,
+        "showAxisTitle": true,
+        "ticksConfig": {
+          "mode": "INTERVAL"
+        }
+      },
+      "xAxisMode": "NORMAL",
+      "xDimension": [],
+      "xMeasure": [],
+      "yAxesFormatting": [
+        {
+          "axisTitleFormatting": {
+            "fontColor": "#333",
+            "fontSize": 15,
+            "hasBackground": false
+          },
+          "axisValuesFormatting": {
+            "axisTicksFormatting": {
+              "fontColor": "#333",
+              "fontSize": 12,
+              "hasBackground": false
+            },
+            "numberFormatting": {
+              "digitGrouping": "DEFAULT",
+              "multiplier": "Auto",
+              "prefix": "",
+              "suffix": ""
+            }
+          },
+          "customExtent": {
+            "editMode": "AUTO",
+            "manualExtent": [
+              null,
+              null
+            ]
+          },
+          "displayAxis": true,
+          "id": "y_left_0",
+          "includeZero": true,
+          "isLogScale": false,
+          "showAxisTitle": true,
+          "ticksConfig": {
+            "mode": "INTERVAL"
+          }
+        },
+        {
+          "axisTitleFormatting": {
+            "fontColor": "#333",
+            "fontSize": 15,
+            "hasBackground": false
+          },
+          "axisValuesFormatting": {
+            "axisTicksFormatting": {
+              "fontColor": "#333",
+              "fontSize": 12,
+              "hasBackground": false
+            },
+            "numberFormatting": {
+              "digitGrouping": "DEFAULT",
+              "multiplier": "Auto",
+              "prefix": "",
+              "suffix": ""
+            }
+          },
+          "customExtent": {
+            "editMode": "AUTO",
+            "manualExtent": [
+              null,
+              null
+            ]
+          },
+          "displayAxis": true,
+          "id": "y_right_0",
+          "includeZero": true,
+          "isLogScale": false,
+          "showAxisTitle": true,
+          "ticksConfig": {
+            "mode": "INTERVAL"
+          }
+        }
+      ],
+      "yAxisMode": "NORMAL",
+      "yDimension": [],
+      "yMeasure": [],
+      "zoomOptions": {
+        "enabled": true,
+        "persisted": true,
+        "scale": 1.0,
+        "translate": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "engineType": "LINO",
+    "refreshableSelection": {
+      "_refreshTrigger": 0,
+      "autoRefreshSample": false,
+      "selection": {
+        "ascending": true,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "latestPartitionsN": 1,
+        "maxReadUncompressedBytes": -1,
+        "maxRecords": 10000,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "partitionSelectionMethod": "ALL",
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "targetRatio": 0.02,
+        "useMemTable": false,
+        "withinFirstN": -1
+      }
+    }
+  },
+  "tags": [],
+  "type": "chart"
+}

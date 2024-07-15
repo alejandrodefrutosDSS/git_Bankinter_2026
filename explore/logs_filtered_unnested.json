@@ -1,0 +1,112 @@
+{
+  "script": {
+    "steps": [],
+    "maxProcessedMemTableBytes": -1,
+    "columnsSelection": {
+      "mode": "ALL"
+    },
+    "columnWidthsByName": {
+      "severity": 100,
+      "logger": 239,
+      "topic": 120,
+      "authVia": 300,
+      "callPath": 300,
+      "auditTopic": 120,
+      "msgType": 176,
+      "authSource": 120,
+      "clientIP": 106,
+      "authUser": 120,
+      "llmUsage_totalComputationTimeMS": 248,
+      "llmUsage_llmType": 135,
+      "llmUsage_totalQueries": 173,
+      "llmUsage_totalPromptTokens": 210,
+      "llmUsage_estimatedCostUSD": 203,
+      "llmUsage_totalCompletionTokens": 240,
+      "llmUsage_connection": 158,
+      "llmUsage_cacheMissQueries": 203,
+      "llmUsage_usageType": 150,
+      "llmUsage_cacheHitQueries": 195,
+      "context_jobId": 176,
+      "context_activityId": 162,
+      "context_projectKey": 176,
+      "context_type": 105,
+      "context_authIdentifier": 180,
+      "startTime": 100,
+      "id": 176,
+      "type": 100,
+      "apiCall": 300,
+      "user": 120,
+      "callTime": 100,
+      "timestamp": 183,
+      "llmUsage_llmId": 148
+    },
+    "columnUseScientificNotationByName": {},
+    "coloring": {
+      "scheme": "MEANING_AND_STATUS",
+      "individualColumns": [],
+      "individualColumnsRules": [],
+      "valueColoringMode": "HASH"
+    },
+    "sorting": [],
+    "analysisColumnData": {},
+    "explorationSampling": {
+      "selection": {
+        "maxRecordsForDisplay": -1,
+        "maxStoredBytes": 104857600,
+        "timeout": -1,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 10000,
+        "targetRatio": 0.02,
+        "ascending": true,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": false,
+      "_refreshTrigger": 1721061711464
+    },
+    "vizSampling": {
+      "selection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "FULL",
+        "maxRecords": -1,
+        "targetRatio": 0.02,
+        "ascending": true,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": false,
+      "_refreshTrigger": 0
+    },
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
+    "globalSearchQuery": "",
+    "explorationFilters": [],
+    "previewMode": "ALL_ROWS"
+  },
+  "charts": [],
+  "interactiveSearch": {
+    "savedQueries": []
+  },
+  "customMeasures": []
+}

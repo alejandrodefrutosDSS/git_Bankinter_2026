@@ -1,0 +1,589 @@
+{
+  "checklists": {
+    "checklists": []
+  },
+  "creationTag": {
+    "extendedProperties": {},
+    "lastModifiedBy": {
+      "login": "lea.senequier@dataiku.com"
+    },
+    "lastModifiedOn": 1704791632534,
+    "versionNumber": 0
+  },
+  "customFields": {},
+  "dashboardCreationId": "tJacKJV",
+  "listed": true,
+  "name": "Number of LLM calls on logs_llm_usage_prepared",
+  "owner": "lea.senequier@dataiku.com",
+  "params": {
+    "customMeasures": [],
+    "datasetSmartName": "logs_llm_usage_prepared",
+    "def": {
+      "animationDimension": [],
+      "animationFrameDuration": 3000,
+      "animationRepeat": true,
+      "boxplotBreakdownDim": [],
+      "boxplotValue": [],
+      "bubblesOptions": {
+        "defaultRadius": 5.0,
+        "singleShape": "FILLED_CIRCLE"
+      },
+      "chartHeight": 200,
+      "colorMeasure": [],
+      "colorOptions": {
+        "ccScaleMode": "NORMAL",
+        "colorPalette": "__dku_custom__",
+        "customColors": {},
+        "customPalette": {
+          "colors": [
+            "#2ca02c",
+            "#98df8a",
+            "#bcbd22",
+            "#dbdb8d",
+            "#637939",
+            "#8ca252",
+            "#b5cf6b",
+            "#cedb9c",
+            "#bd9e39",
+            "#8c564b",
+            "#c49c94",
+            "#8c6d31",
+            "#e7ba52",
+            "#e7cb94",
+            "#ff7f0e",
+            "#ffbb78",
+            "#1f77b4",
+            "#aec7e8",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5",
+            "#e377c2",
+            "#f7b6d2",
+            "#7f7f7f",
+            "#c7c7c7",
+            "#17becf",
+            "#9edae5",
+            "#393b79",
+            "#5254a3",
+            "#6b6ecf",
+            "#9c9ede",
+            "#843c39",
+            "#ad494a",
+            "#d6616b",
+            "#e7969c",
+            "#7b4173",
+            "#a55194",
+            "#ce6dbd",
+            "#de9ed6"
+          ],
+          "fixedValues": false,
+          "id": "__dku_custom__",
+          "name": "Custom Palette",
+          "values": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "heatDensityMapIntensity": 0.5,
+        "heatDensityMapRadius": 0.5,
+        "numQuantizeSteps": 5,
+        "paletteMiddleValue": 0.0,
+        "paletteType": "CONTINUOUS",
+        "quantizationMode": "NONE",
+        "singleColor": "#2678B1",
+        "transparency": 0.75
+      },
+      "computeMode": "NORMAL",
+      "displayWithEChartsByDefault": true,
+      "facetDimension": [],
+      "fillOpacity": 0.6,
+      "filters": [],
+      "genericDimension0": [
+        {
+          "column": "serverTimestamp",
+          "dateParams": {
+            "mode": "AUTOMATIC"
+          },
+          "digitGrouping": "DEFAULT",
+          "filters": [],
+          "forceLastPositionOthers": false,
+          "generateOthersCategory": true,
+          "isA": "dimension",
+          "maxValues": 0,
+          "multiplier": "Auto",
+          "numParams": {
+            "emptyBinsMode": "AVERAGE"
+          },
+          "oneTickPerBin": false,
+          "possibleSorts": [
+            {
+              "label": "Natural ordering",
+              "sortAscending": true,
+              "type": "NATURAL"
+            },
+            {
+              "label": "Count of records, descending",
+              "measureIdx": 0,
+              "type": "AGGREGATION"
+            },
+            {
+              "label": "Count of records, ascending",
+              "measureIdx": 0,
+              "sortAscending": true,
+              "type": "AGGREGATION"
+            }
+          ],
+          "sort": {
+            "label": "Natural ordering",
+            "sortAscending": true,
+            "type": "NATURAL"
+          },
+          "type": "DATE"
+        }
+      ],
+      "genericDimension1": [
+        {
+          "column": "context_projectKey",
+          "digitGrouping": "DEFAULT",
+          "filters": [],
+          "forceLastPositionOthers": false,
+          "generateOthersCategory": true,
+          "isA": "dimension",
+          "maxValues": 20,
+          "multiplier": "Auto",
+          "numParams": {
+            "emptyBinsMode": "ZEROS"
+          },
+          "oneTickPerBin": false,
+          "possibleSorts": [
+            {
+              "label": "Natural ordering",
+              "sortAscending": true,
+              "type": "NATURAL"
+            },
+            {
+              "label": "Count of records, descending",
+              "measureIdx": 0,
+              "type": "AGGREGATION"
+            },
+            {
+              "label": "Count of records, ascending",
+              "measureIdx": 0,
+              "sortAscending": true,
+              "type": "AGGREGATION"
+            }
+          ],
+          "prefix": "",
+          "sort": {
+            "label": "Count of records, descending",
+            "measureIdx": 0,
+            "type": "AGGREGATION"
+          },
+          "suffix": "",
+          "type": "ALPHANUM"
+        }
+      ],
+      "genericMeasures": [
+        {
+          "colorRules": [],
+          "computeMode": "NORMAL",
+          "computeModeDim": 0,
+          "digitGrouping": "DEFAULT",
+          "displayAxis": "axis1",
+          "displayType": "column",
+          "displayed": true,
+          "function": "COUNT",
+          "isA": "measure",
+          "labelPosition": "BOTTOM",
+          "multiplier": "Auto",
+          "prefix": "",
+          "showDisplayLabel": true,
+          "suffix": "",
+          "type": "NUMERICAL"
+        }
+      ],
+      "geoLayers": [
+        {
+          "colorOptions": {
+            "ccScaleMode": "NORMAL",
+            "colorPalette": "default",
+            "customColors": {},
+            "customPalette": {
+              "colors": [],
+              "fixedValues": false,
+              "id": "__dku_custom__",
+              "name": "Custom Palette",
+              "values": []
+            },
+            "heatDensityMapIntensity": 0.5,
+            "heatDensityMapRadius": 0.5,
+            "numQuantizeSteps": 5,
+            "paletteMiddleValue": 0.0,
+            "paletteType": "CONTINUOUS",
+            "quantizationMode": "NONE",
+            "singleColor": "#2678B1",
+            "transparency": 0.75
+          },
+          "geometry": [],
+          "uaColor": []
+        }
+      ],
+      "geometry": [],
+      "groupDimension": [],
+      "hexbinNumber": 20,
+      "hexbinRadius": 20,
+      "hexbinRadiusMode": "NUM_HEXAGONS",
+      "legendFormatting": {
+        "fontColor": "#333",
+        "fontSize": 11,
+        "hasBackground": false
+      },
+      "legendPlacement": "OUTER_RIGHT",
+      "mapGridOptions": {
+        "gridLatDeg": 0.6,
+        "gridLonDeg": 0.6
+      },
+      "mapOptions": {
+        "lockSquareGrid": false,
+        "tilesLayer": "cartodb-positron"
+      },
+      "multiTooltips": false,
+      "name": "Number of LLM calls",
+      "pieOptions": {
+        "donutHoleSize": 54.0
+      },
+      "pivotTableOptions": {
+        "displayTotals": {
+          "grandTotal": {
+            "column": true,
+            "row": true
+          },
+          "subTotals": {
+            "columns": true,
+            "rows": true
+          }
+        },
+        "measureDisplayMode": "ROWS",
+        "tableFormatting": {
+          "columnHeaders": {
+            "fontColor": "#333",
+            "fontSize": 12,
+            "hasBackground": false
+          },
+          "rowHeaders": {
+            "fontColor": "#333",
+            "fontSize": 12,
+            "hasBackground": false
+          },
+          "values": {
+            "fontColor": "#333",
+            "fontSize": 12,
+            "hasBackground": false
+          }
+        }
+      },
+      "radarOptions": {
+        "filled": false,
+        "lineStyle": {
+          "type": "SOLID",
+          "width": 2.0
+        },
+        "polygonsSource": "MEASURES"
+      },
+      "radialAxisFormatting": {
+        "axisTitleFormatting": {
+          "fontColor": "#333",
+          "fontSize": 15,
+          "hasBackground": false
+        },
+        "customExtent": {},
+        "includeZero": true,
+        "isLogScale": false,
+        "showAxisTitle": false,
+        "ticksConfig": {
+          "mode": "INTERVAL"
+        }
+      },
+      "sankeyOptions": {
+        "curveness": 0.5,
+        "linkColorVariant": "GRADIENT",
+        "nodeLabelFormatting": {
+          "backgroundColor": "#D9D9D9BF",
+          "fontColor": "AUTO",
+          "fontSize": 11,
+          "hasBackground": false
+        }
+      },
+      "scatterMPOptions": {
+        "numberOfRecords": 100000.0,
+        "pairColorOptions": {
+          "colorPalette": "default",
+          "customColors": {},
+          "customPalette": {
+            "colors": [],
+            "fixedValues": false,
+            "id": "__dku_custom__",
+            "name": "Custom Palette",
+            "values": []
+          },
+          "singleColor": "#659a88",
+          "transparency": 0.75
+        }
+      },
+      "scatterOptions": {
+        "equalScales": false,
+        "identityLine": false,
+        "numberOfRecords": 100000.0,
+        "regression": {
+          "displayFormula": false,
+          "labelPosition": "INSIDE_END",
+          "lineColor": "#000",
+          "lineFormatting": {
+            "color": "#000",
+            "size": 1
+          },
+          "lineSize": 1,
+          "show": false,
+          "textFormatting": {
+            "backgroundColor": "#D9D9D9BF",
+            "fontColor": "#333",
+            "fontSize": 11,
+            "hasBackground": false
+          },
+          "type": "LINEAR"
+        }
+      },
+      "scatterZoomOptions": {
+        "enabled": true,
+        "persisted": true,
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "translate": [
+          0.0,
+          0.0
+        ]
+      },
+      "showLegend": true,
+      "singleXAxis": true,
+      "sizeMeasure": [],
+      "smoothing": true,
+      "strokeWidth": 2,
+      "tooltipMeasures": [],
+      "tooltipOptions": {
+        "display": true
+      },
+      "type": "stacked_columns",
+      "uaColor": [],
+      "uaDimensionPair": [],
+      "uaShape": [],
+      "uaSize": [],
+      "uaTooltip": [],
+      "uaXDimension": [],
+      "uaYDimension": [],
+      "useLiveProcessingIfAvailable": true,
+      "userEditedName": true,
+      "valuesInChartDisplayOptions": {
+        "displayMode": "VALUES",
+        "displayPieLabelsOrValues": false,
+        "displayValues": true,
+        "overlappingStrategy": "AUTO",
+        "textFormatting": {
+          "backgroundColor": "#D9D9D9BF",
+          "fontColor": "AUTO",
+          "fontSize": 11,
+          "hasBackground": false
+        }
+      },
+      "variant": "normal",
+      "xAxisFormatting": {
+        "axisTitleFormatting": {
+          "fontColor": "#333",
+          "fontSize": 15,
+          "hasBackground": false
+        },
+        "axisValuesFormatting": {
+          "axisTicksFormatting": {
+            "fontColor": "#333",
+            "fontSize": 12,
+            "hasBackground": false
+          },
+          "numberFormatting": {
+            "digitGrouping": "DEFAULT",
+            "multiplier": "Auto",
+            "prefix": "",
+            "suffix": ""
+          }
+        },
+        "customExtent": {
+          "editMode": "AUTO",
+          "manualExtent": [
+            null,
+            null
+          ]
+        },
+        "displayAxis": true,
+        "includeZero": true,
+        "isLogScale": false,
+        "showAxisTitle": false,
+        "ticksConfig": {
+          "mode": "INTERVAL"
+        }
+      },
+      "xAxisMode": "NORMAL",
+      "xDimension": [],
+      "xMeasure": [],
+      "yAxesFormatting": [
+        {
+          "axisTitle": "Number of LLM calls",
+          "axisTitleFormatting": {
+            "fontColor": "#333",
+            "fontSize": 15,
+            "hasBackground": false
+          },
+          "axisValuesFormatting": {
+            "axisTicksFormatting": {
+              "fontColor": "#333",
+              "fontSize": 12,
+              "hasBackground": false
+            },
+            "numberFormatting": {
+              "digitGrouping": "DEFAULT",
+              "multiplier": "Auto",
+              "prefix": "",
+              "suffix": ""
+            }
+          },
+          "customExtent": {
+            "editMode": "AUTO",
+            "manualExtent": [
+              null,
+              null
+            ]
+          },
+          "displayAxis": true,
+          "id": "y_left_0",
+          "includeZero": true,
+          "isLogScale": false,
+          "showAxisTitle": true,
+          "ticksConfig": {
+            "mode": "INTERVAL"
+          }
+        },
+        {
+          "axisTitleFormatting": {
+            "fontColor": "#333",
+            "fontSize": 15,
+            "hasBackground": false
+          },
+          "axisValuesFormatting": {
+            "axisTicksFormatting": {
+              "fontColor": "#333",
+              "fontSize": 12,
+              "hasBackground": false
+            },
+            "numberFormatting": {
+              "digitGrouping": "DEFAULT",
+              "multiplier": "Auto",
+              "prefix": "",
+              "suffix": ""
+            }
+          },
+          "customExtent": {
+            "editMode": "AUTO",
+            "manualExtent": [
+              null,
+              null
+            ]
+          },
+          "displayAxis": true,
+          "id": "y_right_0",
+          "includeZero": true,
+          "isLogScale": false,
+          "showAxisTitle": true,
+          "ticksConfig": {
+            "mode": "INTERVAL"
+          }
+        }
+      ],
+      "yAxisMode": "NORMAL",
+      "yDimension": [],
+      "yMeasure": [],
+      "zoomOptions": {
+        "enabled": true,
+        "persisted": true,
+        "scale": 1.0,
+        "translate": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "engineType": "LINO",
+    "refreshableSelection": {
+      "_refreshTrigger": 0,
+      "autoRefreshSample": false,
+      "selection": {
+        "ascending": true,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "latestPartitionsN": 1,
+        "maxReadUncompressedBytes": -1,
+        "maxRecords": 10000,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "partitionSelectionMethod": "ALL",
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "targetRatio": 0.02,
+        "useMemTable": false,
+        "withinFirstN": -1
+      }
+    }
+  },
+  "tags": [],
+  "type": "chart"
+}

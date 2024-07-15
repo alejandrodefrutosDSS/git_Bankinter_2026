@@ -1,0 +1,108 @@
+{
+  "name": "Instant usage analysis",
+  "layout": "WIKI_ARTICLE",
+  "attachments": [
+    {
+      "attachmentType": "FILE",
+      "smartId": "3uPpxfbG9P7m",
+      "details": {
+        "objectDisplayName": "Capture d’écran 2022-09-13 à 11.31.40.png",
+        "size": 56611,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "antoine.detorcy@dataiku.com",
+      "attachedOn": 1663061509943
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "RECIPE",
+      "smartId": "compute_logs_capacity_planning_stacked",
+      "details": {
+        "objectDisplayName": "compute_logs_capacity_planning_stacked",
+        "recipeType": "vstack",
+        "userDisplayName": "antoine.detorcy"
+      },
+      "attachedBy": "antoine.detorcy@dataiku.com",
+      "attachedOn": 1663061732946
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "RECIPE",
+      "smartId": "compute_logs_local_process_prepared_windows",
+      "details": {
+        "objectDisplayName": "compute_logs_local_process_prepared_windows",
+        "recipeType": "window",
+        "userDisplayName": "antoine.detorcy"
+      },
+      "attachedBy": "antoine.detorcy@dataiku.com",
+      "attachedOn": 1663061838393
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "DATASET",
+      "smartId": "logs_local_process_by_hours",
+      "details": {
+        "objectDisplayName": "logs_local_process_by_hours",
+        "datasetType": "Filesystem",
+        "userDisplayName": "antoine.detorcy"
+      },
+      "attachedBy": "antoine.detorcy@dataiku.com",
+      "attachedOn": 1663062118529
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "DATASET",
+      "smartId": "logs_local_process_by_minutes",
+      "details": {
+        "objectDisplayName": "logs_local_process_by_minutes",
+        "datasetType": "Filesystem",
+        "userDisplayName": "antoine.detorcy"
+      },
+      "attachedBy": "antoine.detorcy@dataiku.com",
+      "attachedOn": 1663062455773
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "DATASET",
+      "smartId": "logs_local_process_memory_rank",
+      "details": {
+        "objectDisplayName": "logs_local_process_memory_rank",
+        "datasetType": "Filesystem",
+        "userDisplayName": "antoine.detorcy"
+      },
+      "attachedBy": "antoine.detorcy@dataiku.com",
+      "attachedOn": 1663062498812
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "DATASET",
+      "smartId": "logs_local_process_CPU_ranked",
+      "details": {
+        "objectDisplayName": "logs_local_process_CPU_ranked",
+        "datasetType": "Filesystem",
+        "userDisplayName": "antoine.detorcy"
+      },
+      "attachedBy": "antoine.detorcy@dataiku.com",
+      "attachedOn": 1663062753953
+    }
+  ],
+  "versionTag": {
+    "versionNumber": 13,
+    "lastModifiedBy": {
+      "login": "garance.miltin@dataiku.com"
+    },
+    "lastModifiedOn": 1665395047734
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "antoine.detorcy@dataiku.com"
+    },
+    "lastModifiedOn": 1662740917534
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

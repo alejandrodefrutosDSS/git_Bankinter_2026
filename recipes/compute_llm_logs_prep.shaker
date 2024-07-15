@@ -1,0 +1,493 @@
+{
+  "columnsSelection": {
+    "mode": "ALL"
+  },
+  "explorationSampling": {
+    "_refreshTrigger": 1711073881834,
+    "selection": {
+      "latestPartitionsN": 1,
+      "maxRecords": 10000,
+      "maxRecordsForDisplay": -1,
+      "ordering": {
+        "rules": [],
+        "enabled": false
+      },
+      "withinFirstN": -1,
+      "maxStoredBytes": 1048576000,
+      "ascending": true,
+      "timeout": -1,
+      "filter": {
+        "uiData": {
+          "mode": "\u0026\u0026",
+          "conditions": [
+            {
+              "input": "context_projectKey",
+              "col": "type",
+              "string": "MARKETINGDATAGENERATION",
+              "num": 0.0,
+              "operator": "\u003d\u003d [string]",
+              "num2": 0.0
+            }
+          ]
+        },
+        "distinct": false,
+        "enabled": false
+      },
+      "partitionSelectionMethod": "ALL",
+      "targetRatio": 0.02,
+      "maxReadUncompressedBytes": -1,
+      "samplingMethod": "HEAD_SEQUENTIAL"
+    },
+    "autoRefreshSample": false
+  },
+  "explorationFilters": [],
+  "columnUseScientificNotationByName": {},
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "name": "Cleaning",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "context_type",
+              "context_authIdentifier",
+              "context_projectKey"
+            ],
+            "appliesTo": "COLUMNS",
+            "value": "Unknown"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "RoundProcessor",
+          "params": {
+            "mode": "ROUND",
+            "places": 0,
+            "columns": [
+              "startTime"
+            ],
+            "precision": 0,
+            "appliesTo": "COLUMNS"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "timestamp",
+                "to": "serverTimestamp"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "Date processing",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "UNIXTimestampParser",
+          "params": {
+            "inCol": "startTime",
+            "milliseconds": true
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "DateComponentsExtractor",
+          "params": {
+            "outMonthColumn": "",
+            "outHourColumn": "hour_of_day",
+            "outYearColumn": "",
+            "column": "serverTimestamp",
+            "outDayOfWeekColumn": "day_of_week",
+            "timezone_id": "UTC",
+            "outMinuteColumn": "",
+            "outDayColumn": ""
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "DateFormatter",
+          "params": {
+            "inCol": "serverTimestamp",
+            "outCol": "serverTimestamp_minutes",
+            "format": "yyyy-MM-dd HH:mm",
+            "timezone_id": "UTC",
+            "lang": "auto"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "DateParser",
+          "params": {
+            "outCol": "",
+            "formats": [
+              "yyyy-MM-dd HH:mm"
+            ],
+            "columns": [
+              "serverTimestamp_minutes"
+            ],
+            "timezone_id": "UTC",
+            "appliesTo": "SINGLE_COLUMN",
+            "lang": "auto"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "DateFormatter",
+          "params": {
+            "inCol": "serverTimestamp",
+            "outCol": "serverTimestamp_hours",
+            "format": "yyyy-MM-dd HH:00",
+            "timezone_id": "UTC",
+            "lang": "auto"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "DateParser",
+          "params": {
+            "outCol": "",
+            "formats": [
+              "yyyy-MM-dd HH:mm"
+            ],
+            "columns": [
+              "serverTimestamp_hours"
+            ],
+            "timezone_id": "UTC",
+            "appliesTo": "SINGLE_COLUMN",
+            "lang": "auto"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "DateFormatter",
+          "params": {
+            "inCol": "serverTimestamp",
+            "outCol": "serverTimestamp_day",
+            "format": "yyyy-MM-dd",
+            "timezone_id": "UTC",
+            "lang": "auto"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "DateParser",
+          "params": {
+            "outCol": "",
+            "formats": [
+              "yyyy-MM-dd"
+            ],
+            "columns": [
+              "serverTimestamp_day"
+            ],
+            "timezone_id": "UTC",
+            "appliesTo": "SINGLE_COLUMN",
+            "lang": "auto"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "substring(serverTimestamp_minutes, 0, 16)",
+            "column": "serverTimestamp_minutes_str"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "",
+            "mapping": [
+              {
+                "from": "1",
+                "to": "1-Mon"
+              },
+              {
+                "from": "2",
+                "to": "2-Tue"
+              },
+              {
+                "from": "3",
+                "to": "3-Wed"
+              },
+              {
+                "from": "4",
+                "to": "4-Thu"
+              },
+              {
+                "from": "5",
+                "to": "5-Fri"
+              },
+              {
+                "from": "6",
+                "to": "6-Sat"
+              },
+              {
+                "from": "7",
+                "to": "7-Sun"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "day_of_week"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "SUBSTRING"
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "General Information",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "concat(\"LOCAL Node id : \", dssNodeId)",
+            "column": "execution_location"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "if(context_type \u003d\u003d \"JUPYTER_NOTEBOOK_KERNEL\", concat(\"JUPYTER Notebook : \", context_jupyterNotebookId),\nif(context_type \u003d\u003d \"WEBAPP_BACKEND\", concat(\"WEBAPP backend : \", context_webappId),\nif(contains(context_type, \"JOB\"), if(isBlank(context_activityId), \"Unknown context\", concat(\"Activity : \",  context_activityId)),\nif(context_type \u003d\u003d \"CONTINUOUS_ACTIVITY\", if(isNull(context_activityId), \"Unknown context\", concat(\"Continuous activity \",  context_activityId)),\nif(context_type \u003d\u003d \"ANALYSIS_ML_TRAIN\", concat(\"ML Training analysis : \",  context_analysisId, \" (TaskID : \", context_mlTaskId, \")\"),\nif(context_type \u003d\u003d \"EDA\", \"Visual Statistics computation\",\nif(context_type \u003d\u003d \"CONTINUOUS_ACTIVITY\", if(isNull(context_activityId), \"Unknown context\", concat(\"Continuous activity \",  context_activityId)),\nif(context_type \u003d\u003d \"SAVED_MODEL_OPERATION\", \"SAVED_MODEL_OPERATION\",\nif(context_type \u003d\u003d \"METRICS\", concat(\"METRICS on  : \", context_datasetName),\nif(contains(context_type, \"JOB_ACTIVITY\"), if(isBlank(context_activityId), \"Unknown context\", concat(\"Activity : \",  context_activityId)),\nif(isNonBlank(context_type), context_type,\n\"Unknown context\")))))))))))",
+            "column": "item_description"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "concat(\"PROJECT : \", context_projectKey, \", AUTHOR : \", context_authIdentifier, \", \", item_description)",
+            "column": "item_description"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "if(llmUsage_totalQueries \u003d\u003d 0, 0, llmUsage_cacheHitQueries/llmUsage_totalQueries)*llmUsage_estimatedCostUSD",
+            "column": "estimated_cost_saved"
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    }
+  ],
+  "maxProcessedMemTableBytes": -1,
+  "previewMode": "ALL_ROWS",
+  "vizSampling": {
+    "_refreshTrigger": 0,
+    "selection": {
+      "useMemTable": false,
+      "filter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "latestPartitionsN": 1,
+      "maxRecords": -1,
+      "ordering": {
+        "rules": [],
+        "enabled": false
+      },
+      "withinFirstN": -1,
+      "partitionSelectionMethod": "ALL",
+      "targetRatio": 0.02,
+      "maxReadUncompressedBytes": -1,
+      "samplingMethod": "FULL",
+      "ascending": true
+    },
+    "autoRefreshSample": false
+  },
+  "analysisColumnData": {},
+  "columnWidthsByName": {
+    "computeResourceUsage_context_jobId": 270,
+    "sqlConnection_connection": 195,
+    "computeResourceUsage_type": 203,
+    "logger": 239,
+    "localProcess_cpuCurrent": 188,
+    "type": 100,
+    "llmUsage_totalCompletionTokens": 240,
+    "callPath": 300,
+    "computeResourceUsage_llmUsage_totalCompletionTokens": 300,
+    "llmUsage_llmType": 135,
+    "dssNodeId": 113,
+    "clientIP": 106,
+    "localProcess_vmSizeMB": 173,
+    "sqlQuery_query": 120,
+    "id": 127,
+    "llmUsage_estimatedCostUSD": 203,
+    "serverTimestamp_minutes": 211,
+    "context_projectKey": 218,
+    "hour_of_day": 100,
+    "podsStatus_pods": 128,
+    "localProcess_vmRSSTotalMBS": 210,
+    "context_authIdentifier": 260,
+    "origAddress": 127,
+    "computeResourceUsage_llmUsage_usageType": 300,
+    "computeResourceUsage_id": 188,
+    "authVia": 300,
+    "localProcess_vmHWMMB": 165,
+    "llmUsage_usageType": 190,
+    "computeResourceUsage_context_activityId": 300,
+    "msgType": 232,
+    "authSource": 120,
+    "dssNodeName": 100,
+    "context_datasetName": 190,
+    "mdc_user": 120,
+    "auditTopic": 169,
+    "context_type": 134,
+    "startTime": 113,
+    "computeResourceUsage_llmUsage_totalPromptTokens": 300,
+    "computeResourceUsage_llmUsage_cacheMissQueries": 300,
+    "mdc_apiCall": 300,
+    "timestamp": 183,
+    "localProcess_childrenMajorFaults": 255,
+    "execution_location": 176,
+    "computeResourceUsage_llmUsage_estimatedCostUSD": 300,
+    "context_jobId": 232,
+    "computeResourceUsage_llmUsage_totalComputationTimeMS": 300,
+    "localProcess_cpuSystemTimeMS": 225,
+    "estimated_cost_saved": 165,
+    "llmUsage_connection": 158,
+    "computeResourceUsage_startTime": 240,
+    "endTime": 100,
+    "localProcess_commandName": 195,
+    "item_description": 300,
+    "llmUsage_cacheMissQueries": 203,
+    "localProcess_majorFaults": 195,
+    "context_analysisId": 150,
+    "llmUsage_cacheHitQueries": 195,
+    "computeResourceUsage_context_authIdentifier": 300,
+    "context_activityId": 183,
+    "localProcess_cpuChildrenUserTimeMS": 270,
+    "localProcess_cpuUserTimeMS": 210,
+    "llmUsage_totalComputationTimeMS": 248,
+    "dssNodeType": 100,
+    "context_mlTaskId": 135,
+    "localProcess_vmRSSMB": 165,
+    "localProcess_vmRSSPeakMB": 195,
+    "serverTimestamp_day": 183,
+    "context_webappId": 135,
+    "computeResourceUsage_llmUsage_llmType": 293,
+    "mdc": 300,
+    "computeResourceUsage_llmUsage_connection": 300,
+    "context_recipeName": 176,
+    "sqlQuery_connectionUsageId": 210,
+    "topic": 169,
+    "podsStatus_pods_TRUNCATED": 203,
+    "localProcess_vmSizePeakMB": 203,
+    "computeResourceUsage_llmUsage_cacheHitQueries": 300,
+    "computeResourceUsage_context_projectKey": 300,
+    "serverTimestamp_minutes_str": 239,
+    "clusterId": 100,
+    "llmUsage_totalQueries": 173,
+    "authUser": 225,
+    "computeResourceUsage_context_type": 263,
+    "llmUsage_totalPromptTokens": 210,
+    "context_jupyterNotebookId": 203,
+    "localProcess_pid": 135,
+    "sqlQuery_connection": 158,
+    "singleK8SJob_executionId": 195,
+    "apiCall": 300,
+    "localProcess_cpuAverageOverPast60Seconds": 300,
+    "localProcess_cpuTotalMS": 188,
+    "day_of_week": 100,
+    "severity": 100,
+    "serverTimestamp": 211,
+    "localProcess_vmRSSAnonMB": 195,
+    "contextId": 127,
+    "computeResourceUsage_llmUsage_totalQueries": 300,
+    "serverTimestamp_hours": 197,
+    "localProcess_vmDataMB": 173,
+    "user": 120,
+    "dssInstallId": 183,
+    "callTime": 100,
+    "localProcess_cpuChildrenSystemTimeMS": 285
+  },
+  "sorting": [],
+  "globalSearchQuery": "",
+  "coloring": {
+    "scheme": "MEANING_AND_STATUS",
+    "individualColumns": [],
+    "valueColoringMode": "HASH",
+    "individualColumnsRules": []
+  }
+}

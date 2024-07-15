@@ -1,0 +1,29 @@
+{
+  "type": "filters",
+  "params": {
+    "datasetSmartName": "logs_local_process_by_minutes"
+  },
+  "owner": "antoine.detorcy@dataiku.com",
+  "listed": false,
+  "name": "Filters on logs_local_process_by_minutes",
+  "dashboardCreationId": "APSEaXJ",
+  "versionTag": {
+    "versionNumber": 12,
+    "lastModifiedBy": {
+      "login": "antoine.detorcy@dataiku.com"
+    },
+    "lastModifiedOn": 1659962333083
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "antoine.detorcy@dataiku.com"
+    },
+    "lastModifiedOn": 1659954830841
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

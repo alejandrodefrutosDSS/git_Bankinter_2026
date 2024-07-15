@@ -1,0 +1,41 @@
+{
+  "name": "Setting up the Dataiku Application",
+  "layout": "WIKI_ARTICLE",
+  "attachments": [
+    {
+      "attachmentType": "FILE",
+      "smartId": "hkpVNxqexbyU",
+      "details": {
+        "objectDisplayName": "dataiku-app.png",
+        "size": 96643,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "garance.miltin@dataiku.com",
+      "attachedOn": 1665413769958
+    },
+    {
+      "attachmentType": "FILE",
+      "smartId": "SnX6PPdFYsHS",
+      "details": {
+        "objectDisplayName": "DKU_app.png",
+        "size": 87222,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "antoine.detorcy@dataiku.com",
+      "attachedOn": 1678705617125
+    }
+  ],
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "antoine.detorcy@dataiku.com"
+    },
+    "lastModifiedOn": 1663079708326,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
