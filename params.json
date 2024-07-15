@@ -352,7 +352,8 @@
     "SolutionLineOfBusiness:IT / Cybersecurity / Data",
     "Industry Solution",
     "duplicated",
-    "imported"
+    "imported",
+    "Version:1.0.0-rc"
   ],
   "customFields": {},
   "checklists": {
