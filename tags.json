@@ -7,7 +7,7 @@
       "color": "#77bec2"
     },
     "SolutionType:Plug and Play": {
-      "color": "#d66b9b"
+      "color": "#23E5E8"
     },
     "recipe-editor": {
       "color": "#1ac2ab"
@@ -15,12 +15,11 @@
     "dataiku-application": {
       "color": "#1ac2ab"
     },
-    "Version:1.3.2": {},
     "solutionLineOfBusiness:Governance": {
       "color": "#d66b9b"
     },
     "SolutionLineOfBusiness:IT / Cybersecurity / Data": {
-      "color": "#FFD83D"
+      "color": "#A79019"
     },
     "Dataiku Solution": {
       "color": "#d66b9b"
@@ -29,7 +28,7 @@
       "color": "#3A85AD"
     },
     "Section:Solutions": {
-      "color": "#a088bd"
+      "color": "#2CDAC0"
     },
     "deleted-recipe-editor": {
       "color": "#90a8b7"
@@ -47,7 +46,7 @@
       "color": "#00a55a"
     },
     "SolutionCategory:Cross-Vertical": {
-      "color": "#123883"
+      "color": "#B0E523"
     },
     "solutionCategories:Cross-Vertical": {
       "color": "#90a8b7"
