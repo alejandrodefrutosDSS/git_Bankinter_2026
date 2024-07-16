@@ -30,6 +30,9 @@
     "Section:Solutions": {
       "color": "#2CDAC0"
     },
+    "Version:1.0.0-rc1": {
+      "color": "#FFD83D"
+    },
     "deleted-recipe-editor": {
       "color": "#90a8b7"
     },
