@@ -1,1 +1,5 @@
-{}
+{
+  "projectRandomKey": "0mwNFGeK",
+  "activate_night_build": true,
+  "logs_connection": "dataiku-managed-storage"
+}
