@@ -1,0 +1,18 @@
+{
+  "name": "Overview",
+  "layout": "WIKI_ARTICLE",
+  "attachments": [],
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "fabien.daoulas@dataiku.com"
+    },
+    "lastModifiedOn": 1721118132556,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
