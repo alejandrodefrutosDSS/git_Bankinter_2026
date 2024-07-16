@@ -47,6 +47,7 @@
               "name": "logs_connection",
               "type": "CONNECTION",
               "label": "Select the connection",
+              "defaultValue": "dataiku-managed-storage",
               "mandatory": true,
               "canSelectForeign": false,
               "markCreatedAsBuilt": false,
