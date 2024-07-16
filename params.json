@@ -349,7 +349,9 @@
     "Section:Solutions",
     "SolutionType:Plug and Play",
     "SolutionLineOfBusiness:IT / Cybersecurity / Data",
-    "Version:1.0.0-rc1"
+    "Version:1.0.0-rc1",
+    "downloads",
+    "Industry Solution"
   ],
   "customFields": {},
   "checklists": {
