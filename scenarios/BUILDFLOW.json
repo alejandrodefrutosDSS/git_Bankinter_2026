@@ -2,7 +2,7 @@
   "type": "step_based",
   "name": "3. Build flow",
   "active": false,
-  "runAsUser": "fabien.daoulas@dataiku.com",
+  "runAsUser": "admin",
   "checklists": {
     "checklists": []
   },
@@ -29,7 +29,7 @@
         "minute": 30,
         "hour": 3,
         "timezone": "SERVER",
-        "lastUpdate": 1711085969523
+        "lastUpdate": 1721119507187
       }
     }
   ],
