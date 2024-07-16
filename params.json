@@ -276,7 +276,7 @@
     },
     "dkuProperties": []
   },
-  "name": "CLOUD TESTING Dataiku Resource  Usage Monitoring",
+  "name": "LLM Cost Guard Dataiku Resource  Usage Monitoring",
   "imgPattern": 6,
   "showInitials": false,
   "metrics": {
