@@ -343,7 +343,7 @@
     "extendedProperties": {}
   },
   "description": "**[Learn more about the project\u0027s goal and value](article:1)**\n\n****\nTo use this project you should \n1. Go back to the homepage of the platform  in the **Applications** section and select the *Dataiku Resource Usage Monitoring*  application.\n2. Create a new application : it will instanciate a new instance of this project with dedicated settings to configure\n3. Follow the [instructions](article:14) to configure your application",
-  "shortDesc": "[See Requirements](https://knowledge.dataiku.com/latest/solutions/governance/solution-cru.html). Leverage real-time tracking data of incoming trucks and optimize the dock usage of your warehouses\nThe project *CLOUDTESTINGDATAIKURESOURCEUSAGEMONITORING* was copied from *SOL_DKU_MONITORING* by Martin on Feb 25th 2024\nThe project *SOL_LLMCOSTGUARD* was copied from *LLMCOSTGUARD* by Fabien Daoulas on Jul 16th 2024",
+  "shortDesc": "[See Requirements](https://knowledge.dataiku.com/latest/solutions/governance/solution-cru.html). Monitor LLM resource usage per projects and users.",
   "tags": [
     "SolutionCategory:Cross-Vertical",
     "Section:Solutions",
