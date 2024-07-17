@@ -7,7 +7,7 @@
     "metastoreDatabaseName": "default",
     "metastoreTableName": "${projectKey}_${odbId}",
     "connection": "dataiku-managed-storage",
-    "path": "/managed-dss-data/${projectKey}/${odbId}",
+    "path": "/anonymized_audit_logs/",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",
