@@ -8,7 +8,9 @@
       "smartId": "9",
       "details": {
         "objectDisplayName": "Compute Resource Usage logs",
-        "userDisplayName": "antoine.detorcy"
+        "userDisplayName": "antoine.detorcy",
+        "itemNotFound": true,
+        "failedToEnrichItem": true
       },
       "attachedBy": "antoine.detorcy@dataiku.com",
       "attachedOn": 1663595769039
