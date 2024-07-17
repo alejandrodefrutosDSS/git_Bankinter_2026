@@ -38,7 +38,7 @@
     },
     {
       "sectionTitle": "Select your connection",
-      "sectionText": "To access logs, use a filesystem or file storage connection (e.g., S3, Azure, GCP). Ensure a read-accessible connection to your logs folder. You can find more information [here](article:9).",
+      "sectionText": "The default connection provides demo logs. It lets you explore the features of the solution. To access your actual logs, select **dku-audit-log** connection as explained [here](https://doc.dataiku.com/dss/latest/operations/audit-trail/dataikucloud.html#access-instances-audit-logs).",
       "tiles": [
         {
           "behavior": "INLINE_AUTO_SAVE",
