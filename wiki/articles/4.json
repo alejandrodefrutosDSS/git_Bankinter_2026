@@ -12,6 +12,17 @@
       },
       "attachedBy": "antoine.detorcy@dataiku.com",
       "attachedOn": 1704991957492
+    },
+    {
+      "attachmentType": "FILE",
+      "smartId": "xNFz8Evps7AA",
+      "details": {
+        "objectDisplayName": "to_dashboard.png",
+        "size": 93119,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "fabien.daoulas@dataiku.com",
+      "attachedOn": 1721376874037
     }
   ],
   "creationTag": {
