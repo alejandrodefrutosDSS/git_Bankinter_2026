@@ -34,6 +34,17 @@
       },
       "attachedBy": "fabien.daoulas@dataiku.com",
       "attachedOn": 1721376874062
+    },
+    {
+      "attachmentType": "FILE",
+      "smartId": "dTshDvxLKonB",
+      "details": {
+        "objectDisplayName": "data_ingestion.png",
+        "size": 85084,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "fabien.daoulas@dataiku.com",
+      "attachedOn": 1721376874084
     }
   ],
   "creationTag": {
