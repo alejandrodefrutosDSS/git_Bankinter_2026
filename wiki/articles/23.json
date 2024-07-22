@@ -1,19 +1,7 @@
 {
   "name": "LLM Usage Dashboard",
   "layout": "WIKI_ARTICLE",
-  "attachments": [
-    {
-      "attachmentType": "FILE",
-      "smartId": "K4e6cQdYdV8V",
-      "details": {
-        "objectDisplayName": "Capture d’écran 2024-01-11 à 18.52.04.png",
-        "size": 515493,
-        "mimeType": "image/png"
-      },
-      "attachedBy": "antoine.detorcy@dataiku.com",
-      "attachedOn": 1704995613906
-    }
-  ],
+  "attachments": [],
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
