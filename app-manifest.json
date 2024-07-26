@@ -23,14 +23,106 @@
     "exportGitRepository": false
   },
   "instanceFeatures": {
-    "showFlowNavLink": false,
+    "showFlowNavLink": true,
     "showLabNavLink": false,
     "showCodeNavLink": false,
     "showSwitchToProjectViewButton": true,
     "showVersionControlFeatures": false
   },
   "useAppHomepage": true,
-  "homepageSections": [],
+  "homepageSections": [
+    {
+      "sectionTitle": "Welcome to the Dataiku resource usage monitoring application",
+      "sectionText": "Several sections will help you configure the project to your data. You can check the requirements [here](article:15).",
+      "tiles": []
+    },
+    {
+      "sectionTitle": "Select your connection",
+      "sectionText": "The default connection provides demo logs. It lets you explore the features of the solution. To access your actual logs, select **dku-audit-log** connection as explained [here](https://doc.dataiku.com/dss/latest/operations/audit-trail/dataikucloud.html#access-instances-audit-logs).",
+      "tiles": [
+        {
+          "behavior": "INLINE_AUTO_SAVE",
+          "params": [
+            {
+              "name": "logs_connection",
+              "type": "CONNECTION",
+              "label": "Select the connection",
+              "defaultValue": "dataiku-managed-storage",
+              "mandatory": true,
+              "canSelectForeign": false,
+              "markCreatedAsBuilt": false,
+              "allowDuplicates": true,
+              "getChoicesFromPython": false,
+              "triggerParameters": [],
+              "disableAutoReload": false,
+              "canCreateDataset": false,
+              "wt1Loggable": false
+            }
+          ],
+          "type": "PROJECT_VARIABLES_EDIT"
+        },
+        {
+          "scenarioId": "RECONFIGUREINPUT",
+          "buttonText": "Reconfigure",
+          "type": "SCENARIO_RUN",
+          "prompt": "Reconfigure the input dataset",
+          "help": "Reconfigure the flow based on the chosen connection. \u003c/br\u003e \u003cb\u003e Note : \u003c/b\u003e that scenario assume an \"admin\" user exists; modify the user in scenario settings to avoid failure."
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Fill in the log path",
+      "sectionText": "- Click on the **compute_resource_usage_logs** dataset to set the log path. It should be `/audit-logs/`\n- Click on **Save** and go back to the Dataiku Application",
+      "tiles": [
+        {
+          "datasetName": "compute_resource_usage_logs",
+          "type": "DATASET_EDIT_SETTINGS",
+          "prompt": "Edit the logs path"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Build the dashboard",
+      "sectionText": "This operation can take a few minutes, depending on the quantity of logs.\nYou can then explore the analysis in the dashboard. You will find the dashboard documentation [here](article:23)",
+      "tiles": [
+        {
+          "behavior": "INLINE_AUTO_SAVE",
+          "params": [
+            {
+              "name": "activate_night_build",
+              "type": "BOOLEAN",
+              "label": "Activate automatic night build",
+              "description": "Enable automatic overnight flow build with latest data.",
+              "mandatory": false,
+              "canSelectForeign": false,
+              "markCreatedAsBuilt": false,
+              "allowDuplicates": true,
+              "getChoicesFromPython": false,
+              "triggerParameters": [],
+              "disableAutoReload": false,
+              "canCreateDataset": false,
+              "wt1Loggable": false
+            }
+          ],
+          "type": "PROJECT_VARIABLES_EDIT"
+        },
+        {
+          "scenarioId": "SETUP",
+          "buttonText": "Apply and Build",
+          "type": "SCENARIO_RUN",
+          "prompt": "Build the dashboard",
+          "help": "\u003c/br\u003e \u003cb\u003e Note : \u003c/b\u003e that scenarios assume an \"admin\" user exists; modify the user in scenario settings to avoid failure."
+        },
+        {
+          "dashboardId": "tJacKJV",
+          "type": "DASHBOARD_LINK",
+          "prompt": "View LLM Usage Dashboard"
+        }
+      ]
+    }
+  ],
+  "label": "LLM Cost Guard Dataiku Resource Usage Monitoring",
+  "shortDesc": "The template *CLOUD TESTING Dataiku Resource  Usage Monitoring* was created by martin.clark on Mar 22nd 2024",
   "tags": [],
   "instantiationPermission": "USE_APP_MASTER_PERMISSIONS",
   "limitedVisibilityEnabled": "INHERIT",
