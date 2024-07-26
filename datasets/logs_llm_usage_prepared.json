@@ -1,339 +1,202 @@
 {
-    "type": "S3",
-    "managed": true,
-    "featureGroup": false,
-    "formatType": "parquet",
-    "checklists": {
-        "checklists": []
+  "type": "S3",
+  "managed": true,
+  "featureGroup": false,
+  "formatType": "parquet",
+  "checklists": {
+    "checklists": []
+  },
+  "checks": [],
+  "customMeta": {
+    "kv": {}
+  },
+  "flowOptions": {
+    "virtualizable": true,
+    "rebuildBehavior": "NORMAL",
+    "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "readWriteOptions": {
+    "preserveOrder": false,
+    "writeBuckets": 1,
+    "forceSingleOutputFile": false,
+    "defaultReadOrdering": {
+      "enabled": false,
+      "rules": []
+    }
+  },
+  "formatParams": {
+    "parquetLowerCaseIdentifiers": false,
+    "representsNullFields": false,
+    "parquetCompressionMethod": "SNAPPY",
+    "parquetFlavor": "HIVE",
+    "parquetBlockSizeMB": 128
+  },
+  "partitioning": {
+    "filePathPattern": "////.*",
+    "ignoreNonMatchingFile": false,
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "antoine.detorcy@dataiku.com"
     },
-    "checks": [],
-    "customMeta": {
-        "kv": {}
-    },
-    "flowOptions": {
-        "virtualizable": true,
-        "rebuildBehavior": "NORMAL",
-        "crossProjectBuildBehavior": "DEFAULT"
-    },
-    "readWriteOptions": {
-        "preserveOrder": false,
-        "writeBuckets": 1,
-        "forceSingleOutputFile": false,
-        "defaultReadOrdering": {
+    "lastModifiedOn": 1703078222445,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "params": {
+    "bucket": "dku-solutions-data-internal",
+    "metastoreSynchronizationEnabled": true,
+    "metastoreDatabaseName": "default",
+    "metastoreTableName": "${projectKey}_logs_llm_usage_prepared",
+    "connection": "dataiku-managed-storage",
+    "path": "/managed-dss-data/${projectKey}/logs_llm_usage_prepared",
+    "notReadyIfEmpty": false,
+    "filesSelectionRules": {
+      "mode": "ALL",
+      "excludeRules": [],
+      "includeRules": [],
+      "explicitFiles": []
+    }
+  },
+  "schema": {
+    "columns": [
+      {"name":"severity","type":"string"},
+      {"name":"logger","type":"string"},
+      {"name":"topic","type":"string"},
+      {"name":"auditTopic","type":"string"},
+      {"name":"callPath","type":"string"},
+      {"name":"authSource","type":"string"},
+      {"name":"msgType","type":"string","maxLength":4194304},
+      {"name":"clientIP","type":"string"},
+      {"name":"startTime","type":"date"},
+      {"name":"id","type":"string"},
+      {"name":"authUser","type":"string"},
+      {"name":"type","type":"string"},
+      {"name":"llmUsage_totalComputationTimeMS","type":"bigint"},
+      {"name":"llmUsage_llmType","type":"string"},
+      {"name":"llmUsage_totalQueries","type":"bigint"},
+      {"name":"llmUsage_totalPromptTokens","type":"bigint"},
+      {"name":"llmUsage_estimatedCostUSD","type":"double"},
+      {"name":"llmUsage_totalCompletionTokens","type":"bigint"},
+      {"name":"Connection","type":"string"},
+      {"name":"llmUsage_cacheMissQueries","type":"bigint"},
+      {"name":"llmUsage_llmId","type":"string"},
+      {"name":"Operation","type":"string"},
+      {"name":"llmUsage_cacheHitQueries","type":"bigint"},
+      {"name":"estimated_cost_saved","type":"string"},
+      {"name":"context_jobId","type":"string"},
+      {"name":"Project","type":"string"},
+      {"name":"User","type":"string"},
+      {"name":"context_type","type":"string","maxLength":4194304},
+      {"name":"item_description","type":"string","maxLength":4194304},
+      {"name":"callTime","type":"bigint"},
+      {"name":"Date","type":"date"},
+      {"name":"serverTimestamp_day","type":"date"},
+      {"name":"serverTimestamp_hours","type":"date"},
+      {"name":"serverTimestamp_minutes","type":"date"},
+      {"name":"serverTimestamp_minutes_str","type":"string","maxLength":4194304},
+      {"name":"day_of_week","type":"string","maxLength":4194304},
+      {"name":"hour_of_day","type":"bigint"},
+      {"name":"execution_location","type":"string","maxLength":4194304}
+    ],
+    "userModified": true
+  },
+  "dkuProperties": [],
+  "metrics": {
+    "probes": [
+      {
+        "type": "basic",
+        "enabled": true,
+        "computeOnBuildMode": "PARTITION",
+        "meta": {
+          "name": "Basic data",
+          "level": 0
+        },
+        "configuration": {}
+      },
+      {
+        "type": "records",
+        "enabled": true,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Record count",
+          "level": 0
+        },
+        "configuration": {}
+      },
+      {
+        "type": "partitioning",
+        "enabled": true,
+        "computeOnBuildMode": "WHOLE_DATASET",
+        "meta": {
+          "name": "Partitioning statistics",
+          "level": 1
+        },
+        "configuration": {}
+      }
+    ],
+    "engineConfig": {
+      "padRunsWithMetrics": false,
+      "hive": {
+        "active": true,
+        "extraConf": []
+      },
+      "basic": {},
+      "dss": {
+        "active": true,
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
             "enabled": false,
             "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "ascending": true,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
         }
+      },
+      "sql": {
+        "active": true
+      },
+      "impala": {
+        "active": true
+      },
+      "spark": {
+        "active": true,
+        "extraConf": []
+      },
+      "python": {}
     },
-    "formatParams": {
-        "parquetLowerCaseIdentifiers": false,
-        "representsNullFields": false,
-        "parquetCompressionMethod": "SNAPPY",
-        "parquetFlavor": "HIVE",
-        "parquetBlockSizeMB": 128
-    },
-    "partitioning": {
-        "filePathPattern": "////.*",
-        "ignoreNonMatchingFile": false,
-        "considerMissingRequestedPartitionsAsEmpty": false,
-        "dimensions": []
-    },
-    "creationTag": {
-        "versionNumber": 0,
-        "lastModifiedBy": {
-            "login": "antoine.detorcy@dataiku.com"
-        },
-        "lastModifiedOn": 1703078222445,
-        "extendedProperties": {}
-    },
-    "tags": [],
-    "params": {
-        "bucket": "dku-solutions-data-internal",
-        "metastoreSynchronizationEnabled": true,
-        "metastoreDatabaseName": "default",
-        "metastoreTableName": "${projectKey}_logs_llm_usage_prepared",
-        "connection": "dataiku-managed-storage",
-        "path": "/managed-dss-data/${projectKey}/logs_llm_usage_prepared",
-        "notReadyIfEmpty": false,
-        "filesSelectionRules": {
-            "mode": "ALL",
-            "excludeRules": [],
-            "includeRules": [],
-            "explicitFiles": []
-        }
-    },
-    "schema": {
-        "columns": [
-            {
-                "name": "severity",
-                "type": "string"
-            },
-            {
-                "name": "logger",
-                "type": "string"
-            },
-            {
-                "name": "topic",
-                "type": "string"
-            },
-            {
-                "name": "authVia",
-                "type": "array",
-                "arrayContent": {
-                    "type": "string"
-                }
-            },
-            {
-                "name": "callPath",
-                "type": "string"
-            },
-            {
-                "name": "auditTopic",
-                "type": "string"
-            },
-            {
-                "name": "msgType",
-                "type": "string",
-                "maxLength": 4194304
-            },
-            {
-                "name": "authSource",
-                "type": "string"
-            },
-            {
-                "name": "clientIP",
-                "type": "string"
-            },
-            {
-                "name": "authUser",
-                "type": "string"
-            },
-            {
-                "name": "llmUsage_totalComputationTimeMS",
-                "type": "bigint"
-            },
-            {
-                "name": "llmUsage_llmType",
-                "type": "string"
-            },
-            {
-                "name": "llmUsage_totalQueries",
-                "type": "bigint"
-            },
-            {
-                "name": "llmUsage_totalPromptTokens",
-                "type": "bigint"
-            },
-            {
-                "name": "llmUsage_estimatedCostUSD",
-                "type": "double"
-            },
-            {
-                "name": "llmUsage_totalCompletionTokens",
-                "type": "bigint"
-            },
-            {
-                "name": "llmUsage_connection",
-                "type": "string"
-            },
-            {
-                "name": "llmUsage_cacheMissQueries",
-                "type": "bigint"
-            },
-            {
-                "name": "llmUsage_usageType",
-                "type": "string"
-            },
-            {
-                "name": "llmUsage_cacheHitQueries",
-                "type": "bigint"
-            },
-            {
-                "name": "estimated_cost_saved",
-                "type": "string"
-            },
-            {
-                "name": "context_jobId",
-                "type": "string"
-            },
-            {
-                "name": "context_activityId",
-                "type": "string"
-            },
-            {
-                "name": "context_projectKey",
-                "type": "string",
-                "maxLength": 4194304
-            },
-            {
-                "name": "context_type",
-                "type": "string",
-                "maxLength": 4194304
-            },
-            {
-                "name": "item_description",
-                "type": "string",
-                "maxLength": 4194304
-            },
-            {
-                "name": "context_authIdentifier",
-                "type": "string",
-                "maxLength": 4194304
-            },
-            {
-                "name": "startTime",
-                "type": "date"
-            },
-            {
-                "name": "id",
-                "type": "string"
-            },
-            {
-                "name": "type",
-                "type": "string"
-            },
-            {
-                "name": "apiCall",
-                "type": "string"
-            },
-            {
-                "name": "user",
-                "type": "string"
-            },
-            {
-                "name": "callTime",
-                "type": "bigint"
-            },
-            {
-                "name": "serverTimestamp",
-                "type": "date"
-            },
-            {
-                "name": "serverTimestamp_day",
-                "type": "date"
-            },
-            {
-                "name": "serverTimestamp_hours",
-                "type": "date"
-            },
-            {
-                "name": "serverTimestamp_minutes",
-                "type": "date"
-            },
-            {
-                "name": "serverTimestamp_minutes_str",
-                "type": "string",
-                "maxLength": 4194304
-            },
-            {
-                "name": "day_of_week",
-                "type": "string",
-                "maxLength": 4194304
-            },
-            {
-                "name": "hour_of_day",
-                "type": "bigint"
-            },
-            {
-                "name": "execution_location",
-                "type": "string",
-                "maxLength": 4194304
-            }
-        ],
-        "userModified": true
-    },
-    "dkuProperties": [],
-    "metrics": {
-        "probes": [
-            {
-                "type": "basic",
-                "enabled": true,
-                "computeOnBuildMode": "PARTITION",
-                "meta": {
-                    "name": "Basic data",
-                    "level": 0
-                },
-                "configuration": {}
-            },
-            {
-                "type": "records",
-                "enabled": true,
-                "computeOnBuildMode": "NO",
-                "meta": {
-                    "name": "Record count",
-                    "level": 0
-                },
-                "configuration": {}
-            },
-            {
-                "type": "partitioning",
-                "enabled": true,
-                "computeOnBuildMode": "WHOLE_DATASET",
-                "meta": {
-                    "name": "Partitioning statistics",
-                    "level": 1
-                },
-                "configuration": {}
-            }
-        ],
-        "engineConfig": {
-            "padRunsWithMetrics": false,
-            "hive": {
-                "active": true,
-                "extraConf": []
-            },
-            "basic": {},
-            "dss": {
-                "active": true,
-                "selection": {
-                    "useMemTable": false,
-                    "filter": {
-                        "distinct": false,
-                        "enabled": false
-                    },
-                    "partitionSelectionMethod": "ALL",
-                    "latestPartitionsN": 1,
-                    "ordering": {
-                        "enabled": false,
-                        "rules": []
-                    },
-                    "samplingMethod": "FULL",
-                    "maxRecords": -1,
-                    "targetRatio": 0.02,
-                    "ascending": true,
-                    "withinFirstN": -1,
-                    "maxReadUncompressedBytes": -1
-                }
-            },
-            "sql": {
-                "active": true
-            },
-            "impala": {
-                "active": true
-            },
-            "spark": {
-                "active": true,
-                "extraConf": []
-            },
-            "python": {}
-        },
-        "displayedState": {
-            "columns": [],
-            "metrics": [
-                "basic:COUNT_COLUMNS",
-                "basic:COUNT_FILES",
-                "basic:SIZE",
-                "records:COUNT_RECORDS"
-            ]
-        }
-    },
-    "metricsChecks": {
-        "checks": [],
-        "displayedState": {
-            "checks": []
-        },
-        "monitor": false
-    },
-    "customFields": {
-        "gdpr_contains_personal_data": "UNSURE"
+    "displayedState": {
+      "columns": [],
+      "metrics": [
+        "basic:COUNT_COLUMNS",
+        "basic:COUNT_FILES",
+        "basic:SIZE",
+        "records:COUNT_RECORDS"
+      ]
     }
+  },
+  "metricsChecks": {
+    "monitor": false,
+    "checks": [],
+    "displayedState": {
+      "checks": []
+    }
+  },
+  "customFields": {
+    "gdpr_contains_personal_data": "UNSURE"
+  }
 }
