@@ -348,7 +348,7 @@
           "alwaysShowComment": false
         },
         {
-          "preview": true,
+          "preview": false,
           "metaType": "PROCESSOR",
           "disabled": false,
           "type": "ColumnRenamer",
@@ -375,6 +375,17 @@
                 "to": "Operation"
               }
             ]
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnCopier",
+          "params": {
+            "outputColumn": "serverTimestamp",
+            "inputColumn": "Date"
           },
           "alwaysShowComment": false
         }
