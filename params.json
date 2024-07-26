@@ -98,7 +98,7 @@
     "objects": []
   },
   "projectType": "REGULAR",
-  "projectAppType": "APP_TEMPLATE",
+  "projectAppType": "REGULAR",
   "hasSetupSection": false,
   "bundleContainerSettings": {
     "remapping": {
