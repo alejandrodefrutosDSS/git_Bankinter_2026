@@ -423,6 +423,17 @@
             "inputColumn": "context_type"
           },
           "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnCopier",
+          "params": {
+            "outputColumn": "LLMType",
+            "inputColumn": "llmUsage_llmType"
+          },
+          "alwaysShowComment": false
         }
       ],
       "alwaysShowComment": false
