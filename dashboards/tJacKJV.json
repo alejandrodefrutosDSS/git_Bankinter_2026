@@ -506,6 +506,25 @@
           "allValuesInSample": false,
           "active": true,
           "explicitExclude": false
+        },
+        {
+          "filterType": "ALPHANUM_FACET",
+          "filterSelectionType": "MULTI_SELECT",
+          "id": "1721994645589_95",
+          "column": "Context",
+          "columnType": "ALPHANUM",
+          "isA": "filter",
+          "selectedValues": {
+            "JOB_ACTIVITY": true,
+            "WEBAPP_BACKEND": true,
+            "PROMPT_STUDIO": true
+          },
+          "isAGlobalFilter": true,
+          "useMinimalUi": false,
+          "excludeOtherValues": true,
+          "allValuesInSample": false,
+          "active": true,
+          "explicitExclude": false
         }
       ],
       "filtersParams": {
