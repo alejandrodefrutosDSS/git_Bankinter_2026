@@ -316,25 +316,23 @@
       "filters": [
         {
           "filterType": "DATE_FACET",
-          "filterSelectionType": "RANGE_OF_VALUES",
-          "id": "1703239874763_53",
-          "column": "serverTimestamp",
+          "id": "1721982664461_115",
+          "column": "Date",
           "columnType": "DATE",
-          "dateFilterType": "RANGE",
-          "timezone": "UTC",
+          "dateFilterType": "RELATIVE",
           "isA": "filter",
           "isAGlobalFilter": true,
           "useMinimalUi": false,
           "excludeOtherValues": true,
-          "allValuesInSample": true,
+          "allValuesInSample": false,
           "active": true,
           "explicitExclude": false
         },
         {
           "filterType": "ALPHANUM_FACET",
           "filterSelectionType": "MULTI_SELECT",
-          "id": "1703239874763_54",
-          "column": "context_projectKey",
+          "id": "1721982664462_116",
+          "column": "Project",
           "columnType": "ALPHANUM",
           "isA": "filter",
           "selectedValues": {
@@ -395,15 +393,15 @@
           "isAGlobalFilter": true,
           "useMinimalUi": false,
           "excludeOtherValues": true,
-          "allValuesInSample": true,
+          "allValuesInSample": false,
           "active": true,
           "explicitExclude": false
         },
         {
           "filterType": "ALPHANUM_FACET",
           "filterSelectionType": "MULTI_SELECT",
-          "id": "1703239874763_55",
-          "column": "context_authIdentifier",
+          "id": "1721982664462_117",
+          "column": "User",
           "columnType": "ALPHANUM",
           "isA": "filter",
           "selectedValues": {
@@ -435,35 +433,37 @@
           "isAGlobalFilter": true,
           "useMinimalUi": false,
           "excludeOtherValues": true,
-          "allValuesInSample": true,
+          "allValuesInSample": false,
           "active": true,
           "explicitExclude": false
         },
         {
           "filterType": "ALPHANUM_FACET",
           "filterSelectionType": "MULTI_SELECT",
-          "id": "1703239874763_56",
-          "column": "llmUsage_llmType",
+          "id": "1721982664462_118",
+          "column": "Connection",
           "columnType": "ALPHANUM",
           "isA": "filter",
           "selectedValues": {
-            "OPENAI": true,
-            "BEDROCK": true,
-            "AZURE_OPENAI": true,
-            "MISTRALAI": true
+            "bs-openai": true,
+            "Amazon_Bedrock": true,
+            "bs-azure-embedding": true,
+            "MajidTestMistral": true,
+            "bs-aws-bedrock-3": true,
+            "bs-azure-openai": true
           },
           "isAGlobalFilter": true,
           "useMinimalUi": false,
           "excludeOtherValues": true,
-          "allValuesInSample": true,
+          "allValuesInSample": false,
           "active": true,
           "explicitExclude": false
         },
         {
           "filterType": "ALPHANUM_FACET",
           "filterSelectionType": "MULTI_SELECT",
-          "id": "1703239874763_57",
-          "column": "llmUsage_usageType",
+          "id": "1721982664462_119",
+          "column": "Operation",
           "columnType": "ALPHANUM",
           "isA": "filter",
           "selectedValues": {
@@ -473,7 +473,7 @@
           "isAGlobalFilter": true,
           "useMinimalUi": false,
           "excludeOtherValues": true,
-          "allValuesInSample": true,
+          "allValuesInSample": false,
           "active": true,
           "explicitExclude": false
         }
@@ -496,14 +496,14 @@
               "rules": []
             },
             "samplingMethod": "FULL",
-            "maxRecords": 10000,
+            "maxRecords": -1,
             "targetRatio": 0.02,
             "ascending": true,
             "withinFirstN": -1,
             "maxReadUncompressedBytes": -1
           },
           "autoRefreshSample": false,
-          "_refreshTrigger": 0
+          "_refreshTrigger": 1721982649559
         }
       }
     }
