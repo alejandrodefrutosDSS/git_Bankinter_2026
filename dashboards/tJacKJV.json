@@ -346,12 +346,13 @@
             "8fd47e0585a49aa23c92a4751283c07f98135fcf0ff8bd88556dcd802bfc1b8e": true,
             "3fd5d74b74742e2485834f92a246115078d9357d4e597c6c190fb80c9838f0f3": true,
             "ddd335f2e4be1b6410403b994a566a369bea42dad7066f4d5fc5038abc511789": true,
-            "b1a253db5da88958efad6567a361492a8b4cb995e632ad82b21aa40e991366e6": true
+            "b1a253db5da88958efad6567a361492a8b4cb995e632ad82b21aa40e991366e6": true,
+            "___dku_no_value___": true
           },
           "isAGlobalFilter": true,
           "useMinimalUi": false,
           "excludeOtherValues": true,
-          "allValuesInSample": false,
+          "allValuesInSample": true,
           "active": true,
           "explicitExclude": false
         },
@@ -386,12 +387,13 @@
             "8176c86e17a2034fccd7a6f59ba36cbb7b4172b0681a75661b3d48c031d84628": true,
             "3e3cbd90a76fe2db31d83fb184daacd045cb8183e91fb8cda08e34c5e8e480b7": true,
             "54120618f67c7b9dd1ca834f1f5ee98bec49b877a8872f22b7eb3e4245012d57": true,
-            "68496194533176fd7567d7aa1e55b01955785a29cb399621396c91261b14ab6f": true
+            "68496194533176fd7567d7aa1e55b01955785a29cb399621396c91261b14ab6f": true,
+            "___dku_no_value___": true
           },
           "isAGlobalFilter": true,
           "useMinimalUi": false,
           "excludeOtherValues": true,
-          "allValuesInSample": false,
+          "allValuesInSample": true,
           "active": true,
           "explicitExclude": false
         },
@@ -405,12 +407,13 @@
           "selectedValues": {
             "OPENAI": true,
             "BEDROCK": true,
-            "AZURE_OPENAI": true
+            "AZURE_OPENAI": true,
+            "___dku_no_value___": true
           },
           "isAGlobalFilter": true,
           "useMinimalUi": false,
           "excludeOtherValues": true,
-          "allValuesInSample": false,
+          "allValuesInSample": true,
           "active": true,
           "explicitExclude": false
         },
@@ -427,12 +430,12 @@
             "bs-azure-embedding": true,
             "bs-aws-bedrock-3": true,
             "bs-azure-openai": true,
-            "MajidTestMistral": false
+            "___dku_no_value___": true
           },
           "isAGlobalFilter": true,
           "useMinimalUi": false,
           "excludeOtherValues": true,
-          "allValuesInSample": false,
+          "allValuesInSample": true,
           "active": true,
           "explicitExclude": false
         },
@@ -462,7 +465,7 @@
           "isAGlobalFilter": true,
           "useMinimalUi": false,
           "excludeOtherValues": true,
-          "allValuesInSample": false,
+          "allValuesInSample": true,
           "active": true,
           "explicitExclude": false
         },
@@ -475,12 +478,13 @@
           "isA": "filter",
           "selectedValues": {
             "COMPLETION": true,
-            "TEXT_EMBEDDING_EXTRACTION": true
+            "TEXT_EMBEDDING_EXTRACTION": true,
+            "___dku_no_value___": true
           },
           "isAGlobalFilter": true,
           "useMinimalUi": false,
           "excludeOtherValues": true,
-          "allValuesInSample": false,
+          "allValuesInSample": true,
           "active": true,
           "explicitExclude": false
         },
@@ -494,12 +498,13 @@
           "selectedValues": {
             "JOB_ACTIVITY": true,
             "WEBAPP_BACKEND": true,
-            "PROMPT_STUDIO": true
+            "PROMPT_STUDIO": true,
+            "___dku_no_value___": true
           },
           "isAGlobalFilter": true,
           "useMinimalUi": false,
           "excludeOtherValues": true,
-          "allValuesInSample": false,
+          "allValuesInSample": true,
           "active": true,
           "explicitExclude": false
         }
