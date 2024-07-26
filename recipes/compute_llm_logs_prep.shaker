@@ -367,12 +367,12 @@
                 "to": "User"
               },
               {
-                "from": "llmUsage_llmType",
-                "to": "LLM type"
+                "from": "llmUsage_connection",
+                "to": "Connection"
               },
               {
                 "from": "llmUsage_usageType",
-                "to": "Type of operation"
+                "to": "Operation"
               }
             ]
           },
