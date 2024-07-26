@@ -94,6 +94,7 @@
       {"name":"item_description","type":"string","maxLength":4194304},
       {"name":"callTime","type":"bigint"},
       {"name":"Date","type":"date"},
+      {"name":"serverTimestamp","type":"date"},
       {"name":"serverTimestamp_day","type":"date"},
       {"name":"serverTimestamp_hours","type":"date"},
       {"name":"serverTimestamp_minutes","type":"date"},
