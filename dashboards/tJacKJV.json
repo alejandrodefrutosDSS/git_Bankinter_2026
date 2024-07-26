@@ -398,6 +398,25 @@
         {
           "filterType": "ALPHANUM_FACET",
           "filterSelectionType": "MULTI_SELECT",
+          "id": "1721995735429_95",
+          "column": "LLMType",
+          "columnType": "ALPHANUM",
+          "isA": "filter",
+          "selectedValues": {
+            "OPENAI": true,
+            "BEDROCK": true,
+            "AZURE_OPENAI": true
+          },
+          "isAGlobalFilter": true,
+          "useMinimalUi": false,
+          "excludeOtherValues": true,
+          "allValuesInSample": false,
+          "active": true,
+          "explicitExclude": false
+        },
+        {
+          "filterType": "ALPHANUM_FACET",
+          "filterSelectionType": "MULTI_SELECT",
           "id": "1721982664462_118",
           "column": "Connection",
           "columnType": "ALPHANUM",
