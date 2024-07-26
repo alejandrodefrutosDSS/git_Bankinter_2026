@@ -32,7 +32,7 @@
   "useAppHomepage": true,
   "homepageSections": [
     {
-      "sectionTitle": "Welcome to the Dataiku resource usage monitoring application",
+      "sectionTitle": "Welcome to Dataiku LLM Cost Guard",
       "sectionText": "Several sections will help you configure the project to your data. You can check the requirements [here](article:15).",
       "tiles": []
     },
