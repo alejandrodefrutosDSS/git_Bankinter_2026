@@ -351,30 +351,10 @@
           "preview": false,
           "metaType": "PROCESSOR",
           "disabled": false,
-          "type": "ColumnRenamer",
+          "type": "ColumnCopier",
           "params": {
-            "renamings": [
-              {
-                "from": "serverTimestamp",
-                "to": "Date"
-              },
-              {
-                "from": "context_projectKey",
-                "to": "Project"
-              },
-              {
-                "from": "context_authIdentifier",
-                "to": "User"
-              },
-              {
-                "from": "llmUsage_connection",
-                "to": "Connection"
-              },
-              {
-                "from": "llmUsage_usageType",
-                "to": "Operation"
-              }
-            ]
+            "outputColumn": "Date",
+            "inputColumn": "serverTimestamp"
           },
           "alwaysShowComment": false
         },
@@ -384,8 +364,41 @@
           "disabled": false,
           "type": "ColumnCopier",
           "params": {
-            "outputColumn": "serverTimestamp",
-            "inputColumn": "Date"
+            "outputColumn": "Project",
+            "inputColumn": "context_projectKey"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnCopier",
+          "params": {
+            "outputColumn": "User",
+            "inputColumn": "context_authIdentifier"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnCopier",
+          "params": {
+            "outputColumn": "Connection",
+            "inputColumn": "llmUsage_connection"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnCopier",
+          "params": {
+            "outputColumn": "Operation",
+            "inputColumn": "llmUsage_usageType"
           },
           "alwaysShowComment": false
         }
