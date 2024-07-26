@@ -1,7 +1,6 @@
 {
   "type": "shaker",
   "neverRecomputeExistingPartitions": false,
-  "optionalDependencies": false,
   "params": {
     "engineParams": {
       "spark": {
@@ -10,6 +9,9 @@
           "autoModeRepartitionInto": 10,
           "map": {
             "logs_clean": {
+              "repartition": 10
+            },
+            "logs_filtered_unnested": {
               "repartition": 10
             }
           }
@@ -51,6 +53,7 @@
   },
   "redispatchPartitioning": false,
   "maxRunningActivities": 0,
+  "hashPropagationBehavior": "INHERIT",
   "variables": {},
   "dkuProperties": [],
   "inputs": {

@@ -346,6 +346,37 @@
             "column": "estimated_cost_saved"
           },
           "alwaysShowComment": false
+        },
+        {
+          "preview": true,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "serverTimestamp",
+                "to": "Date"
+              },
+              {
+                "from": "context_projectKey",
+                "to": "Project"
+              },
+              {
+                "from": "context_authIdentifier",
+                "to": "User"
+              },
+              {
+                "from": "llmUsage_llmType",
+                "to": "LLM type"
+              },
+              {
+                "from": "llmUsage_usageType",
+                "to": "Type of operation"
+              }
+            ]
+          },
+          "alwaysShowComment": false
         }
       ],
       "alwaysShowComment": false
