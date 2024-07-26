@@ -505,7 +505,7 @@
         }
       ],
       "filtersParams": {
-        "panelPosition": "TOP",
+        "panelPosition": "LEFT",
         "datasetSmartName": "logs_llm_usage_prepared",
         "engineType": "LINO",
         "refreshableSelection": {
