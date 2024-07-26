@@ -397,7 +397,7 @@
           "disabled": false,
           "type": "ColumnCopier",
           "params": {
-            "outputColumn": "LLMUsageType",
+            "outputColumn": "UsageType",
             "inputColumn": "llmUsage_usageType"
           },
           "alwaysShowComment": false
@@ -549,6 +549,7 @@
     "Operation": 190,
     "authUser": 225,
     "computeResourceUsage_context_type": 263,
+    "UsageType": 190,
     "llmUsage_totalPromptTokens": 210,
     "context_jupyterNotebookId": 203,
     "localProcess_pid": 135,
