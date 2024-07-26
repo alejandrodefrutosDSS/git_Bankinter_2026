@@ -46,7 +46,13 @@
       "startTime": 113,
       "topic": 100,
       "type": 100,
-      "user": 100
+      "user": 100,
+      "Connection": 141,
+      "llmUsage_llmId": 239,
+      "Operation": 190,
+      "Project": 300,
+      "User": 300,
+      "Date": 183
     },
     "columnUseScientificNotationByName": {},
     "coloring": {
@@ -80,7 +86,7 @@
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 1721982481415
+      "_refreshTrigger": 1721982593280
     },
     "vizSampling": {
       "selection": {
