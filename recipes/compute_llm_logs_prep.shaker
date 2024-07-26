@@ -412,6 +412,17 @@
             "inputColumn": "llmUsage_llmId"
           },
           "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnCopier",
+          "params": {
+            "outputColumn": "Context",
+            "inputColumn": "context_type"
+          },
+          "alwaysShowComment": false
         }
       ],
       "alwaysShowComment": false
@@ -487,6 +498,7 @@
     "mdc_apiCall": 300,
     "timestamp": 183,
     "localProcess_childrenMajorFaults": 255,
+    "Context": 113,
     "Usage": 190,
     "execution_location": 176,
     "Connection": 141,
