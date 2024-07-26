@@ -96,6 +96,7 @@
       {"name":"context_authIdentifier","type":"string"},
       {"name":"User","type":"string"},
       {"name":"context_type","type":"string","maxLength":4194304},
+      {"name":"Context","type":"string"},
       {"name":"item_description","type":"string","maxLength":4194304},
       {"name":"callTime","type":"bigint"},
       {"name":"serverTimestamp","type":"date"},
