@@ -8,8 +8,8 @@
             "tileType": "INSIGHT",
             "box": {
               "top": 0,
-              "left": 2,
-              "width": 10,
+              "left": 0,
+              "width": 12,
               "height": 2
             },
             "clickAction": "DO_NOTHING",
@@ -34,8 +34,8 @@
             "tileType": "INSIGHT",
             "box": {
               "top": 2,
-              "left": 7,
-              "width": 5,
+              "left": 6,
+              "width": 6,
               "height": 3
             },
             "clickAction": "DO_NOTHING",
@@ -61,8 +61,8 @@
             "tileType": "INSIGHT",
             "box": {
               "top": 2,
-              "left": 2,
-              "width": 5,
+              "left": 0,
+              "width": 6,
               "height": 3
             },
             "clickAction": "DO_NOTHING",
@@ -88,8 +88,8 @@
             "tileType": "INSIGHT",
             "box": {
               "top": 8,
-              "left": 2,
-              "width": 5,
+              "left": 0,
+              "width": 6,
               "height": 3
             },
             "clickAction": "DO_NOTHING",
@@ -115,8 +115,8 @@
             "tileType": "INSIGHT",
             "box": {
               "top": 8,
-              "left": 7,
-              "width": 5,
+              "left": 6,
+              "width": 6,
               "height": 3
             },
             "clickAction": "DO_NOTHING",
@@ -142,8 +142,8 @@
             "tileType": "INSIGHT",
             "box": {
               "top": 11,
-              "left": 2,
-              "width": 5,
+              "left": 0,
+              "width": 6,
               "height": 3
             },
             "clickAction": "DO_NOTHING",
@@ -169,8 +169,8 @@
             "tileType": "INSIGHT",
             "box": {
               "top": 11,
-              "left": 7,
-              "width": 5,
+              "left": 6,
+              "width": 6,
               "height": 3
             },
             "clickAction": "DO_NOTHING",
@@ -196,8 +196,8 @@
             "tileType": "INSIGHT",
             "box": {
               "top": 5,
-              "left": 2,
-              "width": 4,
+              "left": 0,
+              "width": 5,
               "height": 3
             },
             "clickAction": "DO_NOTHING",
@@ -222,51 +222,9 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 0,
-              "left": 0,
-              "width": 2,
-              "height": 14
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "engineType": "LINO",
-              "refreshableSelection": {
-                "selection": {
-                  "useMemTable": false,
-                  "filter": {
-                    "distinct": false,
-                    "enabled": false
-                  },
-                  "partitionSelectionMethod": "ALL",
-                  "latestPartitionsN": 1,
-                  "ordering": {
-                    "enabled": false,
-                    "rules": []
-                  },
-                  "samplingMethod": "FULL",
-                  "maxRecords": 10000,
-                  "targetRatio": 0.02,
-                  "ascending": true,
-                  "withinFirstN": -1,
-                  "maxReadUncompressedBytes": -1
-                },
-                "autoRefreshSample": false,
-                "_refreshTrigger": 0
-              }
-            },
-            "autoLoad": true,
-            "showTitle": "NO",
-            "insightId": "BG7hjr1",
-            "insightType": "filters",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
               "top": 5,
-              "left": 6,
-              "width": 4,
+              "left": 5,
+              "width": 5,
               "height": 3
             },
             "clickAction": "DO_NOTHING",
@@ -528,7 +486,7 @@
         }
       ],
       "filtersParams": {
-        "panelPosition": "TILE",
+        "panelPosition": "TOP",
         "datasetSmartName": "logs_llm_usage_prepared",
         "engineType": "LINO",
         "refreshableSelection": {
