@@ -462,24 +462,6 @@
         {
           "filterType": "ALPHANUM_FACET",
           "filterSelectionType": "MULTI_SELECT",
-          "id": "1721994269556_180",
-          "column": "LLMUsageType",
-          "columnType": "ALPHANUM",
-          "isA": "filter",
-          "selectedValues": {
-            "COMPLETION": true,
-            "TEXT_EMBEDDING_EXTRACTION": true
-          },
-          "isAGlobalFilter": true,
-          "useMinimalUi": false,
-          "excludeOtherValues": true,
-          "allValuesInSample": false,
-          "active": true,
-          "explicitExclude": false
-        },
-        {
-          "filterType": "ALPHANUM_FACET",
-          "filterSelectionType": "MULTI_SELECT",
           "id": "1721994352461_182",
           "column": "LLMIdentifier",
           "columnType": "ALPHANUM",
@@ -499,6 +481,24 @@
             "bedrock:Amazon_Bedrock:anthropic.claude-3-opus-20240229-v1:0": true,
             "bedrock:Amazon_Bedrock:amazon.titan-embed-text-v1": true,
             "bedrock:Amazon_Bedrock:cohere.embed-english-v3": true
+          },
+          "isAGlobalFilter": true,
+          "useMinimalUi": false,
+          "excludeOtherValues": true,
+          "allValuesInSample": false,
+          "active": true,
+          "explicitExclude": false
+        },
+        {
+          "filterType": "ALPHANUM_FACET",
+          "filterSelectionType": "MULTI_SELECT",
+          "id": "1721994927237_94",
+          "column": "UsageType",
+          "columnType": "ALPHANUM",
+          "isA": "filter",
+          "selectedValues": {
+            "COMPLETION": true,
+            "TEXT_EMBEDDING_EXTRACTION": true
           },
           "isAGlobalFilter": true,
           "useMinimalUi": false,
