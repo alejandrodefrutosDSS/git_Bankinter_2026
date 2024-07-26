@@ -408,7 +408,7 @@
           "disabled": false,
           "type": "ColumnCopier",
           "params": {
-            "outputColumn": "Type",
+            "outputColumn": "LLMType",
             "inputColumn": "llmUsage_llmType"
           },
           "alwaysShowComment": false
@@ -529,6 +529,7 @@
     "computeResourceUsage_context_projectKey": 300,
     "User": 300,
     "serverTimestamp_minutes_str": 239,
+    "LLMType": 100,
     "clusterId": 100,
     "llmUsage_totalQueries": 173,
     "Operation": 190,
