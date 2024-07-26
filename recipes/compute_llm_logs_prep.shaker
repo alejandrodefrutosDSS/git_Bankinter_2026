@@ -401,6 +401,17 @@
             "inputColumn": "llmUsage_usageType"
           },
           "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnCopier",
+          "params": {
+            "outputColumn": "Type",
+            "inputColumn": "llmUsage_llmType"
+          },
+          "alwaysShowComment": false
         }
       ],
       "alwaysShowComment": false
@@ -485,6 +496,7 @@
     "localProcess_cpuSystemTimeMS": 225,
     "estimated_cost_saved": 165,
     "llmUsage_connection": 158,
+    "Type": 100,
     "computeResourceUsage_startTime": 240,
     "endTime": 100,
     "localProcess_commandName": 195,
