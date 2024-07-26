@@ -397,7 +397,7 @@
           "disabled": false,
           "type": "ColumnCopier",
           "params": {
-            "outputColumn": "Usage",
+            "outputColumn": "LLMUsageType",
             "inputColumn": "llmUsage_usageType"
           },
           "alwaysShowComment": false
@@ -408,8 +408,8 @@
           "disabled": false,
           "type": "ColumnCopier",
           "params": {
-            "outputColumn": "LLMType",
-            "inputColumn": "llmUsage_llmType"
+            "outputColumn": "LLMIdentifier",
+            "inputColumn": "llmUsage_llmId"
           },
           "alwaysShowComment": false
         }
@@ -502,10 +502,12 @@
     "localProcess_commandName": 195,
     "item_description": 300,
     "llmUsage_cacheMissQueries": 203,
+    "LLMUsageType": 190,
     "localProcess_majorFaults": 195,
     "context_analysisId": 150,
     "llmUsage_cacheHitQueries": 195,
     "computeResourceUsage_context_authIdentifier": 300,
+    "LLMIdentifier": 239,
     "context_activityId": 183,
     "localProcess_cpuChildrenUserTimeMS": 270,
     "localProcess_cpuUserTimeMS": 210,
