@@ -77,7 +77,7 @@
       {"name":"type","type":"string"},
       {"name":"llmUsage_totalComputationTimeMS","type":"bigint"},
       {"name":"llmUsage_llmType","type":"string"},
-      {"name":"Type","type":"string"},
+      {"name":"LLMType","type":"string"},
       {"name":"llmUsage_totalQueries","type":"bigint"},
       {"name":"llmUsage_totalPromptTokens","type":"bigint"},
       {"name":"llmUsage_estimatedCostUSD","type":"double"},
