@@ -397,7 +397,7 @@
           "disabled": false,
           "type": "ColumnCopier",
           "params": {
-            "outputColumn": "Operation",
+            "outputColumn": "Usage",
             "inputColumn": "llmUsage_usageType"
           },
           "alwaysShowComment": false
@@ -476,6 +476,7 @@
     "mdc_apiCall": 300,
     "timestamp": 183,
     "localProcess_childrenMajorFaults": 255,
+    "Usage": 190,
     "execution_location": 176,
     "Connection": 141,
     "computeResourceUsage_llmUsage_estimatedCostUSD": 300,
