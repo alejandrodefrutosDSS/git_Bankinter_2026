@@ -121,7 +121,7 @@
           "digitGrouping": "DEFAULT",
           "prefix": "",
           "suffix": "",
-          "displayLabel": "Number of LLM cache miss",
+          "displayLabel": "Total LLM cache miss",
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
           "labelFontSize": 16,
