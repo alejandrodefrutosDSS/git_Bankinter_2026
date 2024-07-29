@@ -389,30 +389,30 @@
             ]
           },
           "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "if (val(\"Usage type\") \u003d\u003d \"COMPLETION\", llmUsage_cacheMissQueries, 1)",
+            "column": "Number of LLM cache miss"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": true,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "if (val(\"Usage type\") \u003d\u003d \"COMPLETION\", llmUsage_cacheHitQueries, 0)",
+            "column": "Number of LLM cache hit"
+          },
+          "alwaysShowComment": false
         }
       ],
-      "alwaysShowComment": false
-    },
-    {
-      "preview": false,
-      "metaType": "PROCESSOR",
-      "disabled": false,
-      "type": "CreateColumnWithGREL",
-      "params": {
-        "expression": "if (val(\"Usage type\") \u003d\u003d \"COMPLETION\", llmUsage_cacheMissQueries, 1)",
-        "column": "Number of LLM cache miss"
-      },
-      "alwaysShowComment": false
-    },
-    {
-      "preview": true,
-      "metaType": "PROCESSOR",
-      "disabled": false,
-      "type": "CreateColumnWithGREL",
-      "params": {
-        "expression": "if (val(\"Usage type\") \u003d\u003d \"COMPLETION\", llmUsage_cacheHitQueries, 0)",
-        "column": "Number of LLM cache hit"
-      },
       "alwaysShowComment": false
     }
   ],
