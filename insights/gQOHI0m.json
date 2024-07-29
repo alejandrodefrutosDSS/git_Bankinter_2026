@@ -75,7 +75,7 @@
           "digitGrouping": "DEFAULT",
           "prefix": "",
           "suffix": "",
-          "displayLabel": "Average Estimated Cost per Request ($)",
+          "displayLabel": "Avg Estimated Cost per Request ($)",
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
           "labelFontSize": 16,
