@@ -394,13 +394,24 @@
       "alwaysShowComment": false
     },
     {
-      "preview": true,
+      "preview": false,
       "metaType": "PROCESSOR",
       "disabled": false,
       "type": "CreateColumnWithGREL",
       "params": {
         "expression": "if (val(\"Usage type\") \u003d\u003d \"COMPLETION\", llmUsage_cacheMissQueries, 0)",
         "column": "Number of LLM cache miss"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "CreateColumnWithGREL",
+      "params": {
+        "expression": "if (val(\"Usage type\") \u003d\u003d \"COMPLETION\", llmUsage_cacheHitQueries, 0)",
+        "column": "Number of LLM cache hit"
       },
       "alwaysShowComment": false
     }
@@ -442,6 +453,7 @@
     "callPath": 300,
     "computeResourceUsage_llmUsage_totalCompletionTokens": 300,
     "llmUsage_llmType": 135,
+    "Number of LLM cache hit": 188,
     "dssNodeId": 113,
     "clientIP": 106,
     "localProcess_vmSizeMB": 173,
