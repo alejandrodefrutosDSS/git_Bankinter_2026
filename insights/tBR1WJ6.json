@@ -70,6 +70,8 @@
             "label": "Natural ordering",
             "sortAscending": true
           },
+          "prefix": "",
+          "suffix": "",
           "multiplier": "Auto",
           "digitGrouping": "DEFAULT"
         }
@@ -110,6 +112,8 @@
             "measureIdx": 0,
             "label": "Total Estimated Cost ($) per Project, descending"
           },
+          "prefix": "",
+          "suffix": "",
           "multiplier": "Auto",
           "digitGrouping": "DEFAULT"
         }
@@ -344,7 +348,7 @@
         "heatDensityMapRadius": 0.5,
         "singleColor": "#2678B1",
         "transparency": 0.75,
-        "colorPalette": "__dku_custom__",
+        "colorPalette": "default",
         "customPalette": {
           "id": "__dku_custom__",
           "name": "Custom Palette",
