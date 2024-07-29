@@ -85,9 +85,9 @@
           "colorRules": []
         },
         {
-          "column": "id",
-          "function": "COUNTD",
-          "type": "ALPHANUM",
+          "column": "Number of LLM cache hit",
+          "function": "SUM",
+          "type": "NUMERICAL",
           "displayed": true,
           "isA": "measure",
           "displayAxis": "axis1",
@@ -96,9 +96,7 @@
           "computeModeDim": 0,
           "multiplier": "Auto",
           "digitGrouping": "DEFAULT",
-          "prefix": "",
-          "suffix": "",
-          "displayLabel": "Number of LLM Usages",
+          "displayLabel": "Number of LLM cache hit",
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
           "labelFontSize": 16,
