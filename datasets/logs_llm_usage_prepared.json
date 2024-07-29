@@ -87,6 +87,7 @@
       {"name":"Usage type","type":"string"},
       {"name":"Number of LLM cache miss","type":"bigint"},
       {"name":"llmUsage_cacheHitQueries","type":"bigint"},
+      {"name":"Number of LLM cache hit","type":"bigint"},
       {"name":"estimated_cost_saved","type":"string"},
       {"name":"context_jobId","type":"string"},
       {"name":"Project","type":"string"},
