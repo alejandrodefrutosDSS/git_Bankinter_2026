@@ -392,6 +392,17 @@
         }
       ],
       "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "CreateColumnWithGREL",
+      "params": {
+        "expression": "if (val(\"Usage type\") \u003d\u003d \"COMPLETION\", llmUsage_cacheMissQueries, 0)",
+        "column": "Number of LLM cache miss"
+      },
+      "alwaysShowComment": false
     }
   ],
   "maxProcessedMemTableBytes": -1,
@@ -503,6 +514,7 @@
     "computeResourceUsage_llmUsage_llmType": 293,
     "mdc": 300,
     "computeResourceUsage_llmUsage_connection": 300,
+    "Number of LLM cache miss": 195,
     "context_recipeName": 176,
     "sqlQuery_connectionUsageId": 210,
     "topic": 169,
