@@ -351,87 +351,42 @@
           "preview": false,
           "metaType": "PROCESSOR",
           "disabled": false,
-          "type": "ColumnCopier",
+          "type": "ColumnRenamer",
           "params": {
-            "outputColumn": "Date",
-            "inputColumn": "serverTimestamp"
-          },
-          "alwaysShowComment": false
-        },
-        {
-          "preview": false,
-          "metaType": "PROCESSOR",
-          "disabled": false,
-          "type": "ColumnCopier",
-          "params": {
-            "outputColumn": "Project",
-            "inputColumn": "context_projectKey"
-          },
-          "alwaysShowComment": false
-        },
-        {
-          "preview": false,
-          "metaType": "PROCESSOR",
-          "disabled": false,
-          "type": "ColumnCopier",
-          "params": {
-            "outputColumn": "User",
-            "inputColumn": "context_authIdentifier"
-          },
-          "alwaysShowComment": false
-        },
-        {
-          "preview": false,
-          "metaType": "PROCESSOR",
-          "disabled": false,
-          "type": "ColumnCopier",
-          "params": {
-            "outputColumn": "Connection",
-            "inputColumn": "llmUsage_connection"
-          },
-          "alwaysShowComment": false
-        },
-        {
-          "preview": false,
-          "metaType": "PROCESSOR",
-          "disabled": false,
-          "type": "ColumnCopier",
-          "params": {
-            "outputColumn": "UsageType",
-            "inputColumn": "llmUsage_usageType"
-          },
-          "alwaysShowComment": false
-        },
-        {
-          "preview": false,
-          "metaType": "PROCESSOR",
-          "disabled": false,
-          "type": "ColumnCopier",
-          "params": {
-            "outputColumn": "LLMIdentifier",
-            "inputColumn": "llmUsage_llmId"
-          },
-          "alwaysShowComment": false
-        },
-        {
-          "preview": false,
-          "metaType": "PROCESSOR",
-          "disabled": false,
-          "type": "ColumnCopier",
-          "params": {
-            "outputColumn": "Context",
-            "inputColumn": "context_type"
-          },
-          "alwaysShowComment": false
-        },
-        {
-          "preview": false,
-          "metaType": "PROCESSOR",
-          "disabled": false,
-          "type": "ColumnCopier",
-          "params": {
-            "outputColumn": "LLMType",
-            "inputColumn": "llmUsage_llmType"
+            "renamings": [
+              {
+                "from": "serverTimestamp",
+                "to": "Date"
+              },
+              {
+                "from": "context_projectKey",
+                "to": "Project"
+              },
+              {
+                "from": "context_authIdentifier",
+                "to": "User"
+              },
+              {
+                "from": "llmUsage_connection",
+                "to": "Connection"
+              },
+              {
+                "from": "llmUsage_usageType",
+                "to": "Usage type"
+              },
+              {
+                "from": "llmUsage_llmId",
+                "to": "LLM identifier"
+              },
+              {
+                "from": "context_type",
+                "to": "Context"
+              },
+              {
+                "from": "llmUsage_llmType",
+                "to": "Connection type"
+              }
+            ]
           },
           "alwaysShowComment": false
         }
@@ -485,6 +440,7 @@
     "serverTimestamp_minutes": 211,
     "context_projectKey": 218,
     "hour_of_day": 100,
+    "Usage type": 190,
     "podsStatus_pods": 128,
     "localProcess_vmRSSTotalMBS": 210,
     "context_authIdentifier": 260,
@@ -535,9 +491,11 @@
     "localProcess_cpuChildrenUserTimeMS": 270,
     "localProcess_cpuUserTimeMS": 210,
     "llmUsage_totalComputationTimeMS": 248,
+    "LLM identifier": 239,
     "llmUsage_llmId": 239,
     "dssNodeType": 100,
     "context_mlTaskId": 135,
+    "Connection type": 128,
     "localProcess_vmRSSMB": 165,
     "localProcess_vmRSSPeakMB": 195,
     "serverTimestamp_day": 183,
