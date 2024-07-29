@@ -28,7 +28,7 @@
     "def": {
       "type": "pie",
       "variant": "normal",
-      "name": "Total Estimated Cost ($) per LLM Type",
+      "name": "Total Estimated Cost ($) per Connection type",
       "userEditedName": true,
       "displayWithEChartsByDefault": true,
       "genericDimension0": [
@@ -78,6 +78,8 @@
             "measureIdx": 0,
             "label": "Sum of llmUsage_estimatedCostUSD, descending"
           },
+          "prefix": "",
+          "suffix": "",
           "multiplier": "Auto",
           "digitGrouping": "DEFAULT"
         }
