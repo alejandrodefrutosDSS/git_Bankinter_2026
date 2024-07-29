@@ -154,40 +154,6 @@
     "globalSearchQuery": "",
     "explorationFilters": [
       {
-        "column": "llmUsage_totalQueries",
-        "type": "columnFilter",
-        "currentMode": "FACET",
-        "active": true,
-        "facet": {
-          "type": "facet",
-          "column": "llmUsage_totalQueries",
-          "columnType": "NUMERICAL",
-          "currentMode": "NUMERICAL",
-          "sort": "count",
-          "maxValue": 0.99,
-          "selectedValues": {}
-        },
-        "alphanumFilter": {
-          "type": "alphanum",
-          "column": "llmUsage_totalQueries",
-          "selectedValues": [],
-          "params": {
-            "mode": "full_string",
-            "normalization": "exact"
-          }
-        },
-        "validityFilter": {
-          "type": "validity",
-          "column": "llmUsage_totalQueries",
-          "params": {
-            "type": "LongMeaning",
-            "ok": true,
-            "nok": true,
-            "empty": true
-          }
-        }
-      },
-      {
         "column": "llmUsage_usageType",
         "type": "columnFilter",
         "currentMode": "FACET",
@@ -198,7 +164,9 @@
           "columnType": "ALPHANUM",
           "currentMode": "ALPHANUM",
           "sort": "count",
-          "selectedValues": {}
+          "selectedValues": {
+            "TEXT_EMBEDDING_EXTRACTION": true
+          }
         },
         "alphanumFilter": {
           "type": "alphanum",
@@ -212,6 +180,41 @@
         "validityFilter": {
           "type": "validity",
           "column": "llmUsage_usageType",
+          "params": {
+            "type": "Text",
+            "ok": true,
+            "nok": true,
+            "empty": true
+          }
+        }
+      },
+      {
+        "column": "context_projectKey",
+        "type": "columnFilter",
+        "currentMode": "FACET",
+        "active": true,
+        "facet": {
+          "type": "facet",
+          "column": "context_projectKey",
+          "columnType": "ALPHANUM",
+          "currentMode": "ALPHANUM",
+          "sort": "count",
+          "selectedValues": {
+            "ce16b46e15dc6dab249986f597d84854fc7ffa97128af383925855e5b016f7d7": true
+          }
+        },
+        "alphanumFilter": {
+          "type": "alphanum",
+          "column": "context_projectKey",
+          "selectedValues": [],
+          "params": {
+            "mode": "full_string",
+            "normalization": "exact"
+          }
+        },
+        "validityFilter": {
+          "type": "validity",
+          "column": "context_projectKey",
           "params": {
             "type": "Text",
             "ok": true,
