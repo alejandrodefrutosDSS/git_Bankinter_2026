@@ -399,7 +399,7 @@
       "disabled": false,
       "type": "CreateColumnWithGREL",
       "params": {
-        "expression": "if (val(\"Usage type\") \u003d\u003d \"COMPLETION\", llmUsage_cacheMissQueries, 0)",
+        "expression": "if (val(\"Usage type\") \u003d\u003d \"COMPLETION\", llmUsage_cacheMissQueries, 1)",
         "column": "Number of LLM cache miss"
       },
       "alwaysShowComment": false
