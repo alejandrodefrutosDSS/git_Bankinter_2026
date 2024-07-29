@@ -104,6 +104,27 @@
           "kpiValueFontSizeMode": "RESPONSIVE",
           "kpiValueFontSize": 32,
           "colorRules": []
+        },
+        {
+          "column": "Number of LLM cache miss",
+          "function": "SUM",
+          "type": "NUMERICAL",
+          "displayed": true,
+          "isA": "measure",
+          "displayAxis": "axis1",
+          "displayType": "column",
+          "computeMode": "NORMAL",
+          "computeModeDim": 0,
+          "multiplier": "Auto",
+          "digitGrouping": "DEFAULT",
+          "displayLabel": "Number of LLM cache miss",
+          "showDisplayLabel": true,
+          "labelPosition": "BOTTOM",
+          "labelFontSize": 16,
+          "kpiTextAlign": "CENTER",
+          "kpiValueFontSizeMode": "RESPONSIVE",
+          "kpiValueFontSize": 32,
+          "colorRules": []
         }
       ],
       "xDimension": [],
