@@ -48,28 +48,24 @@
             {
               "type": "NATURAL",
               "label": "Natural ordering",
-              "sortAscending": true,
-              "$$hashKey": "object:25573"
+              "sortAscending": true
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of llmUsage_estimatedCostUSD, descending",
-              "$$hashKey": "object:25572"
+              "label": "Average of llmUsage_estimatedCostUSD, descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of llmUsage_estimatedCostUSD, ascending",
-              "sortAscending": true,
-              "$$hashKey": "object:25574"
+              "label": "Average of llmUsage_estimatedCostUSD, ascending",
+              "sortAscending": true
             }
           ],
           "sort": {
-            "type": "AGGREGATION",
-            "measureIdx": 0,
-            "label": "Sum of llmUsage_estimatedCostUSD, descending",
-            "$$hashKey": "object:25572"
+            "type": "NATURAL",
+            "label": "Natural ordering",
+            "sortAscending": true
           },
           "prefix": "",
           "suffix": "",
@@ -99,12 +95,12 @@
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of llmUsage_estimatedCostUSD, descending"
+              "label": "Average of llmUsage_estimatedCostUSD, descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of llmUsage_estimatedCostUSD, ascending",
+              "label": "Average of llmUsage_estimatedCostUSD, ascending",
               "sortAscending": true
             }
           ],
@@ -124,7 +120,7 @@
       "genericMeasures": [
         {
           "column": "llmUsage_estimatedCostUSD",
-          "function": "SUM",
+          "function": "AVG",
           "type": "NUMERICAL",
           "displayed": true,
           "isA": "measure",
@@ -355,9 +351,7 @@
           "values": [],
           "fixedValues": false
         },
-        "customColors": {
-          "v_TEXT_EMBEDDING_EXTRACTION": "#ffbb78"
-        }
+        "customColors": {}
       },
       "bubblesOptions": {
         "defaultRadius": 5.0,
@@ -531,7 +525,7 @@
   },
   "owner": "fabien.daoulas@dataiku.com",
   "listed": false,
-  "name": "Total Estimated Cost ($) per LLM usage and project",
+  "name": "Total Estimated Cost ($) per Usage type and Project",
   "dashboardCreationId": "tJacKJV",
   "creationTag": {
     "versionNumber": 0,
