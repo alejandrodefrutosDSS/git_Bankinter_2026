@@ -87,7 +87,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 16,
+              "top": 13,
               "left": 0,
               "width": 4,
               "height": 3
@@ -114,7 +114,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 24,
+              "top": 21,
               "left": 0,
               "width": 4,
               "height": 3
@@ -214,7 +214,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 24,
+              "top": 21,
               "left": 4,
               "width": 8,
               "height": 3
@@ -240,7 +240,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 20,
+              "top": 17,
               "left": 4,
               "width": 8,
               "height": 3
@@ -266,7 +266,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 20,
+              "top": 17,
               "left": 0,
               "width": 4,
               "height": 3
@@ -292,7 +292,7 @@
           {
             "tileType": "TEXT",
             "box": {
-              "top": 19,
+              "top": 16,
               "left": 0,
               "width": 12,
               "height": 1
@@ -311,7 +311,7 @@
           {
             "tileType": "TEXT",
             "box": {
-              "top": 23,
+              "top": 20,
               "left": 0,
               "width": 12,
               "height": 1
@@ -349,7 +349,7 @@
           {
             "tileType": "TEXT",
             "box": {
-              "top": 15,
+              "top": 12,
               "left": 0,
               "width": 12,
               "height": 1
@@ -394,10 +394,10 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 27,
-              "left": 0,
-              "width": 2,
-              "height": 2
+              "top": 13,
+              "left": 4,
+              "width": 8,
+              "height": 3
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
