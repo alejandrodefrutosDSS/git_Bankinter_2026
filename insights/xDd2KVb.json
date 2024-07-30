@@ -26,16 +26,76 @@
       "_refreshTrigger": 0
     },
     "def": {
-      "type": "grouped_columns",
+      "type": "pie",
       "variant": "normal",
-      "name": "Chart",
+      "name": "Sum of llmUsage_estimatedCostUSD by Context",
       "userEditedName": false,
       "displayWithEChartsByDefault": true,
-      "genericDimension0": [],
+      "genericDimension0": [
+        {
+          "column": "Context",
+          "type": "ALPHANUM",
+          "numParams": {
+            "emptyBinsMode": "ZEROS"
+          },
+          "maxValues": 20,
+          "generateOthersCategory": true,
+          "forceLastPositionOthers": false,
+          "oneTickPerBin": false,
+          "filters": [],
+          "isA": "dimension",
+          "possibleSorts": [
+            {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Sum of llmUsage_estimatedCostUSD, descending"
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Sum of llmUsage_estimatedCostUSD, ascending",
+              "sortAscending": true
+            }
+          ],
+          "sort": {
+            "type": "NATURAL",
+            "label": "Natural ordering",
+            "sortAscending": true
+          },
+          "multiplier": "Auto",
+          "digitGrouping": "DEFAULT"
+        }
+      ],
       "genericDimension1": [],
       "facetDimension": [],
       "animationDimension": [],
-      "genericMeasures": [],
+      "genericMeasures": [
+        {
+          "column": "llmUsage_estimatedCostUSD",
+          "function": "SUM",
+          "type": "NUMERICAL",
+          "displayed": true,
+          "isA": "measure",
+          "displayAxis": "axis1",
+          "displayType": "column",
+          "computeMode": "NORMAL",
+          "computeModeDim": 0,
+          "multiplier": "Auto",
+          "digitGrouping": "DEFAULT",
+          "showDisplayLabel": true,
+          "labelPosition": "BOTTOM",
+          "labelFontSize": 16,
+          "kpiTextAlign": "CENTER",
+          "kpiValueFontSizeMode": "RESPONSIVE",
+          "kpiValueFontSize": 32,
+          "colorRules": []
+        }
+      ],
       "xDimension": [],
       "yDimension": [],
       "uaXDimension": [],
@@ -80,6 +140,7 @@
       "tooltipMeasures": [],
       "boxplotBreakdownDim": [],
       "boxplotValue": [],
+      "filters": [],
       "xAxisFormatting": {
         "displayAxis": true,
         "showAxisTitle": true,
@@ -245,12 +306,16 @@
           "values": [],
           "fixedValues": false
         },
-        "customColors": {}
+        "customColors": {
+          "v_PROMPT_STUDIO": "#ad494a",
+          "v_WEBAPP_BACKEND": "#ffbb78"
+        }
       },
       "bubblesOptions": {
         "defaultRadius": 5.0,
         "singleShape": "FILLED_CIRCLE"
       },
+      "computeMode": "NORMAL",
       "xAxisMode": "NORMAL",
       "yAxisMode": "NORMAL",
       "pieOptions": {
@@ -402,7 +467,9 @@
         },
         "horizontal": {
           "show": false,
-          "displayAxis": {},
+          "displayAxis": {
+            "type": "LEFT_Y_AXIS"
+          },
           "lineFormatting": {
             "type": "FILLED",
             "color": "#d9d9d9",
