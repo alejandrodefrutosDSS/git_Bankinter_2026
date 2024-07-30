@@ -104,7 +104,6 @@
             },
             "autoLoad": true,
             "showTitle": "YES",
-            "title": "Total Estimated Cost ($) per User",
             "insightId": "aJ6h3DB",
             "insightType": "chart",
             "displayMode": "INSIGHT",
