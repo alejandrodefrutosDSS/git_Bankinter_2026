@@ -114,7 +114,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 15,
+              "top": 16,
               "left": 0,
               "width": 4,
               "height": 3
@@ -214,7 +214,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 15,
+              "top": 16,
               "left": 4,
               "width": 8,
               "height": 3
@@ -311,7 +311,7 @@
           {
             "tileType": "TEXT",
             "box": {
-              "top": 18,
+              "top": 15,
               "left": 0,
               "width": 12,
               "height": 1
@@ -319,7 +319,7 @@
             "clickAction": "DO_NOTHING",
             "tileParams": {
               "text": "Estimated cost breakdown per  **project and usage type**  (COMPLETION, TEXT_EMBEDDING...)",
-              "textAlign": "LEFT",
+              "textAlign": "CENTER",
               "isTransparent": false
             },
             "autoLoad": true,
