@@ -484,7 +484,7 @@
   },
   "owner": "fabien.daoulas@dataiku.com",
   "listed": true,
-  "name": "Total Estimated Cost ($) per Connection type",
+  "name": "Connection type Estimated Cost ($) Distribution",
   "dashboardCreationId": "tJacKJV",
   "creationTag": {
     "versionNumber": 0,
