@@ -28,7 +28,7 @@
     "def": {
       "type": "grouped_columns",
       "variant": "normal",
-      "name": "Total Estimated Cost ($) per Usage type and Project",
+      "name": "Total Estimated Cost ($) by Usage type and Project",
       "userEditedName": true,
       "displayWithEChartsByDefault": true,
       "genericDimension0": [
