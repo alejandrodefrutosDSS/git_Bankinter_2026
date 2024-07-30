@@ -114,7 +114,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 14,
+              "top": 15,
               "left": 0,
               "width": 4,
               "height": 3
@@ -214,7 +214,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 14,
+              "top": 15,
               "left": 4,
               "width": 8,
               "height": 3
@@ -240,7 +240,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 11,
+              "top": 12,
               "left": 4,
               "width": 8,
               "height": 3
@@ -266,7 +266,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 11,
+              "top": 12,
               "left": 0,
               "width": 4,
               "height": 3
@@ -292,7 +292,7 @@
           {
             "tileType": "TEXT",
             "box": {
-              "top": 17,
+              "top": 11,
               "left": 0,
               "width": 12,
               "height": 1
@@ -301,6 +301,25 @@
             "tileParams": {
               "text": "Estimated cost breakdown per  **project and connection type**  (OPENAI, MISTRALAI...)",
               "textAlign": "CENTER",
+              "isTransparent": false
+            },
+            "autoLoad": true,
+            "showTitle": "NO",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "TEXT",
+            "box": {
+              "top": 18,
+              "left": 0,
+              "width": 12,
+              "height": 1
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "text": "Estimated cost breakdown per  **project and usage type**  (COMPLETION, TEXT_EMBEDDING...)",
+              "textAlign": "LEFT",
               "isTransparent": false
             },
             "autoLoad": true,
