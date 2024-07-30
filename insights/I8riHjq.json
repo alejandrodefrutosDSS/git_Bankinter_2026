@@ -28,7 +28,7 @@
     "def": {
       "type": "pie",
       "variant": "normal",
-      "name": "Total Estimated Cost ($) per Connection type",
+      "name": "Connection type Estimated Cost ($) Distribution",
       "userEditedName": true,
       "displayWithEChartsByDefault": true,
       "genericDimension0": [
@@ -67,6 +67,8 @@
             "label": "Natural ordering",
             "sortAscending": true
           },
+          "prefix": "",
+          "suffix": "",
           "multiplier": "Auto",
           "digitGrouping": "DEFAULT"
         }
@@ -87,6 +89,8 @@
           "computeModeDim": 0,
           "multiplier": "Auto",
           "digitGrouping": "DEFAULT",
+          "prefix": "",
+          "suffix": "",
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
           "labelFontSize": 16,
