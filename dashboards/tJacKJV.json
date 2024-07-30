@@ -103,7 +103,7 @@
               "autoPlayAnimation": true
             },
             "autoLoad": true,
-            "showTitle": "YES",
+            "showTitle": "NO",
             "insightId": "aJ6h3DB",
             "insightType": "chart",
             "displayMode": "INSIGHT",
