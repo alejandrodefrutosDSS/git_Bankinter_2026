@@ -110,7 +110,7 @@
             {
               "mode": "GREATER_THAN",
               "value": 0.0,
-              "styleClass": "color-rule--green-background",
+              "styleClass": "color-rule__custom",
               "colorOptions": {
                 "ccScaleMode": "NORMAL",
                 "paletteType": "CONTINUOUS",
@@ -131,7 +131,7 @@
                 },
                 "customColors": {
                   "customFontColor": "#FFFFFF",
-                  "customBackgroundColor": "#668DBB"
+                  "customBackgroundColor": "#8ABA00"
                 }
               }
             }
