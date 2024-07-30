@@ -106,7 +106,36 @@
           "kpiTextAlign": "CENTER",
           "kpiValueFontSizeMode": "RESPONSIVE",
           "kpiValueFontSize": 32,
-          "colorRules": []
+          "colorRules": [
+            {
+              "mode": "GREATER_THAN",
+              "value": 0.0,
+              "styleClass": "color-rule--green-background",
+              "colorOptions": {
+                "ccScaleMode": "NORMAL",
+                "paletteType": "CONTINUOUS",
+                "quantizationMode": "NONE",
+                "numQuantizeSteps": 5,
+                "paletteMiddleValue": 0.0,
+                "heatDensityMapIntensity": 0.5,
+                "heatDensityMapRadius": 0.5,
+                "singleColor": "#659a88",
+                "transparency": 0.75,
+                "colorPalette": "dku_text_background",
+                "customPalette": {
+                  "id": "__dku_custom__",
+                  "name": "Custom palette",
+                  "colors": [],
+                  "values": [],
+                  "fixedValues": false
+                },
+                "customColors": {
+                  "customFontColor": "#FFFFFF",
+                  "customBackgroundColor": "#668DBB"
+                }
+              }
+            }
+          ]
         },
         {
           "column": "Number of LLM cache miss",
@@ -130,7 +159,36 @@
           "kpiTextAlign": "CENTER",
           "kpiValueFontSizeMode": "RESPONSIVE",
           "kpiValueFontSize": 32,
-          "colorRules": []
+          "colorRules": [
+            {
+              "mode": "GREATER_THAN",
+              "value": 0.0,
+              "styleClass": "color-rule--orange-background",
+              "colorOptions": {
+                "ccScaleMode": "NORMAL",
+                "paletteType": "CONTINUOUS",
+                "quantizationMode": "NONE",
+                "numQuantizeSteps": 5,
+                "paletteMiddleValue": 0.0,
+                "heatDensityMapIntensity": 0.5,
+                "heatDensityMapRadius": 0.5,
+                "singleColor": "#659a88",
+                "transparency": 0.75,
+                "colorPalette": "dku_text_background",
+                "customPalette": {
+                  "id": "__dku_custom__",
+                  "name": "Custom palette",
+                  "colors": [],
+                  "values": [],
+                  "fixedValues": false
+                },
+                "customColors": {
+                  "customFontColor": "#FFFFFF",
+                  "customBackgroundColor": "#668DBB"
+                }
+              }
+            }
+          ]
         }
       ],
       "xDimension": [],
