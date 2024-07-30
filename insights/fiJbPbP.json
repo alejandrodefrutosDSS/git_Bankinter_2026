@@ -28,8 +28,8 @@
     "def": {
       "type": "grouped_columns",
       "variant": "normal",
-      "name": "Sum of llmUsage_estimatedCostUSD by Project and Connection type",
-      "userEditedName": false,
+      "name": "Sum of llmUsage_estimatedCostUSD by Project and Connection type Connection type Estimated Cost ($) Distribution",
+      "userEditedName": true,
       "displayWithEChartsByDefault": true,
       "genericDimension0": [
         {
@@ -90,28 +90,24 @@
             {
               "type": "NATURAL",
               "label": "Natural ordering",
-              "sortAscending": true,
-              "$$hashKey": "object:30654"
+              "sortAscending": true
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of llmUsage_estimatedCostUSD, descending",
-              "$$hashKey": "object:30655"
+              "label": "Sum of llmUsage_estimatedCostUSD, descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
               "label": "Sum of llmUsage_estimatedCostUSD, ascending",
-              "sortAscending": true,
-              "$$hashKey": "object:30656"
+              "sortAscending": true
             }
           ],
           "sort": {
             "type": "NATURAL",
             "label": "Natural ordering",
-            "sortAscending": true,
-            "$$hashKey": "object:30654"
+            "sortAscending": true
           },
           "prefix": "",
           "suffix": "",
