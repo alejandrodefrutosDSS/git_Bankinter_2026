@@ -355,7 +355,9 @@
           "values": [],
           "fixedValues": false
         },
-        "customColors": {}
+        "customColors": {
+          "v_TEXT_EMBEDDING_EXTRACTION": "#ffbb78"
+        }
       },
       "bubblesOptions": {
         "defaultRadius": 5.0,
