@@ -758,7 +758,7 @@
   ],
   "owner": "antoine.detorcy@dataiku.com",
   "listed": true,
-  "name": "LLM Usage",
+  "name": "LLM cost monitoring",
   "showGrid": true,
   "showNavigationArrows": false,
   "reloadWhenEventReceived": false,
