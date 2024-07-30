@@ -77,8 +77,7 @@
               "autoPlayAnimation": true
             },
             "autoLoad": true,
-            "showTitle": "YES",
-            "title": "Total Estimated Cost ($) per Project",
+            "showTitle": "NO",
             "insightId": "bPyO92M",
             "insightType": "chart",
             "displayMode": "INSIGHT",
