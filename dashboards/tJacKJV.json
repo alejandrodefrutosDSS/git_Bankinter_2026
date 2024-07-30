@@ -299,8 +299,8 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "Estimated cost breakdown per project and connection type (OPENAI, MISTRALAI...)",
-              "textAlign": "LEFT",
+              "text": "Estimated cost breakdown per  **project and connection type**  (OPENAI, MISTRALAI...)",
+              "textAlign": "CENTER",
               "isTransparent": false
             },
             "autoLoad": true,
