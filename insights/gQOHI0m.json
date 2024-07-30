@@ -110,7 +110,7 @@
             {
               "mode": "GREATER_THAN",
               "value": 0.0,
-              "styleClass": "color-rule__custom",
+              "styleClass": "color-rule--green-background",
               "colorOptions": {
                 "ccScaleMode": "NORMAL",
                 "paletteType": "CONTINUOUS",
