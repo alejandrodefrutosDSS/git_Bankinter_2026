@@ -51,29 +51,27 @@
             {
               "type": "NATURAL",
               "label": "Natural ordering",
-              "sortAscending": true,
-              "$$hashKey": "object:745"
+              "sortAscending": true
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of llmUsage_estimatedCostUSD, descending",
-              "$$hashKey": "object:746"
+              "label": "Sum of llmUsage_estimatedCostUSD, descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
               "label": "Sum of llmUsage_estimatedCostUSD, ascending",
-              "sortAscending": true,
-              "$$hashKey": "object:747"
+              "sortAscending": true
             }
           ],
           "sort": {
             "type": "NATURAL",
             "label": "Natural ordering",
-            "sortAscending": true,
-            "$$hashKey": "object:745"
+            "sortAscending": true
           },
+          "prefix": "",
+          "suffix": "",
           "multiplier": "Auto",
           "digitGrouping": "DEFAULT"
         }
@@ -316,7 +314,8 @@
           "fixedValues": false
         },
         "customColors": {
-          "m_llmUsage_estimatedCostUSD_SUM_2": "#ff7f0e"
+          "m_llmUsage_estimatedCostUSD_SUM_2": "#ff7f0e",
+          "m_llmUsage_estimatedCostUSD_SUM_1": "#ff7f0e"
         }
       },
       "bubblesOptions": {
