@@ -306,7 +306,11 @@
           "values": [],
           "fixedValues": false
         },
-        "customColors": {}
+        "customColors": {
+          "v_AZURE_OPENAI": "#ff7f0e",
+          "v_OPENAI": "#1f77b4",
+          "v_BEDROCK": "#ad494a"
+        }
       },
       "bubblesOptions": {
         "defaultRadius": 5.0,
