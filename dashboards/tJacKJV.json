@@ -299,7 +299,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "**Estimated cost breakdown by  connection type**  \n(OPENAI, MISTRALAI...)",
+              "text": "**Estimated cost breakdown by  [connection type](https://doc.dataiku.com/dss/latest/generative-ai/llm-connections.html)**  \n(OPENAI, MISTRALAI...)",
               "textAlign": "CENTER",
               "isTransparent": false
             },
