@@ -114,7 +114,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 21,
+              "top": 22,
               "left": 0,
               "width": 4,
               "height": 3
@@ -214,7 +214,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 21,
+              "top": 22,
               "left": 4,
               "width": 8,
               "height": 3
@@ -311,7 +311,7 @@
           {
             "tileType": "TEXT",
             "box": {
-              "top": 20,
+              "top": 21,
               "left": 0,
               "width": 12,
               "height": 1
@@ -414,6 +414,25 @@
             "showTitle": "YES",
             "insightId": "M6DXixs",
             "insightType": "chart",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "TEXT",
+            "box": {
+              "top": 20,
+              "left": 0,
+              "width": 12,
+              "height": 1
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "text": "**Estimated cost brekdown by context**\n(WEBAPP, JOB_ACTIVITY, PROMPT_STUDIO...)",
+              "textAlign": "CENTER",
+              "isTransparent": false
+            },
+            "autoLoad": true,
+            "showTitle": "NO",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
           }
