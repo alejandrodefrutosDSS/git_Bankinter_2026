@@ -28,7 +28,7 @@
     "def": {
       "type": "pie",
       "variant": "normal",
-      "name": "Total Estimated Cost ($) per Connection type",
+      "name": "Total Estimated Cost ($) per type",
       "userEditedName": true,
       "displayWithEChartsByDefault": true,
       "genericDimension0": [
