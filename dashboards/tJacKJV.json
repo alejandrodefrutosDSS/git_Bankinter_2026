@@ -318,7 +318,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "Estimated cost breakdown by  **usage type**  \n(COMPLETION, TEXT_EMBEDDING_EXTRACTION, IMAGE_EMBEDDING_EXTRACTION, IMAGE_GENERATION)",
+              "text": "Estimated cost breakdown by  **usage type**  \n(COMPLETION, TEXT_EMBEDDING_EXTRACTION, IMAGE_EMBEDDING_EXTRACTION, IMAGE_GENERATION...)",
               "textAlign": "CENTER",
               "isTransparent": false
             },
