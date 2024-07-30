@@ -594,7 +594,7 @@
   },
   "owner": "lea.senequier@dataiku.com",
   "listed": true,
-  "name": "Total Estimated Cost ($) per Project on logs_llm_usage_prepared",
+  "name": "Total Estimated Cost ($) per User on logs_llm_usage_prepared",
   "dashboardCreationId": "tJacKJV",
   "creationTag": {
     "versionNumber": 0,
