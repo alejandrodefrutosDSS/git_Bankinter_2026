@@ -28,8 +28,8 @@
     "def": {
       "type": "pie",
       "variant": "normal",
-      "name": "Sum of llmUsage_estimatedCostUSD by Context",
-      "userEditedName": false,
+      "name": "Context Estimated Cost ($) Distribution",
+      "userEditedName": true,
       "displayWithEChartsByDefault": true,
       "genericDimension0": [
         {
