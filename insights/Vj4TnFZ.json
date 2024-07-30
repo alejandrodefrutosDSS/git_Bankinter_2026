@@ -48,25 +48,31 @@
             {
               "type": "NATURAL",
               "label": "Natural ordering",
-              "sortAscending": true
+              "sortAscending": true,
+              "$$hashKey": "object:11254"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of llmUsage_estimatedCostUSD, descending"
+              "label": "Sum of llmUsage_estimatedCostUSD, descending",
+              "$$hashKey": "object:11255"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
               "label": "Sum of llmUsage_estimatedCostUSD, ascending",
-              "sortAscending": true
+              "sortAscending": true,
+              "$$hashKey": "object:11256"
             }
           ],
           "sort": {
             "type": "NATURAL",
             "label": "Natural ordering",
-            "sortAscending": true
+            "sortAscending": true,
+            "$$hashKey": "object:11254"
           },
+          "prefix": "",
+          "suffix": "",
           "multiplier": "Auto",
           "digitGrouping": "DEFAULT"
         }
@@ -87,6 +93,8 @@
           "computeModeDim": 0,
           "multiplier": "Auto",
           "digitGrouping": "DEFAULT",
+          "prefix": "",
+          "suffix": "",
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
           "labelFontSize": 16,
