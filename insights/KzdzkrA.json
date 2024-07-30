@@ -527,7 +527,7 @@
   },
   "owner": "fabien.daoulas@dataiku.com",
   "listed": true,
-  "name": "Total Estimated Cost ($) per Usage type and Project",
+  "name": "Total Estimated Cost ($) by Usage type and Project",
   "dashboardCreationId": "tJacKJV",
   "creationTag": {
     "versionNumber": 0,
