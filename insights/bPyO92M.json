@@ -28,7 +28,7 @@
     "def": {
       "type": "pie",
       "variant": "normal",
-      "name": "Total Estimated Cost ($) per Project",
+      "name": "Total Estimated Cost ($) by Project",
       "userEditedName": true,
       "displayWithEChartsByDefault": true,
       "genericDimension0": [
