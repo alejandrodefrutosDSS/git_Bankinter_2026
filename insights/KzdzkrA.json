@@ -48,24 +48,28 @@
             {
               "type": "NATURAL",
               "label": "Natural ordering",
-              "sortAscending": true
+              "sortAscending": true,
+              "$$hashKey": "object:26856"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Average of llmUsage_estimatedCostUSD, descending"
+              "label": "Sum of llmUsage_estimatedCostUSD, descending",
+              "$$hashKey": "object:26855"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Average of llmUsage_estimatedCostUSD, ascending",
-              "sortAscending": true
+              "label": "Sum of llmUsage_estimatedCostUSD, ascending",
+              "sortAscending": true,
+              "$$hashKey": "object:26857"
             }
           ],
           "sort": {
-            "type": "NATURAL",
-            "label": "Natural ordering",
-            "sortAscending": true
+            "type": "AGGREGATION",
+            "measureIdx": 0,
+            "label": "Sum of llmUsage_estimatedCostUSD, descending",
+            "$$hashKey": "object:26855"
           },
           "prefix": "",
           "suffix": "",
@@ -95,12 +99,12 @@
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Average of llmUsage_estimatedCostUSD, descending"
+              "label": "Sum of llmUsage_estimatedCostUSD, descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Average of llmUsage_estimatedCostUSD, ascending",
+              "label": "Sum of llmUsage_estimatedCostUSD, ascending",
               "sortAscending": true
             }
           ],
@@ -120,7 +124,7 @@
       "genericMeasures": [
         {
           "column": "llmUsage_estimatedCostUSD",
-          "function": "AVG",
+          "function": "SUM",
           "type": "NUMERICAL",
           "displayed": true,
           "isA": "measure",
