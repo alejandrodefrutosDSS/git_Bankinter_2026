@@ -130,7 +130,7 @@
               "autoPlayAnimation": true
             },
             "autoLoad": true,
-            "showTitle": "NO",
+            "showTitle": "YES",
             "insightId": "pCRPanB",
             "insightType": "chart",
             "displayMode": "INSIGHT",
