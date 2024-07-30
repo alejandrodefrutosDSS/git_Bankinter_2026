@@ -572,7 +572,7 @@
   },
   "owner": "lea.senequier@dataiku.com",
   "listed": true,
-  "name": "Total Estimated Cost ($) per Usage type on logs_llm_usage_prepared",
+  "name": "Usage type Estimated Cost ($) Distribution",
   "dashboardCreationId": "tJacKJV",
   "creationTag": {
     "versionNumber": 0,
