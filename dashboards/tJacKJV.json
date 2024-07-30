@@ -130,8 +130,7 @@
               "autoPlayAnimation": true
             },
             "autoLoad": true,
-            "showTitle": "YES",
-            "title": "Total Estimated Cost ($) per Usage Type",
+            "showTitle": "NO",
             "insightId": "pCRPanB",
             "insightType": "chart",
             "displayMode": "INSIGHT",
