@@ -28,7 +28,7 @@
     "def": {
       "type": "pie",
       "variant": "normal",
-      "name": "Total Estimated Cost ($) per Usage type",
+      "name": "Usage type Estimated Cost ($) Distribution",
       "userEditedName": true,
       "displayWithEChartsByDefault": true,
       "genericDimension0": [
