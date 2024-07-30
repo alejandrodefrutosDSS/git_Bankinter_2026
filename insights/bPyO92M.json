@@ -594,7 +594,7 @@
   },
   "owner": "lea.senequier@dataiku.com",
   "listed": true,
-  "name": "Total Estimated Cost ($) by Project",
+  "name": "Project Estimated Cost ($) Distribution",
   "dashboardCreationId": "tJacKJV",
   "creationTag": {
     "versionNumber": 0,
