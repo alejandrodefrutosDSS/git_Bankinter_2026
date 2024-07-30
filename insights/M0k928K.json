@@ -412,7 +412,9 @@
           ],
           "fixedValues": false
         },
-        "customColors": {}
+        "customColors": {
+          "v_BEDROCK": "#ad494a"
+        }
       },
       "bubblesOptions": {
         "defaultRadius": 5.0,
