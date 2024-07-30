@@ -141,33 +141,6 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 11,
-              "left": 0,
-              "width": 4,
-              "height": 3
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "autoLoad": true,
-            "showTitle": "YES",
-            "title": "Total Estimated Cost ($) per LLM Type",
-            "insightId": "M0k928K",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
               "top": 2,
               "left": 0,
               "width": 5,
@@ -293,10 +266,10 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 17,
+              "top": 11,
               "left": 0,
-              "width": 2,
-              "height": 2
+              "width": 4,
+              "height": 3
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
