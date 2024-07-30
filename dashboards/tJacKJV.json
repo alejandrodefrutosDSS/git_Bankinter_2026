@@ -103,7 +103,8 @@
               "autoPlayAnimation": true
             },
             "autoLoad": true,
-            "showTitle": "NO",
+            "showTitle": "YES",
+            "title": "User Estimated Cost ($) Distribution",
             "insightId": "aJ6h3DB",
             "insightType": "chart",
             "displayMode": "INSIGHT",
