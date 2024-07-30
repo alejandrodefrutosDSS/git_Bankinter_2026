@@ -485,7 +485,7 @@
     "datasetSmartName": "logs_llm_usage_prepared"
   },
   "owner": "fabien.daoulas@dataiku.com",
-  "listed": false,
+  "listed": true,
   "name": "Total Estimated Cost ($) by User",
   "dashboardCreationId": "tJacKJV",
   "creationTag": {
