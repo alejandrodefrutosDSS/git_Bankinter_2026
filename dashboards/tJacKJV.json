@@ -427,7 +427,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "**Estimated cost brekdown by context**\n(WEBAPP, JOB_ACTIVITY, PROMPT_STUDIO...)",
+              "text": "**Estimated cost brekdown by [context](https://doc.dataiku.com/dss/latest/operations/compute-resource-usage-reporting.html#concepts)**\n(WEBAPP, JOB_ACTIVITY, PROMPT_STUDIO...)",
               "textAlign": "CENTER",
               "isTransparent": false
             },
