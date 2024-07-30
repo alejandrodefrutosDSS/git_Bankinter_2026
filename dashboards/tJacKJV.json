@@ -299,7 +299,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "Estimated cost breakdown by  **connection type**  (OPENAI, MISTRALAI...)",
+              "text": "Estimated cost breakdown by  **connection type**  \n(OPENAI, MISTRALAI...)",
               "textAlign": "CENTER",
               "isTransparent": false
             },
