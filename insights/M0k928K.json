@@ -48,41 +48,35 @@
             {
               "type": "NATURAL",
               "label": "Natural ordering",
-              "sortAscending": true,
-              "$$hashKey": "object:16835"
+              "sortAscending": true
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of llmUsage_estimatedCostUSD, descending",
-              "$$hashKey": "object:16836"
+              "label": "Sum of llmUsage_estimatedCostUSD, descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
               "label": "Sum of llmUsage_estimatedCostUSD, ascending",
-              "sortAscending": true,
-              "$$hashKey": "object:16837"
+              "sortAscending": true
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
-              "label": "Average of estimated_cost_saved, descending",
-              "$$hashKey": "object:16838"
+              "label": "Average of estimated_cost_saved, descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
               "label": "Average of estimated_cost_saved, ascending",
-              "sortAscending": true,
-              "$$hashKey": "object:16839"
+              "sortAscending": true
             }
           ],
           "sort": {
             "type": "AGGREGATION",
             "measureIdx": 0,
-            "label": "Sum of llmUsage_estimatedCostUSD, descending",
-            "$$hashKey": "object:16836"
+            "label": "Sum of llmUsage_estimatedCostUSD, descending"
           },
           "prefix": "",
           "suffix": "",
@@ -594,7 +588,7 @@
   },
   "owner": "lea.senequier@dataiku.com",
   "listed": true,
-  "name": "Total Estimated Cost ($) per Connection type",
+  "name": "Total Estimated Cost ($) per type",
   "dashboardCreationId": "tJacKJV",
   "creationTag": {
     "versionNumber": 0,
