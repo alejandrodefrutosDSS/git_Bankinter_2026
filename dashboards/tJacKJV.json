@@ -318,7 +318,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "Estimated cost breakdown per  **project and usage type**  (COMPLETION, TEXT_EMBEDDING...)",
+              "text": "Estimated cost breakdown per  **project and usage type**  (COMPLETION, TEXT_EMBEDDING_EXTRACRTION...)",
               "textAlign": "CENTER",
               "isTransparent": false
             },
