@@ -465,10 +465,10 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 28,
-              "left": 0,
-              "width": 2,
-              "height": 2
+              "top": 21,
+              "left": 4,
+              "width": 8,
+              "height": 3
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
