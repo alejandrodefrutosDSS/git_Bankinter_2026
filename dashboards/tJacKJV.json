@@ -332,13 +332,13 @@
             "box": {
               "top": 19,
               "left": 0,
-              "width": 2,
-              "height": 2
+              "width": 12,
+              "height": 1
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
               "text": "**Estimated cost breakdown by project**",
-              "textAlign": "LEFT",
+              "textAlign": "CENTER",
               "isTransparent": false
             },
             "autoLoad": true,
