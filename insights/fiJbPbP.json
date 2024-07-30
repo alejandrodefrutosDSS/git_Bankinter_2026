@@ -533,7 +533,7 @@
   },
   "owner": "fabien.daoulas@dataiku.com",
   "listed": true,
-  "name": "Total Estimated Cost ($) per Connection type and Project",
+  "name": "Total Estimated Cost ($) by Connection type and Project",
   "dashboardCreationId": "tJacKJV",
   "creationTag": {
     "versionNumber": 0,
