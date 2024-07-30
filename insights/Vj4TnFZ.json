@@ -488,7 +488,7 @@
   },
   "owner": "fabien.daoulas@dataiku.com",
   "listed": true,
-  "name": "Total Estimated Cost ($) per Context",
+  "name": "Total Estimated Cost ($) by Context",
   "dashboardCreationId": "tJacKJV",
   "creationTag": {
     "versionNumber": 0,
