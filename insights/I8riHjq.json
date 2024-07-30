@@ -26,7 +26,7 @@
       "_refreshTrigger": 1722335156858
     },
     "def": {
-      "type": "grouped_columns",
+      "type": "pie",
       "variant": "normal",
       "name": "Total Estimated Cost ($) per Connection type",
       "userEditedName": true,
