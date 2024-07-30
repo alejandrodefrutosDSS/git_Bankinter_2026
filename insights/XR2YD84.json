@@ -314,7 +314,9 @@
           "values": [],
           "fixedValues": false
         },
-        "customColors": {}
+        "customColors": {
+          "m_estimated_cost_saved_SUM_1": "#2ca02c"
+        }
       },
       "bubblesOptions": {
         "defaultRadius": 5.0,
