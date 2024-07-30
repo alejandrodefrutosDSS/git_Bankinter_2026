@@ -114,7 +114,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 22,
+              "top": 25,
               "left": 0,
               "width": 4,
               "height": 3
@@ -214,7 +214,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 22,
+              "top": 25,
               "left": 4,
               "width": 8,
               "height": 3
@@ -311,7 +311,7 @@
           {
             "tileType": "TEXT",
             "box": {
-              "top": 21,
+              "top": 24,
               "left": 0,
               "width": 12,
               "height": 1
@@ -439,10 +439,10 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 25,
+              "top": 21,
               "left": 0,
-              "width": 2,
-              "height": 2
+              "width": 4,
+              "height": 3
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
