@@ -9,7 +9,7 @@
             "box": {
               "top": 0,
               "left": 0,
-              "width": 10,
+              "width": 12,
               "height": 2
             },
             "clickAction": "DO_NOTHING",
@@ -472,7 +472,7 @@
             "box": {
               "top": 3,
               "left": 0,
-              "width": 10,
+              "width": 12,
               "height": 2
             },
             "clickAction": "DO_NOTHING",
