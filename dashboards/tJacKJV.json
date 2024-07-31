@@ -316,7 +316,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "**Estimated cost breakdown by project**\n **The pie chart**  represents the relative impact of each project for the total cost.  **The bar chart**  is a breakdown of induced cost by each project. **The stacked bar chart** displays the induced cost of each project over time. The charts show the first twenty most costly projects. The rest is grouped in \"Other\" category. ",
+              "text": "**Estimated cost breakdown by project**\n **The pie chart**  represents the relative impact of each project for the total cost.  **The bar chart**  is a breakdown of induced cost by each project. These charts show the first twenty most costly projects. The rest is grouped in \"Other\" category. **The stacked bar chart** displays the induced cost of each project over time. ",
               "textAlign": "CENTER",
               "isTransparent": false
             },
