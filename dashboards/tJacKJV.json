@@ -141,7 +141,7 @@
             "box": {
               "top": 5,
               "left": 0,
-              "width": 5,
+              "width": 6,
               "height": 3
             },
             "clickAction": "DO_NOTHING",
@@ -167,8 +167,8 @@
             "tileType": "INSIGHT",
             "box": {
               "top": 5,
-              "left": 5,
-              "width": 5,
+              "left": 6,
+              "width": 6,
               "height": 3
             },
             "clickAction": "DO_NOTHING",
@@ -187,25 +187,6 @@
             "title": "Cumulative Saved Costs ($)",
             "insightId": "XR2YD84",
             "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "TEXT",
-            "box": {
-              "top": 5,
-              "left": 10,
-              "width": 2,
-              "height": 3
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "text": "The **estimated saved costs** is a calculated metric that provides a representation of the cost-efficiency achieved through the use of **LLM mesh caching**. It is determined by computing the ratio of the number of queries that are served from the cache to the total estimated cost that would have been incurred if all queries were processed without cache utilization.",
-              "textAlign": "LEFT",
-              "isTransparent": false
-            },
-            "autoLoad": true,
-            "showTitle": "NO",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
           },
