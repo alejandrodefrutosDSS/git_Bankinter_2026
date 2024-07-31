@@ -316,7 +316,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "**Estimated cost breakdown by project**",
+              "text": "**Estimated cost breakdown by project**\nThe pie chart represents the share of each project in the total induces cost. The ",
               "textAlign": "CENTER",
               "isTransparent": false
             },
