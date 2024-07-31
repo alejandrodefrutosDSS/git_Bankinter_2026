@@ -67,6 +67,8 @@
             "measureIdx": 0,
             "label": "Sum of llmUsage_estimatedCostUSD, descending"
           },
+          "prefix": "",
+          "suffix": "",
           "multiplier": "Auto",
           "digitGrouping": "DEFAULT"
         }
@@ -349,7 +351,10 @@
           "values": [],
           "fixedValues": false
         },
-        "customColors": {}
+        "customColors": {
+          "v_WEBAPP_BACKEND": "#ffbb78",
+          "v_PROMPT_STUDIO": "#ad494a"
+        }
       },
       "bubblesOptions": {
         "defaultRadius": 5.0,
