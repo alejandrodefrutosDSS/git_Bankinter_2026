@@ -26,16 +26,115 @@
       "_refreshTrigger": 0
     },
     "def": {
-      "type": "grouped_columns",
+      "type": "kpi",
       "variant": "normal",
-      "name": "Chart",
+      "name": "Sum of Number of LLM cache hit",
       "userEditedName": false,
       "displayWithEChartsByDefault": true,
       "genericDimension0": [],
       "genericDimension1": [],
       "facetDimension": [],
       "animationDimension": [],
-      "genericMeasures": [],
+      "genericMeasures": [
+        {
+          "column": "Number of LLM cache hit",
+          "function": "SUM",
+          "type": "NUMERICAL",
+          "displayed": true,
+          "isA": "measure",
+          "displayAxis": "axis1",
+          "displayType": "column",
+          "computeMode": "NORMAL",
+          "computeModeDim": 0,
+          "multiplier": "Auto",
+          "digitGrouping": "DEFAULT",
+          "showDisplayLabel": true,
+          "labelPosition": "BOTTOM",
+          "labelFontSize": 16,
+          "kpiTextAlign": "CENTER",
+          "kpiValueFontSizeMode": "RESPONSIVE",
+          "kpiValueFontSize": 32,
+          "colorRules": [
+            {
+              "mode": "GREATER_THAN",
+              "value": 0.0,
+              "styleClass": "color-rule--green-background",
+              "colorOptions": {
+                "ccScaleMode": "NORMAL",
+                "paletteType": "CONTINUOUS",
+                "quantizationMode": "NONE",
+                "numQuantizeSteps": 5,
+                "paletteMiddleValue": 0.0,
+                "heatDensityMapIntensity": 0.5,
+                "heatDensityMapRadius": 0.5,
+                "singleColor": "#659a88",
+                "transparency": 0.75,
+                "colorPalette": "dku_text_background",
+                "customPalette": {
+                  "id": "__dku_custom__",
+                  "name": "Custom palette",
+                  "colors": [],
+                  "values": [],
+                  "fixedValues": false
+                },
+                "customColors": {
+                  "customFontColor": "#FFFFFF",
+                  "customBackgroundColor": "#668DBB"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "column": "Number of LLM cache miss",
+          "function": "SUM",
+          "type": "NUMERICAL",
+          "displayed": true,
+          "isA": "measure",
+          "displayAxis": "axis1",
+          "displayType": "column",
+          "computeMode": "NORMAL",
+          "computeModeDim": 0,
+          "multiplier": "Auto",
+          "digitGrouping": "DEFAULT",
+          "showDisplayLabel": true,
+          "labelPosition": "BOTTOM",
+          "labelFontSize": 16,
+          "kpiTextAlign": "CENTER",
+          "kpiValueFontSizeMode": "RESPONSIVE",
+          "kpiValueFontSize": 32,
+          "colorRules": [
+            {
+              "mode": "GREATER_THAN",
+              "value": 0.0,
+              "styleClass": "color-rule--orange-background",
+              "colorOptions": {
+                "ccScaleMode": "NORMAL",
+                "paletteType": "CONTINUOUS",
+                "quantizationMode": "NONE",
+                "numQuantizeSteps": 5,
+                "paletteMiddleValue": 0.0,
+                "heatDensityMapIntensity": 0.5,
+                "heatDensityMapRadius": 0.5,
+                "singleColor": "#659a88",
+                "transparency": 0.75,
+                "colorPalette": "dku_text_background",
+                "customPalette": {
+                  "id": "__dku_custom__",
+                  "name": "Custom palette",
+                  "colors": [],
+                  "values": [],
+                  "fixedValues": false
+                },
+                "customColors": {
+                  "customFontColor": "#FFFFFF",
+                  "customBackgroundColor": "#668DBB"
+                }
+              }
+            }
+          ]
+        }
+      ],
       "xDimension": [],
       "yDimension": [],
       "uaXDimension": [],
@@ -80,6 +179,7 @@
       "tooltipMeasures": [],
       "boxplotBreakdownDim": [],
       "boxplotValue": [],
+      "filters": [],
       "xAxisFormatting": {
         "displayAxis": true,
         "showAxisTitle": true,
@@ -251,6 +351,7 @@
         "defaultRadius": 5.0,
         "singleShape": "FILLED_CIRCLE"
       },
+      "computeMode": "NORMAL",
       "xAxisMode": "NORMAL",
       "yAxisMode": "NORMAL",
       "pieOptions": {
@@ -402,7 +503,9 @@
         },
         "horizontal": {
           "show": false,
-          "displayAxis": {},
+          "displayAxis": {
+            "type": "LEFT_Y_AXIS"
+          },
           "lineFormatting": {
             "type": "FILLED",
             "color": "#d9d9d9",
