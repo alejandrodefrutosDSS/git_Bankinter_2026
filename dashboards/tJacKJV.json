@@ -278,7 +278,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "**Estimated cost breakdown by  [connection type](https://doc.dataiku.com/dss/latest/generative-ai/llm-connections.html)**  \n(OPENAI, MISTRALAI...)",
+              "text": "**Estimated cost breakdown by  [connection type](https://doc.dataiku.com/dss/latest/generative-ai/llm-connections.html)**  \n**The pie chart** represents the relative effect of each connection type on the total cost. **The stacked bar chart** is a breakdown of induced cost by each connection type for each project.",
               "textAlign": "CENTER",
               "isTransparent": false
             },
