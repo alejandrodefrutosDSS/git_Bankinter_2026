@@ -94,6 +94,7 @@
           "digitGrouping": "DEFAULT",
           "prefix": "",
           "suffix": "",
+          "displayLabel": "Estimated Costs ($)",
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
           "labelFontSize": 16,
