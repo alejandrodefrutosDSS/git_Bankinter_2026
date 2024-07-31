@@ -425,7 +425,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "**Estimated cost brekdown by [context](https://doc.dataiku.com/dss/latest/operations/compute-resource-usage-reporting.html#concepts)**\n(WEBAPP, JOB_ACTIVITY, PROMPT_STUDIO...)",
+              "text": "**Estimated cost breakdown by [context](https://doc.dataiku.com/dss/latest/operations/compute-resource-usage-reporting.html#concepts)**\n(WEBAPP, JOB_ACTIVITY, PROMPT_STUDIO...)",
               "textAlign": "CENTER",
               "isTransparent": false
             },
@@ -509,6 +509,25 @@
             "showTitle": "YES",
             "insightId": "3EjpTg8",
             "insightType": "chart",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "TEXT",
+            "box": {
+              "top": 31,
+              "left": 0,
+              "width": 2,
+              "height": 2
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "text": " **Cumulative cost and saving over time** ",
+              "textAlign": "CENTER",
+              "isTransparent": false
+            },
+            "autoLoad": true,
+            "showTitle": "NO",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
           }
