@@ -26,7 +26,7 @@
       "_refreshTrigger": 0
     },
     "def": {
-      "type": "grouped_columns",
+      "type": "lines",
       "variant": "normal",
       "name": "Estimated Saved Costs ($)",
       "userEditedName": true,
