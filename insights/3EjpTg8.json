@@ -49,7 +49,7 @@
           "multiplier": "Auto",
           "decimalPlaces": 0,
           "digitGrouping": "DEFAULT",
-          "displayLabel": "Total LLM mesh cache hit",
+          "displayLabel": "LLM mesh cache hit",
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
           "labelFontSize": 16,
