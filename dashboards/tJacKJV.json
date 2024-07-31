@@ -522,7 +522,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": " **Cumulative cost and saving over time** ",
+              "text": " **Cumulative estimated cost and saving over time** ",
               "textAlign": "CENTER",
               "isTransparent": false
             },
