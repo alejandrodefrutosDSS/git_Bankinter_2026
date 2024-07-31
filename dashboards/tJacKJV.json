@@ -530,6 +530,25 @@
             "showTitle": "NO",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "TEXT",
+            "box": {
+              "top": 31,
+              "left": 0,
+              "width": 12,
+              "height": 1
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "text": " **Metrics about**  [LLM mesh cache](https://knowledge.dataiku.com/latest/ml-analytics/gen-ai/faq-cost-reduction-via-cache.html)",
+              "textAlign": "LEFT",
+              "isTransparent": false
+            },
+            "autoLoad": true,
+            "showTitle": "NO",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
           }
         ]
       },
