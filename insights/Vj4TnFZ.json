@@ -26,12 +26,52 @@
       "_refreshTrigger": 1722344827336
     },
     "def": {
-      "type": "grouped_columns",
+      "type": "stacked_columns",
       "variant": "normal",
-      "name": "Sum of llmUsage_estimatedCostUSD by Context",
+      "name": "Sum of llmUsage_estimatedCostUSD by Project and Context",
       "userEditedName": false,
       "displayWithEChartsByDefault": true,
       "genericDimension0": [
+        {
+          "column": "Project",
+          "type": "ALPHANUM",
+          "numParams": {
+            "emptyBinsMode": "ZEROS"
+          },
+          "maxValues": 20,
+          "generateOthersCategory": true,
+          "forceLastPositionOthers": false,
+          "oneTickPerBin": false,
+          "filters": [],
+          "isA": "dimension",
+          "possibleSorts": [
+            {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Sum of llmUsage_estimatedCostUSD, descending"
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Sum of llmUsage_estimatedCostUSD, ascending",
+              "sortAscending": true
+            }
+          ],
+          "sort": {
+            "type": "AGGREGATION",
+            "measureIdx": 0,
+            "label": "Sum of llmUsage_estimatedCostUSD, descending"
+          },
+          "multiplier": "Auto",
+          "digitGrouping": "DEFAULT"
+        }
+      ],
+      "genericDimension1": [
         {
           "column": "Context",
           "type": "ALPHANUM",
@@ -48,28 +88,24 @@
             {
               "type": "NATURAL",
               "label": "Natural ordering",
-              "sortAscending": true,
-              "$$hashKey": "object:11254"
+              "sortAscending": true
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of llmUsage_estimatedCostUSD, descending",
-              "$$hashKey": "object:11255"
+              "label": "Sum of llmUsage_estimatedCostUSD, descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
               "label": "Sum of llmUsage_estimatedCostUSD, ascending",
-              "sortAscending": true,
-              "$$hashKey": "object:11256"
+              "sortAscending": true
             }
           ],
           "sort": {
-            "type": "NATURAL",
-            "label": "Natural ordering",
-            "sortAscending": true,
-            "$$hashKey": "object:11254"
+            "type": "AGGREGATION",
+            "measureIdx": 0,
+            "label": "Sum of llmUsage_estimatedCostUSD, descending"
           },
           "prefix": "",
           "suffix": "",
@@ -77,7 +113,6 @@
           "digitGrouping": "DEFAULT"
         }
       ],
-      "genericDimension1": [],
       "facetDimension": [],
       "animationDimension": [],
       "genericMeasures": [
@@ -282,7 +317,7 @@
       "valuesInChartDisplayOptions": {
         "displayValues": false,
         "displayPieLabelsOrValues": true,
-        "displayMode": "LABELS",
+        "displayMode": "VALUES",
         "overlappingStrategy": "AUTO",
         "textFormatting": {
           "fontSize": 11,
