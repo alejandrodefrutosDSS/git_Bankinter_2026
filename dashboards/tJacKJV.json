@@ -488,8 +488,8 @@
           }
         ]
       },
-      "title": "LLM Usage",
-      "showTitle": false,
+      "title": "LLM Cost Monitoring",
+      "showTitle": true,
       "enableCrossFilters": true,
       "showFilterPanel": true,
       "filters": [
