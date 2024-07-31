@@ -335,7 +335,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "**Estimated cost breakdown by user**",
+              "text": "**Estimated cost breakdown by user**\nSimilar to the previous dashboard section, but with a breakdown by user.",
               "textAlign": "CENTER",
               "isTransparent": false
             },
