@@ -541,7 +541,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": " **Metrics about LLM mesh cache.**\n**[Use it to reduce your costs.](https://knowledge.dataiku.com/latest/ml-analytics/gen-ai/faq-cost-reduction-via-cache.html)**.",
+              "text": " **LLM mesh cache metrics.**\n**[Use it to reduce your costs.](https://knowledge.dataiku.com/latest/ml-analytics/gen-ai/faq-cost-reduction-via-cache.html)**.",
               "textAlign": "CENTER",
               "isTransparent": false
             },
