@@ -316,7 +316,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "**Estimated cost breakdown by project**\nThe pie chart represents the share of each project in the total induces cost. The bar graph is a breakdown of induced cost for each project. Both charts show the first twenty projects with the most induced cost. The rest is grouped in \"Other\" category. ",
+              "text": "**Estimated cost breakdown by project**\n **The pie chart**  represents the relative impact of each project for the total cost.  **The bar chart**  is a breakdown of induced cost for each project. Both charts show the first twenty most costly projects. The rest is grouped in \"Other\" category. ",
               "textAlign": "CENTER",
               "isTransparent": false
             },
