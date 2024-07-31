@@ -503,7 +503,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": " **Cumulative estimated cost and saving over time**\nThe **estimated saved costs** is a calculated metric that provides a representation of the cost-efficiency achieved through the use of **LLM mesh caching**. It is determined by computing the ratio of the number of queries that are served from the cache to the total estimated cost that would have been incurred if all queries were processed without cache utilization.",
+              "text": " **Cumulative estimated cost and saving over time**\nThe **estimated saved costs** is a calculated metric representing the cost savings achieved with the use of **LLM mesh caching**. It is determined by computing the ratio of the number of queries that are served from the cache to the total estimated cost that would have been incurred if all queries were processed without cache utilization.",
               "textAlign": "CENTER",
               "isTransparent": false
             },
