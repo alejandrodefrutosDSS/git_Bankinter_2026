@@ -522,7 +522,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "**[LLM mesh cache metrics.](https://knowledge.dataiku.com/latest/ml-analytics/gen-ai/faq-cost-reduction-via-cache.html)**\nDataiku DSS stores the respective queries and answers. If the same queries are made later on, the saved answer will be used and no call will be made to the LLM provider. Configure it to reduce your operational costs.",
+              "text": "**[LLM mesh cache metrics.](https://knowledge.dataiku.com/latest/ml-analytics/gen-ai/faq-cost-reduction-via-cache.html)**\nDataiku DSS stores the requests and answers. If the same request is made later on, the saved answer will be used and no call will be made to the LLM provider. Configure it to reduce your operational costs.",
               "textAlign": "CENTER",
               "isTransparent": false
             },
