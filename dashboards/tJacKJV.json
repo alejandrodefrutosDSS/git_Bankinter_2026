@@ -9,7 +9,7 @@
             "box": {
               "top": 0,
               "left": 0,
-              "width": 12,
+              "width": 10,
               "height": 2
             },
             "clickAction": "DO_NOTHING",
