@@ -506,7 +506,7 @@
               "autoPlayAnimation": true
             },
             "autoLoad": true,
-            "showTitle": "YES",
+            "showTitle": "NO",
             "insightId": "3EjpTg8",
             "insightType": "chart",
             "displayMode": "INSIGHT",
