@@ -184,7 +184,7 @@
             },
             "autoLoad": true,
             "showTitle": "YES",
-            "title": "Estimated Saved Costs ($)",
+            "title": "Cumulative Saved Costs ($)",
             "insightId": "XR2YD84",
             "insightType": "chart",
             "displayMode": "INSIGHT",
