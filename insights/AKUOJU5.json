@@ -56,12 +56,12 @@
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of llmUsage_estimatedCostUSD, descending"
+              "label": "Estimated Costs ($), descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of llmUsage_estimatedCostUSD, ascending",
+              "label": "Estimated Costs ($), ascending",
               "sortAscending": true
             }
           ],
@@ -94,7 +94,7 @@
           "digitGrouping": "DEFAULT",
           "prefix": "",
           "suffix": "",
-          "displayLabel": "Estimated Costs ($)",
+          "displayLabel": "",
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
           "labelFontSize": 16,
