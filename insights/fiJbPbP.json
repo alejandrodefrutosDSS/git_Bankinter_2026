@@ -26,7 +26,7 @@
       "_refreshTrigger": 0
     },
     "def": {
-      "type": "grouped_columns",
+      "type": "stacked_columns",
       "variant": "normal",
       "name": "Sum of llmUsage_estimatedCostUSD by Project and Connection type Connection type Estimated Cost ($) Distribution",
       "userEditedName": true,
@@ -319,7 +319,7 @@
       "valuesInChartDisplayOptions": {
         "displayValues": false,
         "displayPieLabelsOrValues": true,
-        "displayMode": "LABELS",
+        "displayMode": "VALUES",
         "overlappingStrategy": "AUTO",
         "textFormatting": {
           "fontSize": 11,
