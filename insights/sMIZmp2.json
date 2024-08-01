@@ -529,7 +529,7 @@
     "datasetSmartName": "logs_llm_usage_prepared"
   },
   "owner": "divya.thomas@dataiku.com",
-  "listed": false,
+  "listed": true,
   "name": "Total Estimated Cost ($) by Connection type and Project",
   "dashboardCreationId": "3NZ9w2C",
   "creationTag": {
