@@ -775,7 +775,7 @@
   ],
   "owner": "divya.thomas@dataiku.com",
   "listed": false,
-  "name": "Copy of LLM cost monitoring",
+  "name": "LLM cost monitoring",
   "showGrid": true,
   "showNavigationArrows": false,
   "reloadWhenEventReceived": false,
