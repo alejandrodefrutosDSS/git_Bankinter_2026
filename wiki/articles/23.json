@@ -1,7 +1,19 @@
 {
   "name": "LLM Cost Monitoring dashboard",
   "layout": "WIKI_ARTICLE",
-  "attachments": [],
+  "attachments": [
+    {
+      "attachmentType": "FILE",
+      "smartId": "eGAnreltjzjA",
+      "details": {
+        "objectDisplayName": "llm_usage_dashboard.png",
+        "size": 480596,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "fabien.daoulas@dataiku.com",
+      "attachedOn": 1722516748640
+    }
+  ],
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
