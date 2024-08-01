@@ -496,7 +496,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "The [LLM Cost Monitoring dashboard](article:23) provides a comprehensive overview of resource utilization and associated costs incurred by the usage of Large Language Models (LLM).\n\n**[Dataiku LLM Mesh cache metrics.](https://knowledge.dataiku.com/latest/ml-analytics/gen-ai/faq-cost-reduction-via-cache.html)**\nDataiku stores the requests and answers in a cache system. If the same request is made later on, the stored answers is used, saving LLM costs. Activate the caching option to reduce your operational costs.",
+              "text": "The [LLM Cost Monitoring dashboard](article:23) provides a comprehensive overview of resource utilization and associated costs incurred by the usage of Large Language Models (LLM).\n\n**[Dataiku LLM Mesh cache metrics.](https://knowledge.dataiku.com/latest/ml-analytics/gen-ai/faq-cost-reduction-via-cache.html)**\nDataiku stores the requests and answers in a cache system. If the same request is made later on, the stored answer is used, saving LLM costs. Activate the caching option to reduce your operational costs.",
               "textAlign": "CENTER",
               "isTransparent": false
             },
