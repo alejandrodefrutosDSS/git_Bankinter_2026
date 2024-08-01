@@ -118,7 +118,12 @@
       "individualColumnsRules": [],
       "valueColoringMode": "HASH"
     },
-    "sorting": [],
+    "sorting": [
+      {
+        "column": "Date",
+        "ascending": true
+      }
+    ],
     "analysisColumnData": {},
     "explorationSampling": {
       "selection": {
@@ -136,14 +141,14 @@
           "rules": []
         },
         "samplingMethod": "HEAD_SEQUENTIAL",
-        "maxRecords": 10000,
+        "maxRecords": 30000,
         "targetRatio": 0.02,
         "ascending": true,
         "withinFirstN": -1,
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 1721982999416
+      "_refreshTrigger": 1722520480699
     },
     "vizSampling": {
       "selection": {
@@ -174,6 +179,41 @@
     "globalSearchQuery": "",
     "explorationFilters": [
       {
+        "column": "estimated_cost_saved",
+        "type": "columnFilter",
+        "currentMode": "FACET",
+        "active": true,
+        "facet": {
+          "type": "facet",
+          "column": "estimated_cost_saved",
+          "columnType": "NUMERICAL",
+          "currentMode": "ALPHANUM",
+          "sort": "count",
+          "selectedValues": {
+            "0.0": true
+          }
+        },
+        "alphanumFilter": {
+          "type": "alphanum",
+          "column": "estimated_cost_saved",
+          "selectedValues": [],
+          "params": {
+            "mode": "full_string",
+            "normalization": "exact"
+          }
+        },
+        "validityFilter": {
+          "type": "validity",
+          "column": "estimated_cost_saved",
+          "params": {
+            "type": "DoubleMeaning",
+            "ok": true,
+            "nok": true,
+            "empty": true
+          }
+        }
+      },
+      {
         "column": "Usage type",
         "type": "columnFilter",
         "currentMode": "FACET",
@@ -185,7 +225,7 @@
           "currentMode": "ALPHANUM",
           "sort": "count",
           "selectedValues": {
-            "TEXT_EMBEDDING_EXTRACTION": true
+            "COMPLETION": true
           }
         },
         "alphanumFilter": {
@@ -200,6 +240,49 @@
         "validityFilter": {
           "type": "validity",
           "column": "Usage type",
+          "params": {
+            "type": "Text",
+            "ok": true,
+            "nok": true,
+            "empty": true
+          }
+        }
+      },
+      {
+        "column": "LLM identifier",
+        "type": "columnFilter",
+        "currentMode": "FACET",
+        "active": true,
+        "facet": {
+          "type": "facet",
+          "column": "LLM identifier",
+          "columnType": "ALPHANUM",
+          "currentMode": "ALPHANUM",
+          "sort": "count",
+          "selectedValues": {
+            "openai:bs-openai:gpt-4o": true,
+            "openai:bs-openai:gpt-4-turbo": true,
+            "openai:bs-openai:gpt-4-vision-preview": true,
+            "bedrock:Amazon_Bedrock:anthropic.claude-v2": true,
+            "openai:bs-openai:gpt-4-1106-preview": true,
+            "bedrock:bs-aws-bedrock-3:anthropic.claude-3-sonnet-20240229-v1:0": true,
+            "openai:bs-openai:davinci-002": true,
+            "bedrock:Amazon_Bedrock:anthropic.claude-3-sonnet-20240229-v1:0": true,
+            "bedrock:Amazon_Bedrock:anthropic.claude-3-opus-20240229-v1:0": true
+          }
+        },
+        "alphanumFilter": {
+          "type": "alphanum",
+          "column": "LLM identifier",
+          "selectedValues": [],
+          "params": {
+            "mode": "full_string",
+            "normalization": "exact"
+          }
+        },
+        "validityFilter": {
+          "type": "validity",
+          "column": "LLM identifier",
           "params": {
             "type": "Text",
             "ok": true,
