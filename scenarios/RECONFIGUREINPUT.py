@@ -31,6 +31,11 @@ if logs_origin == "cloud":
     dataset_settings.settings["type"] = get_connection_type(project, "compute_resource_usage_logs", logs_connection)
     dataset_settings.save()
     
+    recipe = project.get_recipe("compute_llm_logs_prep")
+    recipe_settings = recipe.get_settings()
+    current_inputs = recipe_settings.get_flat_input_refs()
+    assert len(current_inputs) == 1, f"Expected exactly one input to recipe 'compute_llm_logs_prep'."
+    
 if logs_origin == "event_server":
     es_dataset = project.get_dataset("eventserver_cru_logs")
     es_dataset_settings = es_dataset.get_settings()
