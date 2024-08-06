@@ -82,14 +82,20 @@
               "allowDuplicates": true,
               "selectChoices": [
                 {
+                  "value": "demo",
+                  "label": "Demo logs",
+                  "showInColumnPreview": false,
+                  "selected": false
+                },
+                {
                   "value": "cloud",
-                  "label": "Cloud",
+                  "label": "Cloud logs",
                   "showInColumnPreview": false,
                   "selected": false
                 },
                 {
                   "value": "event_server",
-                  "label": "Event server",
+                  "label": "Event server logs",
                   "showInColumnPreview": false,
                   "selected": false
                 }
