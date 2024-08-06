@@ -116,6 +116,11 @@
       "sectionText": "- Click on the **compute_resource_usage_logs** dataset to set the log path. It should be `/audit-logs/`\n- Click on **Save** and go back to the Dataiku Application",
       "tiles": [
         {
+          "folderId": "clvteJbD",
+          "type": "MANAGED_FOLDER_LINK",
+          "prompt": "For Demo logs, you do not have to do anything. They are here:"
+        },
+        {
           "datasetName": "compute_resource_usage_logs",
           "type": "DATASET_EDIT_SETTINGS",
           "prompt": "For cloud instance, edit the logs path"
