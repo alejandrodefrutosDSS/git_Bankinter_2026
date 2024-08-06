@@ -1,0 +1,176 @@
+{
+  "type": "S3",
+  "managed": false,
+  "featureGroup": false,
+  "formatType": "json",
+  "checklists": {
+    "checklists": []
+  },
+  "checks": [],
+  "customMeta": {
+    "kv": {}
+  },
+  "flowOptions": {
+    "virtualizable": false,
+    "rebuildBehavior": "NORMAL",
+    "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "readWriteOptions": {
+    "preserveOrder": false,
+    "writeBuckets": 1,
+    "forceSingleOutputFile": false,
+    "defaultReadOrdering": {
+      "enabled": false,
+      "rules": []
+    }
+  },
+  "formatParams": {
+    "maxExpansionDepth": -1,
+    "nestedArraysHandling": "PRESERVE",
+    "extractFromSingleElement": false,
+    "nestedArraysMaxElements": 100,
+    "nestedArraysMaxContentSize": 300000,
+    "headerRow": false
+  },
+  "partitioning": {
+    "ignoreNonMatchingFile": false,
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "fabien.daoulas@dataiku.com"
+    },
+    "lastModifiedOn": 1722945258482,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "params": {
+    "metastoreSynchronizationEnabled": true,
+    "connection": "dataiku-managed-storage",
+    "path": "/event-server/compute-resource-usage/2024/07/",
+    "notReadyIfEmpty": false,
+    "filesSelectionRules": {
+      "mode": "ALL",
+      "excludeRules": [],
+      "includeRules": [],
+      "explicitFiles": []
+    }
+  },
+  "schema": {
+    "columns": [
+      {"name":"clientEvent.msgType","type":"string","comment":"","maxLength":1000},
+      {"name":"clientEvent.computeResourceUsage.startTime","type":"bigint","comment":"","maxLength":1000},
+      {"name":"clientEvent.computeResourceUsage.type","type":"string","comment":"","maxLength":1000},
+      {"name":"clientEvent.computeResourceUsage.llmUsage.totalComputationTimeMS","type":"bigint","comment":"","maxLength":1000},
+      {"name":"clientEvent.computeResourceUsage.llmUsage.llmType","type":"string","comment":"","maxLength":1000},
+      {"name":"clientEvent.computeResourceUsage.llmUsage.totalQueries","type":"bigint","comment":"","maxLength":1000},
+      {"name":"clientEvent.computeResourceUsage.llmUsage.totalPromptTokens","type":"bigint","comment":"","maxLength":1000},
+      {"name":"clientEvent.computeResourceUsage.llmUsage.estimatedCostUSD","type":"double","comment":"","maxLength":1000},
+      {"name":"clientEvent.computeResourceUsage.llmUsage.totalCompletionTokens","type":"bigint","comment":"","maxLength":1000},
+      {"name":"clientEvent.computeResourceUsage.llmUsage.connection","type":"string","comment":"","maxLength":1000},
+      {"name":"clientEvent.computeResourceUsage.llmUsage.cacheMissQueries","type":"bigint","comment":"","maxLength":1000},
+      {"name":"clientEvent.computeResourceUsage.llmUsage.llmId","type":"string","comment":"","maxLength":1000},
+      {"name":"clientEvent.computeResourceUsage.llmUsage.usageType","type":"string","comment":"","maxLength":1000},
+      {"name":"clientEvent.computeResourceUsage.llmUsage.cacheHitQueries","type":"bigint","comment":"","maxLength":1000},
+      {"name":"clientEvent.computeResourceUsage.context.authIdentifier","type":"string","comment":"","maxLength":1000},
+      {"name":"clientEvent.computeResourceUsage.context.projectKey","type":"string","comment":"","maxLength":1000},
+      {"name":"clientEvent.computeResourceUsage.context.type","type":"string","comment":"","maxLength":1000},
+      {"name":"clientEvent.computeResourceUsage.context.jobId","type":"string","comment":"","maxLength":1000},
+      {"name":"serverTimestamp","type":"date","comment":"","maxLength":1000},
+      {"name":"clientEvent.dssNodeId","type":"string","comment":"","maxLength":1000},
+      {"name":"clientEvent.dssNodeName","type":"string","comment":"","maxLength":1000},
+      {"name":"clientEvent.auditTopic","type":"string","comment":"","maxLength":1000},
+      {"name":"clientEvent.authSource","type":"string","comment":"","maxLength":1000},
+      {"name":"clientEvent.authUser","type":"string","comment":"","maxLength":1000},
+      {"name":"clientEvent.clientIP","type":"string","comment":"","maxLength":1000}
+    ],
+    "userModified": true
+  },
+  "dkuProperties": [],
+  "metrics": {
+    "probes": [
+      {
+        "type": "basic",
+        "enabled": true,
+        "computeOnBuildMode": "PARTITION",
+        "meta": {
+          "name": "Basic data",
+          "level": 0
+        },
+        "configuration": {}
+      },
+      {
+        "type": "records",
+        "enabled": true,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Record count",
+          "level": 0
+        },
+        "configuration": {}
+      }
+    ],
+    "engineConfig": {
+      "padRunsWithMetrics": false,
+      "hive": {
+        "active": true,
+        "extraConf": []
+      },
+      "basic": {},
+      "dss": {
+        "active": true,
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "ascending": true,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        }
+      },
+      "sql": {
+        "active": true
+      },
+      "impala": {
+        "active": true
+      },
+      "spark": {
+        "active": true,
+        "extraConf": []
+      },
+      "python": {}
+    },
+    "displayedState": {
+      "columns": [],
+      "metrics": [
+        "basic:COUNT_COLUMNS",
+        "basic:COUNT_FILES",
+        "basic:SIZE",
+        "records:COUNT_RECORDS"
+      ]
+    }
+  },
+  "metricsChecks": {
+    "monitor": false,
+    "checks": [],
+    "displayedState": {
+      "checks": []
+    }
+  },
+  "customFields": {
+    "gdpr_contains_personal_data": "UNSURE"
+  }
+}
