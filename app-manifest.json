@@ -44,34 +44,6 @@
           "behavior": "INLINE_AUTO_SAVE",
           "params": [
             {
-              "name": "logs_connection",
-              "type": "CONNECTION",
-              "label": "Select the connection",
-              "defaultValue": "dataiku-managed-storage",
-              "mandatory": true,
-              "canSelectForeign": false,
-              "markCreatedAsBuilt": false,
-              "allowDuplicates": true,
-              "getChoicesFromPython": false,
-              "triggerParameters": [],
-              "disableAutoReload": false,
-              "canCreateDataset": false,
-              "wt1Loggable": false
-            }
-          ],
-          "type": "PROJECT_VARIABLES_EDIT"
-        },
-        {
-          "scenarioId": "RECONFIGUREINPUT",
-          "buttonText": "Reconfigure",
-          "type": "SCENARIO_RUN",
-          "prompt": "Reconfigure the input dataset",
-          "help": "Reconfigure the flow based on the chosen connection. \u003c/br\u003e \u003cb\u003e Note : \u003c/b\u003e that scenario assume an \"admin\" user exists; modify the user in scenario settings to avoid failure."
-        },
-        {
-          "behavior": "INLINE_AUTO_SAVE",
-          "params": [
-            {
               "name": "logs_origin",
               "type": "SELECT",
               "label": "Select the logs origin",
@@ -108,6 +80,34 @@
             }
           ],
           "type": "PROJECT_VARIABLES_EDIT"
+        },
+        {
+          "behavior": "INLINE_AUTO_SAVE",
+          "params": [
+            {
+              "name": "logs_connection",
+              "type": "CONNECTION",
+              "label": "Select the connection",
+              "defaultValue": "dataiku-managed-storage",
+              "mandatory": true,
+              "canSelectForeign": false,
+              "markCreatedAsBuilt": false,
+              "allowDuplicates": true,
+              "getChoicesFromPython": false,
+              "triggerParameters": [],
+              "disableAutoReload": false,
+              "canCreateDataset": false,
+              "wt1Loggable": false
+            }
+          ],
+          "type": "PROJECT_VARIABLES_EDIT"
+        },
+        {
+          "scenarioId": "RECONFIGUREINPUT",
+          "buttonText": "Reconfigure",
+          "type": "SCENARIO_RUN",
+          "prompt": "Reconfigure the input dataset",
+          "help": "Reconfigure the flow based on the chosen connection. \u003c/br\u003e \u003cb\u003e Note : \u003c/b\u003e that scenario assume an \"admin\" user exists; modify the user in scenario settings to avoid failure."
         }
       ]
     },
