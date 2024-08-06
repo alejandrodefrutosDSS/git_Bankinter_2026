@@ -13,6 +13,9 @@
             },
             "logs_filtered_unnested": {
               "repartition": 10
+            },
+            "eventserver_llmusage_logs_cleaned": {
+              "repartition": 10
             }
           }
         },
