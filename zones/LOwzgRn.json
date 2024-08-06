@@ -13,6 +13,10 @@
     {
       "objectId": "compute_audit_logs_prepared",
       "objectType": "RECIPE"
+    },
+    {
+      "objectId": "clvteJbD",
+      "objectType": "MANAGED_FOLDER"
     }
   ],
   "shared": [],
