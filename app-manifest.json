@@ -38,7 +38,7 @@
     },
     {
       "sectionTitle": "Configure logs ingestion",
-      "sectionText": "**To use demo logs**, select \"Demo logs\". It lets you explore the features of the solution and leave \"dataiku-managed-storage\" as-is. \n**To use cloud instance logs**, select \"Cloud logs\" and select **dku-audit-log** connection as explained [here](https://doc.dataiku.com/dss/latest/operations/audit-trail/dataikucloud.html#access-instances-audit-logs).\n**To use event server logs**, select \"Event Server logs\" and select the connection to the location of your [Event Server logs](https://doc.dataiku.com/dss/latest/operations/audit-trail/eventserver.html).",
+      "sectionText": "**To use demo logs**, select \"Demo logs\". It lets you explore the features of the solution and leave \"dataiku-managed-storage\" as-is. \n**To use cloud instance logs**, select \"Cloud logs\" and select **dku-audit-log** connection as explained [here](https://doc.dataiku.com/dss/latest/operations/audit-trail/dataikucloud.html#access-instances-audit-logs).\n**To use event server logs**, select \"Event Server logs\" and select the connection to the location of your [Event Server logs](https://doc.dataiku.com/dss/latest/operations/audit-trail/eventserver.html).\n\nOnce the logs origin and connection is selected, click on **RECONFIGURE**.",
       "tiles": [
         {
           "behavior": "INLINE_AUTO_SAVE",
