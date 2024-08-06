@@ -36,6 +36,9 @@ if logs_origin == "cloud":
     current_inputs = recipe_settings.get_flat_input_refs()
     assert len(current_inputs) == 1, f"Expected exactly one input to recipe 'compute_llm_logs_prep'."
     
+    recipe_settings.replace_input(current_inputs[0], "compute_resource_usage_logs")
+    recipe_settings.save()
+    
 if logs_origin == "event_server":
     es_dataset = project.get_dataset("eventserver_cru_logs")
     es_dataset_settings = es_dataset.get_settings()
