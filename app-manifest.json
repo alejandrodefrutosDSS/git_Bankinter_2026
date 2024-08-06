@@ -118,12 +118,12 @@
         {
           "datasetName": "compute_resource_usage_logs",
           "type": "DATASET_EDIT_SETTINGS",
-          "prompt": "Edit the logs path"
+          "prompt": "**For cloud instance**, edit the logs path"
         },
         {
           "datasetName": "eventserver_cru_logs",
           "type": "DATASET_EDIT_SETTINGS",
-          "prompt": "Edit the logs path"
+          "prompt": "**For Event Server**, edit the logs path"
         }
       ]
     },
