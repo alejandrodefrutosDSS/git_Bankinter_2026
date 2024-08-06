@@ -63,7 +63,7 @@
     "main": {
       "items": [
         {
-          "ref": "eventserver_llmusage_logs_cleaned",
+          "ref": "compute_resource_usage_logs",
           "deps": []
         }
       ]
