@@ -30,3 +30,10 @@ if logs_origin == "cloud":
     dataset_settings.settings["params"]["connection"] = logs_connection
     dataset_settings.settings["type"] = get_connection_type(project, "compute_resource_usage_logs", logs_connection)
     dataset_settings.save()
+    
+if logs_origin == "event_server":
+    es_dataset = project.get_dataset("compute_resource_usage_logs")
+    es_dataset_settings = es_dataset.get_settings()
+    es_dataset_settings.settings["params"]["connection"] = logs_connection
+    es_dataset_settings.settings["type"] = get_connection_type(project, "compute_resource_usage_logs", logs_connection)
+    es_dataset_settings.save()
