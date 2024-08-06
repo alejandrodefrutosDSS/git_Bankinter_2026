@@ -1,0 +1,20 @@
+{
+  "uiData": {
+    "mode": "\u0026\u0026",
+    "$latestOperator": "\u0026\u0026",
+    "$filterOptions": "rules",
+    "conditions": [
+      {
+        "input": "clientEvent.computeResourceUsage.type",
+        "col": "clientEvent.msgType",
+        "string": "LLM_USAGE",
+        "$showList": false,
+        "num": 0,
+        "operator": "\u003d\u003d [string]"
+      }
+    ]
+  },
+  "$status": {},
+  "distinct": false,
+  "enabled": true
+}

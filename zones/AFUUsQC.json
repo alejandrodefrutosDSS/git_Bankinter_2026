@@ -1,7 +1,24 @@
 {
   "name": "event server ingestion",
   "color": "#C54F00",
-  "items": [],
+  "items": [
+    {
+      "objectId": "eventserver_llmusage",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "eventserver_llmusage_logs_cleaned",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_eventserver_llmusage_logs_cleaned",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_eventserver_llmusage_logs",
+      "objectType": "RECIPE"
+    }
+  ],
   "shared": [],
   "tags": [],
   "customFields": {},
