@@ -1,7 +1,12 @@
 {
   "name": "cloud logs ingestion",
   "color": "#D03713",
-  "items": [],
+  "items": [
+    {
+      "objectId": "compute_resource_usage_logs",
+      "objectType": "DATASET"
+    }
+  ],
   "shared": [],
   "tags": [],
   "customFields": {},
