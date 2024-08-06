@@ -75,7 +75,7 @@
               "name": "logs_origin",
               "type": "SELECT",
               "label": "Select the logs origin",
-              "description": "Help text for the variable",
+              "defaultValue": "demo",
               "mandatory": false,
               "canSelectForeign": false,
               "markCreatedAsBuilt": false,
