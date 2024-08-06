@@ -109,7 +109,9 @@
       "Usage type": 190,
       "Number of LLM cache miss": 195,
       "Number of LLM cache hit": 188,
-      "Context": 113
+      "Context": 113,
+      "dssNodeId": 100,
+      "dssNodeName": 100
     },
     "columnUseScientificNotationByName": {},
     "coloring": {
@@ -177,121 +179,7 @@
       "autoRefresh": true
     },
     "globalSearchQuery": "",
-    "explorationFilters": [
-      {
-        "column": "estimated_cost_saved",
-        "type": "columnFilter",
-        "currentMode": "FACET",
-        "active": true,
-        "facet": {
-          "type": "facet",
-          "column": "estimated_cost_saved",
-          "columnType": "NUMERICAL",
-          "currentMode": "ALPHANUM",
-          "sort": "count",
-          "selectedValues": {
-            "0.0": true
-          }
-        },
-        "alphanumFilter": {
-          "type": "alphanum",
-          "column": "estimated_cost_saved",
-          "selectedValues": [],
-          "params": {
-            "mode": "full_string",
-            "normalization": "exact"
-          }
-        },
-        "validityFilter": {
-          "type": "validity",
-          "column": "estimated_cost_saved",
-          "params": {
-            "type": "DoubleMeaning",
-            "ok": true,
-            "nok": true,
-            "empty": true
-          }
-        }
-      },
-      {
-        "column": "Usage type",
-        "type": "columnFilter",
-        "currentMode": "FACET",
-        "active": true,
-        "facet": {
-          "type": "facet",
-          "column": "Usage type",
-          "columnType": "ALPHANUM",
-          "currentMode": "ALPHANUM",
-          "sort": "count",
-          "selectedValues": {
-            "COMPLETION": true
-          }
-        },
-        "alphanumFilter": {
-          "type": "alphanum",
-          "column": "Usage type",
-          "selectedValues": [],
-          "params": {
-            "mode": "full_string",
-            "normalization": "exact"
-          }
-        },
-        "validityFilter": {
-          "type": "validity",
-          "column": "Usage type",
-          "params": {
-            "type": "Text",
-            "ok": true,
-            "nok": true,
-            "empty": true
-          }
-        }
-      },
-      {
-        "column": "LLM identifier",
-        "type": "columnFilter",
-        "currentMode": "FACET",
-        "active": true,
-        "facet": {
-          "type": "facet",
-          "column": "LLM identifier",
-          "columnType": "ALPHANUM",
-          "currentMode": "ALPHANUM",
-          "sort": "count",
-          "selectedValues": {
-            "openai:bs-openai:gpt-4o": true,
-            "openai:bs-openai:gpt-4-turbo": true,
-            "openai:bs-openai:gpt-4-vision-preview": true,
-            "bedrock:Amazon_Bedrock:anthropic.claude-v2": true,
-            "openai:bs-openai:gpt-4-1106-preview": true,
-            "bedrock:bs-aws-bedrock-3:anthropic.claude-3-sonnet-20240229-v1:0": true,
-            "openai:bs-openai:davinci-002": true,
-            "bedrock:Amazon_Bedrock:anthropic.claude-3-sonnet-20240229-v1:0": true,
-            "bedrock:Amazon_Bedrock:anthropic.claude-3-opus-20240229-v1:0": true
-          }
-        },
-        "alphanumFilter": {
-          "type": "alphanum",
-          "column": "LLM identifier",
-          "selectedValues": [],
-          "params": {
-            "mode": "full_string",
-            "normalization": "exact"
-          }
-        },
-        "validityFilter": {
-          "type": "validity",
-          "column": "LLM identifier",
-          "params": {
-            "type": "Text",
-            "ok": true,
-            "nok": true,
-            "empty": true
-          }
-        }
-      }
-    ],
+    "explorationFilters": [],
     "previewMode": "ALL_ROWS"
   },
   "charts": [
