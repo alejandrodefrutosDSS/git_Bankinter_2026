@@ -63,7 +63,7 @@
     "main": {
       "items": [
         {
-          "ref": "logs_filtered_unnested",
+          "ref": "eventserver_llmusage_logs_cleaned",
           "deps": []
         }
       ]
