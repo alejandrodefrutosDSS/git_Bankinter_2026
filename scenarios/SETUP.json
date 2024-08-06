@@ -17,30 +17,6 @@
   "params": {
     "steps": [
       {
-        "id": "reload_schema__d_compute_resource_usage_logs",
-        "type": "reload_schema",
-        "name": "Reload Schema dataset compute_resource_usage_logs",
-        "runConditionType": "RUN_IF_STATUS_MATCH",
-        "runConditionStatuses": [
-          "SUCCESS",
-          "WARNING"
-        ],
-        "runConditionExpression": "",
-        "resetScenarioStatus": false,
-        "delayBetweenRetries": 10,
-        "maxRetriesOnFail": 0,
-        "params": {
-          "items": [
-            {
-              "type": "DATASET",
-              "itemId": "compute_resource_usage_logs",
-              "partitionsSpec": ""
-            }
-          ],
-          "proceedOnFailure": false
-        }
-      },
-      {
         "id": "custom_python_Rc0Twzkn1grkudKfHts9mQ",
         "type": "custom_python",
         "name": "Apply setup options",
