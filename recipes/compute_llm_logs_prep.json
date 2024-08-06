@@ -63,7 +63,7 @@
     "main": {
       "items": [
         {
-          "ref": "compute_resource_usage_logs",
+          "ref": "logs_filtered_unnested",
           "deps": []
         }
       ]
