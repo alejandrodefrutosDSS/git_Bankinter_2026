@@ -88,7 +88,7 @@
       {"name":"authUser","type":"string"},
       {"name":"clientIP","type":"string"}
     ],
-    "userModified": true
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
