@@ -37,7 +37,7 @@
       "tiles": []
     },
     {
-      "sectionTitle": "Select your connection",
+      "sectionTitle": "Configure logs ingestion",
       "sectionText": "The default connection provides demo logs. It lets you explore the features of the solution. To access your actual logs, select **dku-audit-log** connection as explained [here](https://doc.dataiku.com/dss/latest/operations/audit-trail/dataikucloud.html#access-instances-audit-logs).",
       "tiles": [
         {
