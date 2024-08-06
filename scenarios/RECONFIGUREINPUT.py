@@ -21,6 +21,7 @@ client = dataiku.api_client()
 project = client.get_project(project_key)
 variables = project.get_variables()
 
+logs_origin = variables["local"]["logs_origin"]
 logs_connection = variables["local"]["logs_connection"]
 dataset = project.get_dataset("compute_resource_usage_logs")
 dataset_settings = dataset.get_settings()
