@@ -113,7 +113,7 @@
     },
     {
       "sectionTitle": "Fill in the log path",
-      "sectionText": "- Click on the **compute_resource_usage_logs** dataset to set the log path. It should be `/audit-logs/`\n- Click on **Save** and go back to the Dataiku Application",
+      "sectionText": "- Click on one of the following dataset, according to your use case, to set the log path.\n- Click on **Save** and go back to the Dataiku Application",
       "tiles": [
         {
           "datasetName": "compute_resource_usage_logs",
