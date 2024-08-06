@@ -7,12 +7,12 @@
       "objectType": "DATASET"
     },
     {
-      "objectId": "compute_audit_logs_prepared",
-      "objectType": "RECIPE"
-    },
-    {
       "objectId": "logs_filtered_unnested",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_audit_logs_prepared",
+      "objectType": "RECIPE"
     }
   ],
   "shared": [],
