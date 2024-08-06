@@ -32,6 +32,9 @@
           "map": {
             "eventserver_cru_logs": {
               "repartition": 10
+            },
+            "COPYOFLLMCOSTGUARDDATAIKURESOURCEUSAGEMONITORING.eventserver_cru_logs": {
+              "repartition": 10
             }
           }
         },
@@ -76,7 +79,7 @@
     "main": {
       "items": [
         {
-          "ref": "COPYOFLLMCOSTGUARDDATAIKURESOURCEUSAGEMONITORING.eventserver_cru_logs",
+          "ref": "eventserver_cru_logs",
           "deps": []
         }
       ]
