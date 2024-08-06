@@ -23,8 +23,10 @@ variables = project.get_variables()
 
 logs_origin = variables["local"]["logs_origin"]
 logs_connection = variables["local"]["logs_connection"]
-dataset = project.get_dataset("compute_resource_usage_logs")
-dataset_settings = dataset.get_settings()
-dataset_settings.settings["params"]["connection"] = logs_connection
-dataset_settings.settings["type"] = get_connection_type(project, "compute_resource_usage_logs", logs_connection)
-dataset_settings.save()
+
+if logs_origin == "cloud":
+    dataset = project.get_dataset("compute_resource_usage_logs")
+    dataset_settings = dataset.get_settings()
+    dataset_settings.settings["params"]["connection"] = logs_connection
+    dataset_settings.settings["type"] = get_connection_type(project, "compute_resource_usage_logs", logs_connection)
+    dataset_settings.save()
