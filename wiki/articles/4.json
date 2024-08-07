@@ -12,6 +12,17 @@
       },
       "attachedBy": "fabien.daoulas@dataiku.com",
       "attachedOn": 1721376874037
+    },
+    {
+      "attachmentType": "FILE",
+      "smartId": "8ZNyIDBmufxp",
+      "details": {
+        "objectDisplayName": "eventserver_logs_ingestion.png",
+        "size": 168737,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "fabien.daoulas@dataiku.com",
+      "attachedOn": 1723016978505
     }
   ],
   "creationTag": {
