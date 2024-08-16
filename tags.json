@@ -9,6 +9,9 @@
     "SolutionType:Plug and Play": {
       "color": "#23E5E8"
     },
+    "Version:1.0.1": {
+      "color": "#d66b9b"
+    },
     "recipe-editor": {
       "color": "#1ac2ab"
     },
@@ -24,7 +27,9 @@
     "Dataiku Solution": {
       "color": "#d66b9b"
     },
-    "duplicated": {},
+    "duplicated": {
+      "color": "#94be8e"
+    },
     "Section:Solutions": {
       "color": "#2CDAC0"
     },
@@ -37,11 +42,15 @@
     "Industry Solution": {
       "color": "#77bec2"
     },
-    "downloads": {},
+    "downloads": {
+      "color": "#de1ea5"
+    },
     "dashboarding": {
       "color": "#00a55a"
     },
-    "imported": {},
+    "imported": {
+      "color": "#d66b9b"
+    },
     "SolutionCategory:Cross-Vertical": {
       "color": "#B0E523"
     },
