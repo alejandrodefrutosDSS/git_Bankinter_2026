@@ -350,10 +350,10 @@
     "Section:Solutions",
     "SolutionType:Plug and Play",
     "SolutionLineOfBusiness:IT / Cybersecurity / Data",
-    "Version:1.0.0-rc1",
     "downloads",
     "Industry Solution",
-    "duplicated"
+    "duplicated",
+    "Version:1.0.1"
   ],
   "customFields": {},
   "checklists": {
