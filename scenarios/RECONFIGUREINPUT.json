@@ -2,7 +2,7 @@
   "type": "custom_python",
   "name": "1. Reconfigure input",
   "active": false,
-  "runAsUser": "admin",
+  "runAsUser": "fabien.daoulas@dataiku.com",
   "checklists": {
     "checklists": []
   },

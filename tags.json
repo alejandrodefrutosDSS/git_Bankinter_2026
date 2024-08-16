@@ -24,6 +24,7 @@
     "Dataiku Solution": {
       "color": "#d66b9b"
     },
+    "duplicated": {},
     "Section:Solutions": {
       "color": "#2CDAC0"
     },
@@ -36,9 +37,11 @@
     "Industry Solution": {
       "color": "#77bec2"
     },
+    "downloads": {},
     "dashboarding": {
       "color": "#00a55a"
     },
+    "imported": {},
     "SolutionCategory:Cross-Vertical": {
       "color": "#B0E523"
     },
@@ -50,9 +53,6 @@
     },
     "SolutionLineOfBusiness:Data / Analytics": {
       "color": "#28aadd"
-    },
-    "downloads": {},
-    "duplicated": {},
-    "imported": {}
+    }
   }
 }
