@@ -385,7 +385,7 @@
             "autoLoad": true,
             "borderOptions": {
               "color": "#D9D9D9",
-              "radius": 0,
+              "radius": 20,
               "size": 1
             },
             "titleOptions": {
@@ -413,7 +413,7 @@
             "autoLoad": true,
             "borderOptions": {
               "color": "#D9D9D9",
-              "radius": 0,
+              "radius": 20,
               "size": 1
             },
             "titleOptions": {
@@ -441,7 +441,7 @@
             "autoLoad": true,
             "borderOptions": {
               "color": "#D9D9D9",
-              "radius": 0,
+              "radius": 20,
               "size": 1
             },
             "titleOptions": {
@@ -469,7 +469,7 @@
             "autoLoad": true,
             "borderOptions": {
               "color": "#D9D9D9",
-              "radius": 0,
+              "radius": 20,
               "size": 1
             },
             "titleOptions": {
@@ -569,7 +569,7 @@
             "autoLoad": true,
             "borderOptions": {
               "color": "#D9D9D9",
-              "radius": 0,
+              "radius": 20,
               "size": 1
             },
             "titleOptions": {
@@ -669,7 +669,7 @@
             "autoLoad": true,
             "borderOptions": {
               "color": "#D9D9D9",
-              "radius": 0,
+              "radius": 20,
               "size": 1
             },
             "titleOptions": {
