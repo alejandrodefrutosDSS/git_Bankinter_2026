@@ -202,6 +202,7 @@
           "id": "y_left_0",
           "displayAxis": true,
           "showAxisTitle": true,
+          "axisTitle": "Estimated Costs ($)",
           "axisTitleFormatting": {
             "fontSize": 15,
             "fontColor": "#333",
