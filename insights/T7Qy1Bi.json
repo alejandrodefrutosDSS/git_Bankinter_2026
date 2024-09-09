@@ -15,7 +15,7 @@
           "enabled": false,
           "rules": []
         },
-        "samplingMethod": "HEAD_SEQUENTIAL",
+        "samplingMethod": "FULL",
         "maxRecords": 30000,
         "targetRatio": 0.02,
         "ascending": true,
@@ -26,16 +26,89 @@
       "_refreshTrigger": 0
     },
     "def": {
-      "type": "grouped_columns",
+      "type": "kpi",
       "variant": "normal",
-      "name": "Chart",
+      "name": "Sum of llmUsage_estimatedCostUSD",
       "userEditedName": false,
       "displayWithEChartsByDefault": true,
       "genericDimension0": [],
       "genericDimension1": [],
       "facetDimension": [],
       "animationDimension": [],
-      "genericMeasures": [],
+      "genericMeasures": [
+        {
+          "column": "llmUsage_estimatedCostUSD",
+          "function": "SUM",
+          "type": "NUMERICAL",
+          "displayed": true,
+          "isA": "measure",
+          "displayAxis": "axis1",
+          "displayType": "column",
+          "computeMode": "NORMAL",
+          "computeModeDim": 0,
+          "multiplier": "Auto",
+          "decimalPlaces": 2,
+          "digitGrouping": "DEFAULT",
+          "showValue": true,
+          "displayLabel": "Total Estimated Cost ($)",
+          "showDisplayLabel": true,
+          "labelPosition": "BOTTOM",
+          "labelFontSize": 16,
+          "percentile": 50.0,
+          "isCustomPercentile": false,
+          "kpiTextAlign": "CENTER",
+          "kpiValueFontSizeMode": "RESPONSIVE",
+          "kpiValueFontSize": 32,
+          "responsiveTextAreaFill": 100,
+          "valueTextFormatting": {
+            "fontSize": 11,
+            "fontColor": "#333",
+            "hasBackground": false
+          },
+          "labelTextFormatting": {
+            "fontSize": 11,
+            "fontColor": "#333",
+            "hasBackground": false
+          },
+          "colorRules": []
+        },
+        {
+          "column": "llmUsage_estimatedCostUSD",
+          "function": "AVG",
+          "type": "NUMERICAL",
+          "displayed": true,
+          "isA": "measure",
+          "displayAxis": "axis1",
+          "displayType": "column",
+          "computeMode": "NORMAL",
+          "computeModeDim": 0,
+          "multiplier": "Auto",
+          "decimalPlaces": 3,
+          "digitGrouping": "DEFAULT",
+          "showValue": true,
+          "displayLabel": "Average Estimated Cost per Request ($)",
+          "showDisplayLabel": true,
+          "labelPosition": "BOTTOM",
+          "labelFontSize": 16,
+          "percentile": 50.0,
+          "isCustomPercentile": false,
+          "kpiTextAlign": "CENTER",
+          "kpiValueFontSizeMode": "RESPONSIVE",
+          "kpiValueFontSize": 32,
+          "responsiveTextAreaFill": 100,
+          "valueTextFormatting": {
+            "fontSize": 11,
+            "fontColor": "#333",
+            "hasBackground": false
+          },
+          "labelTextFormatting": {
+            "fontSize": 11,
+            "fontColor": "#333",
+            "hasBackground": false
+          },
+          "colorRules": []
+        }
+      ],
       "xDimension": [],
       "yDimension": [],
       "uaXDimension": [],
@@ -80,6 +153,7 @@
       "tooltipMeasures": [],
       "boxplotBreakdownDim": [],
       "boxplotValue": [],
+      "filters": [],
       "xAxisFormatting": {
         "displayAxis": true,
         "showAxisTitle": true,
@@ -251,6 +325,7 @@
         "defaultRadius": 5.0,
         "singleShape": "FILLED_CIRCLE"
       },
+      "computeMode": "NORMAL",
       "xAxisMode": "NORMAL",
       "yAxisMode": "NORMAL",
       "pieOptions": {
@@ -442,7 +517,9 @@
         },
         "horizontal": {
           "show": false,
-          "displayAxis": {},
+          "displayAxis": {
+            "type": "LEFT_Y_AXIS"
+          },
           "lineFormatting": {
             "type": "FILLED",
             "color": "#d9d9d9",
