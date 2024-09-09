@@ -44,7 +44,7 @@
           "maxValues": 0,
           "generateOthersCategory": true,
           "forceLastPositionOthers": false,
-          "oneTickPerBin": false,
+          "oneTickPerBin": "NO",
           "filters": [],
           "isA": "dimension",
           "possibleSorts": [
@@ -56,12 +56,12 @@
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Estimated Costs ($), descending"
+              "label": "Sum of llmUsage_estimatedCostUSD, descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Estimated Costs ($), ascending",
+              "label": "Sum of llmUsage_estimatedCostUSD, ascending",
               "sortAscending": true
             }
           ],
@@ -86,7 +86,7 @@
           "type": "NUMERICAL",
           "displayed": true,
           "isA": "measure",
-          "displayAxis": "axis2",
+          "displayAxis": "axis1",
           "displayType": "column",
           "computeMode": "CUMULATIVE",
           "computeModeDim": 0,
@@ -94,13 +94,27 @@
           "digitGrouping": "DEFAULT",
           "prefix": "",
           "suffix": "",
+          "showValue": true,
           "displayLabel": "",
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
           "labelFontSize": 16,
+          "percentile": 0.0,
+          "isCustomPercentile": false,
           "kpiTextAlign": "CENTER",
           "kpiValueFontSizeMode": "RESPONSIVE",
           "kpiValueFontSize": 32,
+          "responsiveTextAreaFill": 100,
+          "valueTextFormatting": {
+            "fontSize": 11,
+            "fontColor": "#333",
+            "hasBackground": false
+          },
+          "labelTextFormatting": {
+            "fontSize": 11,
+            "fontColor": "#333",
+            "hasBackground": false
+          },
           "colorRules": []
         }
       ],
@@ -316,8 +330,8 @@
           "fixedValues": false
         },
         "customColors": {
-          "m_llmUsage_estimatedCostUSD_SUM_2": "#ff7f0e",
-          "m_llmUsage_estimatedCostUSD_SUM_1": "#ff7f0e"
+          "m_llmUsage_estimatedCostUSD_SUM_1": "#ff7f0e",
+          "m_llmUsage_estimatedCostUSD_SUM_2": "#ff7f0e"
         }
       },
       "bubblesOptions": {
@@ -431,6 +445,41 @@
           "backgroundColor": "#D9D9D9BF"
         }
       },
+      "gaugeOptions": {
+        "min": {
+          "sourceType": "Constant",
+          "constantValue": 0.0,
+          "defaultConstantValue": 0.0,
+          "ignoreExistingFilters": false
+        },
+        "max": {
+          "sourceType": "Constant",
+          "constantValue": 0.0,
+          "defaultConstantValue": 0.0,
+          "ignoreExistingFilters": false
+        },
+        "axis": {
+          "ticksConfig": {
+            "mode": "INTERVAL"
+          },
+          "axisValuesFormatting": {
+            "numberFormatting": {
+              "multiplier": "Auto",
+              "digitGrouping": "DEFAULT",
+              "prefix": "",
+              "suffix": ""
+            },
+            "axisTicksFormatting": {
+              "fontSize": 12,
+              "fontColor": "#333",
+              "hasBackground": false
+            }
+          },
+          "thickness": 30,
+          "customRanges": false
+        },
+        "displayPointer": false
+      },
       "useLiveProcessingIfAvailable": true,
       "legendPlacement": "SIDEBAR",
       "legendFormatting": {
@@ -467,7 +516,12 @@
             "fontColor": "#333",
             "hasBackground": false
           }
-        }
+        },
+        "areRowsExpandedByDefault": true,
+        "areColumnExpandedByDefault": true,
+        "rowIdByCustomExpandedStatus": {},
+        "columnIdByCustomExpandedStatus": {},
+        "columnIdByCustomWidth": {}
       },
       "gridlinesOptions": {
         "vertical": {
