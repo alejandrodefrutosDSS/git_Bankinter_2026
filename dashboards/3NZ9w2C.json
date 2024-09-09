@@ -1054,7 +1054,7 @@
               "top": 3,
               "left": 0,
               "width": 10,
-              "height": 1
+              "height": 2
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
@@ -1758,7 +1758,7 @@
               "top": 1,
               "left": 0,
               "width": 10,
-              "height": 1
+              "height": 2
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
