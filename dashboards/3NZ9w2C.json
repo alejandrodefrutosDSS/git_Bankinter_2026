@@ -28,7 +28,7 @@
             "borderOptions": {
               "color": "#D9D9D9",
               "radius": 0,
-              "size": 1
+              "size": 0
             },
             "titleOptions": {
               "showTitle": "NO",
@@ -732,7 +732,7 @@
             "borderOptions": {
               "color": "#D9D9D9",
               "radius": 0,
-              "size": 1
+              "size": 0
             },
             "titleOptions": {
               "showTitle": "NO",
