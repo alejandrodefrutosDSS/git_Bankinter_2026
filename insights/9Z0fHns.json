@@ -41,7 +41,7 @@
           "maxValues": 20,
           "generateOthersCategory": true,
           "forceLastPositionOthers": false,
-          "oneTickPerBin": false,
+          "oneTickPerBin": "NO",
           "filters": [],
           "isA": "dimension",
           "possibleSorts": [
@@ -83,7 +83,7 @@
           "maxValues": 20,
           "generateOthersCategory": true,
           "forceLastPositionOthers": false,
-          "oneTickPerBin": false,
+          "oneTickPerBin": "NO",
           "filters": [],
           "isA": "dimension",
           "possibleSorts": [
@@ -132,12 +132,26 @@
           "digitGrouping": "DEFAULT",
           "prefix": "",
           "suffix": "",
+          "showValue": true,
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
           "labelFontSize": 16,
+          "percentile": 0.0,
+          "isCustomPercentile": false,
           "kpiTextAlign": "CENTER",
           "kpiValueFontSizeMode": "RESPONSIVE",
           "kpiValueFontSize": 32,
+          "responsiveTextAreaFill": 100,
+          "valueTextFormatting": {
+            "fontSize": 11,
+            "fontColor": "#333",
+            "hasBackground": false
+          },
+          "labelTextFormatting": {
+            "fontSize": 11,
+            "fontColor": "#333",
+            "hasBackground": false
+          },
           "colorRules": []
         }
       ],
@@ -188,7 +202,7 @@
       "filters": [],
       "xAxisFormatting": {
         "displayAxis": true,
-        "showAxisTitle": true,
+        "showAxisTitle": false,
         "axisTitleFormatting": {
           "fontSize": 15,
           "fontColor": "#333",
@@ -463,6 +477,41 @@
           "backgroundColor": "#D9D9D9BF"
         }
       },
+      "gaugeOptions": {
+        "min": {
+          "sourceType": "Constant",
+          "constantValue": 0.0,
+          "defaultConstantValue": 0.0,
+          "ignoreExistingFilters": false
+        },
+        "max": {
+          "sourceType": "Constant",
+          "constantValue": 0.0,
+          "defaultConstantValue": 0.0,
+          "ignoreExistingFilters": false
+        },
+        "axis": {
+          "ticksConfig": {
+            "mode": "INTERVAL"
+          },
+          "axisValuesFormatting": {
+            "numberFormatting": {
+              "multiplier": "Auto",
+              "digitGrouping": "DEFAULT",
+              "prefix": "",
+              "suffix": ""
+            },
+            "axisTicksFormatting": {
+              "fontSize": 12,
+              "fontColor": "#333",
+              "hasBackground": false
+            }
+          },
+          "thickness": 30,
+          "customRanges": false
+        },
+        "displayPointer": false
+      },
       "useLiveProcessingIfAvailable": true,
       "legendPlacement": "INNER_TOP_RIGHT",
       "legendFormatting": {
@@ -499,7 +548,12 @@
             "fontColor": "#333",
             "hasBackground": false
           }
-        }
+        },
+        "areRowsExpandedByDefault": true,
+        "areColumnExpandedByDefault": true,
+        "rowIdByCustomExpandedStatus": {},
+        "columnIdByCustomExpandedStatus": {},
+        "columnIdByCustomWidth": {}
       },
       "gridlinesOptions": {
         "vertical": {
