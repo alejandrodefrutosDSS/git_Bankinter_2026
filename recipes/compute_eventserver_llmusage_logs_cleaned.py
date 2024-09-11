@@ -35,14 +35,15 @@ mapping_eventServer = {
 
 # Read recipe inputs
 eventserver_llmusage = dataiku.Dataset("eventserver_llmusage")
-eventserver_llmusage_logs_cleaned = dataiku.Dataset("eventserver_llmusage_logs_cleaned")
+eventserver_llmusage_df = eventserver_llmusage.get_dataframe(infer_with_pandas=False)
+columns = eventserver_llmusage_df.columns
 
-first_batch = True
-for batch in eventserver_llmusage.iter_dataframes(infer_with_pandas=False):
-    batch.rename(columns=mapping_eventServer, inplace=True)
-    if first_batch:
-        eventserver_llmusage_logs_cleaned.write_with_schema(batch)
-        first_batch = False
-    else:
-        eventserver_llmusage_logs_cleaned.append_dataframe(batch)
+eventserver_llmusage_df.rename(columns=mapping_eventServer, inplace=True)
+
+# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
+logs_clean_df = eventserver_llmusage_df # For this sample code, simply copy input to output
+
+# Write recipe outputs
+eventserver_llmusage_logs_cleaned = dataiku.Dataset("eventserver_llmusage_logs_cleaned")
+eventserver_llmusage_logs_cleaned.write_with_schema(logs_clean_df)
 
