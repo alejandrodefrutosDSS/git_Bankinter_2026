@@ -17,6 +17,10 @@
     {
       "objectId": "eventserver_cru_logs",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_eventserver_llmusage",
+      "objectType": "RECIPE"
     }
   ],
   "shared": [],
