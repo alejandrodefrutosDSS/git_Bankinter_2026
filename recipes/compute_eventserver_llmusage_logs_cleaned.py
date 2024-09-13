@@ -45,5 +45,5 @@ logs_clean_df = eventserver_llmusage_df # For this sample code, simply copy inpu
 
 # Write recipe outputs
 eventserver_llmusage_logs_cleaned = dataiku.Dataset("eventserver_llmusage_logs_cleaned")
-eventserver_llmusage_logs_cleaned.write_with_schema(logs_clean_df)
+eventserver_llmusage_logs_cleaned.write_dataframe(logs_clean_df)
 
