@@ -35,7 +35,7 @@ mapping_eventServer = {
 
 # Read recipe inputs
 eventserver_llmusage = dataiku.Dataset("eventserver_llmusage")
-eventserver_llmusage_df = eventserver_llmusage.get_dataframe(infer_with_pandas=False)
+eventserver_llmusage_df = eventserver_llmusage.get_dataframe(infer_with_pandas=False, parse_dates=False)
 columns = eventserver_llmusage_df.columns
 
 eventserver_llmusage_df.rename(columns=mapping_eventServer, inplace=True)
