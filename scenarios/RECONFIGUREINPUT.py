@@ -51,6 +51,7 @@ for ds_name in ALL_DS:
     if logs_partitioning_activated:
     else:
         ds_settings.remove_partitioning()
+
     ds_settings.save()
     
 recipe = project.get_recipe("compute_llm_logs_prep")
