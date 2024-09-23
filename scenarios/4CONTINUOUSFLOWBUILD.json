@@ -2,14 +2,6 @@
   "type": "step_based",
   "name": "4. Continuous flow build",
   "active": false,
-  "creationTag": {
-    "versionNumber": 0,
-    "lastModifiedBy": {
-      "login": "fabien.daoulas@dataiku.com"
-    },
-    "lastModifiedOn": 1727105048751,
-    "extendedProperties": {}
-  },
   "checklists": {
     "checklists": []
   },
@@ -19,7 +11,34 @@
     "suppressTriggersWhileRunning": true
   },
   "tags": [],
-  "triggers": [],
+  "triggers": [
+    {
+      "id": "MoPus6tu",
+      "type": "ds_modified",
+      "name": "Dataset modified",
+      "delay": 60,
+      "active": true,
+      "params": {
+        "watches": [
+          {
+            "type": "DATASET",
+            "itemId": "eventserver_cru_logs",
+            "partitionsSpec": "CURRENT_MONTH"
+          },
+          {
+            "type": "DATASET",
+            "itemId": "compute_resource_usage_logs",
+            "partitionsSpec": ""
+          }
+        ],
+        "triggerWhenAllFire": false
+      },
+      "graceDelaySettings": {
+        "delay": 120,
+        "checkAgainAfterGraceDelay": false
+      }
+    }
+  ],
   "reporters": [],
   "params": {
     "steps": []
