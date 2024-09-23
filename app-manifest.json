@@ -103,6 +103,27 @@
           "type": "PROJECT_VARIABLES_EDIT"
         },
         {
+          "behavior": "INLINE_AUTO_SAVE",
+          "params": [
+            {
+              "name": "logs_partitioning_activated",
+              "type": "BOOLEAN",
+              "label": "Activate partition support",
+              "defaultValue": true,
+              "mandatory": false,
+              "canSelectForeign": false,
+              "markCreatedAsBuilt": false,
+              "allowDuplicates": true,
+              "getChoicesFromPython": false,
+              "triggerParameters": [],
+              "disableAutoReload": false,
+              "canCreateDataset": false,
+              "wt1Loggable": false
+            }
+          ],
+          "type": "PROJECT_VARIABLES_EDIT"
+        },
+        {
           "scenarioId": "RECONFIGUREINPUT",
           "buttonText": "Reconfigure",
           "type": "SCENARIO_RUN",
