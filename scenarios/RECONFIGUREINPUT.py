@@ -42,7 +42,7 @@ elif logs_origin == "event_server":
 else:
     raise "Unexpected log origin."
 
-# Change input dataset connection type.
+# Change connection type for all dataset in the selected flow.
 for ds_name in ALL_DS:
     ds = project.get_dataset(ds_name)
     ds_settings = ds.get_settings()
