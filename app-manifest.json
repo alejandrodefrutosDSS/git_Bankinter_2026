@@ -160,6 +160,21 @@
               "disableAutoReload": false,
               "canCreateDataset": false,
               "wt1Loggable": false
+            },
+            {
+              "name": "logs_partitioning_pattern",
+              "type": "STRING",
+              "label": "Fill in the pattern",
+              "defaultValue": "%Y/%M/%D/%H/.*",
+              "mandatory": false,
+              "canSelectForeign": false,
+              "markCreatedAsBuilt": false,
+              "allowDuplicates": true,
+              "getChoicesFromPython": false,
+              "triggerParameters": [],
+              "disableAutoReload": false,
+              "canCreateDataset": false,
+              "wt1Loggable": false
             }
           ],
           "type": "PROJECT_VARIABLES_EDIT",
