@@ -26,8 +26,8 @@
           "deps": [
             {
               "out": "eventserver_llmusage_logs_cleaned",
-              "idim": "MONTH",
-              "odim": "MONTH",
+              "idim": "DAY",
+              "odim": "DAY",
               "func": "equals",
               "params": {},
               "expandVariables": false
