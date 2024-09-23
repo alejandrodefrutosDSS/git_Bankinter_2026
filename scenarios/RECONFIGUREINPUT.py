@@ -69,7 +69,7 @@ for recipe_name in ALL_RECIPES:
     recipe = project.get_recipe(recipe_name)
     recipe_settings = recipe.get_settings()
     print("recipe settings: " + recipe_name)
-    print(recipe_settings)
+    print(recipe_settings.str_payload)
     
 recipe = project.get_recipe("compute_llm_logs_prep")
 recipe_settings = recipe.get_settings()
