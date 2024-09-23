@@ -11,10 +11,6 @@
       "objectType": "DATASET"
     },
     {
-      "objectId": "compute_eventserver_llmusage_logs_cleaned",
-      "objectType": "RECIPE"
-    },
-    {
       "objectId": "eventserver_cru_logs",
       "objectType": "DATASET"
     },
