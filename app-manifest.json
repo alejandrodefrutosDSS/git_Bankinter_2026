@@ -108,7 +108,7 @@
             {
               "name": "logs_partitioning_activated",
               "type": "BOOLEAN",
-              "label": "Activate partition support",
+              "label": "Activate partitioning support",
               "defaultValue": true,
               "mandatory": false,
               "canSelectForeign": false,
