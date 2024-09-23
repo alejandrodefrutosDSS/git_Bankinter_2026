@@ -90,7 +90,7 @@ scenario_settings = scenario.get_settings()
 
 if logs_partitioning_activated:
     period_to_partition_spec = { "HOUR": "CURRENT_HOUR", "DAY": "CURRENT_DAY", "MONTH": "CURRENT_MONTH", "YEAR": "CURRENT_YEAR" }
-    settings.raw_steps[0]["params"]["builds"][0]["partitionsSpec"] = period_to_partition_spec[logs_partitioning_build_range]
+    settings.raw_steps[0]["params"]["builds"][0]["partitionsSpec"] = period_to_partition_spec[logs_partitioning_period]
 
 settings.save()
 
