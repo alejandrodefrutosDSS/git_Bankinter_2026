@@ -48,7 +48,7 @@
               "type": "SELECT",
               "label": "Select their origin",
               "defaultValue": "demo",
-              "mandatory": false,
+              "mandatory": true,
               "canSelectForeign": false,
               "markCreatedAsBuilt": false,
               "allowDuplicates": true,
@@ -140,7 +140,7 @@
                   "value": "day",
                   "label": "Day",
                   "showInColumnPreview": false,
-                  "selected": false
+                  "selected": true
                 },
                 {
                   "value": "month",
