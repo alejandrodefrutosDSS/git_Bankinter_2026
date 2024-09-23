@@ -4,5 +4,5 @@
   "logs_origin": "cloud",
   "logs_partitioning_activated": true,
   "logs_partitioning_period": "YEAR",
-  "logs_partitioning_pattern": "%Y//.*"
+  "logs_partitioning_pattern": "%Y/.*"
 }
