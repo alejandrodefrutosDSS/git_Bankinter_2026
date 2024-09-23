@@ -56,6 +56,11 @@
       "excludeRules": [],
       "includeRules": [],
       "explicitFiles": []
+    },
+    "variablesExpansionLoopConfig": {
+      "enabled": false,
+      "mode": "CREATE_VARIABLE_FOR_EACH_COLUMN",
+      "replacements": []
     }
   },
   "schema": {
