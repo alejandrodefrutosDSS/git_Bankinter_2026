@@ -163,7 +163,7 @@
             }
           ],
           "type": "PROJECT_VARIABLES_EDIT",
-          "prompt": "Partitioning"
+          "prompt": "Configure logs partitioning"
         },
         {
           "scenarioId": "RECONFIGUREINPUT",
