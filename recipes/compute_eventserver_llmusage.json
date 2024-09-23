@@ -32,7 +32,7 @@
     "main": {
       "items": [
         {
-          "ref": "eventserver_llmusage",
+          "ref": "eventserver_llmusage_logs_cleaned",
           "appendMode": false
         }
       ]
