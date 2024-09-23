@@ -60,7 +60,7 @@ for ds_name in ALL_DS:
         ds_settings.remove_partitioning()
         ds_settings.add_time_partitioning_dimension(logs_partitioning_period, logs_partitioning_period)
         ds_settings.set_partitioning_file_pattern(logs_partitioning_pattern)
-        print("my partitioning: " + str(ds_settings["partitioning"]))
+        print("my partitioning: " + json.dumps(ds_settings["partitioning"]))
     else:
         ds_settings.remove_partitioning()
 
