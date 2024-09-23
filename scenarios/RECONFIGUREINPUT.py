@@ -53,7 +53,6 @@ else:
 for ds_name in ALL_DS:
     ds = project.get_dataset(ds_name)
     ds_settings = ds.get_settings()
-    print(ds_settings.settings)
     ds_settings.settings["params"]["connection"] = logs_connection
     ds_settings.settings["type"] = get_connection_type(project, ds_name, logs_connection)
     if logs_partitioning_activated:
