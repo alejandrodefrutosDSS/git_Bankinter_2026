@@ -39,9 +39,9 @@
     "considerMissingRequestedPartitionsAsEmpty": false,
     "dimensions": [
       {
-        "name": "HOUR",
+        "name": "YEAR",
         "params": {
-          "period": "HOUR"
+          "period": "YEAR"
         },
         "type": "time"
       }
