@@ -33,14 +33,14 @@
     "headerRow": false
   },
   "partitioning": {
-    "filePathPattern": "%Y/%M/.*",
+    "filePathPattern": "%Y/%M/%D/.*",
     "ignoreNonMatchingFile": false,
     "considerMissingRequestedPartitionsAsEmpty": true,
     "dimensions": [
       {
-        "name": "MONTH",
+        "name": "DAY",
         "params": {
-          "period": "MONTH"
+          "period": "DAY"
         },
         "type": "time"
       }
