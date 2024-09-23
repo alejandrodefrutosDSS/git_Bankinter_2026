@@ -67,8 +67,8 @@
           "deps": [
             {
               "out": "logs_llm_usage_prepared",
-              "idim": "day",
-              "odim": "day",
+              "idim": "DAY",
+              "odim": "DAY",
               "func": "equals",
               "params": {},
               "expandVariables": false
