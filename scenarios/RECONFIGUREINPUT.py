@@ -49,6 +49,7 @@ for ds_name in ALL_DS:
     ds_settings.settings["params"]["connection"] = logs_connection
     ds_settings.settings["type"] = get_connection_type(project, ds_name, logs_connection)
     if logs_partitioning_activated:
+        ds_settings.add_time_partitioning_dimension(logs_partitioning_period, logs_partitioning_period)
     else:
         ds_settings.remove_partitioning()
 
