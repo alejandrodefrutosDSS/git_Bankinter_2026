@@ -68,6 +68,7 @@ for ds_name in ALL_DS:
 for recipe_name in ALL_RECIPES:
     recipe = project.get_recipe(recipe_name)
     recipe_settings = recipe.get_settings()
+    print("recipe settings: " + recipe_name)
     print(recipe_settings)
     
 recipe = project.get_recipe("compute_llm_logs_prep")
