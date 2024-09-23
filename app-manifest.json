@@ -178,7 +178,8 @@
             }
           ],
           "type": "PROJECT_VARIABLES_EDIT",
-          "prompt": "Configure partitioning"
+          "prompt": "Configure partitioning",
+          "help": "Pattern examples: \u003cbr/\u003e \n%Y/.* \u003cbr/\u003e\n%Y/%M/.* \u003cbr/\u003e\n%Y/%M/%D/.* \u003cbr/\u003e\n%Y/%M/%D/%H/.*"
         },
         {
           "scenarioId": "RECONFIGUREINPUT",
