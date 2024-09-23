@@ -64,16 +64,7 @@
       "items": [
         {
           "ref": "logs_filtered_unnested",
-          "deps": [
-            {
-              "out": "logs_llm_usage_prepared",
-              "idim": "MONTH",
-              "odim": "MONTH",
-              "func": "equals",
-              "params": {},
-              "expandVariables": false
-            }
-          ]
+          "deps": []
         }
       ]
     }
