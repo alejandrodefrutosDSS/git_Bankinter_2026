@@ -35,7 +35,15 @@
     "filePathPattern": "////.*",
     "ignoreNonMatchingFile": false,
     "considerMissingRequestedPartitionsAsEmpty": false,
-    "dimensions": []
+    "dimensions": [
+      {
+        "name": "HOUR",
+        "params": {
+          "period": "HOUR"
+        },
+        "type": "time"
+      }
+    ]
   },
   "creationTag": {
     "versionNumber": 0,
@@ -59,6 +67,11 @@
       "excludeRules": [],
       "includeRules": [],
       "explicitFiles": []
+    },
+    "variablesExpansionLoopConfig": {
+      "enabled": false,
+      "mode": "CREATE_VARIABLE_FOR_EACH_COLUMN",
+      "replacements": []
     }
   },
   "schema": {
