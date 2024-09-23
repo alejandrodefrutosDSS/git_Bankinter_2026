@@ -91,6 +91,8 @@ scenario_settings = scenario.get_settings()
 if logs_partitioning_activated:
     period_to_partition_spec = { "HOUR": "CURRENT_HOUR", "DAY": "CURRENT_DAY", "MONTH": "CURRENT_MONTH", "YEAR": "CURRENT_YEAR" }
     partition_spec = period_to_partition_spec[logs_partitioning_period]
+    import json
+    print(json.dumps(scenario_settings.raw_triggers[0]))
     scenario_settings.raw_steps[0]["params"]["builds"][0]["partitionsSpec"] = partition_spec
     scenario_settings.save()
 
