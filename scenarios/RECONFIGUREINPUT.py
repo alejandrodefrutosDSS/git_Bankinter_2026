@@ -69,11 +69,11 @@ for ds_name in ALL_DS:
 for recipe_name in ALL_RECIPES:
     recipe = project.get_recipe(recipe_name)
     recipe_settings = recipe.get_settings()
-    inputs = recipe_settings.get_recipe_inputs()
+    recipe_inputs = recipe_settings.get_recipe_inputs()
     if logs_partitioning_activated:
-        inputs["main"]["items"][0]["deps"] = [{"out": recipe_settings.get_flat_output_refs()[0], "idim": "day", "odim": "day", "func": "equals", "params": {}, "expandVariables": False}]
+        recipe_inputs["main"]["items"][0]["deps"] = [{"out": recipe_settings.get_flat_output_refs()[0], "idim": "day", "odim": "day", "func": "equals", "params": {}, "expandVariables": False}]
     else:
-        inputs["main"]["items"][0]["deps"] = []
+        recipe_inputs["main"]["items"][0]["deps"] = []
     print("recipe settings: " + recipe_name)
     print(json.dumps(recipe_settings.get_recipe_raw_definition()))
     print(json.dumps(recipe_settings.raw_params))
