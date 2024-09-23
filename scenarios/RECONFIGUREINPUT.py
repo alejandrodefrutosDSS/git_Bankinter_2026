@@ -71,6 +71,7 @@ for recipe_name in ALL_RECIPES:
     recipe_settings = recipe.get_settings()
     print("recipe settings: " + recipe_name)
     print(json.dumps(recipe_settings.get_recipe_raw_definition()))
+    print(json.dumps(recipe_settings.raw_params))
     
 recipe = project.get_recipe("compute_llm_logs_prep")
 recipe_settings = recipe.get_settings()
