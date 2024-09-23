@@ -32,10 +32,17 @@
     "parquetBlockSizeMB": 128
   },
   "partitioning": {
-    "filePathPattern": "////.*",
+    "filePathPattern": "%Y/%M/%D/%H/.*",
     "ignoreNonMatchingFile": false,
     "considerMissingRequestedPartitionsAsEmpty": false,
     "dimensions": [
+      {
+        "name": "HOUR",
+        "params": {
+          "period": "HOUR"
+        },
+        "type": "time"
+      },
       {
         "name": "HOUR",
         "params": {
