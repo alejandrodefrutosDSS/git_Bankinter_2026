@@ -29,7 +29,7 @@
         "minute": 30,
         "hour": 3,
         "timezone": "SERVER",
-        "lastUpdate": 1727104387550
+        "lastUpdate": 1727104422798
       }
     }
   ],
@@ -54,7 +54,7 @@
             {
               "type": "DATASET",
               "itemId": "logs_llm_usage_prepared",
-              "partitionsSpec": "CURRENT_DAY"
+              "partitionsSpec": "CURRENT_MONTH"
             }
           ],
           "jobType": "RECURSIVE_FORCED_BUILD",
