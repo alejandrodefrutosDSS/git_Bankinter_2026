@@ -24,16 +24,16 @@ variables = project.get_variables()
 logs_origin = variables["local"]["logs_origin"]
 logs_connection = variables["local"]["logs_connection"]
 
-input_dataset_name = ""
+connecting_dataset_name = "" # dataset that will connect to the "to_dashboard" flow zone.
 if logs_origin == "cloud" or logs_origin == "demo":
-    input_dataset_name = "logs_filtered_unnested"
+    connecting_dataset_name = "logs_filtered_unnested"
     dataset = project.get_dataset("compute_resource_usage_logs")
     dataset_settings = dataset.get_settings()
     dataset_settings.settings["params"]["connection"] = logs_connection
     dataset_settings.settings["type"] = get_connection_type(project, "compute_resource_usage_logs", logs_connection)
     dataset_settings.save()  
 elif logs_origin == "event_server":
-    input_dataset_name = "eventserver_llmusage_logs_cleaned"
+    connecting_dataset_name = "eventserver_llmusage_logs_cleaned"
     es_dataset = project.get_dataset("eventserver_cru_logs")
     es_dataset_settings = es_dataset.get_settings()
     es_dataset_settings.settings["params"]["connection"] = logs_connection
@@ -52,5 +52,5 @@ recipe_settings = recipe.get_settings()
 current_inputs = recipe_settings.get_flat_input_refs()
 assert len(current_inputs) == 1, f"Expected exactly one input to recipe 'compute_llm_logs_prep'."
 
-recipe_settings.replace_input(current_inputs[0], input_dataset_name)
+recipe_settings.replace_input(current_inputs[0], connecting_dataset_name)
 recipe_settings.save()
