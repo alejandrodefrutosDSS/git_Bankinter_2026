@@ -130,6 +130,7 @@
       "exportNotebooksWithOutputs": true,
       "exportForNewBranch": false,
       "exportKnowledgeBanks": false,
+      "exportEditableDatasets": true,
       "includedDatasetsData": [],
       "includedSavedModels": [],
       "includedModelEvaluationStores": [],
