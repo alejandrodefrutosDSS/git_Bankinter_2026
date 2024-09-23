@@ -21,7 +21,7 @@ EVENTSERVER_FLOWZONE_DS = ["eventserver_cru_logs", "eventserver_llmusage_logs_cl
 CLOUD_FLOWZONE_DS = ["compute_resource_usage_logs", "logs_filtered_unnested"]
 
 TO_DASHBOARD_FLOWZONE_RECIPES = ["compute_llm_logs_prep"]
-EVENTSERVER_FLOWZONE_RECIPES = ["eventserver_cru_logs", "eventserver_llmusage_logs_cleaned"]
+EVENTSERVER_FLOWZONE_RECIPES = ["compute_eventserver_llmusage"]
 CLOUD_FLOWZONE_RECIPES = ["compute_resource_usage_logs", "logs_filtered_unnested"]
 
 project_key = dataiku.get_custom_variables()["projectKey"]
