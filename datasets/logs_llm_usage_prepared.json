@@ -34,7 +34,7 @@
   "partitioning": {
     "filePathPattern": "%Y/%M/.*",
     "ignoreNonMatchingFile": false,
-    "considerMissingRequestedPartitionsAsEmpty": false,
+    "considerMissingRequestedPartitionsAsEmpty": true,
     "dimensions": [
       {
         "name": "MONTH",
