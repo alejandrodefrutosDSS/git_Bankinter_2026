@@ -93,10 +93,7 @@ if logs_partitioning_activated:
     partition_spec = period_to_partition_spec[logs_partitioning_period]
     # update trigger watches.
     trigger_watches_len = len(scenario_settings.raw_triggers[0]["params"]["watches"])
-    print("length watches " + str(trigger_watches_len))
     for index in range(trigger_watches_len):
-        print(str(index))
-        print(scenario_settings.raw_triggers[0]["params"]["watches"][index]["partitionsSpec"])
         scenario_settings.raw_triggers[0]["params"]["watches"][index]["partitionsSpec"] = partition_spec
     # update steps.
     scenario_settings.raw_steps[0]["params"]["builds"][0]["partitionsSpec"] = partition_spec
