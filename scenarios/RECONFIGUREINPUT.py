@@ -75,11 +75,12 @@ for recipe_name in ALL_RECIPES:
         print("recipe updated " + recipe_name + " output " + recipe_output)
         recipe_inputs["main"]["items"][0]["deps"] = [{"out": recipe_output, "idim": "day", "odim": "day", "func": "equals", "params": {}, "expandVariables": False}]
     else:
+        print
         recipe_inputs["main"]["items"][0]["deps"] = []
     print("recipe settings: " + recipe_name)
-    print(json.dumps(recipe_settings.get_recipe_raw_definition()))
-    print(json.dumps(recipe_settings.raw_params))
-    
+    recipe_settings.save()
+
+# Configure flow routing between flow branches.
 recipe = project.get_recipe("compute_llm_logs_prep")
 recipe_settings = recipe.get_settings()
 current_inputs = recipe_settings.get_flat_input_refs()
