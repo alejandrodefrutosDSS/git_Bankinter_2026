@@ -175,6 +175,21 @@
               "disableAutoReload": false,
               "canCreateDataset": false,
               "wt1Loggable": false
+            },
+            {
+              "name": "logs_partitioning_build_range",
+              "type": "STRING",
+              "label": "Build since (date range expected: such as 2024-05/2024-07)",
+              "defaultValue": "CURRENT_YEAR",
+              "mandatory": false,
+              "canSelectForeign": false,
+              "markCreatedAsBuilt": false,
+              "allowDuplicates": true,
+              "getChoicesFromPython": false,
+              "triggerParameters": [],
+              "disableAutoReload": false,
+              "canCreateDataset": false,
+              "wt1Loggable": false
             }
           ],
           "type": "PROJECT_VARIABLES_EDIT",
