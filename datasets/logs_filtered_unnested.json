@@ -32,18 +32,9 @@
     "parquetBlockSizeMB": 128
   },
   "partitioning": {
-    "filePathPattern": "%Y/%M/%D/.*",
     "ignoreNonMatchingFile": false,
     "considerMissingRequestedPartitionsAsEmpty": false,
-    "dimensions": [
-      {
-        "name": "DAY",
-        "params": {
-          "period": "DAY"
-        },
-        "type": "time"
-      }
-    ]
+    "dimensions": []
   },
   "creationTag": {
     "versionNumber": 0,
