@@ -16,7 +16,7 @@ def get_connection_type(project, dataset_name, connection_name):
     
     return tmp_dataset_settings["type"]
 
-TO_DASHBOARD_FLOWZONE_DS = []
+TO_DASHBOARD_FLOWZONE_DS = ["logs_llm_usage_prepared"]
 
 project_key = dataiku.get_custom_variables()["projectKey"]
 client = dataiku.api_client()
