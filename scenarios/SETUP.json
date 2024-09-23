@@ -30,6 +30,7 @@
         "delayBetweenRetries": 10,
         "maxRetriesOnFail": 0,
         "params": {
+          "script": "import dataiku\nimport dataikuapi\n\nproject_key \u003d dataiku.get_custom_variables()[\"projectKey\"]\nproject \u003d dataiku.api_client().get_project(project_key)\n\nactivate_continuous_build \u003d project.get_variables()[\"local\"][\"activate_continuous_build\"]\nlogs_partitioning_activated \u003d variables[\"local\"][\"logs_partitioning_activated\"]\n\nscenario \u003d project.get_scenario(\"4CONTINUOUSFLOWBUILD\")\nsettings \u003d scenario.get_settings()\n\nsettings.active \u003d activate_continuous_build\n\nif logs_partitioning_activated:\n    period_to_partition_spec \u003d { \"HOUR\": \"CURRENT_HOUR\", \"DAY\": \"CURRENT_DAY\", \"MONTH\": \"CURRENT_MONTH\", \"YEAR\": \"CURRENT_YEAR\" }\n    partition_spec \u003d period_to_partition_spec[logs_partitioning_period]\n    # update trigger watches.\n    trigger_watches_len \u003d len(settings.raw_triggers[0][\"params\"][\"watches\"])\n    for index in range(trigger_watches_len):\n        settings.raw_triggers[0][\"params\"][\"watches\"][index][\"partitionsSpec\"] \u003d partition_spec\n    # update steps.\n    settings.raw_steps[0][\"params\"][\"builds\"][0][\"partitionsSpec\"] \u003d partition_spec\n\nsettings.save()",
           "envSelection": {
             "envMode": "INHERIT"
           },
