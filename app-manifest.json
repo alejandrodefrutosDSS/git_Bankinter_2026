@@ -124,7 +124,7 @@
               "name": "logs_partitioning_period",
               "type": "SELECT",
               "label": "Select the partition period",
-              "defaultValue": true,
+              "defaultValue": "day",
               "mandatory": false,
               "canSelectForeign": false,
               "markCreatedAsBuilt": false,
