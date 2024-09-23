@@ -29,15 +29,12 @@ logs_origin = variables["local"]["logs_origin"]
 logs_connection = variables["local"]["logs_connection"]
 
 connecting_dataset_name = "" # dataset that will connect to the "to_dashboard" flow zone.
-input_dataset_name = ""
 ALL_DS = TO_DASHBOARD_FLOWZONE_DS
 if logs_origin == "cloud" or logs_origin == "demo":
     connecting_dataset_name = "logs_filtered_unnested"
-    input_dataset_name = "compute_resource_usage_logs"
     ALL_DS = ALL_DS + CLOUD_FLOWZONE_DS
 elif logs_origin == "event_server":
     connecting_dataset_name = "eventserver_llmusage_logs_cleaned"
-    input_dataset_name = "eventserver_cru_logs"
     ALL_DS = ALL_DS + EVENTSERVER_FLOWZONE_DS
 else:
     raise "Unexpected log origin."
