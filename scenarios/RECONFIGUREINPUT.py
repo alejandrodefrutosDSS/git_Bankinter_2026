@@ -39,6 +39,7 @@ elif logs_origin == "event_server":
 else:
     raise "Unexpected log origin."
 
+# Change input dataset connection type.
 input_dataset = project.get_dataset(input_dataset_name)
 input_dataset_settings = input_dataset.get_settings()
 input_dataset_settings.settings["params"]["connection"] = logs_connection
