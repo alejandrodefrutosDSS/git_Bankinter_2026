@@ -32,7 +32,7 @@
     "parquetBlockSizeMB": 128
   },
   "partitioning": {
-    "filePathPattern": "%Y/%M/%DAY/.*",
+    "filePathPattern": "%Y/%M/%D/.*",
     "ignoreNonMatchingFile": false,
     "considerMissingRequestedPartitionsAsEmpty": true,
     "dimensions": [
