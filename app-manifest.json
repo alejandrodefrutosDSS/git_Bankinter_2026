@@ -179,7 +179,7 @@
             {
               "name": "logs_partitioning_build_range",
               "type": "STRING",
-              "label": "Build since (date range expected: such as 2024-05/2024-07)",
+              "label": "Build time range",
               "defaultValue": "CURRENT_YEAR",
               "mandatory": false,
               "canSelectForeign": false,
