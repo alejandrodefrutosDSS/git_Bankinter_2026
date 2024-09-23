@@ -234,10 +234,10 @@
           "behavior": "INLINE_AUTO_SAVE",
           "params": [
             {
-              "name": "activate_night_build",
+              "name": "activate_continuous_build",
               "type": "BOOLEAN",
-              "label": "Activate automatic night build",
-              "description": "Enable automatic overnight flow build with latest data.",
+              "label": "Activate continuous build",
+              "description": "Continuous build will monitor the input datasets for any changes. If some are detected, the flow will be built.",
               "mandatory": false,
               "canSelectForeign": false,
               "markCreatedAsBuilt": false,
