@@ -175,21 +175,6 @@
               "disableAutoReload": false,
               "canCreateDataset": false,
               "wt1Loggable": false
-            },
-            {
-              "name": "logs_partitioning_build_range",
-              "type": "STRING",
-              "label": "Build time range",
-              "defaultValue": "CURRENT_YEAR",
-              "mandatory": false,
-              "canSelectForeign": false,
-              "markCreatedAsBuilt": false,
-              "allowDuplicates": true,
-              "getChoicesFromPython": false,
-              "triggerParameters": [],
-              "disableAutoReload": false,
-              "canCreateDataset": false,
-              "wt1Loggable": false
             }
           ],
           "type": "PROJECT_VARIABLES_EDIT",
@@ -242,6 +227,69 @@
               "canSelectForeign": false,
               "markCreatedAsBuilt": false,
               "allowDuplicates": true,
+              "getChoicesFromPython": false,
+              "triggerParameters": [],
+              "disableAutoReload": false,
+              "canCreateDataset": false,
+              "wt1Loggable": false
+            }
+          ],
+          "type": "PROJECT_VARIABLES_EDIT"
+        },
+        {
+          "behavior": "INLINE_AUTO_SAVE",
+          "params": [
+            {
+              "name": "variable1",
+              "type": "STRING",
+              "label": "nice label in the form",
+              "description": "Help text for the variable",
+              "mandatory": false,
+              "canSelectForeign": false,
+              "markCreatedAsBuilt": false,
+              "allowDuplicates": true,
+              "getChoicesFromPython": false,
+              "triggerParameters": [],
+              "disableAutoReload": false,
+              "canCreateDataset": false,
+              "wt1Loggable": false
+            },
+            {
+              "name": "variable2",
+              "type": "INT",
+              "label": "another label",
+              "mandatory": false,
+              "canSelectForeign": false,
+              "markCreatedAsBuilt": false,
+              "allowDuplicates": true,
+              "getChoicesFromPython": false,
+              "triggerParameters": [],
+              "disableAutoReload": false,
+              "canCreateDataset": false,
+              "wt1Loggable": false
+            },
+            {
+              "name": "variable3",
+              "type": "SELECT",
+              "label": "some selector",
+              "mandatory": false,
+              "canSelectForeign": false,
+              "markCreatedAsBuilt": false,
+              "allowDuplicates": true,
+              "selectChoices": [
+                {
+                  "value": "val1",
+                  "label": "First",
+                  "showInColumnPreview": false,
+                  "selected": false
+                },
+                {
+                  "value": "val2",
+                  "label": "Second",
+                  "showInColumnPreview": false,
+                  "selected": false
+                }
+              ],
               "getChoicesFromPython": false,
               "triggerParameters": [],
               "disableAutoReload": false,
