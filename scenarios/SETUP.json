@@ -30,7 +30,7 @@
         "delayBetweenRetries": 10,
         "maxRetriesOnFail": 0,
         "params": {
-          "script": "import dataiku\nimport dataikuapi\n\nproject_key \u003d dataiku.get_custom_variables()[\"projectKey\"]\nclient \u003d dataiku.api_client()\nproject \u003d client.get_project(project_key)\nvariables \u003d project.get_variables()\n\nactivate_night_build \u003d variables[\"local\"][\"activate_night_build\"]\n\nif activate_night_build: \n    scenario \u003d project.get_scenario(\"BUILDFLOW\")\n    settings \u003d scenario.get_settings()\n    settings.active \u003d True\n    settings.save()",
+          "script": "import dataiku\nimport dataikuapi\n\nproject_key \u003d dataiku.get_custom_variables()[\"projectKey\"]\nclient \u003d dataiku.api_client()\nproject \u003d client.get_project(project_key)\nvariables \u003d project.get_variables()\n\nactivate_night_build \u003d variables[\"local\"][\"activate_night_build\"]\nlogs_partitioning_build_range \u003d variables[\"local\"][\"logs_partitioning_build_range\"]\n\nif activate_night_build: \n    scenario \u003d project.get_scenario(\"BUILDFLOW\")\n    settings \u003d scenario.get_settings()\n    settings.active \u003d True\n    settings.save()",
           "envSelection": {
             "envMode": "INHERIT"
           },
