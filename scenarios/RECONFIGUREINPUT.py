@@ -34,7 +34,6 @@ elif logs_origin == "event_server":
     input_dataset_name = "eventserver_cru_logs"
 else:
     raise "Unexpected log origin."
-    
 
 input_dataset = project.get_dataset(input_dataset_name)
 input_dataset_settings = input_dataset.get_settings()
