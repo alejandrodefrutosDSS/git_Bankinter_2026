@@ -2,5 +2,6 @@
   "logs_connection": "dataiku-managed-storage",
   "activate_night_build": false,
   "logs_origin": "event_server",
-  "logs_partitioning_activated": true
+  "logs_partitioning_activated": true,
+  "logs_partitioning_period": true
 }
