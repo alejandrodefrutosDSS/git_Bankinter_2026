@@ -41,7 +41,6 @@ input_dataset_settings = input_dataset.get_settings()
 input_dataset_settings.settings["params"]["connection"] = logs_connection
 input_dataset_settings.settings["type"] = get_connection_type(project, input_dataset_name, logs_connection)
 input_dataset_settings.save()
-    
 
 logs_partitioning_activated = variables["local"]["logs_partitioning_activated"]
 logs_partitioning_period = variables["local"]["logs_partitioning_period"]
