@@ -34,18 +34,9 @@
     "headerRow": false
   },
   "partitioning": {
-    "filePathPattern": "%Y/.*",
     "ignoreNonMatchingFile": false,
     "considerMissingRequestedPartitionsAsEmpty": false,
-    "dimensions": [
-      {
-        "name": "YEAR",
-        "params": {
-          "period": "YEAR"
-        },
-        "type": "time"
-      }
-    ]
+    "dimensions": []
   },
   "creationTag": {
     "versionNumber": 0,
