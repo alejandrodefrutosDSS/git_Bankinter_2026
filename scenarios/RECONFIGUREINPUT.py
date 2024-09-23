@@ -43,6 +43,11 @@ else:
     raise "Unexpected log origin."
     
 
+logs_partitioning_activated = variables["local"]["logs_partitioning_activated"]
+logs_partitioning_period = variables["local"]["logs_partitioning_period"]
+logs_partitioning_pattern = variables["local"]["logs_partitioning_pattern"]
+
+if logs_partitioning_activated
     
 recipe = project.get_recipe("compute_llm_logs_prep")
 recipe_settings = recipe.get_settings()
