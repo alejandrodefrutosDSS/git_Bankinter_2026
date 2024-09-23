@@ -37,6 +37,7 @@ logs_partitioning_pattern = variables["local"]["logs_partitioning_pattern"]
 
 connecting_dataset_name = "" # dataset that will connect to the "to_dashboard" flow zone.
 ALL_DS = TO_DASHBOARD_FLOWZONE_DS
+ALL_RECIPES = TO_DASHBOARD_FLOWZONE_RECIPES
 if logs_origin == "cloud" or logs_origin == "demo":
     connecting_dataset_name = "logs_filtered_unnested"
     ALL_DS = ALL_DS + CLOUD_FLOWZONE_DS
