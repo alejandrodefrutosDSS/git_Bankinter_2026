@@ -77,7 +77,6 @@ for recipe_name in ALL_RECIPES:
     else:
         print
         recipe_inputs["main"]["items"][0]["deps"] = []
-    print("recipe settings: " + recipe_name)
     recipe_settings.save()
 
 # Configure flow routing between flow branches.
