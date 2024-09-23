@@ -162,7 +162,8 @@
               "wt1Loggable": false
             }
           ],
-          "type": "PROJECT_VARIABLES_EDIT"
+          "type": "PROJECT_VARIABLES_EDIT",
+          "prompt": "Partitioning"
         },
         {
           "scenarioId": "RECONFIGUREINPUT",
