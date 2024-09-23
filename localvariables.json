@@ -5,5 +5,5 @@
   "logs_partitioning_activated": true,
   "logs_partitioning_period": "DAY",
   "logs_partitioning_pattern": "%Y/%M/%D/.*",
-  "logs_partitioning_build_range": "CURRENT_MONTH"
+  "logs_partitioning_build_range": ""
 }
