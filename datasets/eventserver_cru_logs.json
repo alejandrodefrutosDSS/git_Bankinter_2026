@@ -33,9 +33,17 @@
     "headerRow": false
   },
   "partitioning": {
+    "filePathPattern": "%Y/%M/%D/%H/.*",
     "ignoreNonMatchingFile": false,
     "considerMissingRequestedPartitionsAsEmpty": false,
     "dimensions": [
+      {
+        "name": "HOUR",
+        "params": {
+          "period": "HOUR"
+        },
+        "type": "time"
+      },
       {
         "name": "HOUR",
         "params": {
