@@ -93,6 +93,9 @@ if logs_partitioning_activated:
     partition_spec = period_to_partition_spec[logs_partitioning_period]
     import json
     print("triggeryz: " + json.dumps(scenario_settings.raw_triggers[0]))
+    trigger_watches = scenario_settings.raw_triggers[0]["params"]["watches"]
+    for watch in trigger_watches:
+        watch["partitionSpec"] = partition_spec
     scenario_settings.raw_steps[0]["params"]["builds"][0]["partitionsSpec"] = partition_spec
     scenario_settings.save()
 
