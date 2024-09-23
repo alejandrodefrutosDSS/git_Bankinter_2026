@@ -48,6 +48,9 @@ for ds_name in ALL_DS:
     ds_settings = ds.get_settings()
     ds_settings.settings["params"]["connection"] = logs_connection
     ds_settings.settings["type"] = get_connection_type(project, ds_name, logs_connection)
+    if logs_partitioning_activated:
+    else:
+        ds_settings.remove_partitioning()
     ds_settings.save()
     
 recipe = project.get_recipe("compute_llm_logs_prep")
