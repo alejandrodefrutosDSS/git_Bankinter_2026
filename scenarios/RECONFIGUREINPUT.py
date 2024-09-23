@@ -32,11 +32,6 @@ if logs_origin == "cloud" or logs_origin == "demo":
 elif logs_origin == "event_server":
     connecting_dataset_name = "eventserver_llmusage_logs_cleaned"
     input_dataset_name = "eventserver_cru_logs"
-    es_dataset = project.get_dataset(input_dataset_name)
-    es_dataset_settings = es_dataset.get_settings()
-    es_dataset_settings.settings["params"]["connection"] = logs_connection
-    es_dataset_settings.settings["type"] = get_connection_type(project, input_dataset_name, logs_connection)
-    es_dataset_settings.save()
 else:
     raise "Unexpected log origin."
     
