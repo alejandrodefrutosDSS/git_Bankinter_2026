@@ -28,7 +28,7 @@
           {
             "type": "DATASET",
             "itemId": "compute_resource_usage_logs",
-            "partitionsSpec": ""
+            "partitionsSpec": "CURRENT_MONTH"
           }
         ],
         "triggerWhenAllFire": false
