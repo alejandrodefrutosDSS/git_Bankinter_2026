@@ -35,7 +35,6 @@ logs_connection = variables["local"]["logs_connection"]
 logs_partitioning_activated = variables["local"]["logs_partitioning_activated"]
 logs_partitioning_period = variables["local"]["logs_partitioning_period"]
 logs_partitioning_pattern = variables["local"]["logs_partitioning_pattern"]
-logs_partitioning_build_range = variables["local"]["logs_partitioning_build_range"]
 
 connecting_dataset_name = "" # dataset that will connect to the "to_dashboard" flow zone.
 ALL_DS = TO_DASHBOARD_FLOWZONE_DS
@@ -84,6 +83,16 @@ recipe = project.get_recipe("compute_llm_logs_prep")
 recipe_settings = recipe.get_settings()
 current_inputs = recipe_settings.get_flat_input_refs()
 assert len(current_inputs) == 1, f"Expected exactly one input to recipe 'compute_llm_logs_prep'."
+
+# Configure continuous monitoring scenario.
+scenario = project.get_scenario("4CONTINUOUSFLOWBUILD")
+scenario_settings = scenario.get_settings()
+
+if logs_partitioning_activated:
+    period_to_partition_spec = { "HOUR": "CURRENT_HOUR", "DAY": "CURRENT_DAY", "MONTH": "CURRENT_MONTH", "YEAR": "CURRENT_YEAR" }
+    settings.raw_steps[0]["params"]["builds"][0]["partitionsSpec"] = period_to_partition_spec[logs_partitioning_build_range]
+
+settings.save()
 
 recipe_settings.replace_input(current_inputs[0], connecting_dataset_name)
 recipe_settings.save()
