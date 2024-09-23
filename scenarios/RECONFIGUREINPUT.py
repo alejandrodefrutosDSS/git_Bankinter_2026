@@ -27,6 +27,9 @@ variables = project.get_variables()
 
 logs_origin = variables["local"]["logs_origin"]
 logs_connection = variables["local"]["logs_connection"]
+logs_partitioning_activated = variables["local"]["logs_partitioning_activated"]
+logs_partitioning_period = variables["local"]["logs_partitioning_period"]
+logs_partitioning_pattern = variables["local"]["logs_partitioning_pattern"]
 
 connecting_dataset_name = "" # dataset that will connect to the "to_dashboard" flow zone.
 ALL_DS = TO_DASHBOARD_FLOWZONE_DS
@@ -46,10 +49,6 @@ for ds_name in ALL_DS:
     ds_settings.settings["params"]["connection"] = logs_connection
     ds_settings.settings["type"] = get_connection_type(project, ds_name, logs_connection)
     ds_settings.save()
-
-logs_partitioning_activated = variables["local"]["logs_partitioning_activated"]
-logs_partitioning_period = variables["local"]["logs_partitioning_period"]
-logs_partitioning_pattern = variables["local"]["logs_partitioning_pattern"]
     
 recipe = project.get_recipe("compute_llm_logs_prep")
 recipe_settings = recipe.get_settings()
