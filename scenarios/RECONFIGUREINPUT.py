@@ -75,7 +75,6 @@ for recipe_name in ALL_RECIPES:
         print("recipe updated " + recipe_name + " output " + recipe_output)
         recipe_inputs["main"]["items"][0]["deps"] = [{"out": recipe_output, "idim": "day", "odim": "day", "func": "equals", "params": {}, "expandVariables": False}]
     else:
-        print
         recipe_inputs["main"]["items"][0]["deps"] = []
     recipe_settings.save()
 
