@@ -42,6 +42,13 @@
           "period": "HOUR"
         },
         "type": "time"
+      },
+      {
+        "name": "HOUR",
+        "params": {
+          "period": "HOUR"
+        },
+        "type": "time"
       }
     ]
   },
