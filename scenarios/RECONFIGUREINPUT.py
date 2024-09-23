@@ -49,7 +49,7 @@ elif logs_origin == "event_server":
 else:
     raise "Unexpected log origin."
 
-# Change connection type for all dataset in the selected flow branch.
+# Configure connection type and partitioning for all dataset in the selected flow branch.
 for ds_name in ALL_DS:
     ds = project.get_dataset(ds_name)
     ds_settings = ds.get_settings()
@@ -64,6 +64,11 @@ for ds_name in ALL_DS:
         ds_settings.remove_partitioning()
 
     ds_settings.save()
+
+# Configure recipes dependencies.
+for recipe_name in ALL_RECIPES:
+    recipe = project.get_recipe(recipe_name)
+    recipe_settings = recipe.get_settings()
     
 recipe = project.get_recipe("compute_llm_logs_prep")
 recipe_settings = recipe.get_settings()
