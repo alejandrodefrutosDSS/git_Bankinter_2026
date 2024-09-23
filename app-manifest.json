@@ -46,7 +46,7 @@
             {
               "name": "logs_origin",
               "type": "SELECT",
-              "label": "Select the logs origin",
+              "label": "Select their origin",
               "defaultValue": "demo",
               "mandatory": false,
               "canSelectForeign": false,
