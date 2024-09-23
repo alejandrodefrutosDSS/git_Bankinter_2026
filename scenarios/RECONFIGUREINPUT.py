@@ -22,7 +22,7 @@ CLOUD_FLOWZONE_DS = ["compute_resource_usage_logs", "logs_filtered_unnested"]
 
 TO_DASHBOARD_FLOWZONE_RECIPES = ["compute_llm_logs_prep"]
 EVENTSERVER_FLOWZONE_RECIPES = ["compute_eventserver_llmusage"]
-CLOUD_FLOWZONE_RECIPES = ["compute_resource_usage_logs", "logs_filtered_unnested"]
+CLOUD_FLOWZONE_RECIPES = ["compute_audit_logs_prepared"]
 
 project_key = dataiku.get_custom_variables()["projectKey"]
 client = dataiku.api_client()
