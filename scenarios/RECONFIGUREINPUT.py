@@ -29,11 +29,6 @@ input_dataset_name = ""
 if logs_origin == "cloud" or logs_origin == "demo":
     connecting_dataset_name = "logs_filtered_unnested"
     input_dataset_name = "compute_resource_usage_logs"
-    dataset = project.get_dataset(input_dataset_name)
-    dataset_settings = dataset.get_settings()
-    dataset_settings.settings["params"]["connection"] = logs_connection
-    dataset_settings.settings["type"] = get_connection_type(project, input_dataset_name, logs_connection)
-    dataset_settings.save()  
 elif logs_origin == "event_server":
     connecting_dataset_name = "eventserver_llmusage_logs_cleaned"
     input_dataset_name = "eventserver_cru_logs"
@@ -44,6 +39,13 @@ elif logs_origin == "event_server":
     es_dataset_settings.save()
 else:
     raise "Unexpected log origin."
+    
+
+input_dataset = project.get_dataset(input_dataset_name)
+input_dataset_settings = input_dataset.get_settings()
+input_dataset_settings.settings["params"]["connection"] = logs_connection
+input_dataset_settings.settings["type"] = get_connection_type(project, input_dataset_name, logs_connection)
+input_dataset_settings.save()
     
 
 logs_partitioning_activated = variables["local"]["logs_partitioning_activated"]
