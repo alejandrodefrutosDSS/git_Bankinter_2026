@@ -1,5 +1,6 @@
 import dataiku
 import dataikuapi
+import json
 
 def get_connection_type(project, dataset_name, connection_name):
     tmp_dataset_name = "_tmp_dataset"
@@ -69,7 +70,7 @@ for recipe_name in ALL_RECIPES:
     recipe = project.get_recipe(recipe_name)
     recipe_settings = recipe.get_settings()
     print("recipe settings: " + recipe_name)
-    print(recipe_settings.get_recipe_raw_definition())
+    print(json.dumps(recipe_settings.get_recipe_raw_definition()))
     
 recipe = project.get_recipe("compute_llm_logs_prep")
 recipe_settings = recipe.get_settings()
