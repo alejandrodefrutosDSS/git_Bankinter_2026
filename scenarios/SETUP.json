@@ -38,7 +38,7 @@
       {
         "id": "custom_python_Rc0Twzkn1grkudKfHts9mQ",
         "type": "custom_python",
-        "name": "Apply setup options",
+        "name": "Apply continuous build options",
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",
