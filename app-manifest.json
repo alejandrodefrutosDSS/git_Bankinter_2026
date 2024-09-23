@@ -242,7 +242,7 @@
             {
               "name": "logs_partitioning_build_range",
               "type": "STRING",
-              "label": "Build time range",
+              "label": "If you activated enabled partitioning, specify a time range to build",
               "defaultValue": "CURRENT_YEAR",
               "mandatory": false,
               "canSelectForeign": false,
