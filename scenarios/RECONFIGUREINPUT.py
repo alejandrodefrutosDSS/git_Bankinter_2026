@@ -43,11 +43,12 @@ else:
     raise "Unexpected log origin."
 
 # Change input dataset connection type.
-input_dataset = project.get_dataset(input_dataset_name)
-input_dataset_settings = input_dataset.get_settings()
-input_dataset_settings.settings["params"]["connection"] = logs_connection
-input_dataset_settings.settings["type"] = get_connection_type(project, input_dataset_name, logs_connection)
-input_dataset_settings.save()
+for ds_name in ALL_DS:
+    ds = project.get_dataset(ds_name)
+    ds_settings = input_dataset.get_settings()
+    ds_settings.settings["params"]["connection"] = logs_connection
+    ds_settings.settings["type"] = get_connection_type(project, ds_name, logs_connection)
+    ds_settings.save()
 
 logs_partitioning_activated = variables["local"]["logs_partitioning_activated"]
 logs_partitioning_period = variables["local"]["logs_partitioning_period"]
