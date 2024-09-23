@@ -72,7 +72,6 @@ for recipe_name in ALL_RECIPES:
     recipe_inputs = recipe_settings.get_recipe_inputs()
     if logs_partitioning_activated:
         recipe_output = recipe_settings.get_flat_output_refs()[0]
-        print("recipe updated " + recipe_name + " output " + recipe_output + " inputs " + json.dumps(recipe_inputs))
         recipe_inputs["main"]["items"][0]["deps"] = [{"out": recipe_output, "idim": logs_partitioning_period, "odim": logs_partitioning_period, "func": "equals", "params": {}, "expandVariables": False}]
     else:
         recipe_inputs["main"]["items"][0]["deps"] = []
