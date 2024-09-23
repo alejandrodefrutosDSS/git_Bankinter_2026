@@ -140,7 +140,7 @@
                   "value": "day",
                   "label": "Day",
                   "showInColumnPreview": false,
-                  "selected": true
+                  "selected": false
                 },
                 {
                   "value": "month",
