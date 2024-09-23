@@ -17,6 +17,25 @@
   "params": {
     "steps": [
       {
+        "id": "run_scenario_null.BUILDFLOW",
+        "type": "run_scenario",
+        "name": "Build flow",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "scenarioId": "BUILDFLOW",
+          "handleWarningsAs": "WARNING",
+          "proceedOnFailure": false
+        }
+      },
+      {
         "id": "custom_python_Rc0Twzkn1grkudKfHts9mQ",
         "type": "custom_python",
         "name": "Apply setup options",
@@ -34,25 +53,6 @@
           "envSelection": {
             "envMode": "INHERIT"
           },
-          "proceedOnFailure": false
-        }
-      },
-      {
-        "id": "run_scenario_null.BUILDFLOW",
-        "type": "run_scenario",
-        "name": "Build flow",
-        "runConditionType": "RUN_IF_STATUS_MATCH",
-        "runConditionStatuses": [
-          "SUCCESS",
-          "WARNING"
-        ],
-        "runConditionExpression": "",
-        "resetScenarioStatus": false,
-        "delayBetweenRetries": 10,
-        "maxRetriesOnFail": 0,
-        "params": {
-          "scenarioId": "BUILDFLOW",
-          "handleWarningsAs": "WARNING",
           "proceedOnFailure": false
         }
       }
