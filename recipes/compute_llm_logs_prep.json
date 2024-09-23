@@ -64,7 +64,16 @@
       "items": [
         {
           "ref": "logs_filtered_unnested",
-          "deps": []
+          "deps": [
+            {
+              "out": "logs_llm_usage_prepared",
+              "idim": "day",
+              "odim": "day",
+              "func": "equals",
+              "params": {},
+              "expandVariables": false
+            }
+          ]
         }
       ]
     }
