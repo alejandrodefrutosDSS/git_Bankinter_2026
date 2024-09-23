@@ -1,5 +1,5 @@
 {
-  "logs_connection": "dataiku-managed-storage",
+  "logs_connection": "filesystem_managed",
   "activate_night_build": false,
   "logs_origin": "cloud",
   "logs_partitioning_activated": true,
