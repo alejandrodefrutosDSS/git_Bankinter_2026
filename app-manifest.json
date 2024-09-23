@@ -123,7 +123,7 @@
             {
               "name": "logs_partitioning_period",
               "type": "SELECT",
-              "label": "Select the partition period",
+              "label": "Period",
               "defaultValue": "DAY",
               "mandatory": false,
               "canSelectForeign": false,
@@ -164,7 +164,7 @@
             {
               "name": "logs_partitioning_pattern",
               "type": "STRING",
-              "label": "Fill in the pattern",
+              "label": "Pattern",
               "defaultValue": "%Y/%M/%D/%H/.*",
               "mandatory": false,
               "canSelectForeign": false,
