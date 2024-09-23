@@ -1,5 +1,5 @@
 {
   "logs_connection": "dataiku-managed-storage",
   "activate_night_build": false,
-  "logs_origin": "demo"
+  "logs_origin": "event_server"
 }
