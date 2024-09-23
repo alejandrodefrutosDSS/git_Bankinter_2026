@@ -25,19 +25,22 @@ logs_origin = variables["local"]["logs_origin"]
 logs_connection = variables["local"]["logs_connection"]
 
 connecting_dataset_name = "" # dataset that will connect to the "to_dashboard" flow zone.
+input_dataset_name = ""
 if logs_origin == "cloud" or logs_origin == "demo":
     connecting_dataset_name = "logs_filtered_unnested"
-    dataset = project.get_dataset("compute_resource_usage_logs")
+    input_dataset_name = "compute_resource_usage_logs"
+    dataset = project.get_dataset(input_dataset_name)
     dataset_settings = dataset.get_settings()
     dataset_settings.settings["params"]["connection"] = logs_connection
-    dataset_settings.settings["type"] = get_connection_type(project, "compute_resource_usage_logs", logs_connection)
+    dataset_settings.settings["type"] = get_connection_type(project, input_dataset_name, logs_connection)
     dataset_settings.save()  
 elif logs_origin == "event_server":
     connecting_dataset_name = "eventserver_llmusage_logs_cleaned"
-    es_dataset = project.get_dataset("eventserver_cru_logs")
+    input_dataset_name = "eventserver_cru_logs"
+    es_dataset = project.get_dataset(input_dataset_name)
     es_dataset_settings = es_dataset.get_settings()
     es_dataset_settings.settings["params"]["connection"] = logs_connection
-    es_dataset_settings.settings["type"] = get_connection_type(project, "eventserver_cru_logs", logs_connection)
+    es_dataset_settings.settings["type"] = get_connection_type(project, input_dataset_name, logs_connection)
     es_dataset_settings.save()
 else:
     raise "Unexpected log origin."
