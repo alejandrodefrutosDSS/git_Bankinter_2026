@@ -72,7 +72,8 @@ for recipe_name in ALL_RECIPES:
     recipe_inputs = recipe_settings.get_recipe_inputs()
     print("update recipe " + recipe_name)
     if logs_partitioning_activated:
-        recipe_inputs["main"]["items"][0]["deps"] = [{"out": recipe_settings.get_flat_output_refs()[0], "idim": "day", "odim": "day", "func": "equals", "params": {}, "expandVariables": False}]
+        recipe_output = recipe_settings.get_flat_output_refs()[0]
+        recipe_inputs["main"]["items"][0]["deps"] = [{"out": recipe_output, "idim": "day", "odim": "day", "func": "equals", "params": {}, "expandVariables": False}]
     else:
         recipe_inputs["main"]["items"][0]["deps"] = []
     print("recipe settings: " + recipe_name)
