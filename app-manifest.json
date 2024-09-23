@@ -119,6 +119,21 @@
               "disableAutoReload": false,
               "canCreateDataset": false,
               "wt1Loggable": false
+            },
+            {
+              "name": "logs_partitioning_period",
+              "type": "SELECT",
+              "label": "Activate partition support",
+              "defaultValue": true,
+              "mandatory": false,
+              "canSelectForeign": false,
+              "markCreatedAsBuilt": false,
+              "allowDuplicates": true,
+              "getChoicesFromPython": false,
+              "triggerParameters": [],
+              "disableAutoReload": false,
+              "canCreateDataset": false,
+              "wt1Loggable": false
             }
           ],
           "type": "PROJECT_VARIABLES_EDIT"
