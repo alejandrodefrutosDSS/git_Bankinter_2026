@@ -23,12 +23,12 @@
           {
             "type": "DATASET",
             "itemId": "eventserver_cru_logs",
-            "partitionsSpec": "CURRENT_MONTH"
+            "partitionsSpec": "CURRENT_DAY"
           },
           {
             "type": "DATASET",
             "itemId": "compute_resource_usage_logs",
-            "partitionsSpec": "CURRENT_MONTH"
+            "partitionsSpec": "CURRENT_DAY"
           }
         ],
         "triggerWhenAllFire": false
