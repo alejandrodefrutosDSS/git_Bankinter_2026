@@ -124,32 +124,32 @@
               "name": "logs_partitioning_period",
               "type": "SELECT",
               "label": "Select the partition period",
-              "defaultValue": "day",
+              "defaultValue": "DAY",
               "mandatory": false,
               "canSelectForeign": false,
               "markCreatedAsBuilt": false,
               "allowDuplicates": true,
               "selectChoices": [
                 {
-                  "value": "hour",
+                  "value": "HOUR",
                   "label": "Hour",
                   "showInColumnPreview": false,
                   "selected": false
                 },
                 {
-                  "value": "day",
+                  "value": "DAY",
                   "label": "Day",
                   "showInColumnPreview": false,
                   "selected": false
                 },
                 {
-                  "value": "month",
+                  "value": "MONTH",
                   "label": "Month",
                   "showInColumnPreview": false,
                   "selected": false
                 },
                 {
-                  "value": "year",
+                  "value": "YEAR",
                   "label": "Year",
                   "showInColumnPreview": false,
                   "selected": false
