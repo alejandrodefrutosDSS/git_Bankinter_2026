@@ -72,7 +72,7 @@ for recipe_name in ALL_RECIPES:
     inputs = recipe_settings.get_recipe_inputs()
     if logs_partitioning_activated:
         inputs["main"]["items"][0]["deps"] = [{"out": recipe_settings.get_flat_output_refs()[0], "idim": "day", "odim": "day", "func": "equals", "params": {}, "expandVariables": False}]
-    else
+    else:
         inputs["main"]["items"][0]["deps"] = []
     print("recipe settings: " + recipe_name)
     print(json.dumps(recipe_settings.get_recipe_raw_definition()))
