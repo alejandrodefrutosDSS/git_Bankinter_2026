@@ -219,27 +219,6 @@
           "behavior": "INLINE_AUTO_SAVE",
           "params": [
             {
-              "name": "activate_continuous_build",
-              "type": "BOOLEAN",
-              "label": "Activate continuous build",
-              "description": "Continuous build will monitor the input datasets for any changes. If some are detected, the flow will be built.",
-              "mandatory": false,
-              "canSelectForeign": false,
-              "markCreatedAsBuilt": false,
-              "allowDuplicates": true,
-              "getChoicesFromPython": false,
-              "triggerParameters": [],
-              "disableAutoReload": false,
-              "canCreateDataset": false,
-              "wt1Loggable": false
-            }
-          ],
-          "type": "PROJECT_VARIABLES_EDIT"
-        },
-        {
-          "behavior": "INLINE_AUTO_SAVE",
-          "params": [
-            {
               "name": "logs_partitioning_build_range",
               "type": "STRING",
               "label": "If you enabled partitioning, specify a time range to build",
@@ -268,6 +247,32 @@
           "dashboardId": "3NZ9w2C",
           "type": "DASHBOARD_LINK",
           "prompt": "View LLM Usage Dashboard"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Continuous build",
+      "tiles": [
+        {
+          "behavior": "INLINE_AUTO_SAVE",
+          "params": [
+            {
+              "name": "activate_continuous_build",
+              "type": "BOOLEAN",
+              "label": "Activate continuous build",
+              "description": "Continuous build will monitor the input datasets for any changes. If some are detected, the flow will be built.",
+              "mandatory": false,
+              "canSelectForeign": false,
+              "markCreatedAsBuilt": false,
+              "allowDuplicates": true,
+              "getChoicesFromPython": false,
+              "triggerParameters": [],
+              "disableAutoReload": false,
+              "canCreateDataset": false,
+              "wt1Loggable": false
+            }
+          ],
+          "type": "PROJECT_VARIABLES_EDIT"
         }
       ]
     }
