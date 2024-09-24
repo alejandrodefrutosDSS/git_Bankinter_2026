@@ -606,7 +606,7 @@
     "datasetSmartName": "budget_joined_prepared"
   },
   "owner": "fabien.daoulas@dataiku.com",
-  "listed": false,
+  "listed": true,
   "name": "Projects under budget chart",
   "dashboardCreationId": "vLItPjq",
   "creationTag": {
