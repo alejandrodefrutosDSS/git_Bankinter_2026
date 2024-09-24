@@ -251,7 +251,8 @@
       ]
     },
     {
-      "sectionTitle": "Continuous build",
+      "sectionTitle": "Automatic continuous build",
+      "sectionText": "If this feature is enabled, the input datasets will be regularly monitored to detect any changes. If any are detected, a scenario will be triggered to build the flow.\nThis is especially useful to monitor production environments.\nIf you decide to enable this feature, we **strongly suggest to configure partitioning** to avoid rebuilding the same data unnecessarily.",
       "tiles": [
         {
           "behavior": "INLINE_AUTO_SAVE",
