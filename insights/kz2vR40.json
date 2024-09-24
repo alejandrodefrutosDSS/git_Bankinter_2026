@@ -7,7 +7,16 @@
       "columnsSelection": {
         "mode": "ALL"
       },
-      "columnWidthsByName": {},
+      "columnWidthsByName": {
+        "Project": 218,
+        "Over budget ($)": 134,
+        "Budget ($)": 134,
+        "Estimated cost ($)": 176,
+        "Project owner": 197,
+        "Operational manager": 197,
+        "isOverBudget": 105,
+        "hasTwentyPercentBudgetLeft": 210
+      },
       "columnUseScientificNotationByName": {},
       "coloring": {
         "scheme": "MEANING_AND_STATUS",
@@ -24,7 +33,19 @@
           "timeout": -1,
           "filter": {
             "distinct": false,
-            "enabled": false
+            "enabled": true,
+            "uiData": {
+              "mode": "\u0026\u0026",
+              "conditions": [
+                {
+                  "input": "hasTwentyPercentBudgetLeft",
+                  "operator": "\u003d\u003d [number]",
+                  "col": "Over budget ($)",
+                  "num": 1.0,
+                  "num2": 0.0
+                }
+              ]
+            }
           },
           "partitionSelectionMethod": "ALL",
           "latestPartitionsN": 1,
@@ -40,7 +61,7 @@
           "maxReadUncompressedBytes": -1
         },
         "autoRefreshSample": false,
-        "_refreshTrigger": 0
+        "_refreshTrigger": 1727191993785
       },
       "vizSampling": {
         "selection": {
@@ -65,7 +86,9 @@
         "autoRefreshSample": false,
         "_refreshTrigger": 0
       },
-      "exploreUIParams": {},
+      "exploreUIParams": {
+        "autoRefresh": true
+      },
       "globalSearchQuery": "",
       "explorationFilters": [],
       "previewMode": "ALL_ROWS"
