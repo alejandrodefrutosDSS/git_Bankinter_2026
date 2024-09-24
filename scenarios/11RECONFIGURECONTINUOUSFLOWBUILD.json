@@ -2,14 +2,6 @@
   "type": "step_based",
   "name": "1.1. Reconfigure continuous flow build",
   "active": false,
-  "creationTag": {
-    "versionNumber": 0,
-    "lastModifiedBy": {
-      "login": "fabien.daoulas@dataiku.com"
-    },
-    "lastModifiedOn": 1727169425172,
-    "extendedProperties": {}
-  },
   "checklists": {
     "checklists": []
   },
@@ -22,7 +14,29 @@
   "triggers": [],
   "reporters": [],
   "params": {
-    "steps": []
+    "steps": [
+      {
+        "id": "custom_python_bbK5WprMpdV+MSbgXdcMFA",
+        "type": "custom_python",
+        "name": "Apply build range to \"Build flow\"",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "script": "import dataiku\nimport dataikuapi\n\nproject_key \u003d dataiku.get_custom_variables()[\"projectKey\"]\nproject \u003d dataiku.api_client().get_project(project_key)\nvariables \u003d project.get_variables()\nlogs_partitioning_build_range \u003d variables[\"local\"][\"logs_partitioning_build_range\"]\nlogs_partitioning_activated \u003d variables[\"local\"][\"logs_partitioning_activated\"]\n\nscenario \u003d project.get_scenario(\"BUILDFLOW\")\nsettings \u003d scenario.get_settings()\n\nif logs_partitioning_activated:\n    # update steps.\n    settings.raw_steps[0][\"params\"][\"builds\"][0][\"partitionsSpec\"] \u003d logs_partitioning_build_range\n\nsettings.save()",
+          "envSelection": {
+            "envMode": "INHERIT"
+          },
+          "proceedOnFailure": false
+        }
+      }
+    ]
   },
   "automationLocal": false,
   "customFields": {}
