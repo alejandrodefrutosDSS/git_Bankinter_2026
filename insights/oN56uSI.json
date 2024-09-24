@@ -495,7 +495,7 @@
     "datasetSmartName": "logs_llm_usage_prepared_by_Project_complete"
   },
   "owner": "fabien.daoulas@dataiku.com",
-  "listed": false,
+  "listed": true,
   "name": "Project count",
   "dashboardCreationId": "vLItPjq",
   "creationTag": {
