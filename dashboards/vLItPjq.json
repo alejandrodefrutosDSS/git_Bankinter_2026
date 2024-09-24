@@ -151,10 +151,10 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 1,
-              "left": 6,
-              "width": 2,
-              "height": 2
+              "top": 0,
+              "left": 9,
+              "width": 3,
+              "height": 1
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
@@ -175,7 +175,7 @@
               "size": 1
             },
             "titleOptions": {
-              "showTitle": "YES",
+              "showTitle": "NO",
               "fontColor": "#000",
               "fontSize": 13
             },
