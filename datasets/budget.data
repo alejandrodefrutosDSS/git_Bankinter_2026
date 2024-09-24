@@ -5,6 +5,12 @@
       "100",
       "projectowner@company.com",
       "opsmanager@company.com"
+    ],
+    [
+      "UXRESEARCHASSISTANT",
+      "100",
+      "fabien.daoulas@dataiku.com",
+      "fabien.daoulas@dataiku.com"
     ]
   ],
   "schema": {
