@@ -82,7 +82,16 @@
       "readParams": {
         "mode": "AUTO",
         "autoModeRepartitionInto": 10,
-        "map": {}
+        "map": {
+          "logs_llm_usage_prepared_by_Project_complete": {
+            "cache": false,
+            "repartition": 10
+          },
+          "budget": {
+            "cache": false,
+            "repartition": 10
+          }
+        }
       },
       "overwriteOutputSchema": false,
       "executionEngine": "SPARK_SUBMIT",
@@ -92,6 +101,7 @@
       }
     }
   },
+  "engineType": "SPARK",
   "virtualInputs": [
     {
       "outputColumnsSelectionMode": "ALL",
