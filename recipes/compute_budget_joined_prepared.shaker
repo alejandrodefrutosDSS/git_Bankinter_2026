@@ -50,7 +50,7 @@
       "alwaysShowComment": false
     },
     {
-      "preview": true,
+      "preview": false,
       "metaType": "PROCESSOR",
       "disabled": false,
       "type": "FillEmptyWithValue",
@@ -60,6 +60,47 @@
         ],
         "appliesTo": "SINGLE_COLUMN",
         "value": "0"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "VisualIfRule",
+      "params": {
+        "legacyPositioning": false,
+        "visualIfDesc": {
+          "elseIfThens": [],
+          "elseActions": [],
+          "ifThen": {
+            "filter": {
+              "uiData": {
+                "mode": "\u0026\u0026",
+                "conditions": [
+                  {
+                    "input": "Project",
+                    "col": "projectKey",
+                    "num": 0.0,
+                    "operator": "is empty",
+                    "num2": 0.0
+                  }
+                ]
+              },
+              "distinct": true,
+              "enabled": true
+            },
+            "actions": [
+              {
+                "outputColumnName": "Project",
+                "column": "projectKey",
+                "formula": "",
+                "value": "",
+                "operator": "ASSIGN_COLUMN"
+              }
+            ]
+          }
+        }
       },
       "alwaysShowComment": false
     }
