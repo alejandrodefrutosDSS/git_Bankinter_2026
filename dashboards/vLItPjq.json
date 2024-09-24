@@ -248,6 +248,7 @@
             },
             "titleOptions": {
               "showTitle": "YES",
+              "title": "Projects over budget",
               "fontColor": "#000",
               "fontSize": 13
             },
