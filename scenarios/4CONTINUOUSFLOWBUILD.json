@@ -80,7 +80,7 @@
       {
         "id": "build_1_true_d_logs_llm_usage_prepared_by_Project_complete_d_budget_joined_d_budget_joined_prepared_d_budget_for_dashboard",
         "type": "build_flowitem",
-        "name": "Build non-partitioned datasets",
+        "name": "Build logs_llm_usage_prepared_by_Project_complete",
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",
@@ -95,21 +95,6 @@
             {
               "type": "DATASET",
               "itemId": "logs_llm_usage_prepared_by_Project_complete",
-              "partitionsSpec": ""
-            },
-            {
-              "type": "DATASET",
-              "itemId": "budget_joined",
-              "partitionsSpec": ""
-            },
-            {
-              "type": "DATASET",
-              "itemId": "budget_joined_prepared",
-              "partitionsSpec": ""
-            },
-            {
-              "type": "DATASET",
-              "itemId": "budget_for_dashboard",
               "partitionsSpec": ""
             }
           ],
