@@ -185,7 +185,7 @@
           "scenarioId": "RECONFIGUREINPUT",
           "buttonText": "Reconfigure",
           "type": "SCENARIO_RUN",
-          "prompt": "Reconfigure the input dataset",
+          "prompt": "ㅤ",
           "help": "Reconfigure the flow based on the chosen connection. \u003c/br\u003e \u003cb\u003e Note : \u003c/b\u003e that scenario assume an \"admin\" user exists; modify the user in scenario settings to avoid failure."
         }
       ]
