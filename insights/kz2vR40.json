@@ -96,7 +96,7 @@
     "datasetSmartName": "budget_for_dashboard"
   },
   "owner": "fabien.daoulas@dataiku.com",
-  "listed": false,
+  "listed": true,
   "name": "Project over 80% table",
   "dashboardCreationId": "vLItPjq",
   "creationTag": {
