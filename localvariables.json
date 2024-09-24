@@ -5,5 +5,5 @@
   "logs_partitioning_activated": true,
   "logs_partitioning_period": "DAY",
   "logs_partitioning_pattern": "%Y/%M/%D/.*",
-  "logs_partitioning_build_range": "2024-10-01/2024-10-24"
+  "logs_partitioning_build_range": "2024-10-01/2024-10-2"
 }
