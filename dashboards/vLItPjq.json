@@ -404,9 +404,9 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 9,
-              "left": 0,
-              "width": 6,
+              "top": 6,
+              "left": 9,
+              "width": 3,
               "height": 3
             },
             "clickAction": "DO_NOTHING",
