@@ -7,7 +7,7 @@
         "useMemTable": false,
         "filter": {
           "distinct": false,
-          "enabled": false,
+          "enabled": true,
           "uiData": {
             "mode": "\u0026\u0026",
             "conditions": [
