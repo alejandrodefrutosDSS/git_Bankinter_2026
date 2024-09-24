@@ -29,8 +29,41 @@
   },
   "explorationFilters": [],
   "columnUseScientificNotationByName": {},
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "llmUsage_estimatedCostUSD_sum_sum",
+            "to": "llmUsage_estimatedCostUSD_sum"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FillEmptyWithValue",
+      "params": {
+        "columns": [
+          "llmUsage_estimatedCostUSD_sum"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "value": "0"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -57,7 +90,19 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "hasTwentyPercentBudgetLeft": 232,
+    "Project": 100,
+    "projectKey": 218,
+    "budgetUSD": 134,
+    "isUnderBudget": 141,
+    "operationalManager": 176,
+    "isOverBudget": 134,
+    "projectOwner": 183,
+    "llmUsage_estimatedCostUSD_sum_sum": 281,
+    "overBudgetUSD": 141,
+    "llmUsage_estimatedCostUSD_sum": 253
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
