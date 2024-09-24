@@ -457,7 +457,7 @@
             "clickAction": "DO_NOTHING",
             "tileParams": {
               "text": "[Documentation](article:28)",
-              "textAlign": "CENTER"
+              "textAlign": "LEFT"
             },
             "backgroundOpacity": 1.0,
             "autoLoad": true,
