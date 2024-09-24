@@ -297,8 +297,8 @@
             "box": {
               "top": 5,
               "left": 0,
-              "width": 2,
-              "height": 2
+              "width": 9,
+              "height": 1
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
@@ -319,7 +319,7 @@
               "size": 1
             },
             "titleOptions": {
-              "showTitle": "YES",
+              "showTitle": "NO",
               "fontColor": "#000",
               "fontSize": 13
             },
