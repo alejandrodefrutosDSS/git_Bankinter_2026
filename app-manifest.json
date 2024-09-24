@@ -274,6 +274,11 @@
             }
           ],
           "type": "PROJECT_VARIABLES_EDIT"
+        },
+        {
+          "scenarioId": "11RECONFIGURECONTINUOUSFLOWBUILD",
+          "buttonText": "APPLY",
+          "type": "SCENARIO_RUN"
         }
       ]
     }
