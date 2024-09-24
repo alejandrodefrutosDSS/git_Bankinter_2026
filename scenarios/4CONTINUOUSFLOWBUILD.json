@@ -60,12 +60,12 @@
           "builds": [
             {
               "type": "DATASET",
-              "itemId": "logs_llm_usage_prepared",
+              "itemId": "logs_llm_usage_prepared_by_Project",
               "partitionsSpec": "CURRENT_DAY"
             },
             {
               "type": "DATASET",
-              "itemId": "logs_llm_usage_prepared",
+              "itemId": "logs_llm_usage_prepared_by_Project",
               "partitionsSpec": "PREVIOUS_DAY"
             }
           ],
