@@ -495,7 +495,7 @@
     "datasetSmartName": "budget_joined"
   },
   "owner": "fabien.daoulas@dataiku.com",
-  "listed": false,
+  "listed": true,
   "name": "Budgeted projects",
   "dashboardCreationId": "vLItPjq",
   "creationTag": {
