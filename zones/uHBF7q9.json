@@ -5,6 +5,14 @@
     {
       "objectId": "budget",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_budget_joined",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "budget_joined",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],
