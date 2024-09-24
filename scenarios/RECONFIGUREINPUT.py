@@ -50,7 +50,7 @@ elif logs_origin == "event_server":
 else:
     raise "Unexpected log origin."
 
-# Configure connection type and partitioning for all dataset in the selected flow branch.
+# Configure connection type and partitioning for all datasets in the selected flow branch.
 for ds_name in ALL_DS:
     ds = project.get_dataset(ds_name)
     ds_settings = ds.get_settings()
