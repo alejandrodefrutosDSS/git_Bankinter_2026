@@ -5,7 +5,18 @@
   },
   "keys": [
     {
-      "column": "Project"
+      "countDistinct": false,
+      "min": false,
+      "avg": false,
+      "last": false,
+      "max": false,
+      "column": "Project",
+      "count": false,
+      "sum": false,
+      "concat": false,
+      "type": "string",
+      "stddev": false,
+      "first": false
     }
   ],
   "values": [
@@ -15,18 +26,21 @@
       "firstLastNotNull": false,
       "column": "llmUsage_estimatedCostUSD_sum",
       "count": false,
-      "sum": false,
+      "$idx": 0,
+      "sum": true,
       "concat": false,
+      "type": "double",
       "concatDistinct": false,
       "sum2": false,
       "min": false,
       "countDistinct": false,
       "avg": false,
+      "$selected": true,
       "stddev": false,
       "first": false
     }
   ],
-  "globalCount": true,
+  "globalCount": false,
   "engineParams": {
     "hive": {
       "skipPrerunValidate": false,
@@ -54,7 +68,12 @@
       "readParams": {
         "mode": "AUTO",
         "autoModeRepartitionInto": 10,
-        "map": {}
+        "map": {
+          "logs_llm_usage_prepared_by_Project": {
+            "cache": false,
+            "repartition": 10
+          }
+        }
       },
       "overwriteOutputSchema": false,
       "executionEngine": "SPARK_SUBMIT",
@@ -65,8 +84,24 @@
     }
   },
   "enlargeYourBits": true,
+  "outputColumnNameOverrides": {},
   "computedColumns": [],
   "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "Project",
+            "type": "string"
+          },
+          {
+            "name": "llmUsage_estimatedCostUSD_sum_sum",
+            "type": "double"
+          }
+        ],
+        "userModified": false
+      }
+    },
     "distinct": false,
     "enabled": false
   }
