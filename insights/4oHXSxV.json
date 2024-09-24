@@ -60,36 +60,44 @@
             {
               "type": "NATURAL",
               "label": "Natural ordering",
-              "sortAscending": true
+              "sortAscending": true,
+              "$$hashKey": "object:588"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of llmUsage_estimatedCostUSD_sum, descending"
+              "label": "Consumed ($), descending",
+              "$$hashKey": "object:587"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of llmUsage_estimatedCostUSD_sum, ascending",
-              "sortAscending": true
+              "label": "Consumed ($), ascending",
+              "sortAscending": true,
+              "$$hashKey": "object:589"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
-              "label": "Sum of budgetUSD, descending"
+              "label": "Allocated ($), descending",
+              "$$hashKey": "object:590"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
-              "label": "Sum of budgetUSD, ascending",
-              "sortAscending": true
+              "label": "Allocated ($), ascending",
+              "sortAscending": true,
+              "$$hashKey": "object:591"
             }
           ],
           "sort": {
-            "type": "NATURAL",
-            "label": "Natural ordering",
-            "sortAscending": true
+            "type": "AGGREGATION",
+            "measureIdx": 0,
+            "label": "Consumed ($), descending",
+            "$$hashKey": "object:587"
           },
+          "prefix": "",
+          "suffix": "",
           "multiplier": "Auto",
           "digitGrouping": "DEFAULT"
         }
@@ -110,6 +118,8 @@
           "computeModeDim": 0,
           "multiplier": "Auto",
           "digitGrouping": "DEFAULT",
+          "prefix": "",
+          "suffix": "",
           "showValue": true,
           "displayLabel": "Consumed ($)",
           "showDisplayLabel": true,
@@ -145,6 +155,8 @@
           "computeModeDim": 0,
           "multiplier": "Auto",
           "digitGrouping": "DEFAULT",
+          "prefix": "",
+          "suffix": "",
           "showValue": true,
           "displayLabel": "Allocated ($)",
           "showDisplayLabel": true,
