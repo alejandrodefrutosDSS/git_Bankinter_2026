@@ -33,7 +33,7 @@
           "builds": [
             {
               "type": "DATASET",
-              "itemId": "logs_llm_usage_prepared",
+              "itemId": "logs_llm_usage_prepared_by_Project",
               "partitionsSpec": "2024-10-01/2024-10-23"
             }
           ],
