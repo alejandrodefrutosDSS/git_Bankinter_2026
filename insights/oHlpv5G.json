@@ -595,7 +595,7 @@
   },
   "owner": "divya.thomas@dataiku.com",
   "listed": true,
-  "name": "Sum of llmUsage_estimatedCostUSD on logs_llm_usage_prepared",
+  "name": "Requests metrics",
   "dashboardCreationId": "3NZ9w2C",
   "creationTag": {
     "versionNumber": 0,
