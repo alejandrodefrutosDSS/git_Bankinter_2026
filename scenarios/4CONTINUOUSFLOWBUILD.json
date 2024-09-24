@@ -61,6 +61,11 @@
               "type": "DATASET",
               "itemId": "logs_llm_usage_prepared",
               "partitionsSpec": "CURRENT_DAY"
+            },
+            {
+              "type": "DATASET",
+              "itemId": "logs_llm_usage_prepared",
+              "partitionsSpec": "PREVIOUS_DAY"
             }
           ],
           "jobType": "RECURSIVE_BUILD",
