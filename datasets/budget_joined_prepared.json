@@ -67,15 +67,13 @@
   },
   "schema": {
     "columns": [
-      {"name":"projectKey","type":"string"},
-      {"name":"budgetUSD","type":"float"},
-      {"name":"projectOwner","type":"string"},
-      {"name":"operationalManager","type":"string"},
       {"name":"Project","type":"string"},
-      {"name":"llmUsage_estimatedCostUSD_sum_sum","type":"double"},
-      {"name":"overBudgetUSD","type":"float"},
+      {"name":"Over budget ($)","type":"double"},
+      {"name":"Budget ($)","type":"double"},
+      {"name":"Estimated cost ($)","type":"string"},
+      {"name":"Project owner","type":"string"},
+      {"name":"Operational manager","type":"string"},
       {"name":"isOverBudget","type":"int"},
-      {"name":"isUnderBudget","type":"int"},
       {"name":"hasTwentyPercentBudgetLeft","type":"int"}
     ],
     "userModified": true
