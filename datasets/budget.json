@@ -56,7 +56,8 @@
     "columns": [
       {"name":"projectKey","type":"string"},
       {"name":"budgetUSD","type":"float"},
-      {"name":"projectOwner","type":"string"}
+      {"name":"projectOwner","type":"string"},
+      {"name":"operationalManager","type":"string"}
     ],
     "userModified": true
   },
