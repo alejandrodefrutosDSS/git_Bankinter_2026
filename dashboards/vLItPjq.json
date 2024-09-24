@@ -256,6 +256,41 @@
             "insightType": "chart",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 2,
+              "left": 9,
+              "width": 3,
+              "height": 3
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "viewKind": "EXPLORE",
+              "showName": true,
+              "showDescription": true,
+              "showCustomFields": true,
+              "showStorageType": false,
+              "showMeaning": false,
+              "showProgressBar": false
+            },
+            "backgroundOpacity": 1.0,
+            "autoLoad": true,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "titleOptions": {
+              "showTitle": "YES",
+              "fontColor": "#000",
+              "fontSize": 13
+            },
+            "insightId": "YUEdUJ8",
+            "insightType": "dataset_table",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
           }
         ]
       },
