@@ -5,7 +5,41 @@
       "steps": [],
       "maxProcessedMemTableBytes": -1,
       "columnsSelection": {
-        "mode": "ALL"
+        "mode": "SELECT",
+        "list": [
+          {
+            "name": "Project",
+            "d": true
+          },
+          {
+            "name": "Over budget ($)",
+            "d": false
+          },
+          {
+            "name": "Budget ($)",
+            "d": true
+          },
+          {
+            "name": "Estimated cost ($)",
+            "d": true
+          },
+          {
+            "name": "Project owner",
+            "d": true
+          },
+          {
+            "name": "Operational manager",
+            "d": true
+          },
+          {
+            "name": "isOverBudget",
+            "d": false
+          },
+          {
+            "name": "hasTwentyPercentBudgetLeft",
+            "d": false
+          }
+        ]
       },
       "columnWidthsByName": {
         "Project": 218,
