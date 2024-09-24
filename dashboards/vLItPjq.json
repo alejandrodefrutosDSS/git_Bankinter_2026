@@ -225,8 +225,8 @@
             "box": {
               "top": 2,
               "left": 0,
-              "width": 2,
-              "height": 2
+              "width": 9,
+              "height": 3
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
