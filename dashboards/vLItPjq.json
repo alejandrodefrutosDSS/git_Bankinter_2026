@@ -1,0 +1,41 @@
+{
+  "pages": [
+    {
+      "id": "LLjTYQL",
+      "grid": {
+        "tiles": []
+      },
+      "show": true,
+      "showTitle": false,
+      "titleAlign": "CENTER",
+      "titleFontColor": "#444444",
+      "titleFontSize": 28,
+      "enableCrossFilters": true,
+      "backgroundColor": "#ffffff",
+      "showFilterPanel": true,
+      "filtersParams": {
+        "panelPosition": "TOP",
+        "engineType": "LINO"
+      }
+    }
+  ],
+  "owner": "fabien.daoulas@dataiku.com",
+  "listed": false,
+  "name": "Project budget monitoring",
+  "showGrid": false,
+  "showNavigationArrows": false,
+  "reloadWhenEventReceived": false,
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "fabien.daoulas@dataiku.com"
+    },
+    "lastModifiedOn": 1727190164749,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
