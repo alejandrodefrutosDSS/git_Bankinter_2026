@@ -72,36 +72,7 @@
             "fontColor": "#333",
             "hasBackground": false
           },
-          "colorRules": [
-            {
-              "mode": "GREATER_THAN",
-              "value": 0.0,
-              "styleClass": "color-rule--orange-background",
-              "colorOptions": {
-                "ccScaleMode": "NORMAL",
-                "paletteType": "CONTINUOUS",
-                "quantizationMode": "NONE",
-                "numQuantizeSteps": 5,
-                "paletteMiddleValue": 0.0,
-                "heatDensityMapIntensity": 0.5,
-                "heatDensityMapRadius": 0.5,
-                "singleColor": "#659a88",
-                "transparency": 0.75,
-                "colorPalette": "dku_text_background",
-                "customPalette": {
-                  "id": "__dku_custom__",
-                  "name": "Custom palette",
-                  "colors": [],
-                  "values": [],
-                  "fixedValues": false
-                },
-                "customColors": {
-                  "customFontColor": "#FFFFFF",
-                  "customBackgroundColor": "#668DBB"
-                }
-              }
-            }
-          ]
+          "colorRules": []
         },
         {
           "column": "Number of LLM cache hit",
@@ -139,36 +110,7 @@
             "fontColor": "#333",
             "hasBackground": false
           },
-          "colorRules": [
-            {
-              "mode": "GREATER_THAN",
-              "value": 0.0,
-              "styleClass": "color-rule--green-background",
-              "colorOptions": {
-                "ccScaleMode": "NORMAL",
-                "paletteType": "CONTINUOUS",
-                "quantizationMode": "NONE",
-                "numQuantizeSteps": 5,
-                "paletteMiddleValue": 0.0,
-                "heatDensityMapIntensity": 0.5,
-                "heatDensityMapRadius": 0.5,
-                "singleColor": "#659a88",
-                "transparency": 0.75,
-                "colorPalette": "dku_text_background",
-                "customPalette": {
-                  "id": "__dku_custom__",
-                  "name": "Custom palette",
-                  "colors": [],
-                  "values": [],
-                  "fixedValues": false
-                },
-                "customColors": {
-                  "customFontColor": "#FFFFFF",
-                  "customBackgroundColor": "#668DBB"
-                }
-              }
-            }
-          ]
+          "colorRules": []
         }
       ],
       "xDimension": [],
