@@ -333,8 +333,8 @@
             "box": {
               "top": 5,
               "left": 9,
-              "width": 2,
-              "height": 2
+              "width": 3,
+              "height": 1
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
