@@ -5,8 +5,9 @@
       "grid": {
         "tiles": []
       },
+      "title": "Budget consumption - Per project",
       "show": true,
-      "showTitle": false,
+      "showTitle": true,
       "titleAlign": "CENTER",
       "titleFontColor": "#444444",
       "titleFontSize": 28,
