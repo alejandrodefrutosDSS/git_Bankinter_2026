@@ -21,7 +21,7 @@ TO_DASHBOARD_FLOWZONE_DS = ["logs_llm_usage_prepared", "logs_llm_usage_prepared_
 EVENTSERVER_FLOWZONE_DS = ["eventserver_cru_logs", "eventserver_llmusage_logs_cleaned"]
 CLOUD_FLOWZONE_DS = ["compute_resource_usage_logs", "logs_filtered_unnested"]
 
-TO_DASHBOARD_FLOWZONE_RECIPES = ["compute_llm_logs_prep"]
+TO_DASHBOARD_FLOWZONE_RECIPES = ["compute_llm_logs_prep", "compute_logs_llm_usage_prepared_by_Project"]
 EVENTSERVER_FLOWZONE_RECIPES = ["compute_eventserver_llmusage"]
 CLOUD_FLOWZONE_RECIPES = ["compute_audit_logs_prepared"]
 
