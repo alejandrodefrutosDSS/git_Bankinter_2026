@@ -91,6 +91,15 @@
         "modes": [
           "READ"
         ]
+      },
+      {
+        "objectRef": {
+          "objectId": "budget_joined_prepared",
+          "objectType": "DATASET"
+        },
+        "modes": [
+          "READ"
+        ]
       }
     ]
   },
