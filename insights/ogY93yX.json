@@ -65,23 +65,23 @@
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of budgetUSD, descending"
+              "label": "Allocated ($), descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of budgetUSD, ascending",
+              "label": "Allocated ($), ascending",
               "sortAscending": true
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
-              "label": "Sum of overBudgetUSD, descending"
+              "label": "Amount over budget ($), descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
-              "label": "Sum of overBudgetUSD, ascending",
+              "label": "Amount over budget ($), ascending",
               "sortAscending": true
             }
           ],
