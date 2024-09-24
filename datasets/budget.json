@@ -53,7 +53,11 @@
     "importSourceType": "NONE"
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {"name":"projectKey","type":"string"},
+      {"name":"budgetUSD","type":"float"},
+      {"name":"projectOwner","type":"string"}
+    ],
     "userModified": true
   },
   "dkuProperties": [],

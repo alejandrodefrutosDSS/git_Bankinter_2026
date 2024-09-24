@@ -1,3 +1,17 @@
 {
-  "data": []
+  "data": [
+    [
+      null,
+      null,
+      null
+    ]
+  ],
+  "schema": {
+    "columns": [
+      {"name":"projectKey","type":"string"},
+      {"name":"budgetUSD","type":"float"},
+      {"name":"projectOwner","type":"string"}
+    ],
+    "userModified": false
+  }
 }
