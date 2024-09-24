@@ -251,7 +251,7 @@
       ]
     },
     {
-      "sectionTitle": "Automatic continuous build",
+      "sectionTitle": "Continuous build",
       "sectionText": "**Activate this feature to continuously process your incoming logs.** \u003cbr /\u003e\nOnce selected, click on **APPLY**. \u003cbr /\u003e\n**WARNING**: we **strongly suggest configuring partitioning** for a higher refresh frequency.",
       "tiles": [
         {
