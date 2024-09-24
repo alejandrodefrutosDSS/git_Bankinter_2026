@@ -27,7 +27,10 @@
           "distinct": false,
           "enabled": false
         },
-        "partitionSelectionMethod": "ALL",
+        "partitionSelectionMethod": "SELECTED",
+        "selectedPartitions": [
+          "2024-09-24"
+        ],
         "latestPartitionsN": 1,
         "ordering": {
           "enabled": false,
@@ -41,7 +44,7 @@
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 1727182113149
+      "_refreshTrigger": 1727182239049
     },
     "vizSampling": {
       "selection": {
@@ -82,9 +85,7 @@
           "columnType": "ALPHANUM",
           "currentMode": "ALPHANUM",
           "sort": "count",
-          "selectedValues": {
-            "UXRESEARCHASSISTANT": true
-          }
+          "selectedValues": {}
         },
         "alphanumFilter": {
           "type": "alphanum",
