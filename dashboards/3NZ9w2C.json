@@ -311,7 +311,7 @@
               "showTitle": "YES",
               "title": "Breakdown by usage type",
               "fontColor": "#000",
-              "fontSize": 13
+              "fontSize": 18
             },
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
