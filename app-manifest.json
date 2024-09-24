@@ -240,7 +240,7 @@
           "scenarioId": "SETUP",
           "buttonText": "Apply and Build",
           "type": "SCENARIO_RUN",
-          "prompt": "Build the dashboard",
+          "prompt": "ㅤ",
           "help": "\u003c/br\u003e \u003cb\u003e Note : \u003c/b\u003e that scenarios assume an \"admin\" user exists; modify the user in scenario settings to avoid failure."
         },
         {
