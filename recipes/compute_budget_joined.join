@@ -6,32 +6,51 @@
       "conditionsMode": "AND",
       "type": "LEFT",
       "outerJoinOnTheLeft": true,
-      "on": []
+      "on": [
+        {
+          "column1": {
+            "name": "projectKey",
+            "table": 0
+          },
+          "dateDiffUnit": "SECOND",
+          "column2": {
+            "name": "Project",
+            "table": 1
+          },
+          "type": "EQ"
+        }
+      ]
     }
   ],
   "selectedColumns": [
     {
       "name": "projectKey",
+      "type": "string",
       "table": 0
     },
     {
       "name": "budgetUSD",
+      "type": "float",
       "table": 0
     },
     {
       "name": "projectOwner",
+      "type": "string",
       "table": 0
     },
     {
       "name": "operationalManager",
+      "type": "string",
       "table": 0
     },
     {
       "name": "Project",
+      "type": "string",
       "table": 1
     },
     {
       "name": "llmUsage_estimatedCostUSD_sum_sum",
+      "type": "double",
       "table": 1
     }
   ],
@@ -75,7 +94,7 @@
   },
   "virtualInputs": [
     {
-      "outputColumnsSelectionMode": "AUTO_NON_CONFLICTING",
+      "outputColumnsSelectionMode": "ALL",
       "preFilter": {
         "distinct": false,
         "enabled": false
@@ -85,7 +104,7 @@
       "computedColumns": []
     },
     {
-      "outputColumnsSelectionMode": "AUTO_NON_CONFLICTING",
+      "outputColumnsSelectionMode": "ALL",
       "preFilter": {
         "distinct": false,
         "enabled": false
@@ -95,5 +114,95 @@
       "computedColumns": []
     }
   ],
+  "computedColumns": [
+    {
+      "mode": "GREL",
+      "name": "overBudgetUSD",
+      "expr": "if(llmUsage_estimatedCostUSD_sum_sum - budgetUSD \u003e 0, llmUsage_estimatedCostUSD_sum_sum - budgetUSD, 0)",
+      "type": "float"
+    },
+    {
+      "mode": "GREL",
+      "name": "isOverBudget",
+      "expr": "if(llmUsage_estimatedCostUSD_sum_sum - budgetUSD \u003e 0, 1, 0)",
+      "type": "int"
+    },
+    {
+      "mode": "GREL",
+      "name": "isUnderBudget",
+      "expr": "if(llmUsage_estimatedCostUSD_sum_sum - budgetUSD \u003e 0, 0, 1)",
+      "type": "int"
+    },
+    {
+      "mode": "GREL",
+      "name": "hasTwentyPercentBudgetLeft",
+      "expr": "if(llmUsage_estimatedCostUSD_sum_sum \u003e\u003d 0.8 * budgetUSD \u0026\u0026 llmUsage_estimatedCostUSD_sum_sum \u003c\u003d budgetUSD, 1, 0)",
+      "type": "int"
+    }
+  ],
+  "postFilter": {
+    "uiData": {
+      "mode": "\u0026\u0026",
+      "$latestOperator": "\u0026\u0026",
+      "$filterOptions": "rules",
+      "conditions": [
+        {
+          "input": "projectKey",
+          "col": "budgetUSD",
+          "$showList": false,
+          "num": 0,
+          "operator": "contains"
+        }
+      ]
+    },
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "projectKey",
+            "type": "string"
+          },
+          {
+            "name": "budgetUSD",
+            "type": "float"
+          },
+          {
+            "name": "projectOwner",
+            "type": "string"
+          },
+          {
+            "name": "operationalManager",
+            "type": "string"
+          },
+          {
+            "name": "Project",
+            "type": "string"
+          },
+          {
+            "name": "llmUsage_estimatedCostUSD_sum_sum",
+            "type": "double"
+          },
+          {
+            "name": "overBudgetUSD",
+            "type": "float"
+          },
+          {
+            "name": "isOverBudget",
+            "type": "int"
+          },
+          {
+            "name": "isUnderBudget",
+            "type": "int"
+          },
+          {
+            "name": "hasTwentyPercentBudgetLeft",
+            "type": "int"
+          }
+        ],
+        "userModified": false
+      }
+    },
+    "enabled": false
+  },
   "enableAutoCastInJoinConditions": false
 }
