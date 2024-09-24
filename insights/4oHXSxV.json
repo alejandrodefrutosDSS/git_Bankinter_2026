@@ -7,7 +7,19 @@
         "useMemTable": false,
         "filter": {
           "distinct": false,
-          "enabled": false
+          "enabled": true,
+          "uiData": {
+            "mode": "\u0026\u0026",
+            "conditions": [
+              {
+                "input": "isUnderBudget",
+                "operator": "\u003d\u003d [number]",
+                "col": "budgetUSD",
+                "num": 1.0,
+                "num2": 0.0
+              }
+            ]
+          }
         },
         "partitionSelectionMethod": "ALL",
         "latestPartitionsN": 1,
@@ -15,7 +27,7 @@
           "enabled": false,
           "rules": []
         },
-        "samplingMethod": "HEAD_SEQUENTIAL",
+        "samplingMethod": "FULL",
         "maxRecords": 10000,
         "targetRatio": 0.02,
         "ascending": true,
@@ -23,7 +35,7 @@
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 0
+      "_refreshTrigger": 1727191722935
     },
     "def": {
       "type": "grouped_columns",
@@ -80,6 +92,7 @@
       "tooltipMeasures": [],
       "boxplotBreakdownDim": [],
       "boxplotValue": [],
+      "filters": [],
       "xAxisFormatting": {
         "displayAxis": true,
         "showAxisTitle": true,
@@ -251,6 +264,7 @@
         "defaultRadius": 5.0,
         "singleShape": "FILLED_CIRCLE"
       },
+      "computeMode": "NORMAL",
       "xAxisMode": "NORMAL",
       "yAxisMode": "NORMAL",
       "pieOptions": {
@@ -442,7 +456,9 @@
         },
         "horizontal": {
           "show": false,
-          "displayAxis": {},
+          "displayAxis": {
+            "type": "LEFT_Y_AXIS"
+          },
           "lineFormatting": {
             "type": "FILLED",
             "color": "#d9d9d9",
