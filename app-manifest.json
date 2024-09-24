@@ -252,7 +252,7 @@
     },
     {
       "sectionTitle": "Automatic continuous build",
-      "sectionText": "**Activate this feature to regularly monitor changes in the input datasets.** \u003cbr /\u003e\nOnce the logs origin and connection is selected, **click on APPLY**. \u003cbr /\u003e\n**WARNING**: we **strongly suggest configuring partitioning** to avoid rebuilding the same data unnecessarily.",
+      "sectionText": "**Activate this feature to regularly monitor changes in the input datasets.** \u003cbr /\u003e\nOnce selected, **click on APPLY**. \u003cbr /\u003e\n**WARNING**: we **strongly suggest configuring partitioning** to avoid rebuilding the same data unnecessarily.",
       "tiles": [
         {
           "behavior": "INLINE_AUTO_SAVE",
