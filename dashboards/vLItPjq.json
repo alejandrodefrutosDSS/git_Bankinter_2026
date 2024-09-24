@@ -392,6 +392,7 @@
             },
             "titleOptions": {
               "showTitle": "YES",
+              "title": "Projects under budget",
               "fontColor": "#000",
               "fontSize": 13
             },
