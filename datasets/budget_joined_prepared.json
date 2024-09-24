@@ -72,7 +72,7 @@
       {"name":"projectOwner","type":"string"},
       {"name":"operationalManager","type":"string"},
       {"name":"Project","type":"string"},
-      {"name":"llmUsage_estimatedCostUSD_sum_sum","type":"double"},
+      {"name":"llmUsage_estimatedCostUSD_sum","type":"double"},
       {"name":"overBudgetUSD","type":"float"},
       {"name":"isOverBudget","type":"int"},
       {"name":"isUnderBudget","type":"int"},
