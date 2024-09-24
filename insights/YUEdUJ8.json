@@ -98,7 +98,7 @@
     "datasetSmartName": "budget_joined_prepared"
   },
   "owner": "fabien.daoulas@dataiku.com",
-  "listed": false,
+  "listed": true,
   "name": "Project over budget table",
   "dashboardCreationId": "vLItPjq",
   "creationTag": {
