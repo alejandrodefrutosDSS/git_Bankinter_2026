@@ -50,7 +50,7 @@
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 1727290915736
+      "_refreshTrigger": 1727291222823
     },
     "vizSampling": {
       "selection": {
@@ -141,6 +141,7 @@
         "tooltipMeasures": [],
         "boxplotBreakdownDim": [],
         "boxplotValue": [],
+        "filters": [],
         "xAxisFormatting": {
           "displayAxis": true,
           "showAxisTitle": true,
@@ -504,7 +505,9 @@
           },
           "horizontal": {
             "show": false,
-            "displayAxis": {},
+            "displayAxis": {
+              "type": "LEFT_Y_AXIS"
+            },
             "lineFormatting": {
               "type": "FILLED",
               "color": "#d9d9d9",
