@@ -94,7 +94,7 @@ recipe_inputs = recipe_settings.get_recipe_inputs()
 if logs_partitioning_activated:
     recipe_output = recipe_settings.get_flat_output_refs()[0]
     recipe_inputs["main"]["items"][0]["deps"] = [
-        {"out": recipe_output, "idim": logs_partitioning_period, "func": "all_available", "params": {}, "expandVariables": false}
+        {"out": recipe_output, "idim": logs_partitioning_period, "func": "all_available", "params": {}, "expandVariables": False}
     ]
 else:
     recipe_inputs["main"]["items"][0]["deps"] = []
