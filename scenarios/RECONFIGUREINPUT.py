@@ -95,6 +95,8 @@ if logs_partitioning_activated:
     #recipe_inputs["main"]["items"][0]["deps"] = [{"idim": "DAY", "func": "all_available", "params": {}, "expandVariables": false}]
 else:
     recipe_inputs["main"]["items"][0]["deps"] = []
+    
+recipe_settings.save()
 
 # Configure flow routing between flow branches.
 recipe = project.get_recipe("compute_llm_logs_prep")
