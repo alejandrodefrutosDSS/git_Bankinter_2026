@@ -67,19 +67,19 @@
   },
   "schema": {
     "columns": [
-      {"name":"projectKey","type":"string","comment":"","maxLength":1000},
-      {"name":"budgetUSD","type":"float","comment":"","maxLength":1000},
-      {"name":"projectOwner","type":"string","comment":"","maxLength":1000},
-      {"name":"operationalManager","type":"string","comment":"","maxLength":1000},
-      {"name":"Project","type":"string","comment":"","maxLength":1000},
-      {"name":"llmUsage_estimatedCostUSD_sum","type":"double","comment":"","maxLength":1000},
-      {"name":"overBudgetUSD","type":"float","comment":"","maxLength":1000},
-      {"name":"isOverBudget","type":"int","comment":"","maxLength":1000},
-      {"name":"isUnderBudget","type":"int","comment":"","maxLength":1000},
-      {"name":"hasTwentyPercentBudgetLeft","type":"int","comment":"","maxLength":1000},
-      {"name":"mailNotificationSent","type":"boolean","comment":"","maxLength":1000}
+      {"name":"projectKey","type":"string"},
+      {"name":"budgetUSD","type":"double"},
+      {"name":"projectOwner","type":"string"},
+      {"name":"operationalManager","type":"string"},
+      {"name":"Project","type":"string"},
+      {"name":"llmUsage_estimatedCostUSD_sum","type":"double"},
+      {"name":"overBudgetUSD","type":"double"},
+      {"name":"isOverBudget","type":"bigint"},
+      {"name":"isUnderBudget","type":"bigint"},
+      {"name":"hasTwentyPercentBudgetLeft","type":"bigint"},
+      {"name":"mailNotificationSent","type":"boolean"}
     ],
-    "userModified": true
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
