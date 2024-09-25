@@ -86,6 +86,10 @@ for ds_name in ["logs_llm_usage_prepared_by_Project_complete", "budget_joined", 
     ds_settings.settings["type"] = get_connection_type(project, ds_name, logs_connection)
 
     ds_settings.save()
+    
+# Configure connecting compute_logs_llm_usage_prepared_by_Project_complete recipe dependencies
+recipe = project.get_recipe("compute_logs_llm_usage_prepared_by_Project_complete")
+recipe_settings = recipe.get_settings()
 
 # Configure flow routing between flow branches.
 recipe = project.get_recipe("compute_llm_logs_prep")
