@@ -1,7 +1,7 @@
 {
   "type": "step_based",
   "name": "4. Continuous flow build",
-  "active": true,
+  "active": false,
   "runAsUser": "fabien.daoulas@dataiku.com",
   "checklists": {
     "checklists": []
@@ -24,7 +24,7 @@
           {
             "type": "DATASET",
             "itemId": "eventserver_cru_logs",
-            "partitionsSpec": "2024-09-25"
+            "partitionsSpec": "CURRENT_DAY"
           }
         ],
         "triggerWhenAllFire": false
