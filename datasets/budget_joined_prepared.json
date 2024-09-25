@@ -74,7 +74,7 @@
       {"name":"isOverBudget","type":"int"},
       {"name":"isUnderBudget","type":"int"},
       {"name":"hasTwentyPercentBudgetLeft","type":"int"},
-      {"name":"notificationSent","type":"boolean","comment":"","maxLength":1000}
+      {"name":"mailNotificationSent","type":"boolean","comment":"","maxLength":1000}
     ],
     "userModified": true
   },
