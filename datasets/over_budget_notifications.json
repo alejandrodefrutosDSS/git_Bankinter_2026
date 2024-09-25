@@ -67,6 +67,7 @@
   },
   "schema": {
     "columns": [
+      {"name":"projectKey","type":"string","comment":"","maxLength":1000},
       {"name":"budgetUSD","type":"double"},
       {"name":"projectOwner","type":"string"},
       {"name":"operationalManager","type":"string"},
@@ -78,7 +79,7 @@
       {"name":"hasTwentyPercentBudgetLeft","type":"bigint"},
       {"name":"mailNotificationSent","type":"boolean"}
     ],
-    "userModified": false
+    "userModified": true
   },
   "dkuProperties": [],
   "metrics": {
