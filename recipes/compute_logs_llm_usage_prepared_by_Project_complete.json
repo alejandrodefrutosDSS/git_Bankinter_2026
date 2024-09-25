@@ -14,14 +14,7 @@
       "items": [
         {
           "ref": "logs_llm_usage_prepared_by_Project",
-          "deps": [
-            {
-              "idim": "DAY",
-              "func": "all_available",
-              "params": {},
-              "expandVariables": false
-            }
-          ]
+          "deps": []
         }
       ]
     }
