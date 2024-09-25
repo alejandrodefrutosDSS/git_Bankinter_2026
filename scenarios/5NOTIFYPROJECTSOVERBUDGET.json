@@ -46,6 +46,7 @@
         "delayBetweenRetries": 10,
         "maxRetriesOnFail": 0,
         "params": {
+          "script": "# -*- coding: utf-8 -*-\nimport dataiku\nimport pandas as pd, numpy as np\nfrom dataiku import pandasutils as pdu\nfrom dataiku.scenario import Scenario\n\nover_budget_notifications \u003d dataiku.Dataset(\"over_budget_notifications\")\ntry:\n    over_budget_notifications_df \u003d over_budget_notifications.get_dataframe()\nexcept:\n    # dataset is empty, nothing to do.\n    return\n\nfor index, row in over_budget_notifications_df.iterrows():\n    if not row[\"mailNotificationSent\"]:\n        projectKey \u003d row[\"projectKey\"]\n        budget_usd \u003d row[\"budgetUSD\"]\n        over_budget_usd \u003d row[\"overBudgetUSD\"]\n        \n\n# keep track of notifications already sent.\nif over_budget_notifications_df is not None:\n    for index, row in over_budget_notifications_df.iterrows():\n        project_key \u003d row[\"projectKey\"]\n        over_budget_df.loc[over_budget_df[\"projectKey\"] \u003d\u003d project_key, \"mailNotificationSent\"] \u003d row[\"mailNotificationSent\"]\n        \n\nover_budget_notifications.write_with_schema(over_budget_df)",
           "envSelection": {
             "envMode": "INHERIT"
           },
