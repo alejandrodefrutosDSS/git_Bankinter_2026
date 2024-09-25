@@ -23,13 +23,13 @@
         "watches": [
           {
             "type": "DATASET",
-            "itemId": "eventserver_cru_logs",
-            "partitionsSpec": "2024-09-25"
+            "itemId": "compute_resource_usage_logs",
+            "partitionsSpec": "CURRENT_DAY"
           },
           {
             "type": "DATASET",
-            "itemId": "compute_resource_usage_logs",
-            "partitionsSpec": "CURRENT_DAY"
+            "itemId": "eventserver_cru_logs",
+            "partitionsSpec": "2024-09-25"
           }
         ],
         "triggerWhenAllFire": false
