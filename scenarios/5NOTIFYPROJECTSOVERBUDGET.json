@@ -2,14 +2,6 @@
   "type": "step_based",
   "name": "5. Notify projects over budget",
   "active": false,
-  "creationTag": {
-    "versionNumber": 0,
-    "lastModifiedBy": {
-      "login": "fabien.daoulas@dataiku.com"
-    },
-    "lastModifiedOn": 1727294832556,
-    "extendedProperties": {}
-  },
   "checklists": {
     "checklists": []
   },
@@ -19,7 +11,23 @@
     "suppressTriggersWhileRunning": true
   },
   "tags": [],
-  "triggers": [],
+  "triggers": [
+    {
+      "id": "r9t3OO8U",
+      "type": "follow_scenariorun",
+      "name": "Follow scenario",
+      "delay": 60,
+      "active": true,
+      "params": {
+        "scenarioId": "4CONTINUOUSFLOWBUILD",
+        "outcomeFilter": "SUCCESS"
+      },
+      "graceDelaySettings": {
+        "delay": 0,
+        "checkAgainAfterGraceDelay": false
+      }
+    }
+  ],
   "reporters": [],
   "params": {
     "steps": []
