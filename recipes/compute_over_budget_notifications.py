@@ -12,6 +12,8 @@ over_budget_notifications = dataiku.Dataset("over_budget_notifications")
 
 over_budget_df = budget_joined_prepared_df[budget_joined_prepared_df["isOverBudget"] == 0]
 
+print("tata")
+
 for budget_row in over_budget_df.iterrows():
     print("toto")
     print(budget_row)
