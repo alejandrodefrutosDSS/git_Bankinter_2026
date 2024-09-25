@@ -73,8 +73,7 @@
       {"name":"overBudgetUSD","type":"float"},
       {"name":"isOverBudget","type":"int"},
       {"name":"isUnderBudget","type":"int"},
-      {"name":"hasTwentyPercentBudgetLeft","type":"int"},
-      {"name":"mailNotificationSent","type":"boolean","comment":"","maxLength":1000}
+      {"name":"hasTwentyPercentBudgetLeft","type":"int"}
     ],
     "userModified": true
   },
