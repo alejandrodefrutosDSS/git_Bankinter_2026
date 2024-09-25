@@ -8,7 +8,7 @@ budget_joined_prepared = dataiku.Dataset("budget_joined_prepared")
 budget_joined_prepared_df = budget_joined_prepared.get_dataframe()
 
 over_budget_notifications = dataiku.Dataset("over_budget_notifications")
-over_budget_notifications_df = over_budget_notifications.get_dataframe()
+#over_budget_notifications_df = over_budget_notifications.get_dataframe()
 
 for buget_row in budget_joined_prepared.iter_rows():
     print(budget_row)
