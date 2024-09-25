@@ -67,6 +67,7 @@
   },
   "schema": {
     "columns": [
+      {"name":"projectKey","type":"string"},
       {"name":"budgetUSD","type":"double"},
       {"name":"projectOwner","type":"string"},
       {"name":"operationalManager","type":"string"},
