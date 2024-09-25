@@ -10,7 +10,7 @@ budget_joined_prepared_df = budget_joined_prepared.get_dataframe()
 over_budget_notifications = dataiku.Dataset("over_budget_notifications")
 #over_budget_notifications_df = over_budget_notifications.get_dataframe()
 
-over_budget_df = budget_joined_prepared_df[budget_joined_prepared_df["isOverBudget"] == 1]
+over_budget_df = budget_joined_prepared_df[budget_joined_prepared_df["isOverBudget"] == 0]
 
 for budget_row in over_budget_df:
     print(budget_row)
