@@ -359,7 +359,7 @@
           "fontSize": 11,
           "fontColor": "AUTO",
           "hasBackground": true,
-          "backgroundColor": "#FFFFFFBF"
+          "backgroundColor": "#FFFFFF"
         }
       },
       "chartHeight": 200,
