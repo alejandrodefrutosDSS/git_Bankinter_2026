@@ -24,6 +24,10 @@
         {
           "ref": "budget_joined_prepared",
           "deps": []
+        },
+        {
+          "ref": "over_budget_notifications",
+          "deps": []
         }
       ]
     }
