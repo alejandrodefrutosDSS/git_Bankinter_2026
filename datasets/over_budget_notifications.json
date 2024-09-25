@@ -76,7 +76,8 @@
       {"name":"overBudgetUSD","type":"float","comment":"","maxLength":1000},
       {"name":"isOverBudget","type":"int","comment":"","maxLength":1000},
       {"name":"isUnderBudget","type":"int","comment":"","maxLength":1000},
-      {"name":"hasTwentyPercentBudgetLeft","type":"int","comment":"","maxLength":1000}
+      {"name":"hasTwentyPercentBudgetLeft","type":"int","comment":"","maxLength":1000},
+      {"name":"mailNotificationSent","type":"boolean","comment":"","maxLength":1000}
     ],
     "userModified": true
   },
