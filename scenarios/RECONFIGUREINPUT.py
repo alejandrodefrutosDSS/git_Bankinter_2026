@@ -92,6 +92,7 @@ recipe = project.get_recipe("compute_logs_llm_usage_prepared_by_Project_complete
 recipe_settings = recipe.get_settings()
 recipe_inputs = recipe_settings.get_recipe_inputs()
 if logs_partitioning_activated:
+    print("toto")
     #recipe_inputs["main"]["items"][0]["deps"] = [{"idim": "DAY", "func": "all_available", "params": {}, "expandVariables": false}]
 else:
     recipe_inputs["main"]["items"][0]["deps"] = []
