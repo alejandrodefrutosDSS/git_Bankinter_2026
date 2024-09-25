@@ -3,6 +3,8 @@ import dataiku
 import pandas as pd, numpy as np
 from dataiku import pandasutils as pdu
 
+print("toudoudou")
+
 # Read recipe inputs
 budget_joined_prepared = dataiku.Dataset("budget_joined_prepared")
 budget_joined_prepared_df = budget_joined_prepared.get_dataframe()
