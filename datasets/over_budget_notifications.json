@@ -66,7 +66,9 @@
     }
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {"name":"projectKey","type":"string","comment":"","maxLength":1000}
+    ],
     "userModified": true
   },
   "dkuProperties": [],
