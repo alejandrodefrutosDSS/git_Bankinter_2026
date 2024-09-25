@@ -1,0 +1,209 @@
+{
+  "script": {
+    "steps": [],
+    "maxProcessedMemTableBytes": -1,
+    "fullSampleStatistics": {
+      "engineConfig": {
+        "padRunsWithMetrics": false,
+        "hive": {
+          "active": true,
+          "extraConf": []
+        },
+        "basic": {},
+        "dss": {
+          "active": true,
+          "selection": {
+            "useMemTable": false,
+            "filter": {
+              "distinct": false,
+              "enabled": false
+            },
+            "partitionSelectionMethod": "ALL",
+            "latestPartitionsN": 1,
+            "ordering": {
+              "enabled": false,
+              "rules": []
+            },
+            "samplingMethod": "FULL",
+            "maxRecords": -1,
+            "targetRatio": 0.02,
+            "ascending": true,
+            "withinFirstN": -1,
+            "maxReadUncompressedBytes": -1
+          }
+        },
+        "sql": {
+          "active": true
+        },
+        "impala": {
+          "active": true
+        },
+        "spark": {
+          "active": true,
+          "extraConf": []
+        },
+        "python": {}
+      },
+      "basic": true,
+      "countDistinct": true,
+      "advanced": true,
+      "percentile": false,
+      "validity": false,
+      "updateOnAnalyzeBoxOpen": false,
+      "computeCostFreeMetrics": false,
+      "numberTopValues": 10
+    },
+    "columnsSelection": {
+      "mode": "ALL"
+    },
+    "columnWidthsByName": {
+      "clientEvent.msgType": 232,
+      "clientEvent.clusterId": 173,
+      "clientEvent.podsStatus.pods": 300,
+      "clientEvent.auditTopic": 204,
+      "clientEvent.dssNodeId": 173,
+      "clientEvent.dssInstallId": 218,
+      "clientEvent.dssNodeType": 188,
+      "clientEvent.dssNodeName": 188,
+      "origAddress": 127,
+      "serverTimestamp": 211,
+      "clientEvent.podsStatus.pods_TRUNCATED": 293,
+      "clientEvent.computeResourceUsage.context.type": 300,
+      "clientEvent.computeResourceUsage.context.authIdentifier": 300,
+      "clientEvent.computeResourceUsage.context.projectKey": 300,
+      "clientEvent.computeResourceUsage.context.jupyterNotebookId": 300,
+      "clientEvent.computeResourceUsage.context.jupyterSessionId": 300,
+      "clientEvent.computeResourceUsage.type": 293,
+      "clientEvent.computeResourceUsage.id": 278,
+      "clientEvent.computeResourceUsage.startTime": 300,
+      "clientEvent.computeResourceUsage.localProcess.pid": 300,
+      "clientEvent.computeResourceUsage.localProcess.commandName": 300,
+      "clientEvent.computeResourceUsage.localProcess.cpuUserTimeMS": 300,
+      "clientEvent.computeResourceUsage.localProcess.cpuSystemTimeMS": 300,
+      "clientEvent.computeResourceUsage.localProcess.cpuChildrenUserTimeMS": 300,
+      "clientEvent.computeResourceUsage.localProcess.cpuChildrenSystemTimeMS": 300,
+      "clientEvent.computeResourceUsage.localProcess.cpuTotalMS": 300,
+      "clientEvent.computeResourceUsage.localProcess.cpuCurrent": 300,
+      "clientEvent.computeResourceUsage.localProcess.cpuAverageOverPast60Seconds": 300,
+      "clientEvent.computeResourceUsage.localProcess.vmSizeMB": 300,
+      "clientEvent.computeResourceUsage.localProcess.vmRSSMB": 300,
+      "clientEvent.computeResourceUsage.localProcess.vmHWMMB": 300,
+      "clientEvent.computeResourceUsage.localProcess.vmRSSAnonMB": 300,
+      "clientEvent.computeResourceUsage.localProcess.vmDataMB": 300,
+      "clientEvent.computeResourceUsage.localProcess.vmSizePeakMB": 300,
+      "clientEvent.computeResourceUsage.localProcess.vmRSSPeakMB": 300,
+      "clientEvent.computeResourceUsage.localProcess.vmRSSTotalMBS": 300,
+      "clientEvent.computeResourceUsage.localProcess.majorFaults": 300,
+      "clientEvent.computeResourceUsage.localProcess.childrenMajorFaults": 300,
+      "clientEvent.computeResourceUsage.context.jobId": 300,
+      "clientEvent.computeResourceUsage.context.datasetName": 300,
+      "clientEvent.computeResourceUsage.sqlConnection.connection": 300,
+      "clientEvent.clientIP": 165,
+      "clientEvent.authUser": 165,
+      "clientEvent.authSource": 180,
+      "clientEvent.authVia": 211,
+      "clientEvent.callPath": 197,
+      "clientEvent.computeResourceUsage.sqlQuery.connectionUsageId": 300,
+      "clientEvent.computeResourceUsage.sqlQuery.connection": 300,
+      "clientEvent.computeResourceUsage.sqlQuery.query": 300,
+      "clientEvent.computeResourceUsage.endTime": 300,
+      "clientEvent.computeResourceUsage.sparkK8SJob.executionId": 300,
+      "clientEvent.originalIP": 180,
+      "clientEvent.xForwardedFor": 203,
+      "clientEvent.computeResourceUsage.context.activityId": 300,
+      "clientEvent.computeResourceUsage.context.activityType": 300,
+      "clientEvent.computeResourceUsage.context.recipeType": 300,
+      "clientEvent.computeResourceUsage.context.recipeName": 300,
+      "clientEvent.computeResourceUsage.singleK8SJob.k8sClusterId": 300,
+      "clientEvent.computeResourceUsage.singleK8SJob.executionId": 300,
+      "clientEvent.computeResourceUsage.singleK8SJob.cpuRequest": 300,
+      "clientEvent.computeResourceUsage.singleK8SJob.cpuLimit": 300,
+      "clientEvent.computeResourceUsage.singleK8SJob.memoryRequestMB": 300,
+      "clientEvent.computeResourceUsage.singleK8SJob.memoryLimitMB": 300,
+      "clientEvent.computeResourceUsage.context.sqlNotebookId": 300,
+      "clientEvent.computeResourceUsage.llmUsage.connection": 300,
+      "clientEvent.computeResourceUsage.llmUsage.llmType": 300,
+      "clientEvent.computeResourceUsage.llmUsage.usageType": 300,
+      "clientEvent.computeResourceUsage.llmUsage.totalQueries": 300,
+      "clientEvent.computeResourceUsage.llmUsage.cacheHitQueries": 300,
+      "clientEvent.computeResourceUsage.llmUsage.cacheMissQueries": 300,
+      "clientEvent.computeResourceUsage.llmUsage.totalPromptTokens": 300,
+      "clientEvent.computeResourceUsage.llmUsage.totalCompletionTokens": 300,
+      "clientEvent.computeResourceUsage.llmUsage.totalComputationTimeMS": 300,
+      "clientEvent.computeResourceUsage.llmUsage.estimatedCostUSD": 300,
+      "clientEvent.computeResourceUsage.context.webappId": 300,
+      "clientEvent.computeResourceUsage.sqlQuery.insertedRowCount": 300
+    },
+    "columnUseScientificNotationByName": {},
+    "coloring": {
+      "scheme": "MEANING_AND_STATUS",
+      "individualColumns": [],
+      "individualColumnsRules": [],
+      "valueColoringMode": "HASH"
+    },
+    "sorting": [],
+    "analysisColumnData": {},
+    "explorationSampling": {
+      "selection": {
+        "maxRecordsForDisplay": -1,
+        "maxStoredBytes": 268435456,
+        "timeout": -1,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "SELECTED",
+        "selectedPartitions": [
+          "2024-09-25"
+        ],
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 10000,
+        "targetRatio": 0.02,
+        "ascending": true,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": false,
+      "_refreshTrigger": 1727251473861
+    },
+    "vizSampling": {
+      "selection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "FULL",
+        "maxRecords": -1,
+        "targetRatio": 0.02,
+        "ascending": true,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": false,
+      "_refreshTrigger": 0
+    },
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
+    "globalSearchQuery": "",
+    "explorationFilters": [],
+    "previewMode": "ALL_ROWS"
+  },
+  "charts": [],
+  "interactiveSearch": {
+    "savedQueries": []
+  },
+  "customMeasures": []
+}
