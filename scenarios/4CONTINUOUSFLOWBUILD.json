@@ -1,7 +1,7 @@
 {
   "type": "step_based",
   "name": "4. Continuous flow build",
-  "active": false,
+  "active": true,
   "runAsUser": "admin",
   "checklists": {
     "checklists": []
