@@ -67,17 +67,16 @@
   },
   "schema": {
     "columns": [
-      {"name":"projectKey","type":"string"},
       {"name":"budgetUSD","type":"double"},
       {"name":"projectOwner","type":"string"},
       {"name":"operationalManager","type":"string"},
       {"name":"Project","type":"string"},
       {"name":"llmUsage_estimatedCostUSD_sum","type":"double"},
       {"name":"overBudgetUSD","type":"double"},
-      {"name":"isOverBudget","type":"bigint"},
-      {"name":"isUnderBudget","type":"bigint"},
-      {"name":"hasTwentyPercentBudgetLeft","type":"bigint"},
-      {"name":"mailNotificationSent","type":"boolean"}
+      {"name":"isOverBudget","type":"double"},
+      {"name":"isUnderBudget","type":"double"},
+      {"name":"hasTwentyPercentBudgetLeft","type":"double"},
+      {"name":"mailNotificationSent","type":"string"}
     ],
     "userModified": false
   },
