@@ -1,15 +1,7 @@
 {
   "type": "step_based",
   "name": "test",
-  "active": false,
-  "creationTag": {
-    "versionNumber": 0,
-    "lastModifiedBy": {
-      "login": "fabien.daoulas@dataiku.com"
-    },
-    "lastModifiedOn": 1727254141316,
-    "extendedProperties": {}
-  },
+  "active": true,
   "checklists": {
     "checklists": []
   },
@@ -19,7 +11,29 @@
     "suppressTriggersWhileRunning": true
   },
   "tags": [],
-  "triggers": [],
+  "triggers": [
+    {
+      "id": "w3cmRALq",
+      "type": "ds_modified",
+      "name": "Dataset modified",
+      "delay": 30,
+      "active": true,
+      "params": {
+        "watches": [
+          {
+            "type": "DATASET",
+            "itemId": "eventserver_cru_logs",
+            "partitionsSpec": "2024-09-25"
+          }
+        ],
+        "triggerWhenAllFire": false
+      },
+      "graceDelaySettings": {
+        "delay": 120,
+        "checkAgainAfterGraceDelay": false
+      }
+    }
+  ],
   "reporters": [],
   "params": {
     "steps": []
