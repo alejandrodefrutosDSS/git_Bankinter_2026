@@ -24,7 +24,7 @@
           {
             "type": "DATASET",
             "itemId": "eventserver_cru_logs",
-            "partitionsSpec": "CURRENT_DAY"
+            "partitionsSpec": "2024-09-25"
           },
           {
             "type": "DATASET",
