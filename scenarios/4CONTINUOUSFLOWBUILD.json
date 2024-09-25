@@ -23,8 +23,8 @@
         "watches": [
           {
             "type": "DATASET",
-            "itemId": "compute_resource_usage_logs",
-            "partitionsSpec": ""
+            "itemId": "eventserver_cru_logs",
+            "partitionsSpec": "CURRENT_DAY"
           }
         ],
         "triggerWhenAllFire": false
@@ -56,7 +56,12 @@
             {
               "type": "DATASET",
               "itemId": "logs_llm_usage_prepared_by_Project",
-              "partitionsSpec": ""
+              "partitionsSpec": "CURRENT_DAY"
+            },
+            {
+              "type": "DATASET",
+              "itemId": "logs_llm_usage_prepared_by_Project",
+              "partitionsSpec": "PREVIOUS_DAY"
             }
           ],
           "jobType": "RECURSIVE_BUILD",
