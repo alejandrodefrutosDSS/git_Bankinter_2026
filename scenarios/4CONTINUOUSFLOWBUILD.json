@@ -212,7 +212,7 @@
       {
         "id": "run_scenario_null.null",
         "type": "run_scenario",
-        "name": "Step #7",
+        "name": "Run notification scenario",
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",
