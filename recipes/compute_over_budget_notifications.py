@@ -15,9 +15,13 @@ except:
 
 over_budget_df = budget_joined_prepared_df[budget_joined_prepared_df["isOverBudget"] == 0]
 
-for budget_row in over_budget_df.iterrows():
-    print("toto")
-    print(budget_row)
+if over_budget_notifications_df == None:
+    budget_joined_prepared_df["mailNotificationSent"] = False
+    over_budget_notifications.write_with_schema(budget_joined_prepared_df)
+else:
+    for budget_row in over_budget_df.iterrows():
+        print("toto")
+        print(budget_row)
         
 
 
