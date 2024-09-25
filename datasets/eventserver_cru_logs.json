@@ -1,5 +1,5 @@
 {
-  "type": "S3",
+  "type": "Filesystem",
   "managed": false,
   "featureGroup": false,
   "formatType": "json",
@@ -33,18 +33,9 @@
     "headerRow": false
   },
   "partitioning": {
-    "filePathPattern": "%Y/%M/%D/.*",
     "ignoreNonMatchingFile": false,
-    "considerMissingRequestedPartitionsAsEmpty": true,
-    "dimensions": [
-      {
-        "name": "DAY",
-        "params": {
-          "period": "DAY"
-        },
-        "type": "time"
-      }
-    ]
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
   },
   "creationTag": {
     "versionNumber": 0,
@@ -56,8 +47,7 @@
   },
   "tags": [],
   "params": {
-    "metastoreSynchronizationEnabled": true,
-    "connection": "dataiku-managed-storage",
+    "connection": "filesystem_managed",
     "path": "/event-server/compute-resource-usage/",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
