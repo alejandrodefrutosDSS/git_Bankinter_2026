@@ -223,6 +223,7 @@
         "delayBetweenRetries": 10,
         "maxRetriesOnFail": 0,
         "params": {
+          "scenarioId": "5NOTIFYPROJECTSOVERBUDGET",
           "handleWarningsAs": "WARNING",
           "proceedOnFailure": false
         }
