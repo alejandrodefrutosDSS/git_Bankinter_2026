@@ -208,6 +208,24 @@
           },
           "proceedOnFailure": false
         }
+      },
+      {
+        "id": "run_scenario_null.null",
+        "type": "run_scenario",
+        "name": "Step #7",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "handleWarningsAs": "WARNING",
+          "proceedOnFailure": false
+        }
       }
     ]
   },
