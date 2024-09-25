@@ -191,7 +191,7 @@
       {
         "id": "custom_python",
         "type": "custom_python",
-        "name": "Send mail notification",
+        "name": "Update notifications dataset",
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",
