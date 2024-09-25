@@ -92,8 +92,9 @@ recipe = project.get_recipe("compute_logs_llm_usage_prepared_by_Project_complete
 recipe_settings = recipe.get_settings()
 recipe_inputs = recipe_settings.get_recipe_inputs()
 if logs_partitioning_activated:
+    recipe_output = recipe_settings.get_flat_output_refs()[0]
     recipe_inputs["main"]["items"][0]["deps"] = [
-        {"out": "logs_llm_usage_prepared_by_Project_complete", "idim": logs_partitioning_period, "func": "all_available", "params": {}, "expandVariables": false}
+        {"out": recipe_output, "idim": logs_partitioning_period, "func": "all_available", "params": {}, "expandVariables": false}
     ]
 else:
     recipe_inputs["main"]["items"][0]["deps"] = []
