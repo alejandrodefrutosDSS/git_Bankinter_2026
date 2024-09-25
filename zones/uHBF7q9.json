@@ -41,10 +41,6 @@
     {
       "objectId": "over_budget_notifications",
       "objectType": "DATASET"
-    },
-    {
-      "objectId": "compute_over_budget_notifications",
-      "objectType": "RECIPE"
     }
   ],
   "shared": [],
