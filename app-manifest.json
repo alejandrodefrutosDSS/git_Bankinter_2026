@@ -109,7 +109,7 @@
               "name": "logs_partitioning_activated",
               "type": "BOOLEAN",
               "label": "Enabled",
-              "defaultValue": true,
+              "defaultValue": false,
               "mandatory": false,
               "canSelectForeign": false,
               "markCreatedAsBuilt": false,
