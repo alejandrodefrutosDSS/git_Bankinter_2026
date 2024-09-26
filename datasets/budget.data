@@ -9,38 +9,38 @@
     [
       "UXRESEARCHASSISTANT",
       "100",
-      "projectowner@company.com",
-      "opsmanager@company.com"
+      "fabien.daoulas@dataiku.com",
+      "fabien.daoulas@gmail.com"
     ],
     [
       "MPP",
       "0.1",
-      "fabien.daoulas@dataiku.com;toto@dataiku.com",
-      "opsmanager@company.com;tata@dataiku.com"
+      "fabien.daoulas@dataiku.com",
+      "fabien.daoulas@gmail.com"
     ],
     [
       "MPPWITHANSWERS",
       "0.001",
-      "fabien.daoulas@dataiku.com;toto@dataiku.com",
-      "opsmanager@company.com;tata@dataiku.com"
+      "fabien.daoulas@dataiku.com",
+      "fabien.daoulas@gmail.com"
     ],
     [
       "CUSTOMERASSETSASSISTANT",
       "40",
-      "fabien.daoulas@dataiku.com;toto@dataiku.com",
-      "fabien.daoulas@dataiku.com;toto@dataiku.com"
+      "fabien.daoulas@dataiku.com",
+      "fabien.daoulas@gmail.com"
     ],
     [
       "ANSWERSTESTING",
       "0.0001",
-      "ANSWERSTESTING_projectowner@dataiku.com",
-      "ANSWERSTESTING_opsmanager@dataiku.com"
+      "fabien.daoulas@dataiku.com",
+      "fabien.daoulas@gmail.com"
     ],
     [
       "TITOU",
       "40",
-      "fabien.daoulas@dataiku.com;toto@dataiku.com",
-      "fabien.daoulas@dataiku.com;toto@dataiku.com"
+      "fabien.daoulas@dataiku.com",
+      "fabien.daoulas@gmail.com"
     ]
   ],
   "schema": {
