@@ -282,7 +282,7 @@
               "name": "continuous_build_message_sender",
               "type": "STRING",
               "label": "Mail message sender ID",
-              "description": "",
+              "description": "You need to configure one https://doc.dataiku.com/dss/latest/scenarios/reporters.html#mail-reporter",
               "defaultValue": "",
               "mandatory": false,
               "canSelectForeign": false,
