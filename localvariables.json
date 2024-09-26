@@ -6,5 +6,5 @@
   "logs_partitioning_period": "DAY",
   "logs_partitioning_pattern": "%Y/%M/%D/.*",
   "logs_partitioning_build_range": "2024-09-20/2024-09-24",
-  "continuous_build_message_sender": ""
+  "continuous_build_message_sender": "fabiendaoulas-mailer"
 }
