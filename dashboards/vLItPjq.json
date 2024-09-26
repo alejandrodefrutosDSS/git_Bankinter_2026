@@ -223,7 +223,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 3,
+              "top": 2,
               "left": 0,
               "width": 9,
               "height": 3
@@ -260,7 +260,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 6,
+              "top": 5,
               "left": 0,
               "width": 9,
               "height": 1
@@ -296,7 +296,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 6,
+              "top": 5,
               "left": 9,
               "width": 3,
               "height": 1
@@ -332,7 +332,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 7,
+              "top": 6,
               "left": 0,
               "width": 9,
               "height": 3
@@ -369,7 +369,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 7,
+              "top": 6,
               "left": 9,
               "width": 3,
               "height": 3
@@ -404,7 +404,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 3,
+              "top": 2,
               "left": 9,
               "width": 3,
               "height": 3
@@ -439,7 +439,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 2,
+              "top": 9,
               "left": 0,
               "width": 12,
               "height": 1
