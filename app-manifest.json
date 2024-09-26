@@ -257,7 +257,7 @@
         {
           "datasetName": "budget",
           "type": "INLINE_DATASET_EDIT",
-          "prompt": "Edit budget dataset"
+          "prompt": "Configure a budget per project"
         },
         {
           "behavior": "INLINE_AUTO_SAVE",
