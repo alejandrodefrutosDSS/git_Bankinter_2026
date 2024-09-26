@@ -213,7 +213,7 @@
     },
     {
       "sectionTitle": "Build your audit logs",
-      "sectionText": "Catchup with your previous audit logs.\nThis operation can take a few minutes, depending on the amount of logs.\nYou can then explore the monitoring dashboard. You will find the dashboard documentation [here](article:23)",
+      "sectionText": "Catchup with your previous audit logs.\nThis operation can take a few minutes to hours, depending on the amount of logs.\nYou can then explore the monitoring dashboard. You will find the dashboard documentation [here](article:23)",
       "tiles": [
         {
           "behavior": "INLINE_AUTO_SAVE",
