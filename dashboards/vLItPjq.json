@@ -440,8 +440,8 @@
             "tileType": "INSIGHT",
             "box": {
               "top": 2,
-              "left": 10,
-              "width": 2,
+              "left": 0,
+              "width": 12,
               "height": 1
             },
             "clickAction": "OPEN_INSIGHT",
