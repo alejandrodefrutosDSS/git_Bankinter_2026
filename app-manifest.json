@@ -213,7 +213,7 @@
     },
     {
       "sectionTitle": "Build flow",
-      "sectionText": "This operation can take a few minutes, depending on the quantity of logs.\nYou can then explore the analysis in the dashboard. You will find the dashboard documentation [here](article:23)",
+      "sectionText": "This operation can take a few minutes, depending on the amount of logs.\nYou can then explore the analysis in the dashboard. You will find the dashboard documentation [here](article:23)",
       "tiles": [
         {
           "behavior": "INLINE_AUTO_SAVE",
