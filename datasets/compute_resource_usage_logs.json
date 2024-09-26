@@ -1,5 +1,5 @@
 {
-  "type": "S3",
+  "type": "Filesystem",
   "managed": false,
   "featureGroup": false,
   "formatType": "json",
@@ -34,9 +34,18 @@
     "headerRow": false
   },
   "partitioning": {
+    "filePathPattern": "%Y/%M/%D/.*",
     "ignoreNonMatchingFile": false,
-    "considerMissingRequestedPartitionsAsEmpty": false,
-    "dimensions": []
+    "considerMissingRequestedPartitionsAsEmpty": true,
+    "dimensions": [
+      {
+        "name": "DAY",
+        "params": {
+          "period": "DAY"
+        },
+        "type": "time"
+      }
+    ]
   },
   "creationTag": {
     "versionNumber": 0,
@@ -48,8 +57,7 @@
   },
   "tags": [],
   "params": {
-    "metastoreSynchronizationEnabled": true,
-    "connection": "dataiku-managed-storage",
+    "connection": "filesystem_managed",
     "path": "/anonymized_audit_logs/",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
