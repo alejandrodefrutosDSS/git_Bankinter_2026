@@ -464,7 +464,7 @@
             },
             "insightId": "JGiLY3S",
             "insightType": "scenario_last_runs",
-            "displayMode": "IMAGE_AND_INSIGHT_DESC",
+            "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
           }
         ]
