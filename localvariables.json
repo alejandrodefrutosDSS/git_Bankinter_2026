@@ -1,7 +1,7 @@
 {
   "logs_connection": "filesystem_managed",
   "activate_continuous_build": false,
-  "logs_origin": "event_server",
+  "logs_origin": "cloud",
   "logs_partitioning_activated": true,
   "logs_partitioning_period": "DAY",
   "logs_partitioning_pattern": "%Y/%M/%D/.*",
