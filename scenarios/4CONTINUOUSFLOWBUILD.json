@@ -24,7 +24,7 @@
           {
             "type": "DATASET",
             "itemId": "eventserver_cru_logs",
-            "partitionsSpec": "CURRENT_DAY"
+            "partitionsSpec": ""
           }
         ],
         "triggerWhenAllFire": false
@@ -56,12 +56,7 @@
             {
               "type": "DATASET",
               "itemId": "logs_llm_usage_prepared_by_Project",
-              "partitionsSpec": "CURRENT_DAY"
-            },
-            {
-              "type": "DATASET",
-              "itemId": "logs_llm_usage_prepared_by_Project",
-              "partitionsSpec": "PREVIOUS_DAY"
+              "partitionsSpec": ""
             }
           ],
           "jobType": "RECURSIVE_BUILD",
