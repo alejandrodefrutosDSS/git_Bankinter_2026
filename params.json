@@ -127,6 +127,15 @@
         "modes": [
           "READ"
         ]
+      },
+      {
+        "objectRef": {
+          "objectId": "4CONTINUOUSFLOWBUILD",
+          "objectType": "SCENARIO"
+        },
+        "modes": [
+          "READ"
+        ]
       }
     ]
   },
