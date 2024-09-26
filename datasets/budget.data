@@ -15,20 +15,20 @@
     [
       "MPP",
       "0.1",
-      "projectowner@company.com",
-      "opsmanager@company.com"
+      "fabien.daoulas@dataiku.com;toto@dataiku.com",
+      "opsmanager@company.com;tata@dataiku.com"
     ],
     [
       "CUSTOMERASSETSASSISTANT",
       "40",
-      "fabien.daoulas@dataiku.com",
-      "fabien.daoulas@dataiku.com"
+      "fabien.daoulas@dataiku.com;toto@dataiku.com",
+      "fabien.daoulas@dataiku.com;toto@dataiku.com"
     ],
     [
       "TITOU",
       "40",
       "fabien.daoulas@dataiku.com;toto@dataiku.com",
-      "fabien.daoulas@dataiku.com"
+      "fabien.daoulas@dataiku.com;toto@dataiku.com"
     ]
   ],
   "schema": {
