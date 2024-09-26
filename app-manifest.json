@@ -276,7 +276,7 @@
           "type": "PROJECT_VARIABLES_EDIT"
         },
         {
-          "behavior": "MODAL",
+          "behavior": "INLINE_AUTO_SAVE",
           "params": [
             {
               "name": "continuous_build_message_sender",
