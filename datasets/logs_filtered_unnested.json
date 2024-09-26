@@ -1,5 +1,5 @@
 {
-  "type": "S3",
+  "type": "Filesystem",
   "managed": true,
   "featureGroup": false,
   "formatType": "parquet",
@@ -32,9 +32,18 @@
     "parquetBlockSizeMB": 128
   },
   "partitioning": {
+    "filePathPattern": "%Y/%M/%D/.*",
     "ignoreNonMatchingFile": false,
-    "considerMissingRequestedPartitionsAsEmpty": false,
-    "dimensions": []
+    "considerMissingRequestedPartitionsAsEmpty": true,
+    "dimensions": [
+      {
+        "name": "DAY",
+        "params": {
+          "period": "DAY"
+        },
+        "type": "time"
+      }
+    ]
   },
   "creationTag": {
     "versionNumber": 0,
@@ -46,8 +55,7 @@
   },
   "tags": [],
   "params": {
-    "metastoreSynchronizationEnabled": true,
-    "connection": "dataiku-managed-storage",
+    "connection": "filesystem_managed",
     "path": "/managed-dss-data/${projectKey}/logs_filtered_unnested",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
