@@ -246,7 +246,7 @@
         {
           "dashboardId": "3NZ9w2C",
           "type": "DASHBOARD_LINK",
-          "prompt": "View LLM cost monitoring"
+          "prompt": "View dashboard"
         }
       ]
     },
@@ -307,6 +307,11 @@
           "buttonText": "APPLY",
           "type": "SCENARIO_RUN",
           "prompt": "ㅤ"
+        },
+        {
+          "dashboardId": "vLItPjq",
+          "type": "DASHBOARD_LINK",
+          "prompt": "View dashboard"
         }
       ]
     }
