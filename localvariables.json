@@ -1,5 +1,5 @@
 {
-  "logs_origin": "demo",
+  "logs_origin": "event_server",
   "logs_connection": "dataiku-managed-storage",
   "logs_partitioning_activated": false,
   "logs_partitioning_period": "DAY",
