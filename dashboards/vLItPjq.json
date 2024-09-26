@@ -447,7 +447,7 @@
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {
               "displayMode": "SIMPLE",
-              "range": "CURRENT_MONTH"
+              "range": "CURRENT_DAY"
             },
             "backgroundOpacity": 1.0,
             "autoLoad": true,
@@ -457,7 +457,8 @@
               "size": 1
             },
             "titleOptions": {
-              "showTitle": "MOUSEOVER",
+              "showTitle": "YES",
+              "title": "Consumption refresh timeline",
               "fontColor": "#000",
               "fontSize": 13
             },
