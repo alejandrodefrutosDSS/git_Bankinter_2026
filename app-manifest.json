@@ -191,7 +191,7 @@
       ]
     },
     {
-      "sectionTitle": "Fill in the log path",
+      "sectionTitle": "Fill in your audit log path",
       "sectionText": "- Click on one of the following dataset, according to your use case, to set the log path.\n- **Save** and go back to this project setup page to configure the next section.",
       "tiles": [
         {
