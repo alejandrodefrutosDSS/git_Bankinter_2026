@@ -276,6 +276,28 @@
           "type": "PROJECT_VARIABLES_EDIT"
         },
         {
+          "behavior": "MODAL",
+          "params": [
+            {
+              "name": "continuous_build_message_sender",
+              "type": "STRING",
+              "label": "Mail message sender ID",
+              "description": "",
+              "defaultValue": "",
+              "mandatory": false,
+              "canSelectForeign": false,
+              "markCreatedAsBuilt": false,
+              "allowDuplicates": true,
+              "getChoicesFromPython": false,
+              "triggerParameters": [],
+              "disableAutoReload": false,
+              "canCreateDataset": false,
+              "wt1Loggable": false
+            }
+          ],
+          "type": "PROJECT_VARIABLES_EDIT"
+        },
+        {
           "scenarioId": "11RECONFIGURECONTINUOUSFLOWBUILD",
           "buttonText": "APPLY",
           "type": "SCENARIO_RUN",
