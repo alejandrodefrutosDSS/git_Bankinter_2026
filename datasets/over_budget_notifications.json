@@ -77,9 +77,10 @@
       {"name":"isOverBudget","type":"bigint"},
       {"name":"isUnderBudget","type":"bigint"},
       {"name":"hasTwentyPercentBudgetLeft","type":"bigint"},
-      {"name":"mailNotificationSent","type":"boolean"}
+      {"name":"overBudgetNotificationSent","type":"boolean"},
+      {"name":"twentyPercentNotificationLeft","type":"boolean","comment":"","maxLength":1000}
     ],
-    "userModified": false
+    "userModified": true
   },
   "dkuProperties": [],
   "metrics": {
