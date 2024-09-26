@@ -252,7 +252,7 @@
     },
     {
       "sectionTitle": "Continuous build",
-      "sectionText": "**Activate this feature to continuously process your incoming logs.**\n \u003cbr /\u003e\nIf you wish to send mails alerting people that projects overran their budget, you need to first configure a [mail reporter](https://doc.dataiku.com/dss/latest/scenarios/reporters.html#mail-reporter)\nOnce selected, click on **APPLY**. \u003cbr /\u003e\n**WARNING**: we **strongly suggest configuring partitioning** for a higher refresh frequency.",
+      "sectionText": "**Activate this feature to continuously process your incoming logs.**\nIf you wish to send mails alerting people that projects overran their budget, you need to first configure a [mail reporter](https://doc.dataiku.com/dss/latest/scenarios/reporters.html#mail-reporter)\nOnce selected, click on **APPLY**. \u003cbr /\u003e\n**WARNING**: we **strongly suggest configuring partitioning** for a higher refresh frequency.",
       "tiles": [
         {
           "behavior": "INLINE_AUTO_SAVE",
@@ -282,7 +282,7 @@
               "name": "continuous_build_message_sender",
               "type": "STRING",
               "label": "Mail message sender ID",
-              "description": "You need to configure one https://doc.dataiku.com/dss/latest/scenarios/reporters.html#mail-reporter",
+              "description": "",
               "defaultValue": "",
               "mandatory": false,
               "canSelectForeign": false,
