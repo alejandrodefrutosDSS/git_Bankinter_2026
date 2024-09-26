@@ -2,14 +2,7 @@
   "type": "step_based",
   "name": "5.1. Notify projects close to budget",
   "active": false,
-  "creationTag": {
-    "versionNumber": 0,
-    "lastModifiedBy": {
-      "login": "fabien.daoulas@dataiku.com"
-    },
-    "lastModifiedOn": 1727361947197,
-    "extendedProperties": {}
-  },
+  "runAsUser": "admin",
   "checklists": {
     "checklists": []
   },
