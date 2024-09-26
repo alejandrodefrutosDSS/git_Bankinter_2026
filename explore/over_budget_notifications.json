@@ -16,7 +16,9 @@
       "isOverBudget": 105,
       "isUnderBudget": 113,
       "hasTwentyPercentBudgetLeft": 210,
-      "mailNotificationSent": 165
+      "mailNotificationSent": 165,
+      "overBudgetNotificationSent": 210,
+      "twentyPercentNotificationLeft": 233
     },
     "columnUseScientificNotationByName": {},
     "coloring": {
@@ -50,7 +52,7 @@
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 1727349523241
+      "_refreshTrigger": 1727362244253
     },
     "vizSampling": {
       "selection": {
