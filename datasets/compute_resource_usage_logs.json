@@ -1,5 +1,5 @@
 {
-  "type": "Filesystem",
+  "type": "S3",
   "managed": false,
   "featureGroup": false,
   "formatType": "json",
@@ -57,7 +57,8 @@
   },
   "tags": [],
   "params": {
-    "connection": "filesystem_managed",
+    "metastoreSynchronizationEnabled": true,
+    "connection": "dataiku-managed-storage",
     "path": "/anonymized_audit_logs/",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
