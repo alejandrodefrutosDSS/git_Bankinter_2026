@@ -25,6 +25,12 @@
       "fabien.daoulas@dataiku.com;toto@dataiku.com"
     ],
     [
+      "ANSWERSTESTING",
+      "0.0001",
+      "ANSWERSTESTING_projectowner@dataiku.com",
+      "ANSWERSTESTING_opsmanager@dataiku.com"
+    ],
+    [
       "TITOU",
       "40",
       "fabien.daoulas@dataiku.com;toto@dataiku.com",
