@@ -246,7 +246,7 @@
         {
           "dashboardId": "3NZ9w2C",
           "type": "DASHBOARD_LINK",
-          "prompt": "View LLM Usage Dashboard"
+          "prompt": "View LLM cost monitoring"
         }
       ]
     },
