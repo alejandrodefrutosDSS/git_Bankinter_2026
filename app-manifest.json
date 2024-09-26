@@ -256,7 +256,8 @@
       "tiles": [
         {
           "datasetName": "budget",
-          "type": "INLINE_DATASET_EDIT"
+          "type": "INLINE_DATASET_EDIT",
+          "prompt": "Edit budget dataset"
         },
         {
           "behavior": "INLINE_AUTO_SAVE",
