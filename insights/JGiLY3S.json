@@ -4,7 +4,7 @@
     "scenarioSmartId": "4CONTINUOUSFLOWBUILD"
   },
   "owner": "fabien.daoulas@dataiku.com",
-  "listed": false,
+  "listed": true,
   "name": "Continuous build timeline",
   "dashboardCreationId": "vLItPjq",
   "creationTag": {
