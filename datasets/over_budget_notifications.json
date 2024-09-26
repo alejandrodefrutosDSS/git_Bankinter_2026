@@ -80,7 +80,7 @@
       {"name":"overBudgetNotificationSent","type":"boolean"},
       {"name":"twentyPercentLeftNotificationSent","type":"boolean"}
     ],
-    "userModified": true
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
