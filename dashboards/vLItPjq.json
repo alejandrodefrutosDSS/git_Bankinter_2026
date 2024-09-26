@@ -458,7 +458,7 @@
             },
             "titleOptions": {
               "showTitle": "YES",
-              "title": "Consumption refresh timeline",
+              "title": "Refresh occurences timeline",
               "fontColor": "#000",
               "fontSize": 13
             },
