@@ -101,7 +101,6 @@
       }
     }
   },
-  "engineType": "SPARK",
   "virtualInputs": [
     {
       "outputColumnsSelectionMode": "ALL",
