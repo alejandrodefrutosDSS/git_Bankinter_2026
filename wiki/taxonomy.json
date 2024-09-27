@@ -9,10 +9,6 @@
       "id": "21",
       "children": [
         {
-          "id": "4",
-          "children": []
-        },
-        {
           "id": "19",
           "children": [
             {
@@ -33,6 +29,10 @@
               "children": []
             }
           ]
+        },
+        {
+          "id": "4",
+          "children": []
         },
         {
           "id": "18",
