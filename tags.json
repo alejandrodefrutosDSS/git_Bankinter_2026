@@ -60,6 +60,7 @@
     "SolutionLineOfBusiness:Data / Analytics": {
       "color": "#28aadd"
     },
-    "Version:1.0.0-rc1": {}
+    "Version:1.0.0-rc1": {},
+    "Version:2.0.0": {}
   }
 }
