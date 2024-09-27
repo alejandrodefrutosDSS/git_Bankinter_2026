@@ -44,11 +44,11 @@ ALL_DS = TO_DASHBOARD_FLOWZONE_DS
 ALL_RECIPES = TO_DASHBOARD_FLOWZONE_RECIPES
 if logs_origin == "cloud" or logs_origin == "demo":
     connecting_dataset_name = "logs_filtered_unnested"
-    ALL_DS = ALL_DS + CLOUD_FLOWZONE_DS
+    ALL_DS = ALL_DS + CLOUD_INPUT_DS + CLOUD_FLOWZONE_DS
     ALL_RECIPES = ALL_RECIPES + CLOUD_FLOWZONE_RECIPES
 elif logs_origin == "event_server":
     connecting_dataset_name = "eventserver_llmusage_logs_cleaned"
-    ALL_DS = ALL_DS + EVENTSERVER_FLOWZONE_DS
+    ALL_DS = ALL_DS + EVENTSERVER_INPUT_DS + EVENTSERVER_FLOWZONE_DS
     ALL_RECIPES = ALL_RECIPES + EVENTSERVER_FLOWZONE_RECIPES
 else:
     raise "Unexpected log origin."
