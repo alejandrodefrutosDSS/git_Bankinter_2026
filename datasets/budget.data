@@ -11,6 +11,12 @@
       "0.4",
       "fabien.daoulas@dataiku.com",
       "fabien.daoulas@dataiku.com"
+    ],
+    [
+      "DEMO_TRANSCRIPT_ASSIST_NVIDIA",
+      "0.28",
+      "fabien.daoulas@dataiku.com",
+      "fabien.daoulas@dataiku.com"
     ]
   ],
   "schema": {
