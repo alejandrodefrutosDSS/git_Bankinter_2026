@@ -58,7 +58,7 @@
   "params": {
     "metastoreSynchronizationEnabled": true,
     "connection": "dataiku-managed-storage",
-    "path": "/event-server/compute-resource-usage/2024/09/26/",
+    "path": "/event-server/compute-resource-usage/",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",
