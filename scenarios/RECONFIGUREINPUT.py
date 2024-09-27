@@ -99,7 +99,8 @@ else:
 recipe_settings.save()
 
 # Configure connection type for all managed datasets downstream of inputs datasets.
-for ds_name in ALL_MANAGED_DS + ["logs_llm_usage_prepared_by_Project_complete", "budget_joined", "budget_joined_prepared", "budget_for_dashboard", "over_budget_notifications"]:
+ALL_MANAGED_DS = ALL_MANAGED_DS + ["logs_llm_usage_prepared_by_Project_complete", "budget_joined", "budget_joined_prepared", "budget_for_dashboard", "over_budget_notifications"]
+for ds_name in ALL_MANAGED_DS:
     ds = project.get_dataset(ds_name)
     ds_settings = ds.get_settings()
     ds_settings.settings["params"]["connection"] = managed_dataset_connection
