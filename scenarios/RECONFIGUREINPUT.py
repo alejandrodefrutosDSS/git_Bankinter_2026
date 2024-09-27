@@ -17,6 +17,15 @@ def get_connection_type(project, dataset_name, connection_name):
     
     return tmp_dataset_settings["type"]
 
+# Configure connection type for all datasets downstream of partitioned datasets.
+for ds_name in ["logs_llm_usage_prepared_by_Project_complete", "budget_joined", "budget_joined_prepared", "budget_for_dashboard", "over_budget_notifications"]:
+    ds = project.get_dataset(ds_name)
+    ds_settings = ds.get_settings()
+    ds_settings.settings["params"]["connection"] = logs_connection
+    ds_settings.settings["type"] = get_connection_type(project, ds_name, logs_connection)
+
+    ds_settings.save()
+
 TO_DASHBOARD_FLOWZONE_DS = ["logs_llm_usage_prepared", "logs_llm_usage_prepared_by_Project"]
 EVENTSERVER_FLOWZONE_DS = ["eventserver_cru_logs", "eventserver_llmusage_logs_cleaned"]
 CLOUD_FLOWZONE_DS = ["compute_resource_usage_logs", "logs_filtered_unnested"]
