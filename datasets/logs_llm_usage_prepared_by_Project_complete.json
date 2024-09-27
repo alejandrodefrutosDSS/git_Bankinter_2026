@@ -1,5 +1,5 @@
 {
-  "type": "S3",
+  "type": "Filesystem",
   "managed": true,
   "featureGroup": false,
   "formatType": "parquet",
@@ -46,7 +46,6 @@
   },
   "tags": [],
   "params": {
-    "metastoreSynchronizationEnabled": true,
     "connection": "filesystem_managed",
     "path": "/managed-dss-data/${projectKey}/logs_llm_usage_prepared_by_Project_complete",
     "notReadyIfEmpty": false,
