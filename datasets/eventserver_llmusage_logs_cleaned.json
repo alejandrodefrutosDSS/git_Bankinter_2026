@@ -47,7 +47,7 @@
   "tags": [],
   "params": {
     "metastoreSynchronizationEnabled": true,
-    "connection": "dataiku-managed-storage",
+    "connection": "filesystem_managed",
     "path": "/managed-dss-data/${projectKey}/eventserver_llmusage_logs_cleaned",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
