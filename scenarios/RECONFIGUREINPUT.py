@@ -103,6 +103,7 @@ ALL_MANAGED_DS = ALL_MANAGED_DS + ["logs_llm_usage_prepared_by_Project_complete"
 for ds_name in ALL_MANAGED_DS:
     ds = project.get_dataset(ds_name)
     ds_settings = ds.get_settings()
+    print("managed_dataset_connection: " + managed_dataset_connection)
     ds_settings.settings["params"]["connection"] = managed_dataset_connection
     ds_settings.settings["type"] = get_connection_type(project, ds_name, logs_connection)
 
