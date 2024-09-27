@@ -7,5 +7,5 @@
   "logs_partitioning_build_range": "2024-09-26/2024-09-27",
   "activate_continuous_build": false,
   "continuous_build_message_sender": "",
-  "managed_dataset_connection": "filesystem_managed"
+  "managed_dataset_connection": "dataiku-managed-storage"
 }
