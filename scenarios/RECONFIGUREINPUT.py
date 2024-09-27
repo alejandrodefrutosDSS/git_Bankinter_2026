@@ -44,6 +44,7 @@ logs_connection = variables["local"]["logs_connection"]
 logs_partitioning_activated = variables["local"]["logs_partitioning_activated"]
 logs_partitioning_period = variables["local"]["logs_partitioning_period"]
 logs_partitioning_pattern = variables["local"]["logs_partitioning_pattern"]
+managed_dataset_connection = variables["local"]["managed_dataset_connection"]
 
 connecting_dataset_name = "" # dataset that will connect to the "to_dashboard" flow zone.
 ALL_DS = TO_DASHBOARD_FLOWZONE_DS
