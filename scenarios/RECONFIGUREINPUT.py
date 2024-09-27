@@ -77,16 +77,7 @@ for recipe_name in ALL_RECIPES:
     else:
         recipe_inputs["main"]["items"][0]["deps"] = []
     recipe_settings.save()
-    
-# Configure connection type for all datasets downstream of partitioned datasets.
-for ds_name in ["logs_llm_usage_prepared_by_Project_complete", "budget_joined", "budget_joined_prepared", "budget_for_dashboard", "over_budget_notifications"]:
-    ds = project.get_dataset(ds_name)
-    ds_settings = ds.get_settings()
-    ds_settings.settings["params"]["connection"] = logs_connection
-    ds_settings.settings["type"] = get_connection_type(project, ds_name, logs_connection)
 
-    ds_settings.save()
-    
 # Configure connecting compute_logs_llm_usage_prepared_by_Project_complete recipe dependencies
 recipe = project.get_recipe("compute_logs_llm_usage_prepared_by_Project_complete")
 recipe_settings = recipe.get_settings()
