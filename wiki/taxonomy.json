@@ -27,11 +27,12 @@
         },
         {
           "id": "29",
-          "children": []
-        },
-        {
-          "id": "27",
-          "children": []
+          "children": [
+            {
+              "id": "27",
+              "children": []
+            }
+          ]
         },
         {
           "id": "18",
