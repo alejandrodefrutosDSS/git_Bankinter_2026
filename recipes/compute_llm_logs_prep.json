@@ -64,7 +64,16 @@
       "items": [
         {
           "ref": "eventserver_llmusage_logs_cleaned",
-          "deps": []
+          "deps": [
+            {
+              "out": "logs_llm_usage_prepared",
+              "idim": "HOUR",
+              "odim": "HOUR",
+              "func": "equals",
+              "params": {},
+              "expandVariables": false
+            }
+          ]
         }
       ]
     }
