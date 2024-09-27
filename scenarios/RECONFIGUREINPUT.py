@@ -93,7 +93,7 @@ else:
     
 recipe_settings.save()
 
-# Configure connection type for all datasets downstream of partitioned datasets.
+# Configure connection type for all datasets downstream of inputs datasets.
 for ds_name in ["logs_llm_usage_prepared_by_Project_complete", "budget_joined", "budget_joined_prepared", "budget_for_dashboard", "over_budget_notifications"]:
     ds = project.get_dataset(ds_name)
     ds_settings = ds.get_settings()
