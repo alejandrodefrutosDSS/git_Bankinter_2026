@@ -182,6 +182,28 @@
           "help": "Pattern examples: \u003cbr/\u003e \n%Y/.* \u003cbr/\u003e\n%Y/%M/.* \u003cbr/\u003e\n%Y/%M/%D/.* \u003cbr/\u003e\n%Y/%M/%D/%H/.*"
         },
         {
+          "behavior": "INLINE_AUTO_SAVE",
+          "params": [
+            {
+              "name": "managed_dataset_connection",
+              "type": "CONNECTION",
+              "label": "Select the connection",
+              "defaultValue": "dataiku-managed-storage",
+              "mandatory": true,
+              "canSelectForeign": false,
+              "markCreatedAsBuilt": false,
+              "allowDuplicates": true,
+              "getChoicesFromPython": false,
+              "triggerParameters": [],
+              "disableAutoReload": false,
+              "canCreateDataset": false,
+              "wt1Loggable": false
+            }
+          ],
+          "type": "PROJECT_VARIABLES_EDIT",
+          "prompt": "Select managed dataset connection"
+        },
+        {
           "scenarioId": "RECONFIGUREINPUT",
           "buttonText": "Reconfigure",
           "type": "SCENARIO_RUN",
