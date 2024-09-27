@@ -18,7 +18,8 @@ def get_connection_type(project, dataset_name, connection_name):
     return tmp_dataset_settings["type"]
 
 TO_DASHBOARD_FLOWZONE_DS = ["logs_llm_usage_prepared", "logs_llm_usage_prepared_by_Project"]
-EVENTSERVER_FLOWZONE_DS = ["eventserver_cru_logs", "eventserver_llmusage_logs_cleaned"]
+EVENTSERVER_FLOWZONE_DS = ["eventserver_llmusage_logs_cleaned"]
+EVENTSERVER_INPUT_DS = ["eventserver_cru_logs"]
 CLOUD_FLOWZONE_DS = ["compute_resource_usage_logs", "logs_filtered_unnested"]
 
 TO_DASHBOARD_FLOWZONE_RECIPES = ["compute_llm_logs_prep", "compute_logs_llm_usage_prepared_by_Project"]
