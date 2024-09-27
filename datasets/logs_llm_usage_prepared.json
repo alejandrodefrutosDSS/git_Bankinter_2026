@@ -1,5 +1,5 @@
 {
-  "type": "Filesystem",
+  "type": "S3",
   "managed": true,
   "featureGroup": false,
   "formatType": "parquet",
@@ -55,7 +55,8 @@
   },
   "tags": [],
   "params": {
-    "connection": "filesystem_managed",
+    "metastoreSynchronizationEnabled": true,
+    "connection": "dataiku-managed-storage",
     "path": "/managed-dss-data/${projectKey}/logs_llm_usage_prepared",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
