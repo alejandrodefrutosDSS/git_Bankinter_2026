@@ -47,7 +47,7 @@
   "tags": [],
   "params": {
     "metastoreSynchronizationEnabled": true,
-    "connection": "dataiku-managed-storage",
+    "connection": "filesystem_managed",
     "path": "/managed-dss-data/${projectKey}/budget_joined",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
