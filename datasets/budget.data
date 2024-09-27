@@ -5,6 +5,12 @@
       "100",
       "projectowner@company.com",
       "opsmanager@company.com"
+    ],
+    [
+      "DATAIKUDOCUMENTATIONASSISTANT",
+      "0.4",
+      "fabien.daoulas@dataiku.com",
+      "fabien.daoulas@dataiku.com"
     ]
   ],
   "schema": {
