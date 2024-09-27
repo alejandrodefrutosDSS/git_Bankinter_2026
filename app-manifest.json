@@ -222,7 +222,7 @@
               "name": "logs_partitioning_build_range",
               "type": "STRING",
               "label": "If you enabled partitioning, specify a time range to build",
-              "defaultValue": "2023/2024",
+              "defaultValue": "2023-01-01/2024-01-01",
               "mandatory": false,
               "canSelectForeign": false,
               "markCreatedAsBuilt": false,
