@@ -93,6 +93,15 @@ else:
     
 recipe_settings.save()
 
+# Configure connection type for all datasets downstream of partitioned datasets.
+for ds_name in ["logs_llm_usage_prepared_by_Project_complete", "budget_joined", "budget_joined_prepared", "budget_for_dashboard", "over_budget_notifications"]:
+    ds = project.get_dataset(ds_name)
+    ds_settings = ds.get_settings()
+    ds_settings.settings["params"]["connection"] = managed_dataset_connection
+    ds_settings.settings["type"] = get_connection_type(project, ds_name, logs_connection)
+
+    ds_settings.save()
+
 # Configure flow routing between flow branches.
 recipe = project.get_recipe("compute_llm_logs_prep")
 recipe_settings = recipe.get_settings()
