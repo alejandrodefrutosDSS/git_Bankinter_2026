@@ -1,7 +1,7 @@
 {
   "logs_origin": "event_server",
   "logs_connection": "dataiku-managed-storage",
-  "logs_partitioning_activated": false,
+  "logs_partitioning_activated": true,
   "logs_partitioning_period": "HOUR",
   "logs_partitioning_pattern": "%Y/%M/%D/%H/.*",
   "logs_partitioning_build_range": "2023/2024",
