@@ -308,7 +308,7 @@
             {
               "name": "continuous_build_message_sender",
               "type": "STRING",
-              "label": "Mail message sender ID",
+              "label": "Messaging channel ID",
               "description": "",
               "defaultValue": "",
               "mandatory": false,
