@@ -12,7 +12,7 @@
             "Cross-Vertical"
         ],
         "main_industry": "governance",
-        "blockCloud": "false",
+        "blockCloud": "true",
         "section": "Solutions",
         "description": "Monitor LLM resource usage on your platform, aggregated by projects and users.",
         "long_description": "In order to scale and provide a reliable service, platform administrators need to understand how resources are used and to what end.  This capacity planning is a critical part of systems administration, as it ensures that a system can handle future workloads without running into performance issues. \nThanks to this solution, Dataiku platform administrators have a simplified overview of the computation across all used infrastructures (whether it is local, SQL or Kubernetes). This analytics approach to resource monitoring eases engagement of all Analytics teams in a collective approach towards improved efficiency. ",
