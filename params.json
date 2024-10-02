@@ -322,7 +322,7 @@
     },
     "dkuProperties": []
   },
-  "name": "LLM Cost Guard Dataiku Resource  Usage Monitoring",
+  "name": "LLM Cost Guard",
   "projectStatus": "In use",
   "imgPattern": 6,
   "showInitials": false,
