@@ -1,5 +1,5 @@
 {
-  "type": "Filesystem",
+  "type": "S3",
   "managed": true,
   "featureGroup": false,
   "formatType": "csv",
@@ -25,7 +25,7 @@
     }
   },
   "formatParams": {
-    "style": "unix",
+    "style": "excel",
     "charset": "utf8",
     "separator": "\t",
     "quoteChar": "\"",
@@ -56,18 +56,9 @@
     "compress": "gz"
   },
   "partitioning": {
-    "filePathPattern": "%Y/%M/%D/.*",
     "ignoreNonMatchingFile": false,
-    "considerMissingRequestedPartitionsAsEmpty": true,
-    "dimensions": [
-      {
-        "name": "DAY",
-        "params": {
-          "period": "DAY"
-        },
-        "type": "time"
-      }
-    ]
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
   },
   "creationTag": {
     "versionNumber": 0,
@@ -79,8 +70,12 @@
   },
   "tags": [],
   "params": {
-    "connection": "filesystem_managed",
-    "path": "${projectKey}/logs_filtered_unnested",
+    "bucket": "dku-solutions-data-internal",
+    "metastoreSynchronizationEnabled": true,
+    "metastoreDatabaseName": "default",
+    "metastoreTableName": "logs_filtered_unnested",
+    "connection": "dataiku-managed-storage",
+    "path": "/managed-dss-data/${projectKey}/logs_filtered_unnested",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",
