@@ -104,11 +104,14 @@
       {"name":"context_authIdentifier","type":"string","comment":"","maxLength":1000},
       {"name":"context_projectKey","type":"string","comment":"","maxLength":1000},
       {"name":"context_type","type":"string","comment":"","maxLength":1000},
-      {"name":"","type":"string","comment":"","maxLength":1000},
-      {"name":"","type":"string","comment":"","maxLength":1000},
-      {"name":"","type":"string","comment":"","maxLength":1000},
-      {"name":"","type":"string","comment":"","maxLength":1000},
-      {"name":"","type":"string","comment":"","maxLength":1000}
+      {"name":"context_jobId","type":"string","comment":"","maxLength":1000},
+      {"name":"timestamp","type":"date","comment":"","maxLength":1000},
+      {"name":"dssNodeId","type":"string","comment":"","maxLength":1000},
+      {"name":"dssNodeName","type":"string","comment":"","maxLength":1000},
+      {"name":"auditTopic","type":"string","comment":"","maxLength":1000},
+      {"name":"authSource","type":"string","comment":"","maxLength":1000},
+      {"name":"authUser","type":"string","comment":"","maxLength":1000},
+      {"name":"clientIP","type":"string","comment":"","maxLength":1000}
     ],
     "userModified": true
   },
