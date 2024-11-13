@@ -102,7 +102,7 @@ ALL_MANAGED_DS = ALL_MANAGED_DS + ["logs_llm_usage_prepared_by_Project_complete"
 
 print("toto")
 managed_dataset_connection_type = get_dataset_in_connection_settings(project, managed_dataset_connection)["type"]
-print()
+print(managed_dataset_connection_type)
 print("titou")
 
 for ds_name in ALL_MANAGED_DS:
