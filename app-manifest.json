@@ -47,7 +47,7 @@
               "name": "logs_origin",
               "type": "SELECT",
               "label": "Select their origin",
-              "defaultValue": "demo",
+              "defaultValue": "event_server",
               "mandatory": true,
               "canSelectForeign": false,
               "markCreatedAsBuilt": false,
