@@ -54,6 +54,12 @@
               "allowDuplicates": true,
               "selectChoices": [
                 {
+                  "value": "audit_logs",
+                  "label": "Audit logs",
+                  "showInColumnPreview": false,
+                  "selected": false
+                },
+                {
                   "value": "cloud",
                   "label": "Cloud logs",
                   "showInColumnPreview": false,
