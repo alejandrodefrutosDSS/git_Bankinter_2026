@@ -101,7 +101,8 @@ recipe_settings.save()
 ALL_MANAGED_DS = ALL_MANAGED_DS + ["logs_llm_usage_prepared_by_Project_complete", "budget_joined", "budget_joined_prepared", "budget_for_dashboard", "over_budget_notifications"]
 
 print("toto")
-print(get_dataset_in_connection_settings(project, managed_dataset_connection))
+managed_dataset_connection_type = get_dataset_in_connection_settings(project, managed_dataset_connection)["type"]
+print()
 print("titou")
 
 for ds_name in ALL_MANAGED_DS:
