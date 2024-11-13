@@ -9,6 +9,10 @@
     {
       "objectId": "audit_logs_llm_usage",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_audit_logs_llm_usage",
+      "objectType": "RECIPE"
     }
   ],
   "shared": [],
