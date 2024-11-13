@@ -108,14 +108,11 @@ print(managed_dataset_connection_type)
 print("titou")
 
 for ds_name in ALL_MANAGED_DS:
-    ds = project.get_dataset(ds_name)
-    ds_settings = ds.get_settings()
-    ds_settings.settings["params"]["connection"] = managed_dataset_connection
-    ds_settings.settings["type"] = get_connection_type(project, ds_name, managed_dataset_connection)
-
-    ds_settings.save()
     if managed_dataset_connection_type == "Filesystem":
+        switch_managed_dataset_connection_to_local_filesytem_storage(project, ds_name, managed_dataset_connection)
         change_filesystem_dataset_format(project, ds_name, "csv", change_dataset_format_type=True)
+    else:
+        switch_managed_dataset_connection_to_cloud_storage(project, ds_name, managed_dataset_connection)
 
 # Configure flow routing between flow branches.
 recipe = project.get_recipe("compute_llm_logs_prep")
