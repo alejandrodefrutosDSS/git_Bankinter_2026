@@ -1,6 +1,7 @@
 import dataiku
 import dataikuapi
 from dku_utils.projects.datasets.dataset_commons import get_dataset_in_connection_settings
+from dku_utils.projects.connections.connection_change_filesystem import change_filesystem_dataset_format
 import json
 
 def get_connection_type(project, dataset_name, connection_name):
