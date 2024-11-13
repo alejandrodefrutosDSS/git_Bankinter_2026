@@ -229,7 +229,7 @@
         {
           "datasetName": "audit_logs",
           "type": "DATASET_EDIT_SETTINGS",
-          "prompt": "For audit logs, edit the logs according to your configuration"
+          "prompt": "For audit logs, edit the path to the audit logs folder"
         }
       ]
     },
