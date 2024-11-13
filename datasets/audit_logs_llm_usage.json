@@ -56,9 +56,18 @@
     "compress": "gz"
   },
   "partitioning": {
+    "filePathPattern": "%Y/%M/%D/%H/.*",
     "ignoreNonMatchingFile": false,
-    "considerMissingRequestedPartitionsAsEmpty": false,
-    "dimensions": []
+    "considerMissingRequestedPartitionsAsEmpty": true,
+    "dimensions": [
+      {
+        "name": "HOUR",
+        "params": {
+          "period": "HOUR"
+        },
+        "type": "time"
+      }
+    ]
   },
   "creationTag": {
     "versionNumber": 0,
@@ -109,6 +118,16 @@
         "meta": {
           "name": "Record count",
           "level": 0
+        },
+        "configuration": {}
+      },
+      {
+        "type": "partitioning",
+        "enabled": true,
+        "computeOnBuildMode": "WHOLE_DATASET",
+        "meta": {
+          "name": "Partitioning statistics",
+          "level": 1
         },
         "configuration": {}
       }
