@@ -59,7 +59,7 @@ elif logs_origin == "event_server":
     input_dataset_name = EVENTSERVER_INPUT_DS
 elif logs_origin == "audit_logs":
     connecting_dataset_name = "audit_logs_llm_usage"
-    input_dataset_name = EVENTSERVER_INPUT_DS
+    input_dataset_name = AUDITLOG_INPUT_DS
 else:
     raise "Unexpected log origin."
     
