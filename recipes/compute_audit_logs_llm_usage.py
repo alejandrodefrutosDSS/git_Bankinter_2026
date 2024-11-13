@@ -39,4 +39,6 @@ with audit_logs_llm_usage.get_writer() as writer:
     for batch in audit_logs.iter_dataframes(infer_with_pandas=True, parse_dates=False):
         batch = batch[batch['message.computeResourceUsage.type'] == "LLM_USAGE"]
         batch.rename(columns=mapping_audit_logs, inplace=True)
+        # Filter to keep only the columns specified in the mapping
+        batch = batch[list(mapping_audit_logs.values())]
         writer.write_dataframe(batch)
