@@ -389,7 +389,7 @@
     "lastModifiedOn": 1655479615293,
     "extendedProperties": {}
   },
-  "description": "**[Learn more about the project\u0027s goal and value](article:1)**\n\n****\nTo use this project you should \n1. Go back to the homepage of the platform  in the **Applications** section and select the *Dataiku Resource Usage Monitoring*  application.\n2. Create a new application : it will instanciate a new instance of this project with dedicated settings to configure\n3. Follow the [instructions](article:14) to configure your application",
+  "description": "**[Learn more about the project\u0027s goal and value](article:24)**\n\n****\nTo use this project you should follow the [instructions](article:14) to configure your project.",
   "shortDesc": "[See Requirements](https://knowledge.dataiku.com/latest/solutions/governance/solution-cru.html). Monitor LLM resource usage per projects and users.",
   "tags": [
     "SolutionCategory:Cross-Vertical",
