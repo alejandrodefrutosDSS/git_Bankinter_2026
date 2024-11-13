@@ -1,5 +1,5 @@
 {
-  "type": "S3",
+  "type": "Filesystem",
   "managed": true,
   "featureGroup": false,
   "formatType": "csv",
@@ -25,16 +25,14 @@
     }
   },
   "formatParams": {
-    "style": "escape_only_no_quote",
+    "style": "unix",
     "charset": "utf8",
     "separator": "\t",
     "quoteChar": "\"",
     "escapeChar": "\\",
     "maxRowChars": 100000000,
-    "arrayItemSeparator": "\u0002",
-    "mapKeySeparator": "\u0003",
-    "dateSerializationFormat": "HIVE",
-    "arrayMapFormat": "hive",
+    "dateSerializationFormat": "ISO",
+    "arrayMapFormat": "json",
     "hiveSeparators": [
       "\u0002",
       "\u0003",
@@ -55,21 +53,12 @@
     "readDataTypeMismatchBehavior": "DISCARD_WARNING",
     "writeDataTypeMismatchBehavior": "DISCARD_WARNING",
     "fileReadFailureBehavior": "FAIL",
-    "compress": ""
+    "compress": "gz"
   },
   "partitioning": {
-    "filePathPattern": "%Y/%M/%D/.*",
     "ignoreNonMatchingFile": false,
-    "considerMissingRequestedPartitionsAsEmpty": true,
-    "dimensions": [
-      {
-        "name": "DAY",
-        "params": {
-          "period": "DAY"
-        },
-        "type": "time"
-      }
-    ]
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
   },
   "creationTag": {
     "versionNumber": 0,
@@ -81,12 +70,8 @@
   },
   "tags": [],
   "params": {
-    "bucket": "dku-solutions-data-internal",
-    "metastoreSynchronizationEnabled": true,
-    "metastoreDatabaseName": "default",
-    "metastoreTableName": "logs_llm_usage_prepared",
-    "connection": "dataiku-managed-storage",
-    "path": "/managed-dss-data/${projectKey}/logs_llm_usage_prepared",
+    "connection": "filesystem_managed",
+    "path": "${projectKey}/logs_llm_usage_prepared",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",
