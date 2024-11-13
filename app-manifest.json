@@ -54,12 +54,6 @@
               "allowDuplicates": true,
               "selectChoices": [
                 {
-                  "value": "audit_logs",
-                  "label": "Audit logs",
-                  "showInColumnPreview": false,
-                  "selected": false
-                },
-                {
                   "value": "cloud",
                   "label": "Cloud logs",
                   "showInColumnPreview": false,
@@ -68,6 +62,12 @@
                 {
                   "value": "event_server",
                   "label": "Event Server logs",
+                  "showInColumnPreview": false,
+                  "selected": false
+                },
+                {
+                  "value": "audit_logs",
+                  "label": "Audit logs",
                   "showInColumnPreview": false,
                   "selected": false
                 }
