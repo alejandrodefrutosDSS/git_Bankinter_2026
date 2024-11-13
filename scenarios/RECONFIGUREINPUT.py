@@ -57,6 +57,15 @@ elif logs_origin == "event_server":
     ALL_RECIPES = ALL_RECIPES + EVENTSERVER_FLOWZONE_RECIPES
 else:
     raise "Unexpected log origin."
+    
+# Configure flow routing between flow branches.
+recipe = project.get_recipe("compute_llm_logs_prep")
+recipe_settings = recipe.get_settings()
+current_inputs = recipe_settings.get_flat_input_refs()
+assert len(current_inputs) == 1, f"Expected exactly one input to recipe 'compute_llm_logs_prep'."
+
+recipe_settings.replace_input(current_inputs[0], connecting_dataset_name)
+recipe_settings.save()
 
 # Configure connection type and partitioning for all datasets in the selected flow branch.
 for ds_name in ALL_DS:
@@ -113,12 +122,3 @@ for ds_name in ALL_MANAGED_DS:
         change_filesystem_dataset_format(project, ds_name, "csv", change_dataset_format_type=True)
     else:
         switch_managed_dataset_connection_to_cloud_storage(project, ds_name, managed_dataset_connection)
-
-# Configure flow routing between flow branches.
-recipe = project.get_recipe("compute_llm_logs_prep")
-recipe_settings = recipe.get_settings()
-current_inputs = recipe_settings.get_flat_input_refs()
-assert len(current_inputs) == 1, f"Expected exactly one input to recipe 'compute_llm_logs_prep'."
-
-recipe_settings.replace_input(current_inputs[0], connecting_dataset_name)
-recipe_settings.save()
