@@ -44,8 +44,8 @@ managed_dataset_connection = variables["local"]["managed_dataset_connection"]
 
 connecting_dataset_name = "" # dataset that will connect to the "to_dashboard" flow zone.
 ALL_DS = TO_DASHBOARD_FLOWZONE_DS
-ALL_MANAGED_DS = TO_DASHBOARD_FLOWZONE_DS + BUDGET_FLOW_ZONE_DS
-ALL_RECIPES = TO_DASHBOARD_FLOWZONE_RECIPES
+ALL_MANAGED_DS = TO_DASHBOARD_FLOWZONE_DS + BUDGET_FLOW_ZONE_DS + CLOUD_FLOWZONE_DS + EVENTSERVER_FLOWZONE_DS
+ALL_RECIPES = TO_DASHBOARD_FLOWZONE_RECIPES + EVENTSERVER_FLOWZONE_RECIPES + CLOUD_FLOWZONE_RECIPES
 if logs_origin == "cloud":
     connecting_dataset_name = "logs_filtered_unnested"
     ALL_DS = ALL_DS + CLOUD_INPUT_DS + CLOUD_FLOWZONE_DS
