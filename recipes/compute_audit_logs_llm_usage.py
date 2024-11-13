@@ -34,8 +34,8 @@ mapping_eventServer = {
 
 
 audit_logs = dataiku.Dataset("audit_logs")
-eventserver_llmusage_logs_cleaned = dataiku.Dataset("audit_logs_llm_usage")
-with eventserver_llmusage_logs_cleaned.get_writer() as writer:
+audit_logs_llm_usage = dataiku.Dataset("audit_logs_llm_usage")
+with audit_logs_llm_usage.get_writer() as writer:
     for batch in audit_logs.iter_dataframes(infer_with_pandas=True, parse_dates=False):
         batch = batch[batch['message.computeResourceUsage.type'] == "LLM_USAGE"]
         batch.rename(columns=mapping_eventServer, inplace=True)
