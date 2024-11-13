@@ -70,7 +70,7 @@ recipe_settings.save()
 input_ds = project.get_dataset(input_dataset_name)
 input_ds_settings = input_ds.get_settings()
 input_ds_settings.settings["params"]["connection"] = logs_connection
-input_ds_settings.settings["type"] = get_connection_type(project, ds_name, logs_connection)
+input_ds_settings.settings["type"] = get_connection_type(project, input_dataset_name, logs_connection)
 input_ds_settings.save()
 
 # Configure connection type and partitioning for all datasets in the selected flow branch.
