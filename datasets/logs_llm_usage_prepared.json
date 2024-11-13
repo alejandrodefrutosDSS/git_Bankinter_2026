@@ -25,14 +25,16 @@
     }
   },
   "formatParams": {
-    "style": "excel",
+    "style": "escape_only_no_quote",
     "charset": "utf8",
     "separator": "\t",
     "quoteChar": "\"",
     "escapeChar": "\\",
     "maxRowChars": 100000000,
-    "dateSerializationFormat": "ISO",
-    "arrayMapFormat": "json",
+    "arrayItemSeparator": "\u0002",
+    "mapKeySeparator": "\u0003",
+    "dateSerializationFormat": "HIVE",
+    "arrayMapFormat": "hive",
     "hiveSeparators": [
       "\u0002",
       "\u0003",
@@ -53,7 +55,7 @@
     "readDataTypeMismatchBehavior": "DISCARD_WARNING",
     "writeDataTypeMismatchBehavior": "DISCARD_WARNING",
     "fileReadFailureBehavior": "FAIL",
-    "compress": "gz"
+    "compress": ""
   },
   "partitioning": {
     "ignoreNonMatchingFile": false,
