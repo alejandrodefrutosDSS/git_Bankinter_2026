@@ -20,6 +20,7 @@
         "id": "build_0_true_d_total_logs_by_day_d_logs_local_process_CPU_ranked_d_logs_local_process_memory_rank_d_logs_local_process_by_minutes_d_logs_local_process_by_hours_d_logs_local_process_frequencies_stats_prepared",
         "type": "build_flowitem",
         "name": "Build output datasets",
+        "enabled": true,
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",
@@ -34,7 +35,7 @@
             {
               "type": "DATASET",
               "itemId": "logs_llm_usage_prepared_by_Project",
-              "partitionsSpec": "2024-09-26/2024-09-27"
+              "partitionsSpec": ""
             }
           ],
           "jobType": "RECURSIVE_FORCED_BUILD",
@@ -48,5 +49,6 @@
     ]
   },
   "automationLocal": false,
-  "customFields": {}
+  "customFields": {},
+  "markedAsTest": false
 }
