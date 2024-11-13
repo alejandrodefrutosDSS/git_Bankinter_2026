@@ -4,6 +4,10 @@
       "remote": "git@github.com:dataiku/bs-commons.git",
       "checkout": "refs/heads/main",
       "remotePath": "/dku_utils",
+      "lastHash": "2588bb6548ce703311bd2aabf550ff1d0c2a9eb5",
+      "conflictingFiles": [],
+      "resolvedFiles": [],
+      "faultyHash": "",
       "isDirty": false
     }
   },
