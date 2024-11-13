@@ -2,7 +2,7 @@
   "type": "Filesystem",
   "managed": true,
   "featureGroup": false,
-  "formatType": "parquet",
+  "formatType": "json",
   "checklists": {
     "checklists": []
   },
@@ -25,11 +25,12 @@
     }
   },
   "formatParams": {
-    "parquetLowerCaseIdentifiers": false,
-    "representsNullFields": false,
-    "parquetCompressionMethod": "SNAPPY",
-    "parquetFlavor": "HIVE",
-    "parquetBlockSizeMB": 128
+    "maxExpansionDepth": -1,
+    "nestedArraysHandling": "PRESERVE",
+    "extractFromSingleElement": false,
+    "nestedArraysMaxElements": 100,
+    "nestedArraysMaxContentSize": 300000,
+    "headerRow": false
   },
   "partitioning": {
     "filePathPattern": "%Y/%M/%D/.*",
