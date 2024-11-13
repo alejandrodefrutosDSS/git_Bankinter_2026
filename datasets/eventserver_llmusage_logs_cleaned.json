@@ -1,5 +1,5 @@
 {
-  "type": "Filesystem",
+  "type": "S3",
   "managed": true,
   "featureGroup": false,
   "formatType": "csv",
@@ -56,9 +56,18 @@
     "compress": "gz"
   },
   "partitioning": {
+    "filePathPattern": "%Y/%M/%D/.*",
     "ignoreNonMatchingFile": false,
-    "considerMissingRequestedPartitionsAsEmpty": false,
-    "dimensions": []
+    "considerMissingRequestedPartitionsAsEmpty": true,
+    "dimensions": [
+      {
+        "name": "DAY",
+        "params": {
+          "period": "DAY"
+        },
+        "type": "time"
+      }
+    ]
   },
   "creationTag": {
     "versionNumber": 0,
@@ -70,7 +79,8 @@
   },
   "tags": [],
   "params": {
-    "connection": "filesystem_managed",
+    "metastoreSynchronizationEnabled": true,
+    "connection": "dataiku-managed-storage",
     "path": "${projectKey}/eventserver_llmusage_logs_cleaned",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
