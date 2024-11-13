@@ -42,6 +42,7 @@ with audit_logs_llm_usage.get_writer() as writer:
         # Add missing columns with NaN values
         for col in mapping_audit_logs.values():
             if col not in batch.columns:
+                print(f"{col} not in {batch.columns}")
                 batch[col] = np.nan
                 
         # Retain only columns specified in the mapping
