@@ -38,7 +38,7 @@
     },
     {
       "sectionTitle": "Configure your audit logs ingestion",
-      "sectionText": "1. Select the logs origin.\n  - **To use demo logs**, select *Demo logs* and select *dataiku-managed-storage* connection. It lets you explore the features of the solution. \n  - **To use cloud instance logs**, select *Cloud logs* and select *dku-audit-log* connection as explained [here](https://doc.dataiku.com/dss/latest/operations/audit-trail/dataikucloud.html#access-instances-audit-logs).\n  - **To use Event Server logs**, select *Event Server logs* and select the connection to the location of your [Event Server logs](https://doc.dataiku.com/dss/latest/operations/audit-trail/eventserver.html).\n\u003cbr /\u003e\n2. **For production setup** requiring regular refresh, it is strongly recommended to configure the partitioning section. The smaller the partition period is, the faster and more responsive your monitoring experience will be.\n\u003cbr /\u003e\n3. Click on **RECONFIGURE** to apply your changes.",
+      "sectionText": "1. Select the logs origin.\n  - **To use cloud instance logs**, select *Cloud logs* and select *dku-audit-log* connection as explained [here](https://doc.dataiku.com/dss/latest/operations/audit-trail/dataikucloud.html#access-instances-audit-logs).\n  - **To use Event Server logs**, select *Event Server logs* and select the connection to the location of your [Event Server logs](https://doc.dataiku.com/dss/latest/operations/audit-trail/eventserver.html).\n\u003cbr /\u003e\n2. **For production setup** requiring regular refresh, it is strongly recommended to configure the partitioning section. The smaller the partition period is, the faster and more responsive your monitoring experience will be.\n\u003cbr /\u003e\n3. Click on **RECONFIGURE** to apply your changes.",
       "tiles": [
         {
           "behavior": "INLINE_AUTO_SAVE",
@@ -53,12 +53,6 @@
               "markCreatedAsBuilt": false,
               "allowDuplicates": true,
               "selectChoices": [
-                {
-                  "value": "demo",
-                  "label": "Demo logs",
-                  "showInColumnPreview": false,
-                  "selected": false
-                },
                 {
                   "value": "cloud",
                   "label": "Cloud logs",
@@ -216,11 +210,6 @@
       "sectionTitle": "Fill in your audit log path",
       "sectionText": "- Click on one of the following dataset, according to your use case, to set the log path.\n- **Save** and go back to this project setup page to configure the next section.",
       "tiles": [
-        {
-          "datasetName": "compute_resource_usage_logs",
-          "type": "DATASET_EDIT_SETTINGS",
-          "prompt": "For Demo logs, enter /anonymized_audit_logs/ as path"
-        },
         {
           "datasetName": "compute_resource_usage_logs",
           "type": "DATASET_EDIT_SETTINGS",
