@@ -1,7 +1,15 @@
 {
-  "gitReferences": {},
+  "gitReferences": {
+    "python/dku_utils": {
+      "remote": "git@github.com:dataiku/bs-commons.git",
+      "checkout": "refs/heads/main",
+      "remotePath": "/dku_utils",
+      "isDirty": false
+    }
+  },
   "pythonPath": [
-    "python"
+    "python",
+    "python/dku_utils"
   ],
   "rsrcPath": [
     "R"
