@@ -23,7 +23,7 @@ mapping_eventServer = {
     "message.computeResourceUsage.context.projectKey": "context_projectKey",
     "message.computeResourceUsage.context.type": "context_type",
     "message.computeResourceUsage.context.jobId": "context_jobId",
-    "serverTimestamp": "timestamp",
+    "timestamp": "timestamp",
     "message.dssNodeId": "dssNodeId",
     "message.dssNodeName": "dssNodeName",
     "message.auditTopic": "auditTopic",
