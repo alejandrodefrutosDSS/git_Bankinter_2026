@@ -25,6 +25,7 @@
     }
   },
   "formatParams": {
+    "style": "unix",
     "charset": "utf8",
     "separator": ";",
     "quoteChar": "\"",
