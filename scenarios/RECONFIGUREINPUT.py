@@ -1,6 +1,6 @@
 import dataiku
 import dataikuapi
-from dku_utils.projects.connections.connection_commons import FlowConnectionsHandler
+from dku_utils.projects.datasets.dataset_commons import get_dataset_in_connection_settings
 import json
 
 def get_connection_type(project, dataset_name, connection_name):
@@ -56,6 +56,8 @@ elif logs_origin == "event_server":
     ALL_RECIPES = ALL_RECIPES + EVENTSERVER_FLOWZONE_RECIPES
 else:
     raise "Unexpected log origin."
+
+flow_handler = FlowConnectionsHandler(project: project, main_connection_name: managed_dataset_connection, fallback_connection_name: "")
 
 # Configure connection type and partitioning for all datasets in the selected flow branch.
 for ds_name in ALL_DS:
