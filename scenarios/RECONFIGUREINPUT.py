@@ -67,7 +67,7 @@ assert len(current_inputs) == 1, f"Expected exactly one input to recipe 'compute
 recipe_settings.replace_input(current_inputs[0], connecting_dataset_name)
 recipe_settings.save()
 
-# Configure input dataset connection
+# Configure input dataset connection.
 input_ds = project.get_dataset(ds_name)
 input_ds_settings = input_ds.get_settings()
 input_ds_settings.settings["params"]["connection"] = logs_connection
