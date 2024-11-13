@@ -5,6 +5,10 @@
     {
       "objectId": "audit_logs",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "audit_logs_llm_usage",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],
