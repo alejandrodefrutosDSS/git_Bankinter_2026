@@ -86,7 +86,30 @@
     }
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {"name":"msgType","type":"string","comment":"","maxLength":1000},
+      {"name":"startTime","type":"bigint","comment":"","maxLength":1000},
+      {"name":"type","type":"string","comment":"","maxLength":1000},
+      {"name":"llmUsage_totalComputationTimeMS","type":"bigint","comment":"","maxLength":1000},
+      {"name":"llmUsage_llmType","type":"string","comment":"","maxLength":1000},
+      {"name":"llmUsage_totalQueries","type":"bigint","comment":"","maxLength":1000},
+      {"name":"llmUsage_totalPromptTokens","type":"bigint","comment":"","maxLength":1000},
+      {"name":"llmUsage_estimatedCostUSD","type":"double","comment":"","maxLength":1000},
+      {"name":"llmUsage_totalCompletionTokens","type":"bigint","comment":"","maxLength":1000},
+      {"name":"llmUsage_connection","type":"string","comment":"","maxLength":1000},
+      {"name":"llmUsage_cacheMissQueries","type":"bigint","comment":"","maxLength":1000},
+      {"name":"llmUsage_llmId","type":"string","comment":"","maxLength":1000},
+      {"name":"llmUsage_usageType","type":"string","comment":"","maxLength":1000},
+      {"name":"llmUsage_cacheHitQueries","type":"bigint","comment":"","maxLength":1000},
+      {"name":"context_authIdentifier","type":"string","comment":"","maxLength":1000},
+      {"name":"context_projectKey","type":"string","comment":"","maxLength":1000},
+      {"name":"context_type","type":"string","comment":"","maxLength":1000},
+      {"name":"","type":"string","comment":"","maxLength":1000},
+      {"name":"","type":"string","comment":"","maxLength":1000},
+      {"name":"","type":"string","comment":"","maxLength":1000},
+      {"name":"","type":"string","comment":"","maxLength":1000},
+      {"name":"","type":"string","comment":"","maxLength":1000}
+    ],
     "userModified": true
   },
   "dkuProperties": [],
