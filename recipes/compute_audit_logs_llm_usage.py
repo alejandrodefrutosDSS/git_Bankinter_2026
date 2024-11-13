@@ -4,7 +4,7 @@ import pandas as pd, numpy as np
 from dataiku import pandasutils as pdu
 
 
-mapping_eventServer = {
+mapping_audit_logs = {
     "message.msgType": "msgType",
     "message.computeResourceUsage.startTime": "startTime",
     "message.computeResourceUsage.type": "type",
@@ -38,5 +38,5 @@ audit_logs_llm_usage = dataiku.Dataset("audit_logs_llm_usage")
 with audit_logs_llm_usage.get_writer() as writer:
     for batch in audit_logs.iter_dataframes(infer_with_pandas=True, parse_dates=False):
         batch = batch[batch['message.computeResourceUsage.type'] == "LLM_USAGE"]
-        batch.rename(columns=mapping_eventServer, inplace=True)
+        batch.rename(columns=mapping_audit_logs, inplace=True)
         writer.write_dataframe(batch)
