@@ -217,9 +217,9 @@
       "sectionText": "- Click on one of the following dataset, according to your use case, to set the log path.\n- **Save** and go back to this project setup page to configure the next section.",
       "tiles": [
         {
-          "datasetName": "audit_logs",
+          "datasetName": "eventserver_cru_logs",
           "type": "DATASET_EDIT_SETTINGS",
-          "prompt": "For audit logs, edit the logs according to your configuration"
+          "prompt": "For Event Server, edit the logs path according to your configuration"
         },
         {
           "datasetName": "compute_resource_usage_logs",
@@ -227,9 +227,9 @@
           "prompt": "For Cloud, enter /audit-logs/ as path"
         },
         {
-          "datasetName": "eventserver_cru_logs",
+          "datasetName": "audit_logs",
           "type": "DATASET_EDIT_SETTINGS",
-          "prompt": "For Event Server, edit the logs path according to your configuration"
+          "prompt": "For audit logs, edit the logs according to your configuration"
         }
       ]
     },
