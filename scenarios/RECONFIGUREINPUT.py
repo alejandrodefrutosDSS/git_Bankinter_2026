@@ -22,9 +22,9 @@ def get_connection_type(project, dataset_name, connection_name):
 BUDGET_FLOW_ZONE_DS = ["logs_llm_usage_prepared_by_Project_complete", "budget_joined", "budget_joined_prepared", "budget_for_dashboard", "over_budget_notifications"]
 TO_DASHBOARD_FLOWZONE_DS = ["logs_llm_usage_prepared", "logs_llm_usage_prepared_by_Project"]
 EVENTSERVER_FLOWZONE_DS = ["eventserver_llmusage_logs_cleaned"]
-EVENTSERVER_INPUT_DS = ["eventserver_cru_logs"]
+EVENTSERVER_INPUT_DS = "eventserver_cru_logs"
 CLOUD_FLOWZONE_DS = ["logs_filtered_unnested"]
-CLOUD_INPUT_DS = ["compute_resource_usage_logs"]
+CLOUD_INPUT_DS = "compute_resource_usage_logs"
 
 TO_DASHBOARD_FLOWZONE_RECIPES = ["compute_llm_logs_prep", "compute_logs_llm_usage_prepared_by_Project"]
 EVENTSERVER_FLOWZONE_RECIPES = ["compute_eventserver_llmusage"]
@@ -43,12 +43,14 @@ logs_partitioning_pattern = variables["local"]["logs_partitioning_pattern"]
 managed_dataset_connection = variables["local"]["managed_dataset_connection"]
 
 ALL_MANAGED_DS = TO_DASHBOARD_FLOWZONE_DS + BUDGET_FLOW_ZONE_DS + CLOUD_FLOWZONE_DS + EVENTSERVER_FLOWZONE_DS
-ALL_DS = ALL_MANAGED_DS + CLOUD_INPUT_DS + EVENTSERVER_INPUT_DS
+ALL_DS = ALL_MANAGED_DS + [CLOUD_INPUT_DS, EVENTSERVER_INPUT_DS]
 ALL_RECIPES = TO_DASHBOARD_FLOWZONE_RECIPES + EVENTSERVER_FLOWZONE_RECIPES + CLOUD_FLOWZONE_RECIPES
 
 connecting_dataset_name = "" # dataset that will connect to the "to_dashboard" flow zone.
+input_dataset_name = ""
 if logs_origin == "cloud":
     connecting_dataset_name = "logs_filtered_unnested"
+    input_dataset_name = 
 elif logs_origin == "event_server":
     connecting_dataset_name = "eventserver_llmusage_logs_cleaned"
 else:
