@@ -57,8 +57,6 @@ elif logs_origin == "event_server":
 else:
     raise "Unexpected log origin."
 
-flow_handler = FlowConnectionsHandler(project: project, main_connection_name: managed_dataset_connection, fallback_connection_name: "")
-
 # Configure connection type and partitioning for all datasets in the selected flow branch.
 for ds_name in ALL_DS:
     ds = project.get_dataset(ds_name)
