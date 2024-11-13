@@ -119,18 +119,8 @@ else:
     
 recipe_settings.save()
 
-# Configure connection type for all managed datasets downstream of inputs datasets.
-ALL_MANAGED_DS = ALL_MANAGED_DS + ["logs_llm_usage_prepared_by_Project_complete", "budget_joined", "budget_joined_prepared", "budget_for_dashboard", "over_budget_notifications"]
-
 print("toto")
 managed_dataset_connection_type = get_dataset_in_connection_settings(project, managed_dataset_connection)["type"]
 print(get_dataset_in_connection_settings(project, managed_dataset_connection))
 print(managed_dataset_connection_type)
 print("titou")
-
-for ds_name in ALL_MANAGED_DS:
-    if managed_dataset_connection_type == "Filesystem":
-        switch_managed_dataset_connection_to_local_filesytem_storage(project, ds_name, managed_dataset_connection)
-        change_filesystem_dataset_format(project, ds_name, "csv", change_dataset_format_type=True)
-    else:
-        switch_managed_dataset_connection_to_cloud_storage(project, ds_name, managed_dataset_connection)
