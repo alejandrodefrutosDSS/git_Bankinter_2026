@@ -27,9 +27,10 @@
   "formatParams": {
     "style": "unix",
     "charset": "utf8",
-    "separator": ";",
+    "separator": "\t",
     "quoteChar": "\"",
     "escapeChar": "\\",
+    "maxRowChars": 100000000,
     "dateSerializationFormat": "ISO",
     "arrayMapFormat": "json",
     "hiveSeparators": [
@@ -52,7 +53,7 @@
     "readDataTypeMismatchBehavior": "DISCARD_WARNING",
     "writeDataTypeMismatchBehavior": "DISCARD_WARNING",
     "fileReadFailureBehavior": "FAIL",
-    "compress": ""
+    "compress": "gz"
   },
   "partitioning": {
     "filePathPattern": "%Y/%M/%D/.*",
