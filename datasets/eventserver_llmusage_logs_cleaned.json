@@ -26,6 +26,7 @@
   },
   "formatParams": {
     "charset": "utf8",
+    "separator": ";",
     "quoteChar": "\"",
     "escapeChar": "\\",
     "dateSerializationFormat": "ISO",
