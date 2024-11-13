@@ -1,5 +1,6 @@
 import dataiku
 import dataikuapi
+import dku_utils
 import json
 
 def get_connection_type(project, dataset_name, connection_name):
