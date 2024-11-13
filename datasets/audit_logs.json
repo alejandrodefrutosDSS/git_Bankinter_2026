@@ -48,7 +48,7 @@
   "tags": [],
   "params": {
     "connection": "Audit_Logs",
-    "path": "/audit.log.4",
+    "path": "/",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",
