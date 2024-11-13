@@ -63,13 +63,11 @@ for ds_name in ALL_DS:
     ds_settings = ds.get_settings()
     ds_settings.settings["params"]["connection"] = logs_connection
     ds_settings.settings["type"] = get_connection_type(project, ds_name, logs_connection)
+    ds_settings.remove_partitioning()
     if logs_partitioning_activated:
-        ds_settings.remove_partitioning()
         ds_settings.add_time_partitioning_dimension(logs_partitioning_period, logs_partitioning_period)
         ds_settings.set_partitioning_file_pattern(logs_partitioning_pattern)
         ds_settings.get_raw()["partitioning"]["considerMissingRequestedPartitionsAsEmpty"] = True
-    else:
-        ds_settings.remove_partitioning()
 
     ds_settings.save()
 
