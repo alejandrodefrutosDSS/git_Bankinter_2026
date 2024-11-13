@@ -102,6 +102,7 @@ ALL_MANAGED_DS = ALL_MANAGED_DS + ["logs_llm_usage_prepared_by_Project_complete"
 
 print("toto")
 print(get_dataset_in_connection_settings(project, managed_dataset_connection))
+print("titi")
 
 for ds_name in ALL_MANAGED_DS:
     ds = project.get_dataset(ds_name)
