@@ -40,6 +40,7 @@ with audit_logs_llm_usage.get_writer() as writer:
         batch = batch[batch['message.computeResourceUsage.type'] == "LLM_USAGE"]
         batch.rename(columns=mapping_audit_logs, inplace=True)
         # Add missing columns with NaN values
+        print(batch.columns)
         print("map values")
         print(mapping_audit_logs.values())
         for col in mapping_audit_logs.values():
