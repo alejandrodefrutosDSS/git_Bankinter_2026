@@ -58,7 +58,7 @@ elif logs_origin == "event_server":
 else:
     raise "Unexpected log origin."
     
-# Configure flow routing between flow branches.
+# Connect flow with right input dataset.
 recipe = project.get_recipe("compute_llm_logs_prep")
 recipe_settings = recipe.get_settings()
 current_inputs = recipe_settings.get_flat_input_refs()
