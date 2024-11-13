@@ -1,7 +1,12 @@
 {
   "name": "audit logs ingestion",
   "color": "#8C2DA7",
-  "items": [],
+  "items": [
+    {
+      "objectId": "audit_logs",
+      "objectType": "DATASET"
+    }
+  ],
   "shared": [],
   "tags": [],
   "customFields": {},
