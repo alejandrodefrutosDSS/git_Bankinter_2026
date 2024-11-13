@@ -81,6 +81,7 @@ for ds_name in ALL_MANAGED_DS:
         change_filesystem_dataset_format(project, ds_name, "csv", change_dataset_format_type=True)
     else:
         switch_managed_dataset_connection_to_cloud_storage(project, ds_name, managed_dataset_connection)
+        change_filesystem_dataset_format(project, ds_name, "csv", change_dataset_format_type=True, new_dataset_format_type="metastore_compatible_csv")
 
 # Configure partitioning for datasets needing it.
 for ds_name in [CLOUD_INPUT_DS, EVENTSERVER_INPUT_DS] + CLOUD_FLOWZONE_DS + EVENTSERVER_FLOWZONE_DS + TO_DASHBOARD_FLOWZONE_DS:
