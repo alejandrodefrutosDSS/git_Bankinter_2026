@@ -67,7 +67,7 @@ recipe_settings.replace_input(current_inputs[0], connecting_dataset_name)
 recipe_settings.save()
 
 # Configure input dataset connection.
-input_ds = project.get_dataset(ds_name)
+input_ds = project.get_dataset(input_dataset_name)
 input_ds_settings = input_ds.get_settings()
 input_ds_settings.settings["params"]["connection"] = logs_connection
 input_ds_settings.settings["type"] = get_connection_type(project, ds_name, logs_connection)
