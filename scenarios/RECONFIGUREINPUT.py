@@ -93,20 +93,6 @@ for ds_name in [CLOUD_INPUT_DS, EVENTSERVER_INPUT_DS] + CLOUD_FLOWZONE_DS + EVEN
 
     ds_settings.save()
 
-# Configure connection type and partitioning for all datasets in the selected flow branch.
-for ds_name in ALL_DS:
-    ds = project.get_dataset(ds_name)
-    ds_settings = ds.get_settings()
-    ds_settings.settings["params"]["connection"] = logs_connection
-    ds_settings.settings["type"] = get_connection_type(project, ds_name, logs_connection)
-    ds_settings.remove_partitioning()
-    if logs_partitioning_activated:
-        ds_settings.add_time_partitioning_dimension(logs_partitioning_period, logs_partitioning_period)
-        ds_settings.set_partitioning_file_pattern(logs_partitioning_pattern)
-        ds_settings.get_raw()["partitioning"]["considerMissingRequestedPartitionsAsEmpty"] = True
-
-    ds_settings.save()
-
 # Configure recipes dependencies.
 for recipe_name in ALL_RECIPES:
     recipe = project.get_recipe(recipe_name)
