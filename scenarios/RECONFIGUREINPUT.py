@@ -50,9 +50,10 @@ connecting_dataset_name = "" # dataset that will connect to the "to_dashboard" f
 input_dataset_name = ""
 if logs_origin == "cloud":
     connecting_dataset_name = "logs_filtered_unnested"
-    input_dataset_name = 
+    input_dataset_name = CLOUD_INPUT_DS
 elif logs_origin == "event_server":
     connecting_dataset_name = "eventserver_llmusage_logs_cleaned"
+    input_dataset_name = EVENTSERVER_INPUT_DS
 else:
     raise "Unexpected log origin."
     
