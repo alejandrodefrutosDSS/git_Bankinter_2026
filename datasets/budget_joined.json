@@ -1,5 +1,5 @@
 {
-  "type": "Filesystem",
+  "type": "S3",
   "managed": true,
   "featureGroup": false,
   "formatType": "parquet",
@@ -46,7 +46,8 @@
   },
   "tags": [],
   "params": {
-    "connection": "filesystem_managed",
+    "metastoreSynchronizationEnabled": true,
+    "connection": "dataiku-managed-storage",
     "path": "/managed-dss-data/${projectKey}/budget_joined",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
