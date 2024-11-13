@@ -101,7 +101,10 @@
           "distinct": false,
           "enabled": false
         },
-        "partitionSelectionMethod": "ALL",
+        "partitionSelectionMethod": "SELECTED",
+        "selectedPartitions": [
+          "2024-11-13"
+        ],
         "latestPartitionsN": 1,
         "ordering": {
           "enabled": false,
@@ -115,7 +118,7 @@
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 1731513119265
+      "_refreshTrigger": 1731513348600
     },
     "vizSampling": {
       "selection": {
