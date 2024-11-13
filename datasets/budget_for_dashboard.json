@@ -1,5 +1,5 @@
 {
-  "type": "Filesystem",
+  "type": "S3",
   "managed": true,
   "featureGroup": false,
   "formatType": "csv",
@@ -70,7 +70,8 @@
   },
   "tags": [],
   "params": {
-    "connection": "filesystem_managed",
+    "metastoreSynchronizationEnabled": true,
+    "connection": "dataiku-managed-storage",
     "path": "/managed-dss-data/${projectKey}/budget_for_dashboard",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
