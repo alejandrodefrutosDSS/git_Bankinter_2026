@@ -48,7 +48,7 @@
   "tags": [],
   "params": {
     "connection": "filesystem_managed",
-    "path": "/",
+    "path": "/audit_logs",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",
