@@ -114,7 +114,7 @@ for ds_name in ALL_MANAGED_DS:
 
     ds_settings.save()
     if managed_dataset_connection_type == "Filesystem":
-        change_filesystem_dataset_format(project, ds_name, "csv", change_dataset_format_type: True)
+        change_filesystem_dataset_format(project, ds_name, "csv", change_dataset_format_type=True)
 
 # Configure flow routing between flow branches.
 recipe = project.get_recipe("compute_llm_logs_prep")
