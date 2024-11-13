@@ -45,7 +45,7 @@ logs_partitioning_pattern = variables["local"]["logs_partitioning_pattern"]
 managed_dataset_connection = variables["local"]["managed_dataset_connection"]
 managed_dataset_connection_type = get_dataset_in_connection_settings(project, managed_dataset_connection)["type"]
 
-ALL_MANAGED_DS = TO_DASHBOARD_FLOWZONE_DS + BUDGET_FLOW_ZONE_DS + CLOUD_FLOWZONE_DS + EVENTSERVER_FLOWZONE_DS
+ALL_MANAGED_DS = TO_DASHBOARD_FLOWZONE_DS + BUDGET_FLOW_ZONE_DS + CLOUD_FLOWZONE_DS + EVENTSERVER_FLOWZONE_DS + AUDITLOG_FLOWZONE_DS
 ALL_DS = ALL_MANAGED_DS + [CLOUD_INPUT_DS, EVENTSERVER_INPUT_DS]
 ALL_RECIPES = TO_DASHBOARD_FLOWZONE_RECIPES + EVENTSERVER_FLOWZONE_RECIPES + CLOUD_FLOWZONE_RECIPES
 
