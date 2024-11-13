@@ -5,7 +5,7 @@
   "logs_partitioning_period": "DAY",
   "logs_partitioning_pattern": "%Y/%M/%D/.*",
   "managed_dataset_connection": "filesystem_managed",
-  "logs_partitioning_build_range": "2024-11-/2024-11-13",
+  "logs_partitioning_build_range": "2024-11-12/2024-11-13",
   "activate_continuous_build": false,
   "continuous_build_message_sender": ""
 }
