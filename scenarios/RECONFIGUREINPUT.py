@@ -25,6 +25,8 @@ EVENTSERVER_FLOWZONE_DS = ["eventserver_llmusage_logs_cleaned"]
 EVENTSERVER_INPUT_DS = "eventserver_cru_logs"
 CLOUD_FLOWZONE_DS = ["logs_filtered_unnested"]
 CLOUD_INPUT_DS = "compute_resource_usage_logs"
+AUDITLOG_FLOWZONE_DS = ["logs_filtered_unnested"]
+AUDITLOG_INPUT_DS = "compute_resource_usage_logs"
 
 TO_DASHBOARD_FLOWZONE_RECIPES = ["compute_llm_logs_prep", "compute_logs_llm_usage_prepared_by_Project"]
 EVENTSERVER_FLOWZONE_RECIPES = ["compute_eventserver_llmusage"]
