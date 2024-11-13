@@ -73,6 +73,14 @@ input_ds_settings.settings["params"]["connection"] = logs_connection
 input_ds_settings.settings["type"] = get_connection_type(project, input_dataset_name, logs_connection)
 input_ds_settings.save()
 
+# Configure connection type for all managed datasets.
+for ds_name in ALL_MANAGED_DS:
+    if managed_dataset_connection_type == "Filesystem":
+        switch_managed_dataset_connection_to_local_filesytem_storage(project, ds_name, managed_dataset_connection)
+        change_filesystem_dataset_format(project, ds_name, "csv", change_dataset_format_type=True)
+    else:
+        switch_managed_dataset_connection_to_cloud_storage(project, ds_name, managed_dataset_connection)
+
 # Configure connection type and partitioning for all datasets in the selected flow branch.
 for ds_name in ALL_DS:
     ds = project.get_dataset(ds_name)
