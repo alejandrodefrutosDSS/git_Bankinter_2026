@@ -58,13 +58,6 @@ elif logs_origin == "event_server":
 else:
     raise "Unexpected log origin."
     
-
-
-print("toto")
-print(get_dataset_in_connection_settings(project, managed_dataset_connection))
-print(managed_dataset_connection_type)
-print("titou")
-    
 # Connect flow with right input dataset.
 recipe = project.get_recipe("compute_llm_logs_prep")
 recipe_settings = recipe.get_settings()
