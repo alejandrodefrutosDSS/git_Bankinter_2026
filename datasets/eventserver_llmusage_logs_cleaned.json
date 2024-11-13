@@ -1,5 +1,5 @@
 {
-  "type": "Filesystem",
+  "type": "S3",
   "managed": true,
   "featureGroup": false,
   "formatType": "csv",
@@ -79,7 +79,8 @@
   },
   "tags": [],
   "params": {
-    "connection": "filesystem_managed",
+    "metastoreSynchronizationEnabled": true,
+    "connection": "dataiku-managed-storage",
     "path": "/managed-dss-data/${projectKey}/eventserver_llmusage_logs_cleaned",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
