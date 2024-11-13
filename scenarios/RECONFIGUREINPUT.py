@@ -41,6 +41,7 @@ logs_partitioning_activated = variables["local"]["logs_partitioning_activated"]
 logs_partitioning_period = variables["local"]["logs_partitioning_period"]
 logs_partitioning_pattern = variables["local"]["logs_partitioning_pattern"]
 managed_dataset_connection = variables["local"]["managed_dataset_connection"]
+managed_dataset_connection_type = get_dataset_in_connection_settings(project, managed_dataset_connection)["type"]
 
 ALL_MANAGED_DS = TO_DASHBOARD_FLOWZONE_DS + BUDGET_FLOW_ZONE_DS + CLOUD_FLOWZONE_DS + EVENTSERVER_FLOWZONE_DS
 ALL_DS = ALL_MANAGED_DS + [CLOUD_INPUT_DS, EVENTSERVER_INPUT_DS]
@@ -56,6 +57,13 @@ elif logs_origin == "event_server":
     input_dataset_name = EVENTSERVER_INPUT_DS
 else:
     raise "Unexpected log origin."
+    
+
+
+print("toto")
+print(get_dataset_in_connection_settings(project, managed_dataset_connection))
+print(managed_dataset_connection_type)
+print("titou")
     
 # Connect flow with right input dataset.
 recipe = project.get_recipe("compute_llm_logs_prep")
@@ -118,9 +126,3 @@ else:
     recipe_inputs["main"]["items"][0]["deps"] = []
     
 recipe_settings.save()
-
-print("toto")
-managed_dataset_connection_type = get_dataset_in_connection_settings(project, managed_dataset_connection)["type"]
-print(get_dataset_in_connection_settings(project, managed_dataset_connection))
-print(managed_dataset_connection_type)
-print("titou")
