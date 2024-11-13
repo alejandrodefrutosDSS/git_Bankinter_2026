@@ -43,7 +43,7 @@ connecting_dataset_name = "" # dataset that will connect to the "to_dashboard" f
 ALL_DS = TO_DASHBOARD_FLOWZONE_DS
 ALL_MANAGED_DS = TO_DASHBOARD_FLOWZONE_DS
 ALL_RECIPES = TO_DASHBOARD_FLOWZONE_RECIPES
-if logs_origin == "cloud" or logs_origin == "demo":
+if logs_origin == "cloud":
     connecting_dataset_name = "logs_filtered_unnested"
     ALL_DS = ALL_DS + CLOUD_INPUT_DS + CLOUD_FLOWZONE_DS
     ALL_MANAGED_DS = ALL_MANAGED_DS + CLOUD_FLOWZONE_DS
