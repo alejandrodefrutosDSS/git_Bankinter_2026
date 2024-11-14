@@ -513,7 +513,7 @@
           {
             "tileType": "TEXT",
             "box": {
-              "top": 26,
+              "top": 27,
               "left": 10,
               "width": 2,
               "height": 3
@@ -605,7 +605,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 26,
+              "top": 27,
               "left": 0,
               "width": 10,
               "height": 3
@@ -635,6 +635,34 @@
             },
             "insightId": "qKFqa8o",
             "insightType": "chart",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "TEXT",
+            "box": {
+              "top": 26,
+              "left": 0,
+              "width": 12,
+              "height": 1
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "textAlign": "LEFT"
+            },
+            "backgroundOpacity": 1.0,
+            "autoLoad": true,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "titleOptions": {
+              "showTitle": "YES",
+              "title": "Cumulative cost and savings over time",
+              "fontColor": "#000",
+              "fontSize": 13
+            },
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
           }
