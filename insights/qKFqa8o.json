@@ -343,7 +343,7 @@
         "isLogScale": false,
         "includeZero": true
       },
-      "smoothing": true,
+      "smoothing": false,
       "showLegend": true,
       "strokeWidth": 2,
       "fillOpacity": 0.6,
