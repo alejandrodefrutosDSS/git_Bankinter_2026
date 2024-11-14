@@ -279,7 +279,8 @@
         {
           "datasetName": "budget",
           "type": "INLINE_DATASET_EDIT",
-          "prompt": "Fill in a budget per project (specify at least one or the flow build will fail)"
+          "prompt": "Fill in a budget per project (specify at least one or the flow build will fail)",
+          "help": "(specify at least one or the flow build will fail)"
         },
         {
           "behavior": "INLINE_AUTO_SAVE",
