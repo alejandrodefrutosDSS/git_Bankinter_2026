@@ -543,7 +543,7 @@
         "displayPointer": false
       },
       "useLiveProcessingIfAvailable": true,
-      "legendPlacement": "OUTER_RIGHT",
+      "legendPlacement": "INNER_TOP_RIGHT",
       "legendFormatting": {
         "fontSize": 11,
         "fontColor": "#333",
