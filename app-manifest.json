@@ -67,7 +67,7 @@
                 },
                 {
                   "value": "audit_logs",
-                  "label": "Audit logs",
+                  "label": "log4j logs",
                   "showInColumnPreview": false,
                   "selected": false
                 }
