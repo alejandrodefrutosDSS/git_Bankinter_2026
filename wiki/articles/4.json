@@ -4,17 +4,6 @@
   "attachments": [
     {
       "attachmentType": "FILE",
-      "smartId": "2ohLCyp2RLwy",
-      "details": {
-        "objectDisplayName": "cloud_logs_ingestion.png",
-        "size": 61540,
-        "mimeType": "image/png"
-      },
-      "attachedBy": "fabien.daoulas@dataiku.com",
-      "attachedOn": 1723016978534
-    },
-    {
-      "attachmentType": "FILE",
       "smartId": "9LohGBgueZVl",
       "details": {
         "objectDisplayName": "budget.png",
