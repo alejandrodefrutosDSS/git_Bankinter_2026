@@ -6,6 +6,6 @@
   "logs_partitioning_pattern": "%Y/%M/%D/.*",
   "managed_dataset_connection": "filesystem_managed",
   "logs_partitioning_build_range": "2024-11-01/2024-11-14",
-  "activate_continuous_build": true,
+  "activate_continuous_build": false,
   "continuous_build_message_sender": ""
 }
