@@ -44,42 +44,48 @@
           "maxValues": 0,
           "generateOthersCategory": true,
           "forceLastPositionOthers": false,
-          "oneTickPerBin": "AUTO",
+          "oneTickPerBin": "NO",
           "filters": [],
           "isA": "dimension",
           "possibleSorts": [
             {
               "type": "NATURAL",
               "label": "Natural ordering",
-              "sortAscending": true
+              "sortAscending": true,
+              "$$hashKey": "object:4538"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of llmUsage_estimatedCostUSD, descending"
+              "label": "Estimated Cost ($), descending",
+              "$$hashKey": "object:4539"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of llmUsage_estimatedCostUSD, ascending",
-              "sortAscending": true
+              "label": "Estimated Cost ($), ascending",
+              "sortAscending": true,
+              "$$hashKey": "object:4540"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
-              "label": "Sum of estimated_cost_saved, descending"
+              "label": "Estimated Saved Cost ($), descending",
+              "$$hashKey": "object:4541"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
-              "label": "Sum of estimated_cost_saved, ascending",
-              "sortAscending": true
+              "label": "Estimated Saved Cost ($), ascending",
+              "sortAscending": true,
+              "$$hashKey": "object:4542"
             }
           ],
           "sort": {
             "type": "NATURAL",
             "label": "Natural ordering",
-            "sortAscending": true
+            "sortAscending": true,
+            "$$hashKey": "object:4538"
           },
           "multiplier": "Auto",
           "hideTrailingZeros": true,
