@@ -64,16 +64,7 @@
       "items": [
         {
           "ref": "audit_logs_llm_usage",
-          "deps": [
-            {
-              "out": "logs_llm_usage_prepared",
-              "idim": "DAY",
-              "odim": "DAY",
-              "func": "equals",
-              "params": {},
-              "expandVariables": false
-            }
-          ]
+          "deps": []
         }
       ]
     }
