@@ -63,7 +63,7 @@
     "main": {
       "items": [
         {
-          "ref": "logs_filtered_unnested",
+          "ref": "audit_logs_llm_usage",
           "deps": []
         }
       ]
