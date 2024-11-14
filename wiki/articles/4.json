@@ -26,17 +26,6 @@
     },
     {
       "attachmentType": "FILE",
-      "smartId": "jp7aa94RMTlW",
-      "details": {
-        "objectDisplayName": "eventserver_logs_ingestion.png",
-        "size": 134036,
-        "mimeType": "image/png"
-      },
-      "attachedBy": "fabien.daoulas@dataiku.com",
-      "attachedOn": 1727352200449
-    },
-    {
-      "attachmentType": "FILE",
       "smartId": "3HKbTk72e85X",
       "details": {
         "objectDisplayName": "log4j_logs_ingestion.png",
