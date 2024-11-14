@@ -54,7 +54,7 @@
               "allowDuplicates": true,
               "selectChoices": [
                 {
-                  "value": "audit_logs",
+                  "value": "log4j_logs",
                   "label": "log4j logs",
                   "showInColumnPreview": false,
                   "selected": false
