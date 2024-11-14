@@ -179,12 +179,7 @@
       "includedDatasetsData": [],
       "includedSavedModels": [],
       "includedModelEvaluationStores": [],
-      "includedManagedFolders": [
-        {
-          "id": "clvteJbD",
-          "name": "anonymized_logs"
-        }
-      ],
+      "includedManagedFolders": [],
       "includedCodeStudios": [],
       "includedKnowledgeBanks": [],
       "includedLabelingTasks": [],
