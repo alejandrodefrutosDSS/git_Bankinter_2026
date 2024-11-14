@@ -108,6 +108,7 @@
           "shouldFormatInPercentage": false,
           "hideTrailingZeros": true,
           "showValue": true,
+          "displayLabel": "Estimated Cost ($)",
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
           "labelFontSize": 16,
