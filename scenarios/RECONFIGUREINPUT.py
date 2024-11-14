@@ -57,7 +57,7 @@ if logs_origin == "cloud":
 elif logs_origin == "event_server":
     connecting_dataset_name = "eventserver_llmusage_logs_cleaned"
     input_dataset_name = EVENTSERVER_INPUT_DS
-elif logs_origin == "audit_logs":
+elif logs_origin == "log4j_logs":
     connecting_dataset_name = "audit_logs_llm_usage"
     input_dataset_name = AUDITLOGS_INPUT_DS
 else:
