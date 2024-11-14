@@ -1,7 +1,7 @@
 {
   "type": "step_based",
   "name": "4. Continuous flow build",
-  "active": false,
+  "active": true,
   "runAsUser": "admin",
   "checklists": {
     "checklists": []
@@ -42,6 +42,7 @@
         "id": "build_0_true_d_logs_llm_usage_prepared",
         "type": "build_flowitem",
         "name": "Build partitioned datasets",
+        "enabled": true,
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",
@@ -76,6 +77,7 @@
         "id": "build_1_true_d_logs_llm_usage_prepared_by_Project_complete_d_budget_joined_d_budget_joined_prepared_d_budget_for_dashboard",
         "type": "build_flowitem",
         "name": "Build logs_llm_usage_prepared_by_Project_complete",
+        "enabled": true,
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",
@@ -105,6 +107,7 @@
         "id": "build_1_true_d_budget_joined",
         "type": "build_flowitem",
         "name": "Build budget_joined",
+        "enabled": true,
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",
@@ -134,6 +137,7 @@
         "id": "build_1_true_d_budget_joined_prepared",
         "type": "build_flowitem",
         "name": "Build budget_joined_prepared",
+        "enabled": true,
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",
@@ -163,6 +167,7 @@
         "id": "build_1_true_d_budget_for_dashboard",
         "type": "build_flowitem",
         "name": "Build budget_for_dashboard",
+        "enabled": true,
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",
@@ -192,6 +197,7 @@
         "id": "custom_python",
         "type": "custom_python",
         "name": "Update notifications dataset",
+        "enabled": true,
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",
@@ -213,6 +219,7 @@
         "id": "run_scenario_null.null",
         "type": "run_scenario",
         "name": "Run over budget notification scenario",
+        "enabled": true,
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",
@@ -232,6 +239,7 @@
         "id": "run_scenario_null.51NOTIFYPROJECTSCLOSETOBUDGET",
         "type": "run_scenario",
         "name": "Run close to budget notification scenario",
+        "enabled": true,
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",
@@ -250,5 +258,6 @@
     ]
   },
   "automationLocal": false,
-  "customFields": {}
+  "customFields": {},
+  "markedAsTest": false
 }
