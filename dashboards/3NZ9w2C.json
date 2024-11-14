@@ -116,43 +116,6 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 3,
-              "left": 0,
-              "width": 10,
-              "height": 3
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": true,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "title": "Cumulative Cost ($)",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "QhQUuRr",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
               "top": 26,
               "left": 4,
               "width": 8,
@@ -642,10 +605,10 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 29,
+              "top": 3,
               "left": 0,
-              "width": 2,
-              "height": 2
+              "width": 10,
+              "height": 3
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
