@@ -54,8 +54,8 @@
               "allowDuplicates": true,
               "selectChoices": [
                 {
-                  "value": "cloud",
-                  "label": "Cloud logs",
+                  "value": "audit_logs",
+                  "label": "log4j logs",
                   "showInColumnPreview": false,
                   "selected": false
                 },
@@ -66,8 +66,8 @@
                   "selected": false
                 },
                 {
-                  "value": "audit_logs",
-                  "label": "log4j logs",
+                  "value": "cloud",
+                  "label": "Cloud logs",
                   "showInColumnPreview": false,
                   "selected": false
                 }
