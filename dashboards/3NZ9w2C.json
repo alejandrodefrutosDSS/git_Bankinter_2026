@@ -661,7 +661,7 @@
               "showTitle": "YES",
               "title": "Cumulative cost and savings over time",
               "fontColor": "#000",
-              "fontSize": 13
+              "fontSize": 18
             },
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
