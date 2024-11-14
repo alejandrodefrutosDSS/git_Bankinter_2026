@@ -43,7 +43,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 10,
+              "top": 4,
               "left": 0,
               "width": 12,
               "height": 3
@@ -80,7 +80,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 26,
+              "top": 23,
               "left": 0,
               "width": 4,
               "height": 3
@@ -116,7 +116,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 26,
+              "top": 23,
               "left": 4,
               "width": 8,
               "height": 3
@@ -152,7 +152,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 18,
+              "top": 15,
               "left": 4,
               "width": 8,
               "height": 3
@@ -188,7 +188,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 18,
+              "top": 15,
               "left": 0,
               "width": 4,
               "height": 3
@@ -224,7 +224,7 @@
           {
             "tileType": "TEXT",
             "box": {
-              "top": 17,
+              "top": 14,
               "left": 0,
               "width": 12,
               "height": 1
@@ -253,7 +253,7 @@
           {
             "tileType": "TEXT",
             "box": {
-              "top": 25,
+              "top": 22,
               "left": 0,
               "width": 12,
               "height": 1
@@ -282,7 +282,7 @@
           {
             "tileType": "TEXT",
             "box": {
-              "top": 6,
+              "top": 3,
               "left": 0,
               "width": 12,
               "height": 1
@@ -311,7 +311,7 @@
           {
             "tileType": "TEXT",
             "box": {
-              "top": 13,
+              "top": 10,
               "left": 0,
               "width": 12,
               "height": 1
@@ -376,7 +376,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 14,
+              "top": 11,
               "left": 0,
               "width": 12,
               "height": 3
@@ -412,7 +412,7 @@
           {
             "tileType": "TEXT",
             "box": {
-              "top": 21,
+              "top": 18,
               "left": 0,
               "width": 12,
               "height": 1
@@ -441,7 +441,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 22,
+              "top": 19,
               "left": 0,
               "width": 4,
               "height": 3
@@ -477,7 +477,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 22,
+              "top": 19,
               "left": 4,
               "width": 8,
               "height": 3
@@ -513,7 +513,7 @@
           {
             "tileType": "TEXT",
             "box": {
-              "top": 3,
+              "top": 26,
               "left": 10,
               "width": 2,
               "height": 3
@@ -605,7 +605,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 3,
+              "top": 26,
               "left": 0,
               "width": 10,
               "height": 3
