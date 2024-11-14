@@ -45,6 +45,17 @@
       },
       "attachedBy": "fabien.daoulas@dataiku.com",
       "attachedOn": 1731603978602
+    },
+    {
+      "attachmentType": "FILE",
+      "smartId": "KiacwX2O8JQM",
+      "details": {
+        "objectDisplayName": "cloud_logs_ingestion.png",
+        "size": 103621,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "fabien.daoulas@dataiku.com",
+      "attachedOn": 1731603978619
     }
   ],
   "creationTag": {
