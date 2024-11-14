@@ -513,7 +513,7 @@
           {
             "tileType": "TEXT",
             "box": {
-              "top": 28,
+              "top": 27,
               "left": 10,
               "width": 2,
               "height": 3
@@ -605,7 +605,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 28,
+              "top": 27,
               "left": 0,
               "width": 10,
               "height": 3
@@ -644,11 +644,11 @@
               "top": 26,
               "left": 0,
               "width": 12,
-              "height": 2
+              "height": 1
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "The **estimated saved costs** is a calculated metric representing the cost savings achieved with the use of **LLM mesh caching**. \n\nIt is determined by computing the ratio of the number of queries that are served from the cache to the total estimated cost that would have been incurred if all queries were processed without cache utilization.",
+              "text": " ",
               "textAlign": "LEFT"
             },
             "backgroundOpacity": 1.0,
