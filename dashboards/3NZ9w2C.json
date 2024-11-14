@@ -648,6 +648,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
+              "text": " ",
               "textAlign": "LEFT"
             },
             "backgroundOpacity": 1.0,
