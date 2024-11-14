@@ -47,7 +47,7 @@
               "name": "logs_origin",
               "type": "SELECT",
               "label": "Select their origin",
-              "defaultValue": "event_server",
+              "defaultValue": "audit_logs",
               "mandatory": true,
               "canSelectForeign": false,
               "markCreatedAsBuilt": false,
