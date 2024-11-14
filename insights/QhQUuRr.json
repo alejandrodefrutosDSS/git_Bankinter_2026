@@ -56,23 +56,23 @@
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of llmUsage_estimatedCostUSD, descending"
+              "label": "Estimated Cost ($), descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of llmUsage_estimatedCostUSD, ascending",
+              "label": "Estimated Cost ($), ascending",
               "sortAscending": true
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
-              "label": "Sum of estimated_cost_saved, descending"
+              "label": "Estimated Saved Cost ($), descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
-              "label": "Sum of estimated_cost_saved, ascending",
+              "label": "Estimated Saved Cost ($), ascending",
               "sortAscending": true
             }
           ],
@@ -84,7 +84,10 @@
           "prefix": "",
           "suffix": "",
           "multiplier": "Auto",
-          "digitGrouping": "DEFAULT"
+          "hideTrailingZeros": true,
+          "digitGrouping": "DEFAULT",
+          "useParenthesesForNegativeValues": false,
+          "shouldFormatInPercentage": false
         }
       ],
       "genericDimension1": [],
@@ -103,6 +106,9 @@
           "computeModeDim": 0,
           "multiplier": "Auto",
           "digitGrouping": "DEFAULT",
+          "useParenthesesForNegativeValues": false,
+          "shouldFormatInPercentage": false,
+          "hideTrailingZeros": true,
           "prefix": "",
           "suffix": "",
           "showValue": true,
@@ -140,6 +146,11 @@
           "computeModeDim": 0,
           "multiplier": "Auto",
           "digitGrouping": "DEFAULT",
+          "useParenthesesForNegativeValues": false,
+          "shouldFormatInPercentage": false,
+          "hideTrailingZeros": true,
+          "prefix": "",
+          "suffix": "",
           "showValue": true,
           "displayLabel": "Estimated Saved Cost ($)",
           "showDisplayLabel": true,
@@ -220,7 +231,10 @@
         "axisValuesFormatting": {
           "numberFormatting": {
             "multiplier": "Auto",
+            "hideTrailingZeros": true,
             "digitGrouping": "DEFAULT",
+            "useParenthesesForNegativeValues": false,
+            "shouldFormatInPercentage": false,
             "prefix": "",
             "suffix": ""
           },
@@ -257,7 +271,10 @@
           "axisValuesFormatting": {
             "numberFormatting": {
               "multiplier": "Auto",
+              "hideTrailingZeros": true,
               "digitGrouping": "DEFAULT",
+              "useParenthesesForNegativeValues": false,
+              "shouldFormatInPercentage": false,
               "prefix": "",
               "suffix": ""
             },
@@ -293,7 +310,10 @@
           "axisValuesFormatting": {
             "numberFormatting": {
               "multiplier": "Auto",
+              "hideTrailingZeros": true,
               "digitGrouping": "DEFAULT",
+              "useParenthesesForNegativeValues": false,
+              "shouldFormatInPercentage": false,
               "prefix": "",
               "suffix": ""
             },
@@ -407,8 +427,8 @@
       },
       "linesZoomOptions": {
         "displayInterval": [
-          1.712556E12,
-          1.7210448E12
+          1.730979E12,
+          1.73151E12
         ],
         "displayBrush": true,
         "enabled": true,
@@ -496,12 +516,16 @@
       "gaugeOptions": {
         "min": {
           "sourceType": "Constant",
+          "percentile": 0.0,
+          "isCustomPercentile": false,
           "constantValue": 0.0,
           "defaultConstantValue": 0.0,
           "ignoreExistingFilters": false
         },
         "max": {
           "sourceType": "Constant",
+          "percentile": 0.0,
+          "isCustomPercentile": false,
           "constantValue": 0.0,
           "defaultConstantValue": 0.0,
           "ignoreExistingFilters": false
@@ -513,7 +537,10 @@
           "axisValuesFormatting": {
             "numberFormatting": {
               "multiplier": "Auto",
+              "hideTrailingZeros": true,
               "digitGrouping": "DEFAULT",
+              "useParenthesesForNegativeValues": false,
+              "shouldFormatInPercentage": false,
               "prefix": "",
               "suffix": ""
             },
