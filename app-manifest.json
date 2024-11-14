@@ -47,7 +47,7 @@
               "name": "logs_origin",
               "type": "SELECT",
               "label": "Select their origin",
-              "defaultValue": "audit_logs",
+              "defaultValue": "log4j",
               "mandatory": true,
               "canSelectForeign": false,
               "markCreatedAsBuilt": false,
