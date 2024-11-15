@@ -54,7 +54,153 @@
       "numberTopValues": 10
     },
     "columnsSelection": {
-      "mode": "ALL"
+      "mode": "SELECT",
+      "list": [
+        {
+          "name": "msgType",
+          "d": false
+        },
+        {
+          "name": "startTime",
+          "d": false
+        },
+        {
+          "name": "type",
+          "d": false
+        },
+        {
+          "name": "llmUsage_totalComputationTimeMS",
+          "d": false
+        },
+        {
+          "name": "Connection type",
+          "d": false
+        },
+        {
+          "name": "llmUsage_totalQueries",
+          "d": true
+        },
+        {
+          "name": "llmUsage_totalPromptTokens",
+          "d": true
+        },
+        {
+          "name": "llmUsage_estimatedCostUSD",
+          "d": true
+        },
+        {
+          "name": "llmUsage_totalCompletionTokens",
+          "d": true
+        },
+        {
+          "name": "Connection",
+          "d": false
+        },
+        {
+          "name": "llmUsage_cacheMissQueries",
+          "d": true
+        },
+        {
+          "name": "LLM identifier",
+          "d": false
+        },
+        {
+          "name": "Usage type",
+          "d": false
+        },
+        {
+          "name": "Number of LLM cache miss",
+          "d": false
+        },
+        {
+          "name": "llmUsage_cacheHitQueries",
+          "d": true
+        },
+        {
+          "name": "Number of LLM cache hit",
+          "d": false
+        },
+        {
+          "name": "estimated_cost_saved",
+          "d": true
+        },
+        {
+          "name": "User",
+          "d": false
+        },
+        {
+          "name": "Project",
+          "d": false
+        },
+        {
+          "name": "Context",
+          "d": false
+        },
+        {
+          "name": "item_description",
+          "d": false
+        },
+        {
+          "name": "context_jobId",
+          "d": false
+        },
+        {
+          "name": "Date",
+          "d": false
+        },
+        {
+          "name": "serverTimestamp_day",
+          "d": false
+        },
+        {
+          "name": "serverTimestamp_hours",
+          "d": false
+        },
+        {
+          "name": "serverTimestamp_minutes",
+          "d": false
+        },
+        {
+          "name": "serverTimestamp_minutes_str",
+          "d": false
+        },
+        {
+          "name": "day_of_week",
+          "d": false
+        },
+        {
+          "name": "hour_of_day",
+          "d": false
+        },
+        {
+          "name": "dssNodeId",
+          "d": false
+        },
+        {
+          "name": "execution_location",
+          "d": false
+        },
+        {
+          "name": "dssNodeName",
+          "d": false
+        },
+        {
+          "name": "auditTopic",
+          "d": false
+        },
+        {
+          "name": "authSource",
+          "d": false
+        },
+        {
+          "name": "authUser",
+          "d": false
+        },
+        {
+          "name": "clientIP",
+          "d": false
+        }
+      ]
     },
     "columnWidthsByName": {
       "apiCall": 100,
@@ -254,6 +400,8 @@
             "numberFormatting": {
               "multiplier": "Auto",
               "digitGrouping": "DEFAULT",
+              "useParenthesesForNegativeValues": false,
+              "shouldFormatInPercentage": false,
               "prefix": "",
               "suffix": ""
             },
@@ -290,6 +438,8 @@
               "numberFormatting": {
                 "multiplier": "Auto",
                 "digitGrouping": "DEFAULT",
+                "useParenthesesForNegativeValues": false,
+                "shouldFormatInPercentage": false,
                 "prefix": "",
                 "suffix": ""
               },
@@ -325,6 +475,8 @@
               "numberFormatting": {
                 "multiplier": "Auto",
                 "digitGrouping": "DEFAULT",
+                "useParenthesesForNegativeValues": false,
+                "shouldFormatInPercentage": false,
                 "prefix": "",
                 "suffix": ""
               },
@@ -519,12 +671,16 @@
         "gaugeOptions": {
           "min": {
             "sourceType": "Constant",
+            "percentile": 0.0,
+            "isCustomPercentile": false,
             "constantValue": 0.0,
             "defaultConstantValue": 0.0,
             "ignoreExistingFilters": false
           },
           "max": {
             "sourceType": "Constant",
+            "percentile": 0.0,
+            "isCustomPercentile": false,
             "constantValue": 0.0,
             "defaultConstantValue": 0.0,
             "ignoreExistingFilters": false
@@ -537,6 +693,8 @@
               "numberFormatting": {
                 "multiplier": "Auto",
                 "digitGrouping": "DEFAULT",
+                "useParenthesesForNegativeValues": false,
+                "shouldFormatInPercentage": false,
                 "prefix": "",
                 "suffix": ""
               },
