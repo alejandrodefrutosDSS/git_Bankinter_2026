@@ -511,34 +511,6 @@
             "resizeImageMode": "FIT_SIZE"
           },
           {
-            "tileType": "TEXT",
-            "box": {
-              "top": 27,
-              "left": 10,
-              "width": 2,
-              "height": 3
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "text": "The **estimated saved costs** is a calculated metric representing the cost savings achieved with the use of **LLM mesh caching**. \n\nIt is determined by computing the ratio of the number of queries that are served from the cache to the total estimated cost that would have been incurred if all queries were processed without cache utilization.",
-              "textAlign": "LEFT"
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "NO",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
             "tileType": "INSIGHT",
             "box": {
               "top": 0,
@@ -598,71 +570,6 @@
               "showTitle": "NO",
               "fontColor": "#000",
               "fontSize": 13
-            },
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 27,
-              "left": 0,
-              "width": 10,
-              "height": 3
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "qKFqa8o",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "TEXT",
-            "box": {
-              "top": 26,
-              "left": 0,
-              "width": 12,
-              "height": 1
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "text": " ",
-              "textAlign": "LEFT"
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "title": "Cumulative cost and savings over time",
-              "fontColor": "#000",
-              "fontSize": 18
             },
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
