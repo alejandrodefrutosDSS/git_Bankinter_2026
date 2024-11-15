@@ -594,7 +594,7 @@
           "columnType": "DATE",
           "dateFilterType": "RANGE",
           "minValue": 1.676455511E12,
-          "maxValue": 1.697387155E12,
+          "maxValue": 1.689438355E12,
           "timezone": "UTC",
           "isA": "filter",
           "isAGlobalFilter": true,
