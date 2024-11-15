@@ -23,7 +23,16 @@
       "items": [
         {
           "ref": "eventserver_cru_logs",
-          "deps": []
+          "deps": [
+            {
+              "out": "eventserver_llmusage_logs_cleaned",
+              "idim": "DAY",
+              "odim": "DAY",
+              "func": "equals",
+              "params": {},
+              "expandVariables": false
+            }
+          ]
         }
       ]
     }
