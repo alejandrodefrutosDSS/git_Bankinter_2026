@@ -54,153 +54,7 @@
       "numberTopValues": 10
     },
     "columnsSelection": {
-      "mode": "SELECT",
-      "list": [
-        {
-          "name": "msgType",
-          "d": false
-        },
-        {
-          "name": "startTime",
-          "d": false
-        },
-        {
-          "name": "type",
-          "d": false
-        },
-        {
-          "name": "llmUsage_totalComputationTimeMS",
-          "d": false
-        },
-        {
-          "name": "Connection type",
-          "d": false
-        },
-        {
-          "name": "llmUsage_totalQueries",
-          "d": true
-        },
-        {
-          "name": "llmUsage_totalPromptTokens",
-          "d": true
-        },
-        {
-          "name": "llmUsage_estimatedCostUSD",
-          "d": true
-        },
-        {
-          "name": "llmUsage_totalCompletionTokens",
-          "d": true
-        },
-        {
-          "name": "Connection",
-          "d": false
-        },
-        {
-          "name": "llmUsage_cacheMissQueries",
-          "d": true
-        },
-        {
-          "name": "LLM identifier",
-          "d": false
-        },
-        {
-          "name": "Usage type",
-          "d": false
-        },
-        {
-          "name": "Number of LLM cache miss",
-          "d": false
-        },
-        {
-          "name": "llmUsage_cacheHitQueries",
-          "d": true
-        },
-        {
-          "name": "Number of LLM cache hit",
-          "d": false
-        },
-        {
-          "name": "estimated_cost_saved",
-          "d": true
-        },
-        {
-          "name": "User",
-          "d": false
-        },
-        {
-          "name": "Project",
-          "d": false
-        },
-        {
-          "name": "Context",
-          "d": false
-        },
-        {
-          "name": "item_description",
-          "d": false
-        },
-        {
-          "name": "context_jobId",
-          "d": false
-        },
-        {
-          "name": "Date",
-          "d": false
-        },
-        {
-          "name": "serverTimestamp_day",
-          "d": false
-        },
-        {
-          "name": "serverTimestamp_hours",
-          "d": false
-        },
-        {
-          "name": "serverTimestamp_minutes",
-          "d": false
-        },
-        {
-          "name": "serverTimestamp_minutes_str",
-          "d": false
-        },
-        {
-          "name": "day_of_week",
-          "d": false
-        },
-        {
-          "name": "hour_of_day",
-          "d": false
-        },
-        {
-          "name": "dssNodeId",
-          "d": false
-        },
-        {
-          "name": "execution_location",
-          "d": false
-        },
-        {
-          "name": "dssNodeName",
-          "d": false
-        },
-        {
-          "name": "auditTopic",
-          "d": false
-        },
-        {
-          "name": "authSource",
-          "d": false
-        },
-        {
-          "name": "authUser",
-          "d": false
-        },
-        {
-          "name": "clientIP",
-          "d": false
-        }
-      ]
+      "mode": "ALL"
     },
     "columnWidthsByName": {
       "apiCall": 100,
@@ -337,12 +191,7 @@
           "columnType": "NUMERICAL",
           "currentMode": "ALPHANUM",
           "sort": "count",
-          "selectedValues": {
-            "1": true,
-            "4": true,
-            "20": true,
-            "394": true
-          }
+          "selectedValues": {}
         },
         "alphanumFilter": {
           "type": "alphanum",
@@ -358,6 +207,41 @@
           "column": "llmUsage_cacheHitQueries",
           "params": {
             "type": "LongMeaning",
+            "ok": true,
+            "nok": true,
+            "empty": true
+          }
+        }
+      },
+      {
+        "column": "llmUsage_estimatedCostUSD",
+        "type": "columnFilter",
+        "currentMode": "FACET",
+        "active": true,
+        "facet": {
+          "type": "facet",
+          "column": "llmUsage_estimatedCostUSD",
+          "columnType": "NUMERICAL",
+          "currentMode": "ALPHANUM",
+          "sort": "count",
+          "selectedValues": {
+            "0.0": true
+          }
+        },
+        "alphanumFilter": {
+          "type": "alphanum",
+          "column": "llmUsage_estimatedCostUSD",
+          "selectedValues": [],
+          "params": {
+            "mode": "full_string",
+            "normalization": "exact"
+          }
+        },
+        "validityFilter": {
+          "type": "validity",
+          "column": "llmUsage_estimatedCostUSD",
+          "params": {
+            "type": "DoubleMeaning",
             "ok": true,
             "nok": true,
             "empty": true
