@@ -88,7 +88,7 @@
           "computeMode": "NORMAL",
           "computeModeDim": 0,
           "multiplier": "Auto",
-          "decimalPlaces": 5,
+          "decimalPlaces": 6,
           "digitGrouping": "DEFAULT",
           "useParenthesesForNegativeValues": false,
           "shouldFormatInPercentage": false,
