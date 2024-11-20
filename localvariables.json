@@ -1,6 +1,6 @@
 {
   "logs_origin": "log4j",
-  "logs_connection": "Audit_Logs",
+  "logs_connection": "filesystem_managed",
   "logs_partitioning_activated": true,
   "logs_partitioning_period": "DAY",
   "logs_partitioning_pattern": "%Y/%M/%D/.*",
