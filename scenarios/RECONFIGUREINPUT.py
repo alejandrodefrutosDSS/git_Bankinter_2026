@@ -120,7 +120,7 @@ for ds_name in [CLOUD_INPUT_DS, EVENTSERVER_INPUT_DS, AUDITLOGS_INPUT_DS] + CLOU
     ds_settings.save()
     
 # Configure recipes engine
-change_visual_recipes_engine(visual_recipes_engine)
+change_visual_recipes_engine(visual_recipes_engine, visual_recipes_spark_conf)
 
 # Configure recipes dependencies.
 for recipe_name in ALL_RECIPES:
