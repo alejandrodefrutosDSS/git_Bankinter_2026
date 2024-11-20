@@ -1,7 +1,8 @@
 import dataiku
 import dataikuapi
-from dku_utils.projects.datasets.dataset_commons import get_dataset_in_connection_settings
 from dku_utils.projects.connections.connection_change_filesystem import change_filesystem_dataset_format, switch_managed_dataset_connection_to_local_filesytem_storage, switch_managed_dataset_connection_to_cloud_storage
+from dku_utils.projects.datasets.dataset_commons import get_dataset_in_connection_settings
+from dku_utils.projects.recipes.recipe_commons import get_recipe_available_engines, switch_recipe_engine
 import json
 
 def get_connection_type(project, dataset_name, connection_name):
@@ -18,6 +19,15 @@ def get_connection_type(project, dataset_name, connection_name):
     tmp_dataset.delete()
     
     return tmp_dataset_settings["type"]
+
+def change_all_engines(engine_priority_list = ["SQL", "SPARK", "DSS"], exclude_recipes_list = ["compute_lead_touchpoint_dataset","compute_lead_information_training_dataset","compute_lead_information_to_score","compute_customers_value_dataset"]):
+    for recipe in project.list_recipes():
+        if recipe.name not in exclude_recipes_list:
+            available_engines = get_recipe_available_engines(project, recipe.name)
+            print("recipe : %s" %recipe.name)
+            recipe_engine = [engine for engine in engine_priority_list if engine in available_engines][0]
+            recipe_settings = project.get_recipe(recipe.name).get_settings()
+            switch_recipe_engine(project, recipe.name, recipe_engine)
 
 BUDGET_FLOW_ZONE_DS = ["logs_llm_usage_prepared_by_Project_complete", "budget_joined", "budget_joined_prepared", "budget_for_dashboard", "over_budget_notifications"]
 TO_DASHBOARD_FLOWZONE_DS = ["logs_llm_usage_prepared", "logs_llm_usage_prepared_by_Project"]
