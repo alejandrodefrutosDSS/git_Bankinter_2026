@@ -253,7 +253,7 @@
             }
           ],
           "type": "PROJECT_VARIABLES_EDIT",
-          "prompt": "Visual recipe engines configuration"
+          "prompt": "Optionally configure recipe engine"
         },
         {
           "scenarioId": "RECONFIGUREINPUT",
