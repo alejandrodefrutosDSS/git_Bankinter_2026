@@ -17,7 +17,7 @@
         "useGlobalMetastore": false,
         "useNativeProcessors": true,
         "sparkConfig": {
-          "inheritConf": "default",
+          "inheritConf": "sample-local-config",
           "conf": []
         },
         "executionEngine": "SPARK_SUBMIT",
