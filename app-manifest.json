@@ -204,7 +204,7 @@
           "prompt": ""
         },
         {
-          "behavior": "MODAL",
+          "behavior": "INLINE_AUTO_SAVE",
           "params": [
             {
               "name": "visual_recipes_engine",
