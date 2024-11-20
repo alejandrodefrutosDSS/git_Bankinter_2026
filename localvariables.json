@@ -8,6 +8,6 @@
   "visual_recipes_engine": "SPARK",
   "logs_partitioning_build_range": "2023-01-01/2024-01-01",
   "activate_continuous_build": false,
-  "visual_recipes_spark_conf": "z\u0026",
+  "visual_recipes_spark_conf": "sample",
   "continuous_build_message_sender": ""
 }
