@@ -83,7 +83,7 @@
       }
     }
   },
-  "engineType": "DSS",
+  "engineType": "SPARK",
   "enlargeYourBits": true,
   "outputColumnNameOverrides": {},
   "computedColumns": [],
