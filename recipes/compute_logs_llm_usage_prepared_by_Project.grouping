@@ -690,7 +690,7 @@
       "overwriteOutputSchema": false,
       "executionEngine": "SPARK_SUBMIT",
       "sparkConfig": {
-        "inheritConf": "default",
+        "inheritConf": "sample-local-config",
         "conf": []
       }
     }
