@@ -209,7 +209,7 @@
             {
               "name": "visual_recipes_engine",
               "type": "SELECT",
-              "label": "Optional: Select recipes engine",
+              "label": "Engine",
               "defaultValue": "DSS",
               "mandatory": true,
               "canSelectForeign": false,
