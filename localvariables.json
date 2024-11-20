@@ -7,5 +7,6 @@
   "managed_dataset_connection": "filesystem_managed",
   "logs_partitioning_build_range": "2023-01-01/2024-01-01",
   "activate_continuous_build": false,
-  "continuous_build_message_sender": ""
+  "continuous_build_message_sender": "",
+  "visual_recipes_engine": "DSS"
 }
