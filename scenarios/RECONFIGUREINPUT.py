@@ -20,13 +20,9 @@ def get_connection_type(project, dataset_name, connection_name):
     
     return tmp_dataset_settings["type"]
 
-def change_all_engines(engine_priority_list = ["SPARK", "DSS"], exclude_recipes_list = ["compute_lead_touchpoint_dataset","compute_lead_information_training_dataset","compute_lead_information_to_score","compute_customers_value_dataset"]):
+def change_all_engines(recipe_engine, exclude_recipes_list = ["compute_lead_touchpoint_dataset","compute_lead_information_training_dataset","compute_lead_information_to_score","compute_customers_value_dataset"]):
     for recipe in project.list_recipes():
         if recipe.name not in exclude_recipes_list:
-            available_engines = get_recipe_available_engines(project, recipe.name)
-            print("recipe : %s" %recipe.name)
-            recipe_engine = [engine for engine in engine_priority_list if engine in available_engines][0]
-            recipe_settings = project.get_recipe(recipe.name).get_settings()
             switch_recipe_engine(project, recipe.name, recipe_engine)
 
 BUDGET_FLOW_ZONE_DS = ["logs_llm_usage_prepared_by_Project_complete", "budget_joined", "budget_joined_prepared", "budget_for_dashboard", "over_budget_notifications"]
