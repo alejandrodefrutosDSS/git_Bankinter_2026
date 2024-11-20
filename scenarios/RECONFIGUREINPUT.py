@@ -20,7 +20,7 @@ def get_connection_type(project, dataset_name, connection_name):
     
     return tmp_dataset_settings["type"]
 
-def change_all_engines(engine_priority_list = ["SQL", "SPARK", "DSS"], exclude_recipes_list = ["compute_lead_touchpoint_dataset","compute_lead_information_training_dataset","compute_lead_information_to_score","compute_customers_value_dataset"]):
+def change_all_engines(engine_priority_list = ["SPARK", "DSS"], exclude_recipes_list = ["compute_lead_touchpoint_dataset","compute_lead_information_training_dataset","compute_lead_information_to_score","compute_customers_value_dataset"]):
     for recipe in project.list_recipes():
         if recipe.name not in exclude_recipes_list:
             available_engines = get_recipe_available_engines(project, recipe.name)
