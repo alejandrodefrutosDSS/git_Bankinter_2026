@@ -50,7 +50,7 @@ logs_partitioning_period = variables["local"]["logs_partitioning_period"]
 logs_partitioning_pattern = variables["local"]["logs_partitioning_pattern"]
 managed_dataset_connection = variables["local"]["managed_dataset_connection"]
 managed_dataset_connection_type = get_dataset_in_connection_settings(project, managed_dataset_connection)["type"]
-visual_recipe_engine = variables["local"]["visual_recipes_engine"]
+visual_recipes_engine = variables["local"]["visual_recipes_engine"]
 
 ALL_MANAGED_DS = TO_DASHBOARD_FLOWZONE_DS + BUDGET_FLOW_ZONE_DS + CLOUD_FLOWZONE_DS + EVENTSERVER_FLOWZONE_DS + AUDITLOGS_FLOWZONE_DS
 ALL_DS = ALL_MANAGED_DS + [CLOUD_INPUT_DS, EVENTSERVER_INPUT_DS, AUDITLOGS_INPUT_DS]
