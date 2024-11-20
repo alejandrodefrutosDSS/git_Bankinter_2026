@@ -695,6 +695,7 @@
       }
     }
   },
+  "engineType": "SPARK",
   "enlargeYourBits": true,
   "outputColumnNameOverrides": {},
   "computedColumns": [],
