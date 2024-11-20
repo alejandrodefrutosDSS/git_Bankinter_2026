@@ -695,7 +695,7 @@
       }
     }
   },
-  "engineType": "SPARK",
+  "engineType": "DSS",
   "enlargeYourBits": true,
   "outputColumnNameOverrides": {},
   "computedColumns": [],
