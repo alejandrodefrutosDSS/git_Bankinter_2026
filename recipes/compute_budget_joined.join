@@ -101,7 +101,7 @@
       }
     }
   },
-  "engineType": "DSS",
+  "engineType": "SPARK",
   "virtualInputs": [
     {
       "outputColumnsSelectionMode": "ALL",
