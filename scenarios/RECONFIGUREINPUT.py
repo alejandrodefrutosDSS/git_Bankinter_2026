@@ -2,7 +2,7 @@ import dataiku
 import dataikuapi
 from dku_utils.projects.connections.connection_change_filesystem import change_filesystem_dataset_format, switch_managed_dataset_connection_to_local_filesytem_storage, switch_managed_dataset_connection_to_cloud_storage
 from dku_utils.projects.datasets.dataset_commons import get_dataset_in_connection_settings
-from dku_utils.projects.recipes.recipe_commons import get_recipe_available_engines, switch_recipe_engine
+from dku_utils.projects.recipes.recipe_commons import get_recipe_available_engines, switch_recipe_engine, set_spark_configuration_on_recipe
 import json
 
 def get_connection_type(project, dataset_name, connection_name):
