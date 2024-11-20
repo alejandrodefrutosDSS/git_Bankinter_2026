@@ -238,7 +238,7 @@
             {
               "name": "visual_recipes_spark_conf",
               "type": "STRING",
-              "label": "Enter SPARK conf name",
+              "label": "SPARK configuration",
               "defaultValue": "",
               "mandatory": true,
               "canSelectForeign": false,
