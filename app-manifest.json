@@ -234,6 +234,21 @@
               "disableAutoReload": false,
               "canCreateDataset": false,
               "wt1Loggable": false
+            },
+            {
+              "name": "visual_recipes_spark_conf",
+              "type": "STRING",
+              "label": "Enter SPARK conf name",
+              "defaultValue": "",
+              "mandatory": true,
+              "canSelectForeign": false,
+              "markCreatedAsBuilt": false,
+              "allowDuplicates": true,
+              "getChoicesFromPython": false,
+              "triggerParameters": [],
+              "disableAutoReload": false,
+              "canCreateDataset": false,
+              "wt1Loggable": false
             }
           ],
           "type": "PROJECT_VARIABLES_EDIT"
