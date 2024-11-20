@@ -20,10 +20,12 @@ def get_connection_type(project, dataset_name, connection_name):
     
     return tmp_dataset_settings["type"]
 
-def change_visual_recipes_engine(recipe_engine, exclude_recipes_list = ["compute_eventserver_llmusage", "compute_audit_logs_llm_usage"]):
+def change_visual_recipes_engine(recipe_engine, spark_conf, exclude_recipes_list = ["compute_eventserver_llmusage", "compute_audit_logs_llm_usage"]):
     for recipe in project.list_recipes():
         if recipe.name not in exclude_recipes_list:
             switch_recipe_engine(project, recipe.name, recipe_engine)
+            if recipe_engine == "SPARK":
+                set_spark_configuration_on_recipe(project, recipe.name, spark_conf)
 
 BUDGET_FLOW_ZONE_DS = ["logs_llm_usage_prepared_by_Project_complete", "budget_joined", "budget_joined_prepared", "budget_for_dashboard", "over_budget_notifications"]
 TO_DASHBOARD_FLOWZONE_DS = ["logs_llm_usage_prepared", "logs_llm_usage_prepared_by_Project"]
