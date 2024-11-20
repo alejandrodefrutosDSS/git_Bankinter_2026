@@ -115,6 +115,9 @@ for ds_name in [CLOUD_INPUT_DS, EVENTSERVER_INPUT_DS, AUDITLOGS_INPUT_DS] + CLOU
         ds_settings.get_raw()["partitioning"]["considerMissingRequestedPartitionsAsEmpty"] = True
 
     ds_settings.save()
+    
+# Configure recipes engine
+change_visual_recipes_engine(visual_recipes_engine)
 
 # Configure recipes dependencies.
 for recipe_name in ALL_RECIPES:
