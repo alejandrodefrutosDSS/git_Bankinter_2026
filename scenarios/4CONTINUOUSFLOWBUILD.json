@@ -1,7 +1,7 @@
 {
   "type": "step_based",
   "name": "4. Continuous flow build",
-  "active": false,
+  "active": true,
   "runAsUser": "admin",
   "checklists": {
     "checklists": []
@@ -23,8 +23,8 @@
         "watches": [
           {
             "type": "DATASET",
-            "itemId": "audit_logs",
-            "partitionsSpec": ""
+            "itemId": "eventserver_cru_logs",
+            "partitionsSpec": "CURRENT_DAY"
           }
         ],
         "triggerWhenAllFire": false
@@ -57,7 +57,12 @@
             {
               "type": "DATASET",
               "itemId": "logs_llm_usage_prepared_by_Project",
-              "partitionsSpec": ""
+              "partitionsSpec": "CURRENT_DAY"
+            },
+            {
+              "type": "DATASET",
+              "itemId": "logs_llm_usage_prepared_by_Project",
+              "partitionsSpec": "PREVIOUS_DAY"
             }
           ],
           "jobType": "RECURSIVE_BUILD",
