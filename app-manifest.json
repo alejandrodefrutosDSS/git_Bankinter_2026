@@ -254,27 +254,6 @@
           "type": "PROJECT_VARIABLES_EDIT"
         },
         {
-          "behavior": "INLINE_AUTO_SAVE",
-          "params": [
-            {
-              "name": "visual_recipes_spark_conf",
-              "type": "STRING",
-              "label": "Enter SPARK conf name",
-              "defaultValue": "",
-              "mandatory": true,
-              "canSelectForeign": false,
-              "markCreatedAsBuilt": false,
-              "allowDuplicates": true,
-              "getChoicesFromPython": false,
-              "triggerParameters": [],
-              "disableAutoReload": false,
-              "canCreateDataset": false,
-              "wt1Loggable": false
-            }
-          ],
-          "type": "PROJECT_VARIABLES_EDIT"
-        },
-        {
           "scenarioId": "RECONFIGUREINPUT",
           "buttonText": "Reconfigure",
           "type": "SCENARIO_RUN",
