@@ -244,6 +244,7 @@
               "canSelectForeign": false,
               "markCreatedAsBuilt": false,
               "allowDuplicates": true,
+              "visibilityCondition": "model.visual_recipes_engine \u003d\u003d \u0027SPARK\u0027",
               "getChoicesFromPython": false,
               "triggerParameters": [],
               "disableAutoReload": false,
