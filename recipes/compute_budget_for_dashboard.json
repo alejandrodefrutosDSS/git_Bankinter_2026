@@ -2,7 +2,7 @@
   "type": "shaker",
   "neverRecomputeExistingPartitions": false,
   "params": {
-    "engineType": "DSS",
+    "engineType": "SPARK",
     "engineParams": {
       "spark": {
         "readParams": {
