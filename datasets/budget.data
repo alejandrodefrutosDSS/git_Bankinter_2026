@@ -5,6 +5,12 @@
       "1",
       "projectowner@company.com",
       "opsmanager@company.com"
+    ],
+    [
+      "UXRESEARCHASSISTANT",
+      "100",
+      null,
+      null
     ]
   ],
   "schema": {
