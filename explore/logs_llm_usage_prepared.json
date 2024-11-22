@@ -181,21 +181,23 @@
     "globalSearchQuery": "",
     "explorationFilters": [
       {
-        "column": "llmUsage_cacheHitQueries",
+        "column": "Number of LLM cache hit",
         "type": "columnFilter",
         "currentMode": "FACET",
         "active": true,
         "facet": {
           "type": "facet",
-          "column": "llmUsage_cacheHitQueries",
+          "column": "Number of LLM cache hit",
           "columnType": "NUMERICAL",
           "currentMode": "ALPHANUM",
           "sort": "count",
-          "selectedValues": {}
+          "selectedValues": {
+            "1": true
+          }
         },
         "alphanumFilter": {
           "type": "alphanum",
-          "column": "llmUsage_cacheHitQueries",
+          "column": "Number of LLM cache hit",
           "selectedValues": [],
           "params": {
             "mode": "full_string",
@@ -204,7 +206,7 @@
         },
         "validityFilter": {
           "type": "validity",
-          "column": "llmUsage_cacheHitQueries",
+          "column": "Number of LLM cache hit",
           "params": {
             "type": "LongMeaning",
             "ok": true,
@@ -224,9 +226,7 @@
           "columnType": "NUMERICAL",
           "currentMode": "ALPHANUM",
           "sort": "count",
-          "selectedValues": {
-            "0.0": true
-          }
+          "selectedValues": {}
         },
         "alphanumFilter": {
           "type": "alphanum",
