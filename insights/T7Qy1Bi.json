@@ -7,7 +7,7 @@
         "useMemTable": false,
         "filter": {
           "distinct": false,
-          "enabled": true,
+          "enabled": false,
           "uiData": {
             "mode": "\u0026\u0026",
             "conditions": [
@@ -35,7 +35,7 @@
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 1732285963581
+      "_refreshTrigger": 1732285986176
     },
     "def": {
       "type": "kpi",
