@@ -1,14 +1,8 @@
 {
   "data": [
     [
-      "CUSTOMERASSETSASSISTANT",
-      "1",
-      "projectowner@company.com",
-      "opsmanager@company.com"
-    ],
-    [
-      "UXRESEARCHASSISTANT",
-      "1",
+      null,
+      null,
       null,
       null
     ]
