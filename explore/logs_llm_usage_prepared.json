@@ -181,23 +181,23 @@
     "globalSearchQuery": "",
     "explorationFilters": [
       {
-        "column": "Number of LLM cache hit",
+        "column": "llmUsage_cacheMissQueries",
         "type": "columnFilter",
         "currentMode": "FACET",
         "active": true,
         "facet": {
           "type": "facet",
-          "column": "Number of LLM cache hit",
+          "column": "llmUsage_cacheMissQueries",
           "columnType": "NUMERICAL",
           "currentMode": "ALPHANUM",
           "sort": "count",
           "selectedValues": {
-            "1": true
+            "996": true
           }
         },
         "alphanumFilter": {
           "type": "alphanum",
-          "column": "Number of LLM cache hit",
+          "column": "llmUsage_cacheMissQueries",
           "selectedValues": [],
           "params": {
             "mode": "full_string",
@@ -206,42 +206,9 @@
         },
         "validityFilter": {
           "type": "validity",
-          "column": "Number of LLM cache hit",
+          "column": "llmUsage_cacheMissQueries",
           "params": {
             "type": "LongMeaning",
-            "ok": true,
-            "nok": true,
-            "empty": true
-          }
-        }
-      },
-      {
-        "column": "llmUsage_estimatedCostUSD",
-        "type": "columnFilter",
-        "currentMode": "FACET",
-        "active": true,
-        "facet": {
-          "type": "facet",
-          "column": "llmUsage_estimatedCostUSD",
-          "columnType": "NUMERICAL",
-          "currentMode": "ALPHANUM",
-          "sort": "count",
-          "selectedValues": {}
-        },
-        "alphanumFilter": {
-          "type": "alphanum",
-          "column": "llmUsage_estimatedCostUSD",
-          "selectedValues": [],
-          "params": {
-            "mode": "full_string",
-            "normalization": "exact"
-          }
-        },
-        "validityFilter": {
-          "type": "validity",
-          "column": "llmUsage_estimatedCostUSD",
-          "params": {
-            "type": "DoubleMeaning",
             "ok": true,
             "nok": true,
             "empty": true
