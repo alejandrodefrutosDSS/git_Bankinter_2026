@@ -7,7 +7,19 @@
         "useMemTable": false,
         "filter": {
           "distinct": false,
-          "enabled": false
+          "enabled": true,
+          "uiData": {
+            "mode": "\u0026\u0026",
+            "conditions": [
+              {
+                "input": "llmUsage_estimatedCostUSD",
+                "operator": "\u003e  [number]",
+                "col": "type",
+                "num": 0.0,
+                "num2": 0.0
+              }
+            ]
+          }
         },
         "partitionSelectionMethod": "ALL",
         "latestPartitionsN": 1,
@@ -23,7 +35,7 @@
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 0
+      "_refreshTrigger": 1732285963581
     },
     "def": {
       "type": "kpi",
