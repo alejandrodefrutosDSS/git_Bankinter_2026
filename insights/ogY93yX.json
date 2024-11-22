@@ -230,15 +230,18 @@
       "boxplotValue": [],
       "filters": [
         {
-          "filterType": "NUMERICAL_FACET",
-          "filterSelectionType": "RANGE_OF_VALUES",
+          "filterType": "ALPHANUM_FACET",
+          "filterSelectionType": "SINGLE_SELECT",
           "id": "1732281802421_2",
           "column": "isOverBudget",
           "columnType": "NUMERICAL",
           "isA": "filter",
+          "selectedValues": {
+            "0": true
+          },
           "isAGlobalFilter": false,
           "useMinimalUi": false,
-          "excludeOtherValues": false,
+          "excludeOtherValues": true,
           "allValuesInSample": false,
           "active": true,
           "explicitExclude": false
