@@ -59,7 +59,16 @@
       "items": [
         {
           "ref": "compute_resource_usage_logs",
-          "deps": []
+          "deps": [
+            {
+              "out": "logs_filtered_unnested",
+              "idim": "DAY",
+              "odim": "DAY",
+              "func": "equals",
+              "params": {},
+              "expandVariables": false
+            }
+          ]
         }
       ]
     }
