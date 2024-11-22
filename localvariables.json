@@ -6,7 +6,7 @@
   "logs_partitioning_pattern": "%Y/%M/%D/.*",
   "managed_dataset_connection": "filesystem_managed",
   "visual_recipes_engine": "DSS",
-  "logs_partitioning_build_range": "2024-11-20/2024-01-01",
+  "logs_partitioning_build_range": "2024-11-20/2024-01-22",
   "activate_continuous_build": false,
   "continuous_build_message_sender": "",
   "visual_recipes_spark_conf": ""
