@@ -232,12 +232,12 @@
         {
           "filterType": "ALPHANUM_FACET",
           "filterSelectionType": "SINGLE_SELECT",
-          "id": "1732281802421_2",
+          "id": "1732283614158_2",
           "column": "isOverBudget",
           "columnType": "NUMERICAL",
           "isA": "filter",
           "selectedValues": {
-            "0": true
+            "1": true
           },
           "isAGlobalFilter": false,
           "useMinimalUi": false,
