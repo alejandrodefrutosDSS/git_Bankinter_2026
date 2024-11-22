@@ -7,7 +7,7 @@
         "useMemTable": false,
         "filter": {
           "distinct": false,
-          "enabled": true,
+          "enabled": false,
           "uiData": {
             "mode": "\u0026\u0026",
             "conditions": [
@@ -35,7 +35,7 @@
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 1727191276381
+      "_refreshTrigger": 1732281813752
     },
     "def": {
       "type": "stacked_columns",
@@ -93,7 +93,10 @@
           "prefix": "",
           "suffix": "",
           "multiplier": "Auto",
-          "digitGrouping": "DEFAULT"
+          "hideTrailingZeros": true,
+          "digitGrouping": "DEFAULT",
+          "useParenthesesForNegativeValues": false,
+          "shouldFormatInPercentage": false
         }
       ],
       "genericDimension1": [],
@@ -112,6 +115,9 @@
           "computeModeDim": 0,
           "multiplier": "Auto",
           "digitGrouping": "DEFAULT",
+          "useParenthesesForNegativeValues": false,
+          "shouldFormatInPercentage": false,
+          "hideTrailingZeros": true,
           "prefix": "",
           "suffix": "",
           "showValue": true,
@@ -149,6 +155,9 @@
           "computeModeDim": 0,
           "multiplier": "Auto",
           "digitGrouping": "DEFAULT",
+          "useParenthesesForNegativeValues": false,
+          "shouldFormatInPercentage": false,
+          "hideTrailingZeros": true,
           "prefix": "",
           "suffix": "",
           "showValue": true,
@@ -219,7 +228,22 @@
       "tooltipMeasures": [],
       "boxplotBreakdownDim": [],
       "boxplotValue": [],
-      "filters": [],
+      "filters": [
+        {
+          "filterType": "NUMERICAL_FACET",
+          "filterSelectionType": "RANGE_OF_VALUES",
+          "id": "1732281802421_2",
+          "column": "isOverBudget",
+          "columnType": "NUMERICAL",
+          "isA": "filter",
+          "isAGlobalFilter": false,
+          "useMinimalUi": false,
+          "excludeOtherValues": false,
+          "allValuesInSample": false,
+          "active": true,
+          "explicitExclude": false
+        }
+      ],
       "xAxisFormatting": {
         "displayAxis": true,
         "showAxisTitle": true,
@@ -231,7 +255,10 @@
         "axisValuesFormatting": {
           "numberFormatting": {
             "multiplier": "Auto",
+            "hideTrailingZeros": true,
             "digitGrouping": "DEFAULT",
+            "useParenthesesForNegativeValues": false,
+            "shouldFormatInPercentage": false,
             "prefix": "",
             "suffix": ""
           },
@@ -267,7 +294,10 @@
           "axisValuesFormatting": {
             "numberFormatting": {
               "multiplier": "Auto",
+              "hideTrailingZeros": true,
               "digitGrouping": "DEFAULT",
+              "useParenthesesForNegativeValues": false,
+              "shouldFormatInPercentage": false,
               "prefix": "",
               "suffix": ""
             },
@@ -302,7 +332,10 @@
           "axisValuesFormatting": {
             "numberFormatting": {
               "multiplier": "Auto",
+              "hideTrailingZeros": true,
               "digitGrouping": "DEFAULT",
+              "useParenthesesForNegativeValues": false,
+              "shouldFormatInPercentage": false,
               "prefix": "",
               "suffix": ""
             },
@@ -500,12 +533,16 @@
       "gaugeOptions": {
         "min": {
           "sourceType": "Constant",
+          "percentile": 0.0,
+          "isCustomPercentile": false,
           "constantValue": 0.0,
           "defaultConstantValue": 0.0,
           "ignoreExistingFilters": false
         },
         "max": {
           "sourceType": "Constant",
+          "percentile": 0.0,
+          "isCustomPercentile": false,
           "constantValue": 0.0,
           "defaultConstantValue": 0.0,
           "ignoreExistingFilters": false
@@ -517,7 +554,10 @@
           "axisValuesFormatting": {
             "numberFormatting": {
               "multiplier": "Auto",
+              "hideTrailingZeros": true,
               "digitGrouping": "DEFAULT",
+              "useParenthesesForNegativeValues": false,
+              "shouldFormatInPercentage": false,
               "prefix": "",
               "suffix": ""
             },
