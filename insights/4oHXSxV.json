@@ -7,7 +7,7 @@
         "useMemTable": false,
         "filter": {
           "distinct": false,
-          "enabled": true,
+          "enabled": false,
           "uiData": {
             "mode": "\u0026\u0026",
             "conditions": [
@@ -60,46 +60,43 @@
             {
               "type": "NATURAL",
               "label": "Natural ordering",
-              "sortAscending": true,
-              "$$hashKey": "object:588"
+              "sortAscending": true
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Consumed ($), descending",
-              "$$hashKey": "object:587"
+              "label": "Consumed ($), descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
               "label": "Consumed ($), ascending",
-              "sortAscending": true,
-              "$$hashKey": "object:589"
+              "sortAscending": true
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
-              "label": "Allocated ($), descending",
-              "$$hashKey": "object:590"
+              "label": "Allocated ($), descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
               "label": "Allocated ($), ascending",
-              "sortAscending": true,
-              "$$hashKey": "object:591"
+              "sortAscending": true
             }
           ],
           "sort": {
             "type": "AGGREGATION",
             "measureIdx": 0,
-            "label": "Consumed ($), descending",
-            "$$hashKey": "object:587"
+            "label": "Consumed ($), descending"
           },
           "prefix": "",
           "suffix": "",
           "multiplier": "Auto",
-          "digitGrouping": "DEFAULT"
+          "hideTrailingZeros": true,
+          "digitGrouping": "DEFAULT",
+          "useParenthesesForNegativeValues": false,
+          "shouldFormatInPercentage": false
         }
       ],
       "genericDimension1": [],
@@ -118,6 +115,9 @@
           "computeModeDim": 0,
           "multiplier": "Auto",
           "digitGrouping": "DEFAULT",
+          "useParenthesesForNegativeValues": false,
+          "shouldFormatInPercentage": false,
+          "hideTrailingZeros": true,
           "prefix": "",
           "suffix": "",
           "showValue": true,
@@ -155,6 +155,9 @@
           "computeModeDim": 0,
           "multiplier": "Auto",
           "digitGrouping": "DEFAULT",
+          "useParenthesesForNegativeValues": false,
+          "shouldFormatInPercentage": false,
+          "hideTrailingZeros": true,
           "prefix": "",
           "suffix": "",
           "showValue": true,
@@ -225,7 +228,25 @@
       "tooltipMeasures": [],
       "boxplotBreakdownDim": [],
       "boxplotValue": [],
-      "filters": [],
+      "filters": [
+        {
+          "filterType": "ALPHANUM_FACET",
+          "filterSelectionType": "SINGLE_SELECT",
+          "id": "1732283690504_2",
+          "column": "isUnderBudget",
+          "columnType": "NUMERICAL",
+          "isA": "filter",
+          "selectedValues": {
+            "1": true
+          },
+          "isAGlobalFilter": false,
+          "useMinimalUi": false,
+          "excludeOtherValues": true,
+          "allValuesInSample": false,
+          "active": true,
+          "explicitExclude": false
+        }
+      ],
       "xAxisFormatting": {
         "displayAxis": true,
         "showAxisTitle": true,
@@ -237,7 +258,10 @@
         "axisValuesFormatting": {
           "numberFormatting": {
             "multiplier": "Auto",
+            "hideTrailingZeros": true,
             "digitGrouping": "DEFAULT",
+            "useParenthesesForNegativeValues": false,
+            "shouldFormatInPercentage": false,
             "prefix": "",
             "suffix": ""
           },
@@ -273,7 +297,10 @@
           "axisValuesFormatting": {
             "numberFormatting": {
               "multiplier": "Auto",
+              "hideTrailingZeros": true,
               "digitGrouping": "DEFAULT",
+              "useParenthesesForNegativeValues": false,
+              "shouldFormatInPercentage": false,
               "prefix": "",
               "suffix": ""
             },
@@ -308,7 +335,10 @@
           "axisValuesFormatting": {
             "numberFormatting": {
               "multiplier": "Auto",
+              "hideTrailingZeros": true,
               "digitGrouping": "DEFAULT",
+              "useParenthesesForNegativeValues": false,
+              "shouldFormatInPercentage": false,
               "prefix": "",
               "suffix": ""
             },
@@ -505,12 +535,16 @@
       "gaugeOptions": {
         "min": {
           "sourceType": "Constant",
+          "percentile": 0.0,
+          "isCustomPercentile": false,
           "constantValue": 0.0,
           "defaultConstantValue": 0.0,
           "ignoreExistingFilters": false
         },
         "max": {
           "sourceType": "Constant",
+          "percentile": 0.0,
+          "isCustomPercentile": false,
           "constantValue": 0.0,
           "defaultConstantValue": 0.0,
           "ignoreExistingFilters": false
@@ -522,7 +556,10 @@
           "axisValuesFormatting": {
             "numberFormatting": {
               "multiplier": "Auto",
+              "hideTrailingZeros": true,
               "digitGrouping": "DEFAULT",
+              "useParenthesesForNegativeValues": false,
+              "shouldFormatInPercentage": false,
               "prefix": "",
               "suffix": ""
             },
