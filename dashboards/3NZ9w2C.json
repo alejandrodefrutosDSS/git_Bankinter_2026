@@ -601,7 +601,7 @@
               "size": 1
             },
             "titleOptions": {
-              "showTitle": "YES",
+              "showTitle": "NO",
               "fontColor": "#000",
               "fontSize": 13
             },
