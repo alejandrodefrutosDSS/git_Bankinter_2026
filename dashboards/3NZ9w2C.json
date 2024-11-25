@@ -28,7 +28,7 @@
             "borderOptions": {
               "color": "#D9D9D9",
               "radius": 0,
-              "size": 0
+              "size": 1
             },
             "titleOptions": {
               "showTitle": "NO",
