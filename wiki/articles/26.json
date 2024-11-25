@@ -1,7 +1,19 @@
 {
   "name": "Project budget monitoring dashboard",
   "layout": "WIKI_ARTICLE",
-  "attachments": [],
+  "attachments": [
+    {
+      "attachmentType": "FILE",
+      "smartId": "piHz69uAlUq8",
+      "details": {
+        "objectDisplayName": "project_budget_monitoring_dashboard.png",
+        "size": 301651,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "fabien.daoulas@dataiku.com",
+      "attachedOn": 1732550952951
+    }
+  ],
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
