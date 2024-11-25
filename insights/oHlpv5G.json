@@ -37,47 +37,6 @@
       "animationDimension": [],
       "genericMeasures": [
         {
-          "column": "Number of LLM cache miss",
-          "function": "SUM",
-          "type": "NUMERICAL",
-          "displayed": true,
-          "isA": "measure",
-          "displayAxis": "axis1",
-          "displayType": "column",
-          "computeMode": "NORMAL",
-          "computeModeDim": 0,
-          "multiplier": "Auto",
-          "decimalPlaces": 0,
-          "digitGrouping": "DEFAULT",
-          "useParenthesesForNegativeValues": false,
-          "shouldFormatInPercentage": false,
-          "hideTrailingZeros": true,
-          "prefix": "",
-          "suffix": "",
-          "showValue": true,
-          "displayLabel": "Number of requests made to LLM providers",
-          "showDisplayLabel": true,
-          "labelPosition": "BOTTOM",
-          "labelFontSize": 16,
-          "percentile": 0.0,
-          "isCustomPercentile": false,
-          "kpiTextAlign": "CENTER",
-          "kpiValueFontSizeMode": "RESPONSIVE",
-          "kpiValueFontSize": 32,
-          "responsiveTextAreaFill": 100,
-          "valueTextFormatting": {
-            "fontSize": 11,
-            "fontColor": "#333",
-            "hasBackground": false
-          },
-          "labelTextFormatting": {
-            "fontSize": 11,
-            "fontColor": "#333",
-            "hasBackground": false
-          },
-          "colorRules": []
-        },
-        {
           "column": "Number of LLM cache hit",
           "function": "SUM",
           "type": "NUMERICAL",
