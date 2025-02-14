@@ -1,271 +1,40 @@
 {
-  "type": "Filesystem",
-  "managed": false,
-  "featureGroup": false,
-  "formatType": "json",
   "checklists": {
     "checklists": []
   },
   "checks": [],
-  "customMeta": {
-    "kv": {}
-  },
-  "flowOptions": {
-    "virtualizable": false,
-    "rebuildBehavior": "NORMAL",
-    "crossProjectBuildBehavior": "DEFAULT"
-  },
-  "readWriteOptions": {
-    "preserveOrder": false,
-    "writeBuckets": 1,
-    "forceSingleOutputFile": false,
-    "defaultReadOrdering": {
-      "enabled": false,
-      "rules": []
-    }
-  },
-  "formatParams": {
-    "maxExpansionDepth": -1,
-    "nestedArraysHandling": "PRESERVE",
-    "extractFromSingleElement": false,
-    "nestedArraysMaxElements": 100,
-    "nestedArraysMaxContentSize": 300000,
-    "headerRow": false
-  },
-  "partitioning": {
-    "ignoreNonMatchingFile": false,
-    "considerMissingRequestedPartitionsAsEmpty": false,
-    "dimensions": []
-  },
   "creationTag": {
-    "versionNumber": 0,
+    "extendedProperties": {},
     "lastModifiedBy": {
       "login": "fabien.daoulas@dataiku.com"
     },
     "lastModifiedOn": 1731517299155,
-    "extendedProperties": {}
+    "versionNumber": 0
   },
-  "tags": [],
-  "params": {
-    "connection": "filesystem_managed",
-    "path": "/audit_logs",
-    "notReadyIfEmpty": false,
-    "filesSelectionRules": {
-      "mode": "ALL",
-      "excludeRules": [],
-      "includeRules": [],
-      "explicitFiles": []
-    },
-    "variablesExpansionLoopConfig": {
-      "enabled": false,
-      "mode": "CREATE_VARIABLE_FOR_EACH_COLUMN",
-      "replacements": []
-    }
+  "customFields": {
+    "gdpr_contains_personal_data": "UNSURE"
   },
-  "schema": {
-    "columns": [
-      {"name":"severity","type":"string"},
-      {"name":"logger","type":"string"},
-      {"name":"topic","type":"string"},
-      {"name":"message.auditTopic","type":"string"},
-      {"name":"message.msgType","type":"string"},
-      {"name":"message.computeResourceUsage.localProcess.cpuChildrenSystemTimeMS","type":"string"},
-      {"name":"message.computeResourceUsage.localProcess.vmHWMMB","type":"string"},
-      {"name":"message.computeResourceUsage.localProcess.cpuTotalMS","type":"string"},
-      {"name":"message.computeResourceUsage.localProcess.vmSizePeakMB","type":"string"},
-      {"name":"message.computeResourceUsage.localProcess.pid","type":"string"},
-      {"name":"message.computeResourceUsage.localProcess.cpuAverageOverPast60Seconds","type":"string"},
-      {"name":"message.computeResourceUsage.localProcess.cpuChildrenUserTimeMS","type":"string"},
-      {"name":"message.computeResourceUsage.localProcess.vmRSSPeakMB","type":"string"},
-      {"name":"message.computeResourceUsage.localProcess.vmRSSTotalMBS","type":"string"},
-      {"name":"message.computeResourceUsage.localProcess.cpuSystemTimeMS","type":"string"},
-      {"name":"message.computeResourceUsage.localProcess.childrenMajorFaults","type":"string"},
-      {"name":"message.computeResourceUsage.localProcess.commandName","type":"string"},
-      {"name":"message.computeResourceUsage.localProcess.vmRSSAnonMB","type":"string"},
-      {"name":"message.computeResourceUsage.localProcess.cpuCurrent","type":"string"},
-      {"name":"message.computeResourceUsage.localProcess.vmSizeMB","type":"string"},
-      {"name":"message.computeResourceUsage.localProcess.majorFaults","type":"string"},
-      {"name":"message.computeResourceUsage.localProcess.vmRSSMB","type":"string"},
-      {"name":"message.computeResourceUsage.localProcess.cpuUserTimeMS","type":"string"},
-      {"name":"message.computeResourceUsage.localProcess.vmDataMB","type":"string"},
-      {"name":"message.computeResourceUsage.context.projectKey","type":"string"},
-      {"name":"message.computeResourceUsage.context.type","type":"string"},
-      {"name":"message.computeResourceUsage.context.authIdentifier","type":"string"},
-      {"name":"message.computeResourceUsage.context.webappId","type":"string"},
-      {"name":"message.computeResourceUsage.startTime","type":"string"},
-      {"name":"message.computeResourceUsage.id","type":"string"},
-      {"name":"message.computeResourceUsage.type","type":"string"},
-      {"name":"timestamp","type":"string"},
-      {"name":"message.authVia","type":"string"},
-      {"name":"message.callPath","type":"string"},
-      {"name":"message.authSource","type":"string"},
-      {"name":"message.clientIP","type":"string"},
-      {"name":"message.time","type":"string"},
-      {"name":"message.batchId","type":"string"},
-      {"name":"message.authUser","type":"string"},
-      {"name":"mdc.apiCall","type":"string"},
-      {"name":"mdc.user","type":"string"},
-      {"name":"callTime","type":"string"},
-      {"name":"message.xForwardedFor","type":"string"},
-      {"name":"message.originalIP","type":"string"},
-      {"name":"message.executionId","type":"string"},
-      {"name":"message.path","type":"string"},
-      {"name":"message.fileKind","type":"string"},
-      {"name":"message.version","type":"string"},
-      {"name":"message.projectKey","type":"string"},
-      {"name":"message.scenarioId","type":"string"},
-      {"name":"message.tagFilter","type":"string"},
-      {"name":"message.withSecrets","type":"string"},
-      {"name":"message.connectionName","type":"string"},
-      {"name":"message.fullDatasetName","type":"string"},
-      {"name":"message.datasetName","type":"string"},
-      {"name":"message.computeResourceUsage.context.scenarioId","type":"string"},
-      {"name":"message.computeResourceUsage.sqlConnection.connection","type":"string"},
-      {"name":"message.computeResourceUsage.sqlQuery.connectionUsageId","type":"string"},
-      {"name":"message.computeResourceUsage.sqlQuery.query","type":"string"},
-      {"name":"message.computeResourceUsage.sqlQuery.connection","type":"string"},
-      {"name":"message.computeResourceUsage.totalTime","type":"string"},
-      {"name":"message.computeResourceUsage.endTime","type":"string"},
-      {"name":"message.formatParams","type":"string"},
-      {"name":"message.partitions","type":"string"},
-      {"name":"message.columns","type":"string"},
-      {"name":"message.sampling","type":"string"},
-      {"name":"message.format","type":"string"},
-      {"name":"message.readSessionId","type":"string"},
-      {"name":"message.filterExpression","type":"string"},
-      {"name":"message.errorType","type":"string"},
-      {"name":"message.errorMsg","type":"string"},
-      {"name":"message.smartScenarioId","type":"string"},
-      {"name":"message.zoneId","type":"string"},
-      {"name":"message.user","type":"string"},
-      {"name":"message.maxItems","type":"string"},
-      {"name":"message.offset","type":"string"},
-      {"name":"message.contextProjectKey","type":"string"},
-      {"name":"message.name","type":"string"},
-      {"name":"message.fromDateStr","type":"string"},
-      {"name":"message.toDateStr","type":"string"},
-      {"name":"message.objectId","type":"string"},
-      {"name":"message.objectType","type":"string"},
-      {"name":"message.workspaceKey","type":"string"},
-      {"name":"message.dashboardId","type":"string"},
-      {"name":"message.computeResourceUsage.sqlQuery.statementExecutionTime","type":"string"},
-      {"name":"message.computeResourceUsage.sqlQuery.fetchedRowCount","type":"string"},
-      {"name":"message.folderId","type":"string"},
-      {"name":"message.lookup","type":"string"},
-      {"name":"message.query","type":"string"},
-      {"name":"message.connection","type":"string"},
-      {"name":"message.queryId","type":"string"},
-      {"name":"message.dbType","type":"string"},
-      {"name":"message.preQueries","type":"string"},
-      {"name":"message.postQueries","type":"string"},
-      {"name":"message.extraConf","type":"string"},
-      {"name":"message.connectionOrDatasetName","type":"string"},
-      {"name":"message.computeResourceUsage.context.jupyterNotebookId","type":"string"},
-      {"name":"message.computeResourceUsage.context.jupyterSessionId","type":"string"},
-      {"name":"message.envLang","type":"string"},
-      {"name":"message.connectionType","type":"string"},
-      {"name":"message.pluginId","type":"string"},
-      {"name":"message.callOrigin","type":"string"},
-      {"name":"message.fileName","type":"string"},
-      {"name":"message.articleIdOrName","type":"string"},
-      {"name":"message.id","type":"string"},
-      {"name":"message.type","type":"string"},
-      {"name":"message.uploadId","type":"string"},
-      {"name":"message.filename","type":"string"},
-      {"name":"message.knowledgeBankFullId","type":"string"},
-      {"name":"message.knowledgeBankId","type":"string"},
-      {"name":"message.llmType","type":"string"},
-      {"name":"message.llmConnection","type":"string"},
-      {"name":"message.llmUsageType","type":"string"},
-      {"name":"message.computeResourceUsage.llmUsage.totalComputationTimeMS","type":"string"},
-      {"name":"message.computeResourceUsage.llmUsage.llmType","type":"string"},
-      {"name":"message.computeResourceUsage.llmUsage.totalQueries","type":"string"},
-      {"name":"message.computeResourceUsage.llmUsage.totalPromptTokens","type":"string"},
-      {"name":"message.computeResourceUsage.llmUsage.estimatedCostUSD","type":"string"},
-      {"name":"message.computeResourceUsage.llmUsage.totalCompletionTokens","type":"string"},
-      {"name":"message.computeResourceUsage.llmUsage.connection","type":"string"},
-      {"name":"message.computeResourceUsage.llmUsage.llmId","type":"string"},
-      {"name":"message.computeResourceUsage.llmUsage.cacheMissQueries","type":"string"},
-      {"name":"message.computeResourceUsage.llmUsage.usageType","type":"string"},
-      {"name":"message.computeResourceUsage.llmUsage.cacheHitQueries","type":"string"}
-    ],
-    "userModified": true
+  "customMeta": {
+    "kv": {}
   },
   "dkuProperties": [],
+  "featureGroup": false,
+  "flowOptions": {
+    "crossProjectBuildBehavior": "DEFAULT",
+    "rebuildBehavior": "NORMAL",
+    "virtualizable": false
+  },
+  "formatParams": {
+    "extractFromSingleElement": false,
+    "headerRow": false,
+    "maxExpansionDepth": -1,
+    "nestedArraysHandling": "PRESERVE",
+    "nestedArraysMaxContentSize": 300000,
+    "nestedArraysMaxElements": 100
+  },
+  "formatType": "json",
+  "managed": false,
   "metrics": {
-    "probes": [
-      {
-        "type": "basic",
-        "enabled": true,
-        "computeOnBuildMode": "PARTITION",
-        "meta": {
-          "name": "Basic data",
-          "level": 0
-        },
-        "configuration": {}
-      },
-      {
-        "type": "records",
-        "enabled": true,
-        "computeOnBuildMode": "NO",
-        "meta": {
-          "name": "Record count",
-          "level": 0
-        },
-        "configuration": {}
-      },
-      {
-        "type": "partitioning",
-        "enabled": true,
-        "computeOnBuildMode": "WHOLE_DATASET",
-        "meta": {
-          "name": "Partitioning statistics",
-          "level": 1
-        },
-        "configuration": {}
-      }
-    ],
-    "engineConfig": {
-      "padRunsWithMetrics": false,
-      "hive": {
-        "active": true,
-        "extraConf": []
-      },
-      "basic": {},
-      "dss": {
-        "active": true,
-        "selection": {
-          "useMemTable": false,
-          "filter": {
-            "distinct": false,
-            "enabled": false
-          },
-          "partitionSelectionMethod": "ALL",
-          "latestPartitionsN": 1,
-          "ordering": {
-            "enabled": false,
-            "rules": []
-          },
-          "samplingMethod": "FULL",
-          "maxRecords": -1,
-          "targetRatio": 0.02,
-          "ascending": true,
-          "withinFirstN": -1,
-          "maxReadUncompressedBytes": -1
-        }
-      },
-      "sql": {
-        "active": true
-      },
-      "impala": {
-        "active": true
-      },
-      "spark": {
-        "active": true,
-        "extraConf": []
-      },
-      "python": {}
-    },
     "displayedState": {
       "columns": [],
       "metrics": [
@@ -274,16 +43,620 @@
         "basic:SIZE",
         "records:COUNT_RECORDS"
       ]
-    }
+    },
+    "engineConfig": {
+      "basic": {},
+      "dss": {
+        "active": true,
+        "selection": {
+          "ascending": true,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "latestPartitionsN": 1,
+          "maxReadUncompressedBytes": -1,
+          "maxRecords": -1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "partitionSelectionMethod": "ALL",
+          "samplingMethod": "FULL",
+          "targetRatio": 0.02,
+          "useMemTable": false,
+          "withinFirstN": -1
+        }
+      },
+      "hive": {
+        "active": true,
+        "extraConf": []
+      },
+      "impala": {
+        "active": true
+      },
+      "padRunsWithMetrics": false,
+      "python": {},
+      "spark": {
+        "active": true,
+        "extraConf": []
+      },
+      "sql": {
+        "active": true
+      }
+    },
+    "probes": [
+      {
+        "computeOnBuildMode": "PARTITION",
+        "configuration": {},
+        "enabled": true,
+        "meta": {
+          "level": 0,
+          "name": "Basic data"
+        },
+        "type": "basic"
+      },
+      {
+        "computeOnBuildMode": "NO",
+        "configuration": {},
+        "enabled": true,
+        "meta": {
+          "level": 0,
+          "name": "Record count"
+        },
+        "type": "records"
+      },
+      {
+        "computeOnBuildMode": "WHOLE_DATASET",
+        "configuration": {},
+        "enabled": true,
+        "meta": {
+          "level": 1,
+          "name": "Partitioning statistics"
+        },
+        "type": "partitioning"
+      }
+    ]
   },
   "metricsChecks": {
-    "monitor": false,
     "checks": [],
     "displayedState": {
       "checks": []
+    },
+    "monitor": false
+  },
+  "params": {
+    "connection": "filesystem_managed",
+    "filesSelectionRules": {
+      "excludeRules": [],
+      "explicitFiles": [],
+      "includeRules": [],
+      "mode": "ALL"
+    },
+    "notReadyIfEmpty": false,
+    "path": "/audit_logs",
+    "variablesExpansionLoopConfig": {
+      "enabled": false,
+      "mode": "CREATE_VARIABLE_FOR_EACH_COLUMN",
+      "replacements": []
     }
   },
-  "customFields": {
-    "gdpr_contains_personal_data": "UNSURE"
-  }
+  "partitioning": {
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": [],
+    "ignoreNonMatchingFile": false
+  },
+  "readWriteOptions": {
+    "defaultReadOrdering": {
+      "enabled": false,
+      "rules": []
+    },
+    "forceSingleOutputFile": false,
+    "preserveOrder": false,
+    "writeBuckets": 1
+  },
+  "schema": {
+    "columns": [
+      {
+        "name": "severity",
+        "type": "string"
+      },
+      {
+        "name": "logger",
+        "type": "string"
+      },
+      {
+        "name": "topic",
+        "type": "string"
+      },
+      {
+        "name": "message.auditTopic",
+        "type": "string"
+      },
+      {
+        "name": "message.msgType",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.localProcess.cpuChildrenSystemTimeMS",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.localProcess.vmHWMMB",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.localProcess.cpuTotalMS",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.localProcess.vmSizePeakMB",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.localProcess.pid",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.localProcess.cpuAverageOverPast60Seconds",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.localProcess.cpuChildrenUserTimeMS",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.localProcess.vmRSSPeakMB",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.localProcess.vmRSSTotalMBS",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.localProcess.cpuSystemTimeMS",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.localProcess.childrenMajorFaults",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.localProcess.commandName",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.localProcess.vmRSSAnonMB",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.localProcess.cpuCurrent",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.localProcess.vmSizeMB",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.localProcess.majorFaults",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.localProcess.vmRSSMB",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.localProcess.cpuUserTimeMS",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.localProcess.vmDataMB",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.context.projectKey",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.context.type",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.context.authIdentifier",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.context.webappId",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.startTime",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.id",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.type",
+        "type": "string"
+      },
+      {
+        "name": "timestamp",
+        "type": "string"
+      },
+      {
+        "name": "message.authVia",
+        "type": "string"
+      },
+      {
+        "name": "message.callPath",
+        "type": "string"
+      },
+      {
+        "name": "message.authSource",
+        "type": "string"
+      },
+      {
+        "name": "message.clientIP",
+        "type": "string"
+      },
+      {
+        "name": "message.time",
+        "type": "string"
+      },
+      {
+        "name": "message.batchId",
+        "type": "string"
+      },
+      {
+        "name": "message.authUser",
+        "type": "string"
+      },
+      {
+        "name": "mdc.apiCall",
+        "type": "string"
+      },
+      {
+        "name": "mdc.user",
+        "type": "string"
+      },
+      {
+        "name": "callTime",
+        "type": "string"
+      },
+      {
+        "name": "message.xForwardedFor",
+        "type": "string"
+      },
+      {
+        "name": "message.originalIP",
+        "type": "string"
+      },
+      {
+        "name": "message.executionId",
+        "type": "string"
+      },
+      {
+        "name": "message.path",
+        "type": "string"
+      },
+      {
+        "name": "message.fileKind",
+        "type": "string"
+      },
+      {
+        "name": "message.version",
+        "type": "string"
+      },
+      {
+        "name": "message.projectKey",
+        "type": "string"
+      },
+      {
+        "name": "message.scenarioId",
+        "type": "string"
+      },
+      {
+        "name": "message.tagFilter",
+        "type": "string"
+      },
+      {
+        "name": "message.withSecrets",
+        "type": "string"
+      },
+      {
+        "name": "message.connectionName",
+        "type": "string"
+      },
+      {
+        "name": "message.fullDatasetName",
+        "type": "string"
+      },
+      {
+        "name": "message.datasetName",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.context.scenarioId",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.sqlConnection.connection",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.sqlQuery.connectionUsageId",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.sqlQuery.query",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.sqlQuery.connection",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.totalTime",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.endTime",
+        "type": "string"
+      },
+      {
+        "name": "message.formatParams",
+        "type": "string"
+      },
+      {
+        "name": "message.partitions",
+        "type": "string"
+      },
+      {
+        "name": "message.columns",
+        "type": "string"
+      },
+      {
+        "name": "message.sampling",
+        "type": "string"
+      },
+      {
+        "name": "message.format",
+        "type": "string"
+      },
+      {
+        "name": "message.readSessionId",
+        "type": "string"
+      },
+      {
+        "name": "message.filterExpression",
+        "type": "string"
+      },
+      {
+        "name": "message.errorType",
+        "type": "string"
+      },
+      {
+        "name": "message.errorMsg",
+        "type": "string"
+      },
+      {
+        "name": "message.smartScenarioId",
+        "type": "string"
+      },
+      {
+        "name": "message.zoneId",
+        "type": "string"
+      },
+      {
+        "name": "message.user",
+        "type": "string"
+      },
+      {
+        "name": "message.maxItems",
+        "type": "string"
+      },
+      {
+        "name": "message.offset",
+        "type": "string"
+      },
+      {
+        "name": "message.contextProjectKey",
+        "type": "string"
+      },
+      {
+        "name": "message.name",
+        "type": "string"
+      },
+      {
+        "name": "message.fromDateStr",
+        "type": "string"
+      },
+      {
+        "name": "message.toDateStr",
+        "type": "string"
+      },
+      {
+        "name": "message.objectId",
+        "type": "string"
+      },
+      {
+        "name": "message.objectType",
+        "type": "string"
+      },
+      {
+        "name": "message.workspaceKey",
+        "type": "string"
+      },
+      {
+        "name": "message.dashboardId",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.sqlQuery.statementExecutionTime",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.sqlQuery.fetchedRowCount",
+        "type": "string"
+      },
+      {
+        "name": "message.folderId",
+        "type": "string"
+      },
+      {
+        "name": "message.lookup",
+        "type": "string"
+      },
+      {
+        "name": "message.query",
+        "type": "string"
+      },
+      {
+        "name": "message.connection",
+        "type": "string"
+      },
+      {
+        "name": "message.queryId",
+        "type": "string"
+      },
+      {
+        "name": "message.dbType",
+        "type": "string"
+      },
+      {
+        "name": "message.preQueries",
+        "type": "string"
+      },
+      {
+        "name": "message.postQueries",
+        "type": "string"
+      },
+      {
+        "name": "message.extraConf",
+        "type": "string"
+      },
+      {
+        "name": "message.connectionOrDatasetName",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.context.jupyterNotebookId",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.context.jupyterSessionId",
+        "type": "string"
+      },
+      {
+        "name": "message.envLang",
+        "type": "string"
+      },
+      {
+        "name": "message.connectionType",
+        "type": "string"
+      },
+      {
+        "name": "message.pluginId",
+        "type": "string"
+      },
+      {
+        "name": "message.callOrigin",
+        "type": "string"
+      },
+      {
+        "name": "message.fileName",
+        "type": "string"
+      },
+      {
+        "name": "message.articleIdOrName",
+        "type": "string"
+      },
+      {
+        "name": "message.id",
+        "type": "string"
+      },
+      {
+        "name": "message.type",
+        "type": "string"
+      },
+      {
+        "name": "message.uploadId",
+        "type": "string"
+      },
+      {
+        "name": "message.filename",
+        "type": "string"
+      },
+      {
+        "name": "message.knowledgeBankFullId",
+        "type": "string"
+      },
+      {
+        "name": "message.knowledgeBankId",
+        "type": "string"
+      },
+      {
+        "name": "message.llmType",
+        "type": "string"
+      },
+      {
+        "name": "message.llmConnection",
+        "type": "string"
+      },
+      {
+        "name": "message.llmUsageType",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.llmUsage.totalComputationTimeMS",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.llmUsage.llmType",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.llmUsage.totalQueries",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.llmUsage.totalPromptTokens",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.llmUsage.estimatedCostUSD",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.llmUsage.totalCompletionTokens",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.llmUsage.connection",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.llmUsage.llmId",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.llmUsage.cacheMissQueries",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.llmUsage.usageType",
+        "type": "string"
+      },
+      {
+        "name": "message.computeResourceUsage.llmUsage.cacheHitQueries",
+        "type": "string"
+      }
+    ],
+    "userModified": true
+  },
+  "tags": [],
+  "type": "Filesystem",
+  "typeSystemVersion": "V1"
 }

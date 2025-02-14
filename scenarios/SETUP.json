@@ -20,6 +20,8 @@
         "id": "custom_python",
         "type": "custom_python",
         "name": "Apply build range to \"Build flow\"",
+        "enabled": true,
+        "alwaysShowComment": false,
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",
@@ -41,6 +43,8 @@
         "id": "run_scenario_null.BUILDFLOW",
         "type": "run_scenario",
         "name": "Build flow",
+        "enabled": true,
+        "alwaysShowComment": false,
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",
@@ -59,5 +63,6 @@
     ]
   },
   "automationLocal": false,
-  "customFields": {}
+  "customFields": {},
+  "markedAsTest": false
 }

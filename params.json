@@ -187,7 +187,7 @@
       "exportForeignObjectsReferences": true
     }
   },
-  "owner": "fabien.daoulas@dataiku.com",
+  "owner": "admin",
   "permissionsVersion": "V2",
   "permissions": [],
   "additionalDashboardUsers": {
@@ -200,7 +200,9 @@
     "flowDisplaySettings": {
       "zonesGraphRenderingAlgorithm": "DOT_OLDRANK",
       "zonesGraphConnectZones": true,
-      "zonesGraphForJobs": true
+      "zonesGraphForJobs": true,
+      "respectTraversalOrder": false,
+      "zonesManualPositioning": false
     },
     "gitCommitMode": "AUTO",
     "disableAutomaticTriggers": false,
@@ -318,7 +320,6 @@
     "dkuProperties": []
   },
   "name": "LLM Cost Guard",
-  "projectStatus": "In use",
   "imgPattern": 6,
   "showInitials": false,
   "metrics": {
@@ -394,7 +395,8 @@
     "Industry Solution",
     "duplicated",
     "downloads",
-    "Version:2.1.0"
+    "Version:2.1.0",
+    "imported"
   ],
   "customFields": {},
   "checklists": {

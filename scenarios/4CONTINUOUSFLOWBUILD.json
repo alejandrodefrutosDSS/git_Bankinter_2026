@@ -43,6 +43,7 @@
         "type": "build_flowitem",
         "name": "Build partitioned datasets",
         "enabled": true,
+        "alwaysShowComment": false,
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",
@@ -78,6 +79,7 @@
         "type": "build_flowitem",
         "name": "Build logs_llm_usage_prepared_by_Project_complete",
         "enabled": true,
+        "alwaysShowComment": false,
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",
@@ -108,6 +110,7 @@
         "type": "build_flowitem",
         "name": "Build budget_joined",
         "enabled": true,
+        "alwaysShowComment": false,
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",
@@ -138,6 +141,7 @@
         "type": "build_flowitem",
         "name": "Build budget_joined_prepared",
         "enabled": true,
+        "alwaysShowComment": false,
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",
@@ -168,6 +172,7 @@
         "type": "build_flowitem",
         "name": "Build budget_for_dashboard",
         "enabled": true,
+        "alwaysShowComment": false,
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",
@@ -198,6 +203,7 @@
         "type": "custom_python",
         "name": "Update notifications dataset",
         "enabled": true,
+        "alwaysShowComment": false,
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",
@@ -220,6 +226,7 @@
         "type": "run_scenario",
         "name": "Run over budget notification scenario",
         "enabled": true,
+        "alwaysShowComment": false,
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",
@@ -240,6 +247,7 @@
         "type": "run_scenario",
         "name": "Run close to budget notification scenario",
         "enabled": true,
+        "alwaysShowComment": false,
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",

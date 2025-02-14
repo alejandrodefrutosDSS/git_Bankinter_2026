@@ -21,6 +21,7 @@
         "type": "custom_python",
         "name": "Apply continuous build options",
         "enabled": true,
+        "alwaysShowComment": false,
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",
@@ -43,6 +44,7 @@
         "type": "build_flowitem",
         "name": "Build budget zone",
         "enabled": true,
+        "alwaysShowComment": false,
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",

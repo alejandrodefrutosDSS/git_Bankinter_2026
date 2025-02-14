@@ -20,6 +20,8 @@
         "id": "custom_python_ulIXBU4tq8sxqTr29akCJg",
         "type": "custom_python",
         "name": "Send mail",
+        "enabled": true,
+        "alwaysShowComment": false,
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",
@@ -40,5 +42,6 @@
     ]
   },
   "automationLocal": false,
-  "customFields": {}
+  "customFields": {},
+  "markedAsTest": false
 }

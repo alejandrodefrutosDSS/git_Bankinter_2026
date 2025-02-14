@@ -21,6 +21,7 @@
         "type": "build_flowitem",
         "name": "Build output datasets",
         "enabled": true,
+        "alwaysShowComment": false,
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",

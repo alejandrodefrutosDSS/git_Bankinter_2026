@@ -33,15 +33,18 @@
     "Section:Solutions": {
       "color": "#2CDAC0"
     },
+    "Version:1.0.0-rc1": {},
     "deleted-recipe-editor": {
       "color": "#90a8b7"
     },
+    "Version:2.0.0": {},
     "Industry Solution": {
       "color": "#77bec2"
     },
     "downloads": {
       "color": "#de1ea5"
     },
+    "Version:2.1.0": {},
     "dashboarding": {
       "color": "#00a55a"
     },
@@ -59,9 +62,6 @@
     },
     "SolutionLineOfBusiness:Data / Analytics": {
       "color": "#28aadd"
-    },
-    "Version:1.0.0-rc1": {},
-    "Version:2.0.0": {},
-    "Version:2.1.0": {}
+    }
   }
 }

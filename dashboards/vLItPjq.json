@@ -1,506 +1,507 @@
 {
-  "pages": [
-    {
-      "id": "LLjTYQL",
-      "grid": {
-        "tiles": [
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 0,
-              "left": 0,
-              "width": 3,
-              "height": 1
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "NO",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "oN56uSI",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 0,
-              "left": 3,
-              "width": 3,
-              "height": 1
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "NO",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "cjusBew",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 1,
-              "left": 0,
-              "width": 6,
-              "height": 1
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "NO",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "bcDZopn",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 0,
-              "left": 6,
-              "width": 3,
-              "height": 1
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "NO",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "FGYKP9v",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 0,
-              "left": 9,
-              "width": 3,
-              "height": 1
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "NO",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "RU91cdX",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 1,
-              "left": 6,
-              "width": 6,
-              "height": 1
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "NO",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "7L9TOci",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 2,
-              "left": 0,
-              "width": 9,
-              "height": 3
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "title": "Projects over budget",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "ogY93yX",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 5,
-              "left": 0,
-              "width": 9,
-              "height": 1
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "NO",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "yGiCtDJ",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 5,
-              "left": 9,
-              "width": 3,
-              "height": 1
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "NO",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "Bn83ikn",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 6,
-              "left": 0,
-              "width": 9,
-              "height": 3
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "title": "Projects under budget",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "4oHXSxV",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 6,
-              "left": 9,
-              "width": 3,
-              "height": 3
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "viewKind": "EXPLORE",
-              "showName": true,
-              "showDescription": true,
-              "showCustomFields": true,
-              "showStorageType": false,
-              "showMeaning": false,
-              "showProgressBar": false
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "NO",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "kz2vR40",
-            "insightType": "dataset_table",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 2,
-              "left": 9,
-              "width": 3,
-              "height": 3
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "viewKind": "EXPLORE",
-              "showName": true,
-              "showDescription": true,
-              "showCustomFields": true,
-              "showStorageType": false,
-              "showMeaning": false,
-              "showProgressBar": false
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "NO",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "P3ig4mk",
-            "insightType": "dataset_table",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 9,
-              "left": 0,
-              "width": 12,
-              "height": 1
-            },
-            "clickAction": "OPEN_INSIGHT",
-            "tileParams": {
-              "displayMode": "SIMPLE",
-              "range": "CURRENT_DAY"
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "title": "Refresh occurences timeline",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "JGiLY3S",
-            "insightType": "scenario_last_runs",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          }
-        ]
-      },
-      "title": "Budget consumption - Per project",
-      "show": true,
-      "showTitle": true,
-      "titleAlign": "CENTER",
-      "titleFontColor": "#444444",
-      "titleFontSize": 28,
-      "enableCrossFilters": true,
-      "backgroundColor": "#ffffff",
-      "showFilterPanel": true,
-      "filtersParams": {
-        "panelPosition": "TOP",
-        "engineType": "LINO"
-      }
-    }
-  ],
-  "owner": "fabien.daoulas@dataiku.com",
-  "listed": true,
-  "name": "Project budget monitoring",
-  "showGrid": false,
-  "showNavigationArrows": false,
-  "reloadWhenEventReceived": false,
+  "checklists": {
+    "checklists": []
+  },
+  "columnNumber": 36,
   "creationTag": {
-    "versionNumber": 0,
+    "extendedProperties": {},
     "lastModifiedBy": {
       "login": "fabien.daoulas@dataiku.com"
     },
     "lastModifiedOn": 1727190164749,
-    "extendedProperties": {}
+    "versionNumber": 0
   },
-  "tags": [],
   "customFields": {},
-  "checklists": {
-    "checklists": []
-  }
+  "listed": true,
+  "name": "Project budget monitoring",
+  "owner": "fabien.daoulas@dataiku.com",
+  "pages": [
+    {
+      "backgroundColor": "#ffffff",
+      "enableCrossFilters": true,
+      "filtersParams": {
+        "engineType": "LINO",
+        "panelPosition": "TOP"
+      },
+      "grid": {
+        "tiles": [
+          {
+            "autoLoad": true,
+            "backgroundOpacity": 1.0,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 3,
+              "left": 0,
+              "top": 0,
+              "width": 9
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "oN56uSI",
+            "insightType": "chart",
+            "resizeImageMode": "FIT_SIZE",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showBrush": false,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "NO"
+            }
+          },
+          {
+            "autoLoad": true,
+            "backgroundOpacity": 1.0,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 3,
+              "left": 9,
+              "top": 0,
+              "width": 9
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "cjusBew",
+            "insightType": "chart",
+            "resizeImageMode": "FIT_SIZE",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showBrush": false,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "NO"
+            }
+          },
+          {
+            "autoLoad": true,
+            "backgroundOpacity": 1.0,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 3,
+              "left": 0,
+              "top": 3,
+              "width": 18
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "bcDZopn",
+            "insightType": "chart",
+            "resizeImageMode": "FIT_SIZE",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showBrush": false,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "NO"
+            }
+          },
+          {
+            "autoLoad": true,
+            "backgroundOpacity": 1.0,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 3,
+              "left": 18,
+              "top": 0,
+              "width": 9
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "FGYKP9v",
+            "insightType": "chart",
+            "resizeImageMode": "FIT_SIZE",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showBrush": false,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "NO"
+            }
+          },
+          {
+            "autoLoad": true,
+            "backgroundOpacity": 1.0,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 3,
+              "left": 27,
+              "top": 0,
+              "width": 9
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "RU91cdX",
+            "insightType": "chart",
+            "resizeImageMode": "FIT_SIZE",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showBrush": false,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "NO"
+            }
+          },
+          {
+            "autoLoad": true,
+            "backgroundOpacity": 1.0,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 3,
+              "left": 18,
+              "top": 3,
+              "width": 18
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "7L9TOci",
+            "insightType": "chart",
+            "resizeImageMode": "FIT_SIZE",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showBrush": false,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "NO"
+            }
+          },
+          {
+            "autoLoad": true,
+            "backgroundOpacity": 1.0,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 9,
+              "left": 0,
+              "top": 6,
+              "width": 27
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "ogY93yX",
+            "insightType": "chart",
+            "resizeImageMode": "FIT_SIZE",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showBrush": false,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES",
+              "title": "Projects over budget"
+            }
+          },
+          {
+            "autoLoad": true,
+            "backgroundOpacity": 1.0,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 3,
+              "left": 0,
+              "top": 15,
+              "width": 27
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "yGiCtDJ",
+            "insightType": "chart",
+            "resizeImageMode": "FIT_SIZE",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showBrush": false,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "NO"
+            }
+          },
+          {
+            "autoLoad": true,
+            "backgroundOpacity": 1.0,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 3,
+              "left": 27,
+              "top": 15,
+              "width": 9
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "Bn83ikn",
+            "insightType": "chart",
+            "resizeImageMode": "FIT_SIZE",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showBrush": false,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "NO"
+            }
+          },
+          {
+            "autoLoad": true,
+            "backgroundOpacity": 1.0,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 9,
+              "left": 0,
+              "top": 18,
+              "width": 27
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "4oHXSxV",
+            "insightType": "chart",
+            "resizeImageMode": "FIT_SIZE",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showBrush": false,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES",
+              "title": "Projects under budget"
+            }
+          },
+          {
+            "autoLoad": true,
+            "backgroundOpacity": 1.0,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 9,
+              "left": 27,
+              "top": 18,
+              "width": 9
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "kz2vR40",
+            "insightType": "dataset_table",
+            "resizeImageMode": "FIT_SIZE",
+            "tileParams": {
+              "showCustomFields": true,
+              "showDescription": true,
+              "showMeaning": false,
+              "showName": true,
+              "showProgressBar": false,
+              "showStorageType": false,
+              "viewKind": "EXPLORE"
+            },
+            "tileType": "INSIGHT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "NO"
+            }
+          },
+          {
+            "autoLoad": true,
+            "backgroundOpacity": 1.0,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 9,
+              "left": 27,
+              "top": 6,
+              "width": 9
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "P3ig4mk",
+            "insightType": "dataset_table",
+            "resizeImageMode": "FIT_SIZE",
+            "tileParams": {
+              "showCustomFields": true,
+              "showDescription": true,
+              "showMeaning": false,
+              "showName": true,
+              "showProgressBar": false,
+              "showStorageType": false,
+              "viewKind": "EXPLORE"
+            },
+            "tileType": "INSIGHT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "NO"
+            }
+          },
+          {
+            "autoLoad": true,
+            "backgroundOpacity": 1.0,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 3,
+              "left": 0,
+              "top": 27,
+              "width": 36
+            },
+            "clickAction": "OPEN_INSIGHT",
+            "displayMode": "INSIGHT",
+            "insightId": "JGiLY3S",
+            "insightType": "scenario_last_runs",
+            "resizeImageMode": "FIT_SIZE",
+            "tileParams": {
+              "displayMode": "SIMPLE",
+              "range": "CURRENT_DAY"
+            },
+            "tileType": "INSIGHT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES",
+              "title": "Refresh occurences timeline"
+            }
+          }
+        ]
+      },
+      "id": "LLjTYQL",
+      "show": true,
+      "showFilterPanel": true,
+      "showTitle": true,
+      "title": "Budget consumption - Per project",
+      "titleAlign": "CENTER",
+      "titleFontColor": "#444444",
+      "titleFontSize": 28
+    }
+  ],
+  "reloadWhenEventReceived": false,
+  "showGrid": false,
+  "showNavigationArrows": false,
+  "tags": []
 }

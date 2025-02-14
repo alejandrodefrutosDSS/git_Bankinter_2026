@@ -1,803 +1,804 @@
 {
-  "pages": [
-    {
-      "id": "NNcWGVL",
-      "grid": {
-        "tiles": [
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 2,
-              "left": 5,
-              "width": 5,
-              "height": 2
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "NO",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "oHlpv5G",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 5,
-              "left": 0,
-              "width": 12,
-              "height": 3
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": true,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "title": "Total Estimated Cost ($) Over Time by Project",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "tRFctK1",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 24,
-              "left": 0,
-              "width": 4,
-              "height": 3
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "itr0OeD",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 24,
-              "left": 4,
-              "width": 8,
-              "height": 3
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "9Z0fHns",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 16,
-              "left": 4,
-              "width": 8,
-              "height": 3
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "sMIZmp2",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 16,
-              "left": 0,
-              "width": 4,
-              "height": 3
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "JRGvdyL",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "TEXT",
-            "box": {
-              "top": 15,
-              "left": 0,
-              "width": 12,
-              "height": 1
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "text": "[Documentation](article:27)",
-              "textAlign": "LEFT"
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "title": "Breakdown by connection type",
-              "fontColor": "#000",
-              "fontSize": 18
-            },
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "TEXT",
-            "box": {
-              "top": 23,
-              "left": 0,
-              "width": 12,
-              "height": 1
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "text": "[Documentation](article:29)",
-              "textAlign": "LEFT"
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "title": "Breakdown by usage type",
-              "fontColor": "#000",
-              "fontSize": 18
-            },
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "TEXT",
-            "box": {
-              "top": 4,
-              "left": 0,
-              "width": 12,
-              "height": 1
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "text": "[Documentation](article:26)",
-              "textAlign": "LEFT"
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "title": "Breakdown by project",
-              "fontColor": "#000",
-              "fontSize": 18
-            },
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "TEXT",
-            "box": {
-              "top": 11,
-              "left": 0,
-              "width": 12,
-              "height": 1
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "text": " **Hover over the bars to see the user details.** ",
-              "textAlign": "LEFT"
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "title": "Breakdown by user",
-              "fontColor": "#000",
-              "fontSize": 18
-            },
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 8,
-              "left": 0,
-              "width": 12,
-              "height": 3
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "ns5es5X",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 12,
-              "left": 0,
-              "width": 12,
-              "height": 3
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "ZvhhT7I",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "TEXT",
-            "box": {
-              "top": 19,
-              "left": 0,
-              "width": 12,
-              "height": 1
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "text": "[Documentation](article:28)",
-              "textAlign": "LEFT"
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "title": "Breakdown by context",
-              "fontColor": "#000",
-              "fontSize": 18
-            },
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 20,
-              "left": 0,
-              "width": 4,
-              "height": 3
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "4H3c7VG",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 20,
-              "left": 4,
-              "width": 8,
-              "height": 3
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "jYi57cn",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 0,
-              "left": 0,
-              "width": 10,
-              "height": 2
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "NO",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "T7Qy1Bi",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "TEXT",
-            "box": {
-              "top": 0,
-              "left": 10,
-              "width": 2,
-              "height": 4
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "text": "**About Dataiku LLM Mesh cache**\nDataiku stores the requests and answers in a cache system. If the same request is made later on, the stored answer is used, saving LLM costs. \nYou can **[activate the caching option](https://knowledge.dataiku.com/latest/ml-analytics/gen-ai/concept-llm-connections.html#using-cache-to-reduce-costs)** to reduce your operational costs.",
-              "textAlign": "LEFT"
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "NO",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 2,
-              "left": 0,
-              "width": 5,
-              "height": 2
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "NO",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "de5Zk0Q",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          }
-        ]
-      },
-      "title": "LLM Cost Monitoring",
-      "show": true,
-      "showTitle": true,
-      "titleAlign": "CENTER",
-      "titleFontColor": "#444444",
-      "titleFontSize": 28,
-      "enableCrossFilters": true,
-      "backgroundColor": "#ffffff",
-      "showFilterPanel": true,
-      "filters": [
-        {
-          "filterType": "DATE_FACET",
-          "filterSelectionType": "RANGE_OF_VALUES",
-          "id": "1722259534922_162",
-          "column": "Date",
-          "columnType": "DATE",
-          "dateFilterType": "RELATIVE",
-          "dateFilterPart": "YEAR",
-          "dateFilterOption": {
-            "last": 0,
-            "next": 0,
-            "isUntilNow": false,
-            "containsCurrentDatePart": true
-          },
-          "dateFilterRelativePreset": "THIS_YEAR",
-          "isA": "filter",
-          "isAGlobalFilter": true,
-          "useMinimalUi": false,
-          "excludeOtherValues": false,
-          "allValuesInSample": false,
-          "active": true,
-          "explicitExclude": false
-        },
-        {
-          "filterType": "ALPHANUM_FACET",
-          "filterSelectionType": "MULTI_SELECT",
-          "id": "1722259534922_163",
-          "column": "Project",
-          "columnType": "ALPHANUM",
-          "isA": "filter",
-          "excludedValues": {},
-          "isAGlobalFilter": true,
-          "useMinimalUi": false,
-          "excludeOtherValues": false,
-          "allValuesInSample": false,
-          "active": true,
-          "explicitExclude": false
-        },
-        {
-          "filterType": "ALPHANUM_FACET",
-          "filterSelectionType": "MULTI_SELECT",
-          "id": "1722259534923_164",
-          "column": "User",
-          "columnType": "ALPHANUM",
-          "isA": "filter",
-          "excludedValues": {},
-          "isAGlobalFilter": true,
-          "useMinimalUi": false,
-          "excludeOtherValues": false,
-          "allValuesInSample": false,
-          "active": true,
-          "explicitExclude": false
-        },
-        {
-          "filterType": "ALPHANUM_FACET",
-          "filterSelectionType": "MULTI_SELECT",
-          "id": "1722259534923_165",
-          "column": "Connection type",
-          "columnType": "ALPHANUM",
-          "isA": "filter",
-          "excludedValues": {},
-          "isAGlobalFilter": true,
-          "useMinimalUi": false,
-          "excludeOtherValues": false,
-          "allValuesInSample": false,
-          "active": true,
-          "explicitExclude": false
-        },
-        {
-          "filterType": "ALPHANUM_FACET",
-          "filterSelectionType": "MULTI_SELECT",
-          "id": "1722259534923_166",
-          "column": "Connection",
-          "columnType": "ALPHANUM",
-          "isA": "filter",
-          "excludedValues": {},
-          "isAGlobalFilter": true,
-          "useMinimalUi": false,
-          "excludeOtherValues": false,
-          "allValuesInSample": false,
-          "active": true,
-          "explicitExclude": false
-        },
-        {
-          "filterType": "ALPHANUM_FACET",
-          "filterSelectionType": "MULTI_SELECT",
-          "id": "1722259534923_167",
-          "column": "LLM identifier",
-          "columnType": "ALPHANUM",
-          "isA": "filter",
-          "excludedValues": {},
-          "isAGlobalFilter": true,
-          "useMinimalUi": false,
-          "excludeOtherValues": false,
-          "allValuesInSample": false,
-          "active": true,
-          "explicitExclude": false
-        },
-        {
-          "filterType": "ALPHANUM_FACET",
-          "filterSelectionType": "MULTI_SELECT",
-          "id": "1722259534923_168",
-          "column": "Context",
-          "columnType": "ALPHANUM",
-          "isA": "filter",
-          "excludedValues": {},
-          "isAGlobalFilter": true,
-          "useMinimalUi": false,
-          "excludeOtherValues": false,
-          "allValuesInSample": false,
-          "active": true,
-          "explicitExclude": false
-        },
-        {
-          "filterType": "ALPHANUM_FACET",
-          "filterSelectionType": "MULTI_SELECT",
-          "id": "1722259534923_169",
-          "column": "Usage type",
-          "columnType": "ALPHANUM",
-          "isA": "filter",
-          "excludedValues": {},
-          "isAGlobalFilter": true,
-          "useMinimalUi": false,
-          "excludeOtherValues": false,
-          "allValuesInSample": false,
-          "active": true,
-          "explicitExclude": false
-        }
-      ],
-      "filtersParams": {
-        "panelPosition": "LEFT",
-        "datasetSmartName": "logs_llm_usage_prepared",
-        "engineType": "LINO",
-        "refreshableSelection": {
-          "selection": {
-            "useMemTable": false,
-            "filter": {
-              "distinct": false,
-              "enabled": false
-            },
-            "partitionSelectionMethod": "ALL",
-            "latestPartitionsN": 1,
-            "ordering": {
-              "enabled": false,
-              "rules": []
-            },
-            "samplingMethod": "FULL",
-            "maxRecords": -1,
-            "targetRatio": 0.02,
-            "ascending": true,
-            "withinFirstN": -1,
-            "maxReadUncompressedBytes": -1
-          },
-          "autoRefreshSample": false,
-          "_refreshTrigger": 1722259496421
-        }
-      }
-    }
-  ],
-  "owner": "divya.thomas@dataiku.com",
-  "listed": true,
-  "name": "LLM cost monitoring",
-  "showGrid": true,
-  "showNavigationArrows": false,
-  "reloadWhenEventReceived": false,
+  "checklists": {
+    "checklists": []
+  },
+  "columnNumber": 36,
   "creationTag": {
-    "versionNumber": 0,
+    "extendedProperties": {},
     "lastModifiedBy": {
       "login": "divya.thomas@dataiku.com"
     },
     "lastModifiedOn": 1722502976552,
-    "extendedProperties": {}
+    "versionNumber": 0
   },
-  "tags": [],
   "customFields": {},
-  "checklists": {
-    "checklists": []
-  }
+  "listed": true,
+  "name": "LLM cost monitoring",
+  "owner": "divya.thomas@dataiku.com",
+  "pages": [
+    {
+      "backgroundColor": "#ffffff",
+      "enableCrossFilters": true,
+      "filters": [
+        {
+          "active": true,
+          "allValuesInSample": false,
+          "column": "Date",
+          "columnType": "DATE",
+          "dateFilterOption": {
+            "containsCurrentDatePart": true,
+            "isUntilNow": false,
+            "last": 0,
+            "next": 0
+          },
+          "dateFilterPart": "YEAR",
+          "dateFilterRelativePreset": "THIS_YEAR",
+          "dateFilterType": "RELATIVE",
+          "excludeOtherValues": false,
+          "explicitExclude": false,
+          "filterSelectionType": "RANGE_OF_VALUES",
+          "filterType": "DATE_FACET",
+          "id": "1722259534922_162",
+          "isA": "filter",
+          "isAGlobalFilter": true,
+          "useMinimalUi": false
+        },
+        {
+          "active": true,
+          "allValuesInSample": false,
+          "column": "Project",
+          "columnType": "ALPHANUM",
+          "excludeOtherValues": false,
+          "excludedValues": {},
+          "explicitExclude": false,
+          "filterSelectionType": "MULTI_SELECT",
+          "filterType": "ALPHANUM_FACET",
+          "id": "1722259534922_163",
+          "isA": "filter",
+          "isAGlobalFilter": true,
+          "useMinimalUi": false
+        },
+        {
+          "active": true,
+          "allValuesInSample": false,
+          "column": "User",
+          "columnType": "ALPHANUM",
+          "excludeOtherValues": false,
+          "excludedValues": {},
+          "explicitExclude": false,
+          "filterSelectionType": "MULTI_SELECT",
+          "filterType": "ALPHANUM_FACET",
+          "id": "1722259534923_164",
+          "isA": "filter",
+          "isAGlobalFilter": true,
+          "useMinimalUi": false
+        },
+        {
+          "active": true,
+          "allValuesInSample": false,
+          "column": "Connection type",
+          "columnType": "ALPHANUM",
+          "excludeOtherValues": false,
+          "excludedValues": {},
+          "explicitExclude": false,
+          "filterSelectionType": "MULTI_SELECT",
+          "filterType": "ALPHANUM_FACET",
+          "id": "1722259534923_165",
+          "isA": "filter",
+          "isAGlobalFilter": true,
+          "useMinimalUi": false
+        },
+        {
+          "active": true,
+          "allValuesInSample": false,
+          "column": "Connection",
+          "columnType": "ALPHANUM",
+          "excludeOtherValues": false,
+          "excludedValues": {},
+          "explicitExclude": false,
+          "filterSelectionType": "MULTI_SELECT",
+          "filterType": "ALPHANUM_FACET",
+          "id": "1722259534923_166",
+          "isA": "filter",
+          "isAGlobalFilter": true,
+          "useMinimalUi": false
+        },
+        {
+          "active": true,
+          "allValuesInSample": false,
+          "column": "LLM identifier",
+          "columnType": "ALPHANUM",
+          "excludeOtherValues": false,
+          "excludedValues": {},
+          "explicitExclude": false,
+          "filterSelectionType": "MULTI_SELECT",
+          "filterType": "ALPHANUM_FACET",
+          "id": "1722259534923_167",
+          "isA": "filter",
+          "isAGlobalFilter": true,
+          "useMinimalUi": false
+        },
+        {
+          "active": true,
+          "allValuesInSample": false,
+          "column": "Context",
+          "columnType": "ALPHANUM",
+          "excludeOtherValues": false,
+          "excludedValues": {},
+          "explicitExclude": false,
+          "filterSelectionType": "MULTI_SELECT",
+          "filterType": "ALPHANUM_FACET",
+          "id": "1722259534923_168",
+          "isA": "filter",
+          "isAGlobalFilter": true,
+          "useMinimalUi": false
+        },
+        {
+          "active": true,
+          "allValuesInSample": false,
+          "column": "Usage type",
+          "columnType": "ALPHANUM",
+          "excludeOtherValues": false,
+          "excludedValues": {},
+          "explicitExclude": false,
+          "filterSelectionType": "MULTI_SELECT",
+          "filterType": "ALPHANUM_FACET",
+          "id": "1722259534923_169",
+          "isA": "filter",
+          "isAGlobalFilter": true,
+          "useMinimalUi": false
+        }
+      ],
+      "filtersParams": {
+        "datasetSmartName": "logs_llm_usage_prepared",
+        "engineType": "LINO",
+        "panelPosition": "LEFT",
+        "refreshableSelection": {
+          "_refreshTrigger": 1722259496421,
+          "autoRefreshSample": false,
+          "selection": {
+            "ascending": true,
+            "filter": {
+              "distinct": false,
+              "enabled": false
+            },
+            "latestPartitionsN": 1,
+            "maxReadUncompressedBytes": -1,
+            "maxRecords": -1,
+            "ordering": {
+              "enabled": false,
+              "rules": []
+            },
+            "partitionSelectionMethod": "ALL",
+            "samplingMethod": "FULL",
+            "targetRatio": 0.02,
+            "useMemTable": false,
+            "withinFirstN": -1
+          }
+        }
+      },
+      "grid": {
+        "tiles": [
+          {
+            "autoLoad": true,
+            "backgroundOpacity": 1.0,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 6,
+              "left": 15,
+              "top": 6,
+              "width": 15
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "oHlpv5G",
+            "insightType": "chart",
+            "resizeImageMode": "FIT_SIZE",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showBrush": false,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "NO"
+            }
+          },
+          {
+            "autoLoad": true,
+            "backgroundOpacity": 1.0,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 9,
+              "left": 0,
+              "top": 15,
+              "width": 36
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "tRFctK1",
+            "insightType": "chart",
+            "resizeImageMode": "FIT_SIZE",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showBrush": false,
+              "showLegend": true,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES",
+              "title": "Total Estimated Cost ($) Over Time by Project"
+            }
+          },
+          {
+            "autoLoad": true,
+            "backgroundOpacity": 1.0,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 9,
+              "left": 0,
+              "top": 72,
+              "width": 12
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "itr0OeD",
+            "insightType": "chart",
+            "resizeImageMode": "FIT_SIZE",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showBrush": false,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES"
+            }
+          },
+          {
+            "autoLoad": true,
+            "backgroundOpacity": 1.0,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 9,
+              "left": 12,
+              "top": 72,
+              "width": 24
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "9Z0fHns",
+            "insightType": "chart",
+            "resizeImageMode": "FIT_SIZE",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showBrush": false,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES"
+            }
+          },
+          {
+            "autoLoad": true,
+            "backgroundOpacity": 1.0,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 9,
+              "left": 12,
+              "top": 48,
+              "width": 24
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "sMIZmp2",
+            "insightType": "chart",
+            "resizeImageMode": "FIT_SIZE",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showBrush": false,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES"
+            }
+          },
+          {
+            "autoLoad": true,
+            "backgroundOpacity": 1.0,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 9,
+              "left": 0,
+              "top": 48,
+              "width": 12
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "JRGvdyL",
+            "insightType": "chart",
+            "resizeImageMode": "FIT_SIZE",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showBrush": false,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES"
+            }
+          },
+          {
+            "autoLoad": true,
+            "backgroundOpacity": 1.0,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 3,
+              "left": 0,
+              "top": 45,
+              "width": 36
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE",
+            "tileParams": {
+              "text": "[Documentation](article:27)",
+              "textAlign": "LEFT"
+            },
+            "tileType": "TEXT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 18,
+              "showTitle": "YES",
+              "title": "Breakdown by connection type"
+            }
+          },
+          {
+            "autoLoad": true,
+            "backgroundOpacity": 1.0,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 3,
+              "left": 0,
+              "top": 69,
+              "width": 36
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE",
+            "tileParams": {
+              "text": "[Documentation](article:29)",
+              "textAlign": "LEFT"
+            },
+            "tileType": "TEXT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 18,
+              "showTitle": "YES",
+              "title": "Breakdown by usage type"
+            }
+          },
+          {
+            "autoLoad": true,
+            "backgroundOpacity": 1.0,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 3,
+              "left": 0,
+              "top": 12,
+              "width": 36
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE",
+            "tileParams": {
+              "text": "[Documentation](article:26)",
+              "textAlign": "LEFT"
+            },
+            "tileType": "TEXT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 18,
+              "showTitle": "YES",
+              "title": "Breakdown by project"
+            }
+          },
+          {
+            "autoLoad": true,
+            "backgroundOpacity": 1.0,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 3,
+              "left": 0,
+              "top": 33,
+              "width": 36
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE",
+            "tileParams": {
+              "text": " **Hover over the bars to see the user details.** ",
+              "textAlign": "LEFT"
+            },
+            "tileType": "TEXT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 18,
+              "showTitle": "YES",
+              "title": "Breakdown by user"
+            }
+          },
+          {
+            "autoLoad": true,
+            "backgroundOpacity": 1.0,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 9,
+              "left": 0,
+              "top": 24,
+              "width": 36
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "ns5es5X",
+            "insightType": "chart",
+            "resizeImageMode": "FIT_SIZE",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showBrush": false,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES"
+            }
+          },
+          {
+            "autoLoad": true,
+            "backgroundOpacity": 1.0,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 9,
+              "left": 0,
+              "top": 36,
+              "width": 36
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "ZvhhT7I",
+            "insightType": "chart",
+            "resizeImageMode": "FIT_SIZE",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showBrush": false,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES"
+            }
+          },
+          {
+            "autoLoad": true,
+            "backgroundOpacity": 1.0,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 3,
+              "left": 0,
+              "top": 57,
+              "width": 36
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE",
+            "tileParams": {
+              "text": "[Documentation](article:28)",
+              "textAlign": "LEFT"
+            },
+            "tileType": "TEXT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 18,
+              "showTitle": "YES",
+              "title": "Breakdown by context"
+            }
+          },
+          {
+            "autoLoad": true,
+            "backgroundOpacity": 1.0,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 9,
+              "left": 0,
+              "top": 60,
+              "width": 12
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "4H3c7VG",
+            "insightType": "chart",
+            "resizeImageMode": "FIT_SIZE",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showBrush": false,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES"
+            }
+          },
+          {
+            "autoLoad": true,
+            "backgroundOpacity": 1.0,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 9,
+              "left": 12,
+              "top": 60,
+              "width": 24
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "jYi57cn",
+            "insightType": "chart",
+            "resizeImageMode": "FIT_SIZE",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showBrush": false,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES"
+            }
+          },
+          {
+            "autoLoad": true,
+            "backgroundOpacity": 1.0,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 6,
+              "left": 0,
+              "top": 0,
+              "width": 30
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "T7Qy1Bi",
+            "insightType": "chart",
+            "resizeImageMode": "FIT_SIZE",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showBrush": false,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "NO"
+            }
+          },
+          {
+            "autoLoad": true,
+            "backgroundOpacity": 1.0,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 12,
+              "left": 30,
+              "top": 0,
+              "width": 6
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE",
+            "tileParams": {
+              "text": "**About Dataiku LLM Mesh cache**\nDataiku stores the requests and answers in a cache system. If the same request is made later on, the stored answer is used, saving LLM costs. \nYou can **[activate the caching option](https://knowledge.dataiku.com/latest/ml-analytics/gen-ai/concept-llm-connections.html#using-cache-to-reduce-costs)** to reduce your operational costs.",
+              "textAlign": "LEFT"
+            },
+            "tileType": "TEXT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "NO"
+            }
+          },
+          {
+            "autoLoad": true,
+            "backgroundOpacity": 1.0,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 6,
+              "left": 0,
+              "top": 6,
+              "width": 15
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "de5Zk0Q",
+            "insightType": "chart",
+            "resizeImageMode": "FIT_SIZE",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showBrush": false,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "NO"
+            }
+          }
+        ]
+      },
+      "id": "NNcWGVL",
+      "show": true,
+      "showFilterPanel": true,
+      "showTitle": true,
+      "title": "LLM Cost Monitoring",
+      "titleAlign": "CENTER",
+      "titleFontColor": "#444444",
+      "titleFontSize": 28
+    }
+  ],
+  "reloadWhenEventReceived": false,
+  "showGrid": true,
+  "showNavigationArrows": false,
+  "tags": []
 }
