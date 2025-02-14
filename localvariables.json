@@ -3,7 +3,7 @@
   "logs_connection": "dataiku-managed-storage",
   "logs_partitioning_activated": true,
   "logs_partitioning_period": "DAY",
-  "logs_partitioning_pattern": "%Y/%M/%D/%H/.*",
+  "logs_partitioning_pattern": "%Y/%M/%D/%/.*",
   "managed_dataset_connection": "filesystem_managed",
   "visual_recipes_engine": "DSS",
   "logs_partitioning_build_range": "2023-01-01/2024-01-01",
