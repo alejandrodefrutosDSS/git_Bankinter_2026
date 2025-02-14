@@ -70,8 +70,8 @@
     "columns": [
       {"name":"projectKey","type":"string"},
       {"name":"budgetUSD","type":"double"},
-      {"name":"projectOwner","type":"string"},
-      {"name":"operationalManager","type":"string"},
+      {"name":"projectOwner","type":"double"},
+      {"name":"operationalManager","type":"double"},
       {"name":"Project","type":"string"},
       {"name":"llmUsage_estimatedCostUSD_sum","type":"double"},
       {"name":"overBudgetUSD","type":"double"},
@@ -81,7 +81,7 @@
       {"name":"overBudgetNotificationSent","type":"boolean"},
       {"name":"twentyPercentLeftNotificationSent","type":"boolean"}
     ],
-    "userModified": true
+    "userModified": false
   },
   "typeSystemVersion": "V2",
   "dkuProperties": [],
