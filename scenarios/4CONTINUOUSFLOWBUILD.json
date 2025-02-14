@@ -17,7 +17,7 @@
       "id": "MoPus6tu",
       "type": "ds_modified",
       "name": "Dataset modified",
-      "delay": 2,
+      "delay": 14400,
       "active": true,
       "params": {
         "watches": [
