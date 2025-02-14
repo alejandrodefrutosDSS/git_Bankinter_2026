@@ -7,7 +7,7 @@
   "managed_dataset_connection": "dataiku-managed-storage",
   "visual_recipes_engine": "DSS",
   "logs_partitioning_build_range": "2024-10-01/2025-02-14",
-  "activate_continuous_build": false,
+  "activate_continuous_build": true,
   "continuous_build_message_sender": "",
   "visual_recipes_spark_conf": ""
 }
