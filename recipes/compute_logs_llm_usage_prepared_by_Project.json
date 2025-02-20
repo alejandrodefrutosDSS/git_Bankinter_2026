@@ -5,7 +5,7 @@
     "kv": {}
   },
   "redispatchPartitioning": false,
-  "maxRunningActivities": 1,
+  "maxRunningActivities": 0,
   "hashPropagationBehavior": "INHERIT",
   "variables": {},
   "dkuProperties": [],
