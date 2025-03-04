@@ -18,7 +18,7 @@
       {
         "id": "build_0_true_d_budget_for_dashboard",
         "type": "build_flowitem",
-        "name": "Step #1",
+        "name": "buildall",
         "enabled": true,
         "alwaysShowComment": false,
         "runConditionType": "RUN_IF_STATUS_MATCH",
