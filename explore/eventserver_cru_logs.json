@@ -54,8 +54,10 @@
       "numberTopValues": 10
     },
     "columnsSelection": {
-      "mode": "ALL"
+      "mode": "ALL",
+      "list": []
     },
+    "columnOrder": [],
     "columnWidthsByName": {
       "clientEvent.msgType": 232,
       "clientEvent.clusterId": 173,
@@ -152,24 +154,24 @@
           "distinct": false,
           "enabled": false
         },
-        "partitionSelectionMethod": "SELECTED",
+        "partitionSelectionMethod": "LATEST_N",
         "selectedPartitions": [
           "2024-09-25"
         ],
-        "latestPartitionsN": 1,
+        "latestPartitionsN": 4,
         "ordering": {
           "enabled": false,
           "rules": []
         },
         "samplingMethod": "HEAD_SEQUENTIAL",
-        "maxRecords": 10000,
+        "maxRecords": 10001,
         "targetRatio": 0.02,
         "ascending": true,
         "withinFirstN": -1,
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 1731512950044
+      "_refreshTrigger": 1741793430546
     },
     "vizSampling": {
       "selection": {
