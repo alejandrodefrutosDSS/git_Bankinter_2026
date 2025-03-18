@@ -1,8 +1,8 @@
 {
   "type": "step_based",
   "name": "4. Continuous flow build",
-  "active": true,
-  "runAsUser": "admin",
+  "active": false,
+  "runAsUser": "ayoub.moujane",
   "checklists": {
     "checklists": []
   },
