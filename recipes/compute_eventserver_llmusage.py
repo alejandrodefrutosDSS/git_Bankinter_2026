@@ -9,7 +9,6 @@ mapping_eventServer = {
     "clientEvent.computeResourceUsage.startTime": "startTime",
     "clientEvent.computeResourceUsage.type": "type",
     "clientEvent.computeResourceUsage.llmUsage.totalComputationTimeMS": "llmUsage_totalComputationTimeMS",
-    "clientEvent.computeResourceUsage.totalTime": "totalTime",
     "clientEvent.computeResourceUsage.llmUsage.llmType": "llmUsage_llmType",
     "clientEvent.computeResourceUsage.llmUsage.totalQueries": "llmUsage_totalQueries",
     "clientEvent.computeResourceUsage.llmUsage.totalPromptTokens": "llmUsage_totalPromptTokens",
@@ -30,7 +29,8 @@ mapping_eventServer = {
     "clientEvent.auditTopic": "auditTopic",
     "clientEvent.authSource": "authSource",
     "clientEvent.authUser": "authUser",
-    "clientEvent.clientIP": "clientIP"
+    "clientEvent.clientIP": "clientIP",
+    "clientEvent.computeResourceUsage.totalTime": "totalTime",
 }
 
 
