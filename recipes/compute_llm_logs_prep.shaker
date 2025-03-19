@@ -1,6 +1,152 @@
 {
   "columnsSelection": {
-    "mode": "ALL"
+    "mode": "ALL",
+    "list": [
+      {
+        "d": true,
+        "name": "msgType"
+      },
+      {
+        "d": true,
+        "name": "startTime"
+      },
+      {
+        "d": true,
+        "name": "type"
+      },
+      {
+        "d": true,
+        "name": "llmUsage_totalComputationTimeMS"
+      },
+      {
+        "d": true,
+        "name": "Connection type"
+      },
+      {
+        "d": true,
+        "name": "llmUsage_totalQueries"
+      },
+      {
+        "d": true,
+        "name": "llmUsage_totalPromptTokens"
+      },
+      {
+        "d": true,
+        "name": "llmUsage_estimatedCostUSD"
+      },
+      {
+        "d": true,
+        "name": "llmUsage_totalCompletionTokens"
+      },
+      {
+        "d": true,
+        "name": "Connection"
+      },
+      {
+        "d": true,
+        "name": "llmUsage_cacheMissQueries"
+      },
+      {
+        "d": true,
+        "name": "LLM identifier"
+      },
+      {
+        "d": true,
+        "name": "Usage type"
+      },
+      {
+        "d": true,
+        "name": "Number of LLM cache miss"
+      },
+      {
+        "d": true,
+        "name": "llmUsage_cacheHitQueries"
+      },
+      {
+        "d": true,
+        "name": "Number of LLM cache hit"
+      },
+      {
+        "d": true,
+        "name": "estimated_cost_saved"
+      },
+      {
+        "d": true,
+        "name": "User"
+      },
+      {
+        "d": true,
+        "name": "Project"
+      },
+      {
+        "d": true,
+        "name": "Context"
+      },
+      {
+        "d": true,
+        "name": "item_description"
+      },
+      {
+        "d": true,
+        "name": "context_jobId"
+      },
+      {
+        "d": true,
+        "name": "Date"
+      },
+      {
+        "d": true,
+        "name": "serverTimestamp_day"
+      },
+      {
+        "d": true,
+        "name": "serverTimestamp_hours"
+      },
+      {
+        "d": true,
+        "name": "serverTimestamp_minutes"
+      },
+      {
+        "d": true,
+        "name": "serverTimestamp_minutes_str"
+      },
+      {
+        "d": true,
+        "name": "day_of_week"
+      },
+      {
+        "d": true,
+        "name": "hour_of_day"
+      },
+      {
+        "d": true,
+        "name": "dssNodeId"
+      },
+      {
+        "d": true,
+        "name": "execution_location"
+      },
+      {
+        "d": true,
+        "name": "dssNodeName"
+      },
+      {
+        "d": true,
+        "name": "auditTopic"
+      },
+      {
+        "d": true,
+        "name": "authSource"
+      },
+      {
+        "d": true,
+        "name": "authUser"
+      },
+      {
+        "d": true,
+        "name": "clientIP"
+      }
+    ]
   },
   "explorationSampling": {
     "_refreshTrigger": 1711073881834,
@@ -41,6 +187,7 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
+  "columnOrder": [],
   "columnUseScientificNotationByName": {},
   "origin": "PREPARE_RECIPE",
   "exploreUIParams": {
@@ -115,8 +262,8 @@
           "disabled": false,
           "type": "UNIXTimestampParser",
           "params": {
-            "inCol": "startTime",
-            "milliseconds": true
+            "milliseconds": true,
+            "inCol": "startTime"
           },
           "alwaysShowComment": false
         },
@@ -166,7 +313,11 @@
             ],
             "timezone_id": "UTC",
             "appliesTo": "SINGLE_COLUMN",
-            "lang": "auto"
+            "lang": "auto",
+            "outType": {
+              "name": "out",
+              "type": "date"
+            }
           },
           "alwaysShowComment": false
         },
@@ -199,7 +350,11 @@
             ],
             "timezone_id": "UTC",
             "appliesTo": "SINGLE_COLUMN",
-            "lang": "auto"
+            "lang": "auto",
+            "outType": {
+              "name": "out",
+              "type": "date"
+            }
           },
           "alwaysShowComment": false
         },
@@ -232,7 +387,11 @@
             ],
             "timezone_id": "UTC",
             "appliesTo": "SINGLE_COLUMN",
-            "lang": "auto"
+            "lang": "auto",
+            "outType": {
+              "name": "out",
+              "type": "date"
+            }
           },
           "alwaysShowComment": false
         },
@@ -254,6 +413,7 @@
           "type": "FindReplace",
           "params": {
             "output": "",
+            "useDatasetForMapping": false,
             "mapping": [
               {
                 "from": "1",
