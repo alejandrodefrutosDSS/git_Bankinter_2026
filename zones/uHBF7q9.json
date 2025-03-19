@@ -37,13 +37,10 @@
     {
       "objectId": "compute_budget_for_dashboard",
       "objectType": "RECIPE"
-    },
-    {
-      "objectId": "over_budget_notifications",
-      "objectType": "DATASET"
     }
   ],
   "shared": [],
+  "position": {},
   "tags": [],
   "customFields": {},
   "checklists": {
