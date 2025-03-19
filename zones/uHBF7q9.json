@@ -7,10 +7,6 @@
       "objectType": "DATASET"
     },
     {
-      "objectId": "compute_budget_joined_prepared",
-      "objectType": "RECIPE"
-    },
-    {
       "objectId": "budget_for_dashboard",
       "objectType": "DATASET"
     },
