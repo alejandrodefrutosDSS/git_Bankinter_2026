@@ -115,13 +115,7 @@
         "delayBetweenRetries": 10,
         "maxRetriesOnFail": 0,
         "params": {
-          "builds": [
-            {
-              "type": "DATASET",
-              "itemId": "budget_joined",
-              "partitionsSpec": ""
-            }
-          ],
+          "builds": [],
           "jobType": "NON_RECURSIVE_FORCED_BUILD",
           "autoUpdateSchemaBeforeEachRecipeRun": false,
           "stopAtFlowZoneBoundary": false,

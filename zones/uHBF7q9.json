@@ -3,10 +3,6 @@
   "color": "#087ABF",
   "items": [
     {
-      "objectId": "budget_joined",
-      "objectType": "DATASET"
-    },
-    {
       "objectId": "budget_joined_prepared",
       "objectType": "DATASET"
     },
