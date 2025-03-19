@@ -9,7 +9,7 @@ mapping_eventServer = {
     "clientEvent.computeResourceUsage.startTime": "startTime",
     "clientEvent.computeResourceUsage.type": "type",
     "clientEvent.computeResourceUsage.llmUsage.totalComputationTimeMS": "llmUsage_totalComputationTimeMS",
-    "clientEvent.computeResourceUsage.totalTime": "llmUsage_totalTime",
+    "clientEvent.computeResourceUsage.llmUsage.totalTime": "llmUsage_totalTime",
     "clientEvent.computeResourceUsage.llmUsage.llmType": "llmUsage_llmType",
     "clientEvent.computeResourceUsage.llmUsage.totalQueries": "llmUsage_totalQueries",
     "clientEvent.computeResourceUsage.llmUsage.totalPromptTokens": "llmUsage_totalPromptTokens",
