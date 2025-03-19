@@ -55,7 +55,276 @@
     },
     "columnsSelection": {
       "mode": "ALL",
-      "list": []
+      "list": [
+        {
+          "name": "clientEvent.msgType",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.context.type",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.context.authIdentifier",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.context.projectKey",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.context.jobId",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.type",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.id",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.startTime",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.localProcess.cpuCurrent",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.localProcess.cpuAverageOverPast60Seconds",
+          "d": true
+        },
+        {
+          "name": "clientEvent.auditTopic",
+          "d": true
+        },
+        {
+          "name": "clientEvent.dssNodeId",
+          "d": true
+        },
+        {
+          "name": "clientEvent.dssInstallId",
+          "d": true
+        },
+        {
+          "name": "clientEvent.dssNodeType",
+          "d": true
+        },
+        {
+          "name": "origAddress",
+          "d": true
+        },
+        {
+          "name": "serverTimestamp",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.context.activityId",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.context.activityType",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.context.recipeType",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.context.recipeName",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.localProcess.commandName",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.localProcess.vmRSSTotalMBS",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.endTime",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.totalTime",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.localProcess.pid",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.localProcess.cpuUserTimeMS",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.localProcess.cpuSystemTimeMS",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.localProcess.cpuChildrenUserTimeMS",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.localProcess.cpuChildrenSystemTimeMS",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.localProcess.cpuTotalMS",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.localProcess.vmSizeMB",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.localProcess.vmRSSMB",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.localProcess.vmHWMMB",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.localProcess.vmRSSAnonMB",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.localProcess.vmDataMB",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.localProcess.vmSizePeakMB",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.localProcess.vmRSSPeakMB",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.localProcess.majorFaults",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.localProcess.childrenMajorFaults",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.context.datasetName",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.sqlConnection.connection",
+          "d": true
+        },
+        {
+          "name": "clientEvent.clientIP",
+          "d": true
+        },
+        {
+          "name": "clientEvent.originalIP",
+          "d": true
+        },
+        {
+          "name": "clientEvent.xForwardedFor",
+          "d": true
+        },
+        {
+          "name": "clientEvent.authUser",
+          "d": true
+        },
+        {
+          "name": "clientEvent.authSource",
+          "d": true
+        },
+        {
+          "name": "clientEvent.callPath",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.sqlQuery.connectionUsageId",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.sqlQuery.connection",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.sqlQuery.query",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.sqlQuery.insertedRowCount",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.context.webappId",
+          "d": true
+        },
+        {
+          "name": "clientEvent.authVia",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.sqlQuery.fetchedRowCount",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.sqlQuery.statementExecutionTime",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.context.scenarioId",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.llmUsage.connection",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.llmUsage.llmId",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.llmUsage.llmType",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.llmUsage.usageType",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.llmUsage.totalQueries",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.llmUsage.cacheHitQueries",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.llmUsage.cacheMissQueries",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.llmUsage.totalPromptTokens",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.llmUsage.totalCompletionTokens",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.llmUsage.totalComputationTimeMS",
+          "d": true
+        },
+        {
+          "name": "clientEvent.computeResourceUsage.llmUsage.estimatedCostUSD",
+          "d": true
+        }
+      ]
     },
     "columnOrder": [],
     "columnWidthsByName": {
@@ -134,7 +403,12 @@
       "clientEvent.computeResourceUsage.llmUsage.totalComputationTimeMS": 300,
       "clientEvent.computeResourceUsage.llmUsage.estimatedCostUSD": 300,
       "clientEvent.computeResourceUsage.context.webappId": 300,
-      "clientEvent.computeResourceUsage.sqlQuery.insertedRowCount": 300
+      "clientEvent.computeResourceUsage.sqlQuery.insertedRowCount": 300,
+      "clientEvent.computeResourceUsage.totalTime": 300,
+      "clientEvent.computeResourceUsage.sqlQuery.fetchedRowCount": 300,
+      "clientEvent.computeResourceUsage.sqlQuery.statementExecutionTime": 300,
+      "clientEvent.computeResourceUsage.context.scenarioId": 300,
+      "clientEvent.computeResourceUsage.llmUsage.llmId": 300
     },
     "columnUseScientificNotationByName": {},
     "coloring": {
@@ -454,6 +728,7 @@
           "defaultRadius": 5.0,
           "singleShape": "FILLED_CIRCLE"
         },
+        "computeMode": "NORMAL",
         "xAxisMode": "NORMAL",
         "yAxisMode": "NORMAL",
         "pieOptions": {
