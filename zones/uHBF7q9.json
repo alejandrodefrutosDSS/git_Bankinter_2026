@@ -1,12 +1,7 @@
 {
   "name": "budget",
   "color": "#087ABF",
-  "items": [
-    {
-      "objectId": "budget_for_dashboard",
-      "objectType": "DATASET"
-    }
-  ],
+  "items": [],
   "shared": [],
   "position": {},
   "tags": [],
