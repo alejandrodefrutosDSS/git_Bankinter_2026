@@ -30,7 +30,7 @@ mapping_eventServer = {
     "clientEvent.authSource": "authSource",
     "clientEvent.authUser": "authUser",
     "clientEvent.clientIP": "clientIP",
-    "clientEvent.computeResourceUsage.totalTime": "totalTime",
+    "clientEvent.computeResourceUsage.totalTime": "totalTime"
 }
 
 
