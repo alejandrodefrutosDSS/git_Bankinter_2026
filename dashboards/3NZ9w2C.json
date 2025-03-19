@@ -809,7 +809,7 @@
   ],
   "owner": "divya.thomas@dataiku.com",
   "listed": true,
-  "name": "LLM cost monitoring",
+  "name": "GenAI Usage Monitoring",
   "showGrid": true,
   "columnNumber": 36,
   "showNavigationArrows": false,
