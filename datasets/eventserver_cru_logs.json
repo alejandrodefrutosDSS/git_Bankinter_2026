@@ -98,7 +98,8 @@
       {"name":"clientEvent.auditTopic","type":"string","comment":"","maxLength":1000},
       {"name":"clientEvent.authSource","type":"string","comment":"","maxLength":1000},
       {"name":"clientEvent.authUser","type":"string","comment":"","maxLength":1000},
-      {"name":"clientEvent.clientIP","type":"string","comment":"","maxLength":1000}
+      {"name":"clientEvent.clientIP","type":"string","comment":"","maxLength":1000},
+      {"name":"clientEvent.computeResourceUsage.totalTime","type":"bigint","comment":"","maxLength":1000}
     ],
     "userModified": true
   },
