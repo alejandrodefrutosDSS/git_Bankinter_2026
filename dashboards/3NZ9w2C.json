@@ -657,6 +657,7 @@
             },
             "titleOptions": {
               "showTitle": "YES",
+              "title": "Queries",
               "fontColor": "#000",
               "fontSize": 13
             },
@@ -694,6 +695,7 @@
             },
             "titleOptions": {
               "showTitle": "YES",
+              "title": "Tokens",
               "fontColor": "#000",
               "fontSize": 13
             },
