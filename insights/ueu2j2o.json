@@ -26,7 +26,7 @@
       "_refreshTrigger": 0
     },
     "def": {
-      "type": "grouped_columns",
+      "type": "stacked_columns",
       "variant": "normal",
       "name": "Avg of llmUsage_totalPromptTokens by Date",
       "userEditedName": false,
@@ -385,7 +385,7 @@
       "valuesInChartDisplayOptions": {
         "displayValues": false,
         "displayPieLabelsOrValues": true,
-        "displayMode": "LABELS",
+        "displayMode": "VALUES",
         "overlappingStrategy": "AUTO",
         "textFormatting": {
           "fontSize": 11,
