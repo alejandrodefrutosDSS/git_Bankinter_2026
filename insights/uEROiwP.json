@@ -56,12 +56,12 @@
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of llmUsage_totalQueries, descending"
+              "label": "# of requests, descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of llmUsage_totalQueries, ascending",
+              "label": "# of requests, ascending",
               "sortAscending": true
             }
           ],
@@ -222,6 +222,7 @@
           "id": "y_left_0",
           "displayAxis": true,
           "showAxisTitle": true,
+          "axisTitle": "# of requests",
           "axisTitleFormatting": {
             "fontSize": 15,
             "fontColor": "#333",
