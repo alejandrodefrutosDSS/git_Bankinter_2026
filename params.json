@@ -211,7 +211,7 @@
     },
     {
       "pendingUserEmail": "katie.gross@dataiku.com",
-      "invitationEmailStatus": "PENDING",
+      "invitationEmailStatus": "FAILED",
       "admin": false,
       "editPermissions": true,
       "readProjectContent": true,
