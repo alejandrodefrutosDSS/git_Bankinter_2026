@@ -678,7 +678,7 @@
             "tileParams": {
               "showXAxis": true,
               "showYAxis": true,
-              "showLegend": false,
+              "showLegend": true,
               "showBrush": false,
               "inheritLegendPlacement": true,
               "legendPlacement": "OUTER_RIGHT",
