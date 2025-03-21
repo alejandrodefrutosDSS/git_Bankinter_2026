@@ -112,8 +112,7 @@
       {"name":"auditTopic","type":"string"},
       {"name":"authSource","type":"string"},
       {"name":"authUser","type":"string"},
-      {"name":"clientIP","type":"string"},
-      {"name":"totalTime","type":"string"}
+      {"name":"clientIP","type":"string"}
     ],
     "userModified": true
   },
