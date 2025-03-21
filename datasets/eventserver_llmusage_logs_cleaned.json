@@ -102,7 +102,7 @@
       {"name":"authSource","type":"string"},
       {"name":"authUser","type":"string"},
       {"name":"clientIP","type":"string"},
-      {"name":"totalTime","type":"bigint","comment":"","maxLength":1000}
+      {"name":"totalTime","type":"bigint","comment":"","meaning":"LongMeaning","maxLength":1000}
     ],
     "userModified": true
   },
