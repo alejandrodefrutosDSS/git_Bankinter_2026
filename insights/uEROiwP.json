@@ -101,6 +101,7 @@
           "prefix": "",
           "suffix": "",
           "showValue": true,
+          "displayLabel": "# of requests",
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
           "labelFontSize": 16,
