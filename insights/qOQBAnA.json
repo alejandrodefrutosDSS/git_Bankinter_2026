@@ -56,12 +56,12 @@
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Average of llmUsage_totalComputationTimeMS, descending"
+              "label": "avg latency (ms), descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Average of llmUsage_totalComputationTimeMS, ascending",
+              "label": "avg latency (ms), ascending",
               "sortAscending": true
             }
           ],
@@ -222,6 +222,7 @@
           "id": "y_left_0",
           "displayAxis": true,
           "showAxisTitle": true,
+          "axisTitle": "avg computation time (ms)",
           "axisTitleFormatting": {
             "fontSize": 15,
             "fontColor": "#333",
