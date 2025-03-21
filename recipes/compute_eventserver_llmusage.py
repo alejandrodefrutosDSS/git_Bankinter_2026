@@ -23,23 +23,23 @@ mapping_eventServer = {
     "clientEvent.computeResourceUsage.context.projectKey": "context_projectKey",
     "clientEvent.computeResourceUsage.context.type": "context_type",
     "clientEvent.computeResourceUsage.context.jobId": "context_jobId",
-    "clientEvent.computeResourceUsage.totalTime": "totalTime",
     "serverTimestamp": "timestamp",
     "clientEvent.dssNodeId": "dssNodeId",
     "clientEvent.dssNodeName": "dssNodeName",
     "clientEvent.auditTopic": "auditTopic",
     "clientEvent.authSource": "authSource",
     "clientEvent.authUser": "authUser",
-    "clientEvent.clientIP": "clientIP"
+    "clientEvent.clientIP": "clientIP",
+    "clientEvent.computeResourceUsage.totalTime": "totalTime"
 }
-
 
 eventserver_cru_logs = dataiku.Dataset("eventserver_cru_logs")
 eventserver_llmusage_logs_cleaned = dataiku.Dataset("eventserver_llmusage_logs_cleaned")
 with eventserver_llmusage_logs_cleaned.get_writer() as writer:
     for batch in eventserver_cru_logs.iter_dataframes(infer_with_pandas=True, parse_dates=False):
-        print(batch.columns.tolist())
-        break  # Just check the first batch
+        print("Sample of 'clientEvent.computeResourceUsage.totalTime' before filtering:")
+        print(batch['clientEvent.computeResourceUsage.totalTime'].head(30))
+        print("Non-null count:", batch['clientEvent.computeResourceUsage.totalTime'].notnull().sum())
         batch = batch[batch['clientEvent.computeResourceUsage.type'] == "LLM_USAGE"]
         batch.rename(columns=mapping_eventServer, inplace=True)
         writer.write_dataframe(batch)
