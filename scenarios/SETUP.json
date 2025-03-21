@@ -2,7 +2,7 @@
   "type": "step_based",
   "name": "2. Setup and Build",
   "active": false,
-  "runAsUser": "ayoub.moujane",
+  "runAsUser": "ayoub.moujane@dataiku.com",
   "checklists": {
     "checklists": []
   },

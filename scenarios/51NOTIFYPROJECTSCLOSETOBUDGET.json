@@ -2,7 +2,7 @@
   "type": "step_based",
   "name": "5.1. Notify projects close to budget",
   "active": false,
-  "runAsUser": "ayoub.moujane",
+  "runAsUser": "ayoub.moujane@dataiku.com",
   "checklists": {
     "checklists": []
   },

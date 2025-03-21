@@ -2,7 +2,7 @@
   "type": "step_based",
   "name": "4. Continuous flow build",
   "active": false,
-  "runAsUser": "ayoub.moujane",
+  "runAsUser": "ayoub.moujane@dataiku.com",
   "checklists": {
     "checklists": []
   },
