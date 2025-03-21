@@ -38,8 +38,17 @@ eventserver_llmusage_logs_cleaned = dataiku.Dataset("eventserver_llmusage_logs_c
 with eventserver_llmusage_logs_cleaned.get_writer() as writer:
     for batch in eventserver_cru_logs.iter_dataframes(infer_with_pandas=True, parse_dates=False):
         print("Sample of 'clientEvent.computeResourceUsage.totalTime' before filtering:")
-        print(batch['clientEvent.computeResourceUsage.totalTime'].head(30))
-        print("Non-null count:", batch['clientEvent.computeResourceUsage.totalTime'].notnull().sum())
+        print(batch['clientEvent.computeResourceUsage.totalTime'].head(5))
+        print("Non-null count before filtering:", batch['clientEvent.computeResourceUsage.totalTime'].notnull().sum())
+        
         batch = batch[batch['clientEvent.computeResourceUsage.type'] == "LLM_USAGE"]
+        print("Sample of 'clientEvent.computeResourceUsage.totalTime' after filtering:")
+        print(batch['clientEvent.computeResourceUsage.totalTime'].head(5))
+        print("Non-null count after filtering:", batch['clientEvent.computeResourceUsage.totalTime'].notnull().sum())
+        
         batch.rename(columns=mapping_eventServer, inplace=True)
+        print("Sample of 'totalTime' after renaming:")
+        print(batch['totalTime'].head(5))
+        print("Non-null count after renaming:", batch['totalTime'].notnull().sum())
+        
         writer.write_dataframe(batch)
