@@ -28,7 +28,7 @@
     "def": {
       "type": "grouped_columns",
       "variant": "normal",
-      "name": "Avg of llmUsage_totalQueries by Date",
+      "name": "Sum of llmUsage_totalQueries by Date",
       "userEditedName": false,
       "displayWithEChartsByDefault": true,
       "genericDimension0": [
@@ -56,12 +56,12 @@
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Average of llmUsage_totalQueries, descending"
+              "label": "Sum of llmUsage_totalQueries, descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Average of llmUsage_totalQueries, ascending",
+              "label": "Sum of llmUsage_totalQueries, ascending",
               "sortAscending": true
             }
           ],
@@ -70,6 +70,8 @@
             "label": "Natural ordering",
             "sortAscending": true
           },
+          "prefix": "",
+          "suffix": "",
           "multiplier": "Auto",
           "hideTrailingZeros": true,
           "digitGrouping": "DEFAULT",
@@ -83,7 +85,7 @@
       "genericMeasures": [
         {
           "column": "llmUsage_totalQueries",
-          "function": "AVG",
+          "function": "SUM",
           "type": "NUMERICAL",
           "displayed": true,
           "isA": "measure",
@@ -96,6 +98,8 @@
           "useParenthesesForNegativeValues": false,
           "shouldFormatInPercentage": false,
           "hideTrailingZeros": true,
+          "prefix": "",
+          "suffix": "",
           "showValue": true,
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
