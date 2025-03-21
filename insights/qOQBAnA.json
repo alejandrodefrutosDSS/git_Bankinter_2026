@@ -28,12 +28,12 @@
     "def": {
       "type": "grouped_columns",
       "variant": "normal",
-      "name": "Avg of llmUsage_totalComputationTimeMS by serverTimestamp_day",
+      "name": "Avg of llmUsage_totalComputationTimeMS by Date",
       "userEditedName": false,
       "displayWithEChartsByDefault": true,
       "genericDimension0": [
         {
-          "column": "serverTimestamp_day",
+          "column": "Date",
           "type": "DATE",
           "numParams": {
             "emptyBinsMode": "AVERAGE"
@@ -96,6 +96,8 @@
           "useParenthesesForNegativeValues": false,
           "shouldFormatInPercentage": false,
           "hideTrailingZeros": true,
+          "prefix": "",
+          "suffix": "",
           "showValue": true,
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
