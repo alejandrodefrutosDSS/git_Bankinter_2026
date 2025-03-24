@@ -8,8 +8,8 @@
             "tileType": "INSIGHT",
             "box": {
               "top": 24,
-              "left": 18,
-              "width": 18,
+              "left": 15,
+              "width": 15,
               "height": 6
             },
             "clickAction": "DO_NOTHING",
@@ -530,7 +530,7 @@
             "box": {
               "top": 18,
               "left": 0,
-              "width": 36,
+              "width": 30,
               "height": 6
             },
             "clickAction": "DO_NOTHING",
@@ -565,10 +565,10 @@
           {
             "tileType": "TEXT",
             "box": {
-              "top": 0,
+              "top": 18,
               "left": 30,
               "width": 6,
-              "height": 18
+              "height": 12
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
@@ -596,7 +596,7 @@
             "box": {
               "top": 24,
               "left": 0,
-              "width": 18,
+              "width": 15,
               "height": 6
             },
             "clickAction": "DO_NOTHING",
@@ -627,123 +627,10 @@
             "insightType": "chart",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 0,
-              "left": 0,
-              "width": 30,
-              "height": 6
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "locked": false,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "title": "Queries",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "uEROiwP",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 6,
-              "left": 0,
-              "width": 30,
-              "height": 6
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": true,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "locked": false,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "title": "Tokens",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "ueu2j2o",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 12,
-              "left": 0,
-              "width": 30,
-              "height": 6
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "locked": false,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "qOQBAnA",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
           }
         ]
       },
-      "title": "GenAI Usage Monitoring",
+      "title": "LLM Cost Monitoring",
       "show": true,
       "showTitle": true,
       "titleAlign": "CENTER",
@@ -917,6 +804,138 @@
           "autoRefreshSample": false,
           "_refreshTrigger": 1722259496421
         }
+      }
+    },
+    {
+      "id": "MNLkKQc",
+      "grid": {
+        "tiles": [
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 0,
+              "left": 0,
+              "width": 30,
+              "height": 6
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "showXAxis": true,
+              "showYAxis": true,
+              "showLegend": false,
+              "showBrush": false,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showTooltips": true,
+              "autoPlayAnimation": true
+            },
+            "backgroundOpacity": 1.0,
+            "autoLoad": true,
+            "locked": false,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "titleOptions": {
+              "showTitle": "YES",
+              "title": "Queries",
+              "fontColor": "#000",
+              "fontSize": 13
+            },
+            "insightId": "uEROiwP",
+            "insightType": "chart",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 6,
+              "left": 0,
+              "width": 30,
+              "height": 6
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "showXAxis": true,
+              "showYAxis": true,
+              "showLegend": true,
+              "showBrush": false,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showTooltips": true,
+              "autoPlayAnimation": true
+            },
+            "backgroundOpacity": 1.0,
+            "autoLoad": true,
+            "locked": false,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "titleOptions": {
+              "showTitle": "YES",
+              "title": "Tokens",
+              "fontColor": "#000",
+              "fontSize": 13
+            },
+            "insightId": "9pcVB4Q",
+            "insightType": "chart",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 12,
+              "left": 0,
+              "width": 30,
+              "height": 6
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "showXAxis": true,
+              "showYAxis": true,
+              "showLegend": false,
+              "showBrush": false,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showTooltips": true,
+              "autoPlayAnimation": true
+            },
+            "backgroundOpacity": 1.0,
+            "autoLoad": true,
+            "locked": false,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "titleOptions": {
+              "showTitle": "YES",
+              "fontColor": "#000",
+              "fontSize": 13
+            },
+            "insightId": "qOQBAnA",
+            "insightType": "chart",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          }
+        ]
+      },
+      "title": "GenAI Usage Monitoring",
+      "show": true,
+      "showTitle": false,
+      "titleAlign": "CENTER",
+      "titleFontColor": "#444444",
+      "titleFontSize": 28,
+      "enableCrossFilters": true,
+      "backgroundColor": "#ffffff",
+      "showFilterPanel": true,
+      "filtersParams": {
+        "panelPosition": "TOP"
       }
     }
   ],
