@@ -815,7 +815,7 @@
             "box": {
               "top": 0,
               "left": 0,
-              "width": 30,
+              "width": 36,
               "height": 6
             },
             "clickAction": "DO_NOTHING",
@@ -853,7 +853,7 @@
             "box": {
               "top": 6,
               "left": 0,
-              "width": 30,
+              "width": 36,
               "height": 6
             },
             "clickAction": "DO_NOTHING",
@@ -891,7 +891,7 @@
             "box": {
               "top": 12,
               "left": 0,
-              "width": 30,
+              "width": 36,
               "height": 6
             },
             "clickAction": "DO_NOTHING",
@@ -927,7 +927,7 @@
       },
       "title": "GenAI Usage Monitoring",
       "show": true,
-      "showTitle": false,
+      "showTitle": true,
       "titleAlign": "CENTER",
       "titleFontColor": "#444444",
       "titleFontSize": 28,
