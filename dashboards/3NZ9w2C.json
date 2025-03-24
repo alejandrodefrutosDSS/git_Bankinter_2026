@@ -839,7 +839,7 @@
             },
             "titleOptions": {
               "showTitle": "YES",
-              "title": "Queries",
+              "title": "Requests",
               "fontColor": "#000",
               "fontSize": 13
             },
