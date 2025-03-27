@@ -234,7 +234,7 @@
       "llmUsage_totalQueries": 197,
       "llmUsage_usageType": 176,
       "logger": 100,
-      "msgType": 100,
+      "msgType": 264,
       "serverTimestamp": 155,
       "serverTimestamp_day": 183,
       "serverTimestamp_hours": 197,
