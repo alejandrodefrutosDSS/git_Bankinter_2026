@@ -48,24 +48,28 @@
             {
               "type": "NATURAL",
               "label": "Natural ordering",
-              "sortAscending": true
+              "sortAscending": true,
+              "$$hashKey": "object:13606"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of llmUsage_estimatedCostUSD, descending"
+              "label": "Sum of llmUsage_estimatedCostUSD, descending",
+              "$$hashKey": "object:13607"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
               "label": "Sum of llmUsage_estimatedCostUSD, ascending",
-              "sortAscending": true
+              "sortAscending": true,
+              "$$hashKey": "object:13608"
             }
           ],
           "sort": {
             "type": "NATURAL",
             "label": "Natural ordering",
-            "sortAscending": true
+            "sortAscending": true,
+            "$$hashKey": "object:13606"
           },
           "prefix": "",
           "suffix": "",
@@ -73,7 +77,8 @@
           "hideTrailingZeros": true,
           "digitGrouping": "DEFAULT",
           "useParenthesesForNegativeValues": false,
-          "shouldFormatInPercentage": false
+          "shouldFormatInPercentage": false,
+          "displayLabel": ""
         }
       ],
       "genericDimension1": [],
@@ -179,6 +184,7 @@
       "xAxisFormatting": {
         "displayAxis": true,
         "showAxisTitle": true,
+        "axisTitle": "Provider",
         "axisTitleFormatting": {
           "fontSize": 15,
           "fontColor": "#333",
