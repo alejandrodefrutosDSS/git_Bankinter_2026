@@ -84,7 +84,7 @@
             "box": {
               "top": 72,
               "left": 0,
-              "width": 12,
+              "width": 36,
               "height": 9
             },
             "clickAction": "DO_NOTHING",
@@ -119,83 +119,9 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 72,
-              "left": 12,
-              "width": 24,
-              "height": 9
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "locked": false,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "9Z0fHns",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 48,
-              "left": 12,
-              "width": 24,
-              "height": 9
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "locked": false,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "sMIZmp2",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
               "top": 48,
               "left": 0,
-              "width": 12,
+              "width": 36,
               "height": 9
             },
             "clickAction": "DO_NOTHING",
@@ -250,7 +176,7 @@
             },
             "titleOptions": {
               "showTitle": "YES",
-              "title": "Breakdown by connection type",
+              "title": "Breakdown by provider",
               "fontColor": "#000",
               "fontSize": 18
             },
@@ -456,7 +382,7 @@
             "box": {
               "top": 60,
               "left": 0,
-              "width": 12,
+              "width": 36,
               "height": 9
             },
             "clickAction": "DO_NOTHING",
@@ -484,43 +410,6 @@
               "fontSize": 13
             },
             "insightId": "4H3c7VG",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 60,
-              "left": 12,
-              "width": 24,
-              "height": 9
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "locked": false,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "jYi57cn",
             "insightType": "chart",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
