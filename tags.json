@@ -6,11 +6,11 @@
     "SolutionLineOfBusiness:IT / Cybersecurity": {
       "color": "#77bec2"
     },
-    "SolutionType:Plug and Play": {
-      "color": "#23E5E8"
-    },
-    "Version:1.0.1": {
+    "Version:1.0.0": {
       "color": "#d66b9b"
+    },
+    "SolutionType:Plug and Play": {
+      "color": "#EAB8A9"
     },
     "recipe-editor": {
       "color": "#1ac2ab"
@@ -22,7 +22,7 @@
       "color": "#d66b9b"
     },
     "SolutionLineOfBusiness:IT / Cybersecurity / Data": {
-      "color": "#A79019"
+      "color": "#CB8A0F"
     },
     "Dataiku Solution": {
       "color": "#d66b9b"
@@ -31,20 +31,17 @@
       "color": "#94be8e"
     },
     "Section:Solutions": {
-      "color": "#2CDAC0"
+      "color": "#2BDFB9"
     },
-    "Version:1.0.0-rc1": {},
     "deleted-recipe-editor": {
       "color": "#90a8b7"
     },
-    "Version:2.0.0": {},
     "Industry Solution": {
       "color": "#77bec2"
     },
     "downloads": {
       "color": "#de1ea5"
     },
-    "Version:2.1.0": {},
     "dashboarding": {
       "color": "#00a55a"
     },
@@ -52,7 +49,7 @@
       "color": "#d66b9b"
     },
     "SolutionCategory:Cross-Vertical": {
-      "color": "#B0E523"
+      "color": "#B395A7"
     },
     "solutionCategories:Cross-Vertical": {
       "color": "#90a8b7"
