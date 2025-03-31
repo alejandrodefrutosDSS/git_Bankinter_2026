@@ -68,6 +68,7 @@
   "schema": {
     "columns": [
       {"name":"Project","type":"string"},
+      {"name":"llmUsage_estimatedCostUSD_sum_sum","type":"double"},
       {"name":"count_sum","type":"bigint"},
       {"name":"count","type":"bigint"}
     ],
