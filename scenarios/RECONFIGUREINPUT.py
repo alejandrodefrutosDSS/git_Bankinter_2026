@@ -27,7 +27,6 @@ def change_visual_recipes_engine(recipe_engine, spark_conf, exclude_recipes_list
             if recipe_engine == "SPARK":
                 set_spark_configuration_on_recipe(project, recipe.name, spark_conf)
 
-BUDGET_FLOW_ZONE_DS = ["logs_llm_usage_prepared_by_Project_complete", "budget_joined", "budget_joined_prepared", "budget_for_dashboard", "over_budget_notifications"]
 TO_DASHBOARD_FLOWZONE_DS = ["logs_llm_usage_prepared", "logs_llm_usage_prepared_by_Project"]
 EVENTSERVER_FLOWZONE_DS = ["eventserver_llmusage_logs_cleaned"]
 EVENTSERVER_INPUT_DS = "eventserver_cru_logs"
@@ -55,7 +54,7 @@ managed_dataset_connection_type = get_dataset_in_connection_settings(project, ma
 visual_recipes_engine = variables["local"]["visual_recipes_engine"]
 visual_recipes_spark_conf = variables["local"]["visual_recipes_spark_conf"]
 
-ALL_MANAGED_DS = TO_DASHBOARD_FLOWZONE_DS + BUDGET_FLOW_ZONE_DS + CLOUD_FLOWZONE_DS + EVENTSERVER_FLOWZONE_DS + AUDITLOGS_FLOWZONE_DS
+ALL_MANAGED_DS = TO_DASHBOARD_FLOWZONE_DS + CLOUD_FLOWZONE_DS + EVENTSERVER_FLOWZONE_DS + AUDITLOGS_FLOWZONE_DS
 ALL_DS = ALL_MANAGED_DS + [CLOUD_INPUT_DS, EVENTSERVER_INPUT_DS, AUDITLOGS_INPUT_DS]
 ALL_RECIPES = TO_DASHBOARD_FLOWZONE_RECIPES + EVENTSERVER_FLOWZONE_RECIPES + CLOUD_FLOWZONE_RECIPES
 
