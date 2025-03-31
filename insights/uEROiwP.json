@@ -617,7 +617,7 @@
     "datasetSmartName": "logs_llm_usage_prepared"
   },
   "owner": "ayoub.moujane",
-  "listed": false,
+  "listed": true,
   "name": "Total queries",
   "dashboardCreationId": "3NZ9w2C",
   "creationTag": {
