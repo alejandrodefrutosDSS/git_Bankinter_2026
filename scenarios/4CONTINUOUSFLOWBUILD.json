@@ -54,18 +54,7 @@
         "delayBetweenRetries": 10,
         "maxRetriesOnFail": 0,
         "params": {
-          "builds": [
-            {
-              "type": "DATASET",
-              "itemId": "logs_llm_usage_prepared_by_Project",
-              "partitionsSpec": "CURRENT_DAY"
-            },
-            {
-              "type": "DATASET",
-              "itemId": "logs_llm_usage_prepared_by_Project",
-              "partitionsSpec": "PREVIOUS_DAY"
-            }
-          ],
+          "builds": [],
           "jobType": "RECURSIVE_BUILD",
           "autoUpdateSchemaBeforeEachRecipeRun": false,
           "stopAtFlowZoneBoundary": false,

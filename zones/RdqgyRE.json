@@ -11,14 +11,6 @@
       "objectType": "RECIPE"
     },
     {
-      "objectId": "logs_llm_usage_prepared_by_Project",
-      "objectType": "DATASET"
-    },
-    {
-      "objectId": "compute_logs_llm_usage_prepared_by_Project",
-      "objectType": "RECIPE"
-    },
-    {
       "objectId": "compute_compute_logs_llm_usage_prepared_by_Project_complete",
       "objectType": "RECIPE"
     },
