@@ -25,10 +25,6 @@
     {
       "objectId": "compute_logs_llm_usage_prepared_by_Project_complete",
       "objectType": "DATASET"
-    },
-    {
-      "objectId": "logs_llm_usage_prepared_by_Project_complete",
-      "objectType": "DATASET"
     }
   ],
   "shared": [],
