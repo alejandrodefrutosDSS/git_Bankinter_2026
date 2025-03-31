@@ -145,6 +145,7 @@
             },
             "titleOptions": {
               "showTitle": "YES",
+              "title": "Provider Estimated Cost ($) Distribution",
               "fontColor": "#000",
               "fontSize": 13
             },
