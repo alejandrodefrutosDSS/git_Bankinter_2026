@@ -85,6 +85,7 @@
       }
     }
   },
+  "engineType": "DSS",
   "enlargeYourBits": true,
   "outputColumnNameOverrides": {},
   "computedColumns": [],
