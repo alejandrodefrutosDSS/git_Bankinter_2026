@@ -412,10 +412,9 @@
     "SolutionType:Plug and Play",
     "SolutionLineOfBusiness:IT / Cybersecurity / Data",
     "Industry Solution",
-    "duplicated",
     "downloads",
-    "Version:2.1.0",
-    "imported"
+    "imported",
+    "Version:1.0.0"
   ],
   "customFields": {},
   "checklists": {
