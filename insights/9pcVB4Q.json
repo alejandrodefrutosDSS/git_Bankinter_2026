@@ -679,7 +679,7 @@
     "datasetSmartName": "logs_llm_usage_prepared"
   },
   "owner": "ayoub.moujane@dataiku.com",
-  "listed": false,
+  "listed": true,
   "name": "Total tokens",
   "dashboardCreationId": "3NZ9w2C",
   "creationTag": {
