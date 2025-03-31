@@ -165,7 +165,7 @@
       "column": "llmUsage_estimatedCostUSD",
       "count": false,
       "$idx": 7,
-      "sum": false,
+      "sum": true,
       "concat": false,
       "type": "double",
       "countDistinct": false,
@@ -744,6 +744,10 @@
           {
             "name": "Project",
             "type": "string"
+          },
+          {
+            "name": "llmUsage_estimatedCostUSD_sum",
+            "type": "double"
           },
           {
             "name": "count",
