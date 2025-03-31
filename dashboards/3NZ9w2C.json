@@ -699,8 +699,10 @@
         {
           "filterType": "ALPHANUM_FACET",
           "filterSelectionType": "MULTI_SELECT",
+          "facetSorting": "COUNT_DESC",
           "id": "1722259534923_165",
           "column": "Connection type",
+          "label": "Provider",
           "columnType": "ALPHANUM",
           "isA": "filter",
           "excludedValues": {},
@@ -709,7 +711,6 @@
           "excludeOtherValues": false,
           "allValuesInSample": false,
           "active": true,
-          "explicitExclude": false,
           "includeEmptyValues": true
         },
         {
