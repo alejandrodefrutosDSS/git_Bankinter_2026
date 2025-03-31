@@ -9,6 +9,14 @@
     {
       "objectId": "compute_llm_logs_prep",
       "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_logs_llm_usage_prepared_by_Project",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "logs_llm_usage_prepared_by_Project",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],
