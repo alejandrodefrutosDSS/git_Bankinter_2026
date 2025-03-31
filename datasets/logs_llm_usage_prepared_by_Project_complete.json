@@ -68,6 +68,7 @@
   "schema": {
     "columns": [
       {"name":"Project","type":"string"},
+      {"name":"count_sum","type":"bigint"},
       {"name":"count","type":"bigint"}
     ],
     "userModified": true
