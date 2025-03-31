@@ -24,10 +24,27 @@
     {
       "last": false,
       "max": false,
+      "column": "llmUsage_estimatedCostUSD_sum",
+      "count": false,
+      "$idx": 0,
+      "sum": true,
+      "concat": false,
+      "type": "double",
+      "countDistinct": false,
+      "min": false,
+      "avg": false,
+      "median": false,
+      "$selected": true,
+      "stddev": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "max": false,
       "firstLastNotNull": false,
       "column": "count",
       "count": false,
-      "$idx": 0,
+      "$idx": 1,
       "sum": true,
       "concat": false,
       "type": "bigint",
@@ -37,7 +54,7 @@
       "countDistinct": false,
       "avg": false,
       "median": false,
-      "$selected": true,
+      "$selected": false,
       "stddev": false,
       "first": false
     }
@@ -96,6 +113,10 @@
           {
             "name": "Project",
             "type": "string"
+          },
+          {
+            "name": "llmUsage_estimatedCostUSD_sum_sum",
+            "type": "double"
           },
           {
             "name": "count_sum",
