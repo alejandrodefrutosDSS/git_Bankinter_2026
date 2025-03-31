@@ -9,10 +9,6 @@
     {
       "objectId": "compute_llm_logs_prep",
       "objectType": "RECIPE"
-    },
-    {
-      "objectId": "compute_compute_logs_llm_usage_prepared_by_Project_complete",
-      "objectType": "RECIPE"
     }
   ],
   "shared": [],
