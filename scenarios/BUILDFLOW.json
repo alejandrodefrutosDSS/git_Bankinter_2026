@@ -36,7 +36,7 @@
             {
               "type": "DATASET",
               "itemId": "logs_llm_usage_prepared_by_Project",
-              "partitionsSpec": "2025-01-01/2025-02-01"
+              "partitionsSpec": "2025-01-01/2025-02-14"
             }
           ],
           "jobType": "RECURSIVE_FORCED_BUILD",
