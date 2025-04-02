@@ -1,8 +1,8 @@
 {
-  "type": "S3",
+  "type": "Filesystem",
   "managed": true,
   "featureGroup": false,
-  "formatType": "parquet",
+  "formatType": "csv",
   "checklists": {
     "checklists": []
   },
@@ -25,26 +25,40 @@
     }
   },
   "formatParams": {
-    "parquetLowerCaseIdentifiers": false,
-    "representsNullFields": false,
-    "parquetCompressionMethod": "SNAPPY",
-    "parquetFlavor": "HIVE",
-    "parquetBlockSizeMB": 128,
-    "readTemporalMode": "AS_TEMPORAL"
+    "style": "unix",
+    "charset": "utf8",
+    "separator": "\t",
+    "quoteChar": "\"",
+    "escapeChar": "\\",
+    "maxRowChars": 100000000,
+    "dateSerializationFormat": "ISO",
+    "arrayMapFormat": "json",
+    "hiveSeparators": [
+      "\u0002",
+      "\u0003",
+      "\u0004",
+      "\u0005",
+      "\u0006",
+      "\u0007",
+      "\b"
+    ],
+    "skipRowsBeforeHeader": 0,
+    "parseHeaderRow": false,
+    "skipRowsAfterHeader": 0,
+    "probableNumberOfRecords": 0,
+    "normalizeBooleans": false,
+    "normalizeDoubles": true,
+    "readAdditionalColumnsBehavior": "INSERT_IN_DATA_WARNING",
+    "readMissingColumnsBehavior": "DISCARD_SILENT",
+    "readDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "writeDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "fileReadFailureBehavior": "FAIL",
+    "compress": "gz"
   },
   "partitioning": {
-    "filePathPattern": "%Y/%M/%D/.*",
     "ignoreNonMatchingFile": false,
-    "considerMissingRequestedPartitionsAsEmpty": true,
-    "dimensions": [
-      {
-        "name": "DAY",
-        "params": {
-          "period": "DAY"
-        },
-        "type": "time"
-      }
-    ]
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
   },
   "creationTag": {
     "versionNumber": 0,
@@ -56,12 +70,8 @@
   },
   "tags": [],
   "params": {
-    "bucket": "dku-solutions-data-internal",
-    "metastoreSynchronizationEnabled": true,
-    "metastoreDatabaseName": "default",
-    "metastoreTableName": "logs_filtered_unnested",
-    "connection": "dataiku-managed-storage",
-    "path": "/managed-dss-data/${projectKey}/logs_filtered_unnested",
+    "connection": "filesystem_managed",
+    "path": "${projectKey}/logs_filtered_unnested",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",
