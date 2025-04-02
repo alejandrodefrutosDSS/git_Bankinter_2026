@@ -54,7 +54,7 @@ managed_dataset_connection_type = get_dataset_in_connection_settings(project, ma
 visual_recipes_engine = variables["local"]["visual_recipes_engine"]
 visual_recipes_spark_conf = variables["local"]["visual_recipes_spark_conf"]
 
-ALL_MANAGED_DS = TO_DASHBOARD_FLOWZONE_DS + CLOUD_FLOWZONE_DS + EVENTSERVER_FLOWZONE_DS + AUDITLOGS_FLOWZONE_DS
+ALL_MANAGED_DS = TO_DASHBOARD_FLOWZONE_DS + CLOUD_FLOWZONE_DS + EVENTSERVER_FLOWZONE_DS + AUDITLOGS_FLOWZONE_DS + ["logs_llm_usage_prepared_by_Project_complete"]
 ALL_DS = ALL_MANAGED_DS + [CLOUD_INPUT_DS, EVENTSERVER_INPUT_DS, AUDITLOGS_INPUT_DS]
 ALL_RECIPES = TO_DASHBOARD_FLOWZONE_RECIPES + EVENTSERVER_FLOWZONE_RECIPES + CLOUD_FLOWZONE_RECIPES
 
