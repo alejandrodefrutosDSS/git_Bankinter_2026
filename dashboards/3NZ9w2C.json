@@ -520,7 +520,7 @@
           }
         ]
       },
-      "title": "GenAI Monitoring",
+      "title": "GenAI Usage Monitoring",
       "show": true,
       "showTitle": true,
       "titleAlign": "CENTER",
