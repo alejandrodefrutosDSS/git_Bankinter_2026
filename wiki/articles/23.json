@@ -23,6 +23,17 @@
       },
       "attachedBy": "ayoub.moujane@dataiku.com",
       "attachedOn": 1744031665516
+    },
+    {
+      "attachmentType": "FILE",
+      "smartId": "DBHx8Jyn9z2F",
+      "details": {
+        "objectDisplayName": "genai_usage_monitoring.png",
+        "size": 160277,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "ayoub.moujane@dataiku.com",
+      "attachedOn": 1744031665537
     }
   ],
   "creationTag": {
