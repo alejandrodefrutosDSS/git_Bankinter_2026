@@ -1,0 +1,17 @@
+{
+  "name": "GenAI Usage Monitoring dashboard",
+  "layout": "WIKI_ARTICLE",
+  "attachments": [],
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "ayoub.moujane@dataiku.com"
+    },
+    "lastModifiedOn": 1744030939631
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
