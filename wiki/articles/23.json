@@ -12,6 +12,17 @@
       },
       "attachedBy": "fabien.daoulas@dataiku.com",
       "attachedOn": 1732550783317
+    },
+    {
+      "attachmentType": "FILE",
+      "smartId": "zOM8UIDCgPzk",
+      "details": {
+        "objectDisplayName": "genai_cost_monitoring.png",
+        "size": 234041,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "ayoub.moujane@dataiku.com",
+      "attachedOn": 1744031665516
     }
   ],
   "creationTag": {
