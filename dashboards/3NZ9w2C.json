@@ -520,7 +520,7 @@
           }
         ]
       },
-      "title": "LLM Cost Monitoring",
+      "title": "GenAI Monitoring",
       "show": true,
       "showTitle": true,
       "titleAlign": "CENTER",
