@@ -1,7 +1,19 @@
 {
   "name": "GenAI Usage Monitoring dashboard",
   "layout": "WIKI_ARTICLE",
-  "attachments": [],
+  "attachments": [
+    {
+      "attachmentType": "FILE",
+      "smartId": "mXTlH1gTDIyS",
+      "details": {
+        "objectDisplayName": "genai_usage_monitoring.png",
+        "size": 160277,
+        "mimeType": "image/png"
+      },
+      "attachedBy": "ayoub.moujane@dataiku.com",
+      "attachedOn": 1744031811187
+    }
+  ],
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
