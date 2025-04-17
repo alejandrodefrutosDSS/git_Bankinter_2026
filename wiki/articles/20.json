@@ -6,7 +6,10 @@
       "attachmentType": "DSS_OBJECT",
       "taggableType": "DASHBOARD",
       "smartId": "3NZ9w2C",
-      "details": {},
+      "details": {
+        "objectDisplayName": "GenAI Monitoring",
+        "userDisplayName": "Ayoub Moujane"
+      },
       "attachedBy": "ayoub.moujane@dataiku.com",
       "attachedOn": 1744875468729
     }
