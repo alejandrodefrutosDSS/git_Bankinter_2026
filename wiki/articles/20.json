@@ -1,7 +1,16 @@
 {
   "name": "Release Notes",
   "layout": "WIKI_ARTICLE",
-  "attachments": [],
+  "attachments": [
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "DASHBOARD",
+      "smartId": "3NZ9w2C",
+      "details": {},
+      "attachedBy": "ayoub.moujane@dataiku.com",
+      "attachedOn": 1744875468729
+    }
+  ],
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
