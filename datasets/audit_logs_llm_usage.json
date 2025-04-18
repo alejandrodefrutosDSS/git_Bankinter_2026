@@ -56,18 +56,9 @@
     "compress": "gz"
   },
   "partitioning": {
-    "filePathPattern": "%Y/%M/.*",
     "ignoreNonMatchingFile": false,
-    "considerMissingRequestedPartitionsAsEmpty": true,
-    "dimensions": [
-      {
-        "name": "MONTH",
-        "params": {
-          "period": "MONTH"
-        },
-        "type": "time"
-      }
-    ]
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
   },
   "creationTag": {
     "versionNumber": 0,
