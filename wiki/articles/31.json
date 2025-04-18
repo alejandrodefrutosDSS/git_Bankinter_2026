@@ -6,7 +6,10 @@
       "attachmentType": "DSS_OBJECT",
       "taggableType": "ARTICLE",
       "smartId": "14",
-      "details": {},
+      "details": {
+        "objectDisplayName": "Setting up the project",
+        "userDisplayName": "Ayoub Moujane"
+      },
       "attachedBy": "ayoub.moujane@dataiku.com",
       "attachedOn": 1744985567205
     }
