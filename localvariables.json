@@ -2,7 +2,7 @@
   "logs_origin": "event_server",
   "logs_connection": "filesystem_managed",
   "logs_partitioning_activated": false,
-  "logs_partitioning_period": "DAY",
+  "logs_partitioning_period": "MONTH",
   "logs_partitioning_pattern": "%Y/%M/.*",
   "managed_dataset_connection": "filesystem_managed",
   "visual_recipes_engine": "DSS",
