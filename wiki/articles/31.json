@@ -1,7 +1,16 @@
 {
   "name": "Data Model",
   "layout": "WIKI_ARTICLE",
-  "attachments": [],
+  "attachments": [
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "ARTICLE",
+      "smartId": "14",
+      "details": {},
+      "attachedBy": "ayoub.moujane@dataiku.com",
+      "attachedOn": 1744985567205
+    }
+  ],
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
