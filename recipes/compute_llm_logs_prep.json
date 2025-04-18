@@ -65,16 +65,7 @@
       "items": [
         {
           "ref": "eventserver_llmusage_logs_cleaned",
-          "deps": [
-            {
-              "out": "logs_llm_usage_prepared",
-              "idim": "MONTH",
-              "odim": "MONTH",
-              "func": "equals",
-              "params": {},
-              "expandVariables": false
-            }
-          ]
+          "deps": []
         }
       ]
     }
