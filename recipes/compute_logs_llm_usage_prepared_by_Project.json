@@ -14,7 +14,16 @@
       "items": [
         {
           "ref": "logs_llm_usage_prepared",
-          "deps": []
+          "deps": [
+            {
+              "out": "logs_llm_usage_prepared_by_Project",
+              "idim": "MONTH",
+              "odim": "MONTH",
+              "func": "equals",
+              "params": {},
+              "expandVariables": false
+            }
+          ]
         }
       ]
     }
