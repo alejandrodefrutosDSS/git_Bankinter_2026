@@ -14,15 +14,7 @@
       "items": [
         {
           "ref": "logs_llm_usage_prepared_by_Project",
-          "deps": [
-            {
-              "out": "logs_llm_usage_prepared_by_Project_complete",
-              "idim": "MONTH",
-              "func": "all_available",
-              "params": {},
-              "expandVariables": false
-            }
-          ]
+          "deps": []
         }
       ]
     }
