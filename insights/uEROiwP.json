@@ -15,7 +15,7 @@
           "enabled": false,
           "rules": []
         },
-        "samplingMethod": "HEAD_SEQUENTIAL",
+        "samplingMethod": "FULL",
         "maxRecords": 10000,
         "targetRatio": 0.02,
         "ascending": true,
@@ -23,7 +23,7 @@
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 0
+      "_refreshTrigger": 1745308726488
     },
     "def": {
       "type": "grouped_columns",
