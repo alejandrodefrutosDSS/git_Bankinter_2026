@@ -19,7 +19,7 @@
       {
         "id": "build_0_true_d_total_logs_by_day_d_logs_local_process_CPU_ranked_d_logs_local_process_memory_rank_d_logs_local_process_by_minutes_d_logs_local_process_by_hours_d_logs_local_process_frequencies_stats_prepared",
         "type": "build_flowitem",
-        "name": "Build output datasets",
+        "name": "Build all partitioned datasets",
         "enabled": true,
         "alwaysShowComment": false,
         "runConditionType": "RUN_IF_STATUS_MATCH",
@@ -37,14 +37,40 @@
               "type": "DATASET",
               "itemId": "logs_llm_usage_prepared_by_Project",
               "partitionsSpec": "2023-01-01/2024-01-01"
-            },
+            }
+          ],
+          "jobType": "RECURSIVE_FORCED_BUILD",
+          "autoUpdateSchemaBeforeEachRecipeRun": false,
+          "stopAtFlowZoneBoundary": false,
+          "refreshHiveMetastore": true,
+          "handleWarningsAs": "WARNING",
+          "proceedOnFailure": false
+        }
+      },
+      {
+        "id": "build_0_true_d_logs_llm_usage_prepared_by_Project_complete",
+        "type": "build_flowitem",
+        "name": "Run the last recipe",
+        "enabled": true,
+        "alwaysShowComment": false,
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "builds": [
             {
               "type": "DATASET",
               "itemId": "logs_llm_usage_prepared_by_Project_complete",
               "partitionsSpec": ""
             }
           ],
-          "jobType": "RECURSIVE_FORCED_BUILD",
+          "jobType": "RECURSIVE_BUILD",
           "autoUpdateSchemaBeforeEachRecipeRun": false,
           "stopAtFlowZoneBoundary": false,
           "refreshHiveMetastore": true,
