@@ -1,0 +1,4 @@
+{
+    "custom_checks_path": null,
+    "skip_checks": ["CHECK_WIKI::CHECK_LEGAL", "CHECK_UNUSED_CHARTS"]
+}
