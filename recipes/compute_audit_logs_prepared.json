@@ -62,8 +62,8 @@
           "deps": [
             {
               "out": "logs_filtered_unnested",
-              "idim": "HOUR",
-              "odim": "HOUR",
+              "idim": "DAY",
+              "odim": "DAY",
               "func": "equals",
               "params": {},
               "expandVariables": false
