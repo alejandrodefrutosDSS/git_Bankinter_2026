@@ -17,8 +17,8 @@
           "deps": [
             {
               "out": "logs_llm_usage_prepared_by_Project",
-              "idim": "HOUR",
-              "odim": "HOUR",
+              "idim": "DAY",
+              "odim": "DAY",
               "func": "equals",
               "params": {},
               "expandVariables": false
