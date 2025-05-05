@@ -26,8 +26,8 @@
           "deps": [
             {
               "out": "eventserver_llmusage_logs_cleaned",
-              "idim": "HOUR",
-              "odim": "HOUR",
+              "idim": "DAY",
+              "odim": "DAY",
               "func": "equals",
               "params": {},
               "expandVariables": false
