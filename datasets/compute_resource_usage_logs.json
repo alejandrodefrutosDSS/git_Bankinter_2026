@@ -35,7 +35,7 @@
     "headerRow": false
   },
   "partitioning": {
-    "filePathPattern": "%Y/%M/%D/%H/.*",
+    "filePathPattern": "%Y/%M/%D/%H.*",
     "ignoreNonMatchingFile": false,
     "considerMissingRequestedPartitionsAsEmpty": true,
     "dimensions": [
