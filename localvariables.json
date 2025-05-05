@@ -6,6 +6,6 @@
   "logs_partitioning_pattern": "%Y/%M/%D/%H/.*",
   "managed_dataset_connection": "filesystem_managed",
   "visual_recipes_engine": "DSS",
-  "logs_partitioning_build_range": "2024-01-01/2025-0-01",
+  "logs_partitioning_build_range": "2024-01-01/2025-05-01",
   "visual_recipes_spark_conf": ""
 }
