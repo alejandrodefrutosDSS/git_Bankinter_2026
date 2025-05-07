@@ -806,7 +806,7 @@
             },
             "titleOptions": {
               "showTitle": "YES",
-              "title": "Latency",
+              "title": "Avg Computation time (ms)",
               "fontColor": "#000",
               "fontSize": 13
             },
