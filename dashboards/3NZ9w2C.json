@@ -730,7 +730,7 @@
             },
             "titleOptions": {
               "showTitle": "YES",
-              "title": "Requests",
+              "title": "Total Requests",
               "fontColor": "#000",
               "fontSize": 13
             },
