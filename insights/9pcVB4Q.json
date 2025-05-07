@@ -163,7 +163,7 @@
           "prefix": "",
           "suffix": "",
           "showValue": true,
-          "displayLabel": "Average # response tokens",
+          "displayLabel": "Avg # response tokens",
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
           "labelFontSize": 16,
