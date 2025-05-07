@@ -768,7 +768,7 @@
             },
             "titleOptions": {
               "showTitle": "YES",
-              "title": "Tokens",
+              "title": "Avg tokens",
               "fontColor": "#000",
               "fontSize": 13
             },
