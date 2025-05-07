@@ -387,6 +387,8 @@
         "displayPieLabelsOrValues": true,
         "displayMode": "VALUES",
         "overlappingStrategy": "AUTO",
+        "spacing": 5,
+        "placementMode": "AUTO",
         "textFormatting": {
           "fontSize": 11,
           "fontColor": "AUTO",
@@ -431,6 +433,7 @@
         },
         "customColors": {}
       },
+      "colorGroups": [],
       "bubblesOptions": {
         "defaultRadius": 5.0,
         "singleShape": "FILLED_CIRCLE"
