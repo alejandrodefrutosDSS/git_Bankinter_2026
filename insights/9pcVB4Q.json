@@ -29,7 +29,7 @@
       "type": "stacked_columns",
       "variant": "normal",
       "name": "Avg of llmUsage_totalPromptTokens by Date",
-      "userEditedName": false,
+      "userEditedName": true,
       "displayWithEChartsByDefault": true,
       "genericDimension0": [
         {
@@ -112,7 +112,7 @@
           "prefix": "",
           "suffix": "",
           "showValue": true,
-          "displayLabel": "Average # prompt tokens",
+          "displayLabel": "Avg # prompt tokens",
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
           "labelFontSize": 16,
