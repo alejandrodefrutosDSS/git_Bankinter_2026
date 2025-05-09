@@ -303,7 +303,6 @@
               "canSelectForeign": false,
               "markCreatedAsBuilt": false,
               "allowDuplicates": true,
-              "visibilityCondition": "true",
               "getChoicesFromPython": false,
               "triggerParameters": [],
               "disableAutoReload": false,
