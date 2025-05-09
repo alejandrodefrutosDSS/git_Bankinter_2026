@@ -36,7 +36,12 @@
     {
       "sectionTitle": "Welcome to Dataiku GenAI Monitoring",
       "sectionText": "Several sections will help you configure the project and your data. You can check the requirements [here](article:15) and the [project setup tutorial](article:14)",
-      "tiles": []
+      "tiles": [
+        {
+          "content": "${logs_origin}",
+          "type": "VARIABLE_DISPLAY"
+        }
+      ]
     },
     {
       "sectionTitle": "Configure your audit logs ingestion",
