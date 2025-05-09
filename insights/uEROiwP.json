@@ -222,7 +222,7 @@
           "id": "y_left_0",
           "displayAxis": true,
           "showAxisTitle": true,
-          "axisTitle": "# of requests",
+          "axisTitle": "Total # of requests",
           "axisTitleFormatting": {
             "fontSize": 15,
             "fontColor": "#333",
@@ -325,6 +325,8 @@
         "displayPieLabelsOrValues": true,
         "displayMode": "LABELS",
         "overlappingStrategy": "AUTO",
+        "spacing": 2,
+        "placementMode": "AUTO",
         "textFormatting": {
           "fontSize": 11,
           "fontColor": "AUTO",
@@ -369,6 +371,7 @@
         },
         "customColors": {}
       },
+      "colorGroups": [],
       "bubblesOptions": {
         "defaultRadius": 5.0,
         "singleShape": "FILLED_CIRCLE"
