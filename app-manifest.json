@@ -12,6 +12,7 @@
     "exportManagedFolders": false,
     "exportAllInputManagedFolders": false,
     "exportKnowledgeBank": false,
+    "exportPromptStudioHistories": false,
     "exportInsightsData": false,
     "includedDatasetsData": [],
     "includedSavedModels": [],
@@ -20,6 +21,7 @@
     "includedCodeStudios": [],
     "includedKnowledgeBanks": [],
     "includedLabelingTasks": [],
+    "includedPromptStudiosHistories": [],
     "exportGitRepository": false
   },
   "instanceFeatures": {
@@ -33,7 +35,7 @@
   "homepageSections": [
     {
       "sectionTitle": "Welcome to Dataiku GenAI Monitoring",
-      "sectionText": "Several sections will help you configure the project and your data. You can check the requirements [here](article:15).",
+      "sectionText": "Several sections will help you configure the project and your data. You can check the requirements [here](article:15) and the [project setup tutorial](article:14)",
       "tiles": []
     },
     {
