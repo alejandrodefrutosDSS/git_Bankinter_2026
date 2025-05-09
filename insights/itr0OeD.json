@@ -192,6 +192,7 @@
           "isA": "measure",
           "displayAxis": "axis1",
           "displayType": "column",
+          "computeMode": "NORMAL",
           "computeModeDim": 0,
           "multiplier": "Auto",
           "digitGrouping": "DEFAULT",
@@ -262,6 +263,7 @@
           "id": "y_left_0",
           "displayAxis": true,
           "showAxisTitle": true,
+          "axisTitle": "Usage type Estimated Cost ($) Distribution",
           "axisTitleFormatting": {
             "fontSize": 15,
             "fontColor": "#333",
@@ -364,6 +366,8 @@
         "displayPieLabelsOrValues": true,
         "displayMode": "LABELS",
         "overlappingStrategy": "AUTO",
+        "spacing": 2,
+        "placementMode": "AUTO",
         "textFormatting": {
           "fontSize": 11,
           "fontColor": "AUTO",
@@ -468,6 +472,7 @@
           "v_TEXT_EMBEDDING_EXTRACTION": "#ffbb78"
         }
       },
+      "colorGroups": [],
       "bubblesOptions": {
         "defaultRadius": 5.0,
         "singleShape": "FILLED_CIRCLE"
