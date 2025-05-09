@@ -218,6 +218,7 @@
           "id": "y_left_0",
           "displayAxis": true,
           "showAxisTitle": true,
+          "axisTitle": "Context Estimated Cost ($) Distribution",
           "axisTitleFormatting": {
             "fontSize": 15,
             "fontColor": "#333",
@@ -320,6 +321,8 @@
         "displayPieLabelsOrValues": true,
         "displayMode": "LABELS",
         "overlappingStrategy": "AUTO",
+        "spacing": 2,
+        "placementMode": "AUTO",
         "textFormatting": {
           "fontSize": 11,
           "fontColor": "AUTO",
@@ -367,6 +370,7 @@
           "v_WEBAPP_BACKEND": "#ffbb78"
         }
       },
+      "colorGroups": [],
       "bubblesOptions": {
         "defaultRadius": 5.0,
         "singleShape": "FILLED_CIRCLE"
