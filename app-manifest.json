@@ -274,7 +274,7 @@
           "datasetName": "audit_logs",
           "type": "DATASET_EDIT_SETTINGS",
           "prompt": "For log4j, edit the path to the audit logs folder",
-          "visibilityCondition": "logs_origin \u003d\u003d \u0027log4j\u0027"
+          "visibilityCondition": "true"
         },
         {
           "datasetName": "eventserver_cru_logs",
