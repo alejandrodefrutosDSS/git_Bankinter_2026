@@ -56,23 +56,23 @@
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Average of total prompt token, descending"
+              "label": "Avg # prompt tokens, descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Average of total prompt token, ascending",
+              "label": "Avg # prompt tokens, ascending",
               "sortAscending": true
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
-              "label": "Average of total output token, descending"
+              "label": "Avg # response tokens, descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
-              "label": "Average of total output token, ascending",
+              "label": "Avg # response tokens, ascending",
               "sortAscending": true
             }
           ],
@@ -284,7 +284,7 @@
           "id": "y_left_0",
           "displayAxis": true,
           "showAxisTitle": true,
-          "axisTitle": "average tokens",
+          "axisTitle": "Avg # of tokens",
           "axisTitleFormatting": {
             "fontSize": 15,
             "fontColor": "#333",
