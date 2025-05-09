@@ -70,7 +70,10 @@
           "prefix": "",
           "suffix": "",
           "multiplier": "Auto",
-          "digitGrouping": "DEFAULT"
+          "hideTrailingZeros": true,
+          "digitGrouping": "DEFAULT",
+          "useParenthesesForNegativeValues": false,
+          "shouldFormatInPercentage": false
         }
       ],
       "genericDimension1": [],
@@ -89,13 +92,16 @@
           "computeModeDim": 0,
           "multiplier": "Auto",
           "digitGrouping": "DEFAULT",
+          "useParenthesesForNegativeValues": false,
+          "shouldFormatInPercentage": false,
+          "hideTrailingZeros": true,
           "prefix": "",
           "suffix": "",
           "showValue": true,
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
           "labelFontSize": 16,
-          "percentile": 0.0,
+          "percentile": 50.0,
           "isCustomPercentile": false,
           "kpiTextAlign": "CENTER",
           "kpiValueFontSizeMode": "RESPONSIVE",
@@ -110,6 +116,17 @@
             "fontSize": 11,
             "fontColor": "#333",
             "hasBackground": false
+          },
+          "valuesInChartDisplayOptions": {
+            "displayValues": true,
+            "textFormatting": {
+              "fontSize": 11,
+              "fontColor": "AUTO",
+              "hasBackground": false,
+              "backgroundColor": "#D9D9D9BF"
+            },
+            "addDetails": false,
+            "additionalMeasures": []
           },
           "colorRules": []
         }
@@ -170,7 +187,10 @@
         "axisValuesFormatting": {
           "numberFormatting": {
             "multiplier": "Auto",
+            "hideTrailingZeros": true,
             "digitGrouping": "DEFAULT",
+            "useParenthesesForNegativeValues": false,
+            "shouldFormatInPercentage": false,
             "prefix": "",
             "suffix": ""
           },
@@ -198,7 +218,7 @@
           "id": "y_left_0",
           "displayAxis": true,
           "showAxisTitle": true,
-          "axisTitle": "Total Estimated Cost ($)",
+          "axisTitle": "Total Estimated Cost ($) by User",
           "axisTitleFormatting": {
             "fontSize": 15,
             "fontColor": "#333",
@@ -207,7 +227,10 @@
           "axisValuesFormatting": {
             "numberFormatting": {
               "multiplier": "Auto",
+              "hideTrailingZeros": true,
               "digitGrouping": "DEFAULT",
+              "useParenthesesForNegativeValues": false,
+              "shouldFormatInPercentage": false,
               "prefix": "",
               "suffix": ""
             },
@@ -242,7 +265,10 @@
           "axisValuesFormatting": {
             "numberFormatting": {
               "multiplier": "Auto",
+              "hideTrailingZeros": true,
               "digitGrouping": "DEFAULT",
+              "useParenthesesForNegativeValues": false,
+              "shouldFormatInPercentage": false,
               "prefix": "",
               "suffix": ""
             },
@@ -295,6 +321,8 @@
         "displayPieLabelsOrValues": true,
         "displayMode": "LABELS",
         "overlappingStrategy": "AUTO",
+        "spacing": 2,
+        "placementMode": "AUTO",
         "textFormatting": {
           "fontSize": 11,
           "fontColor": "AUTO",
@@ -302,11 +330,23 @@
           "backgroundColor": "#D9D9D9BF"
         }
       },
+      "stackedColumnsOptions": {
+        "totalsInChartDisplayOptions": {
+          "textFormatting": {
+            "fontSize": 11,
+            "fontColor": "#333",
+            "hasBackground": false
+          },
+          "addDetails": false,
+          "additionalMeasures": []
+        }
+      },
       "chartHeight": 200,
       "singleXAxis": true,
       "multiTooltips": false,
       "animationFrameDuration": 3000,
       "animationRepeat": true,
+      "colorMode": "UNIQUE_SCALE",
       "colorOptions": {
         "ccScaleMode": "NORMAL",
         "paletteType": "CONTINUOUS",
@@ -329,6 +369,7 @@
           "m_llmUsage_estimatedCostUSD_SUM_1": "#ff7f0e"
         }
       },
+      "colorGroups": [],
       "bubblesOptions": {
         "defaultRadius": 5.0,
         "singleShape": "FILLED_CIRCLE"
@@ -362,6 +403,7 @@
         "identityLine": false,
         "connectPoints": {
           "enabled": false,
+          "splitBy": "COLOR",
           "lineFormatting": {
             "color": "#000",
             "size": 1
@@ -389,6 +431,7 @@
       "scatterMPOptions": {
         "connectPoints": {
           "enabled": false,
+          "splitBy": "COLOR",
           "lineFormatting": {
             "color": "#000",
             "size": 1
@@ -439,13 +482,19 @@
       "gaugeOptions": {
         "min": {
           "sourceType": "Constant",
+          "percentile": 0.0,
+          "isCustomPercentile": false,
           "constantValue": 0.0,
+          "constantDateValue": 0.0,
           "defaultConstantValue": 0.0,
           "ignoreExistingFilters": false
         },
         "max": {
           "sourceType": "Constant",
+          "percentile": 0.0,
+          "isCustomPercentile": false,
           "constantValue": 0.0,
+          "constantDateValue": 0.0,
           "defaultConstantValue": 0.0,
           "ignoreExistingFilters": false
         },
@@ -456,7 +505,10 @@
           "axisValuesFormatting": {
             "numberFormatting": {
               "multiplier": "Auto",
+              "hideTrailingZeros": true,
               "digitGrouping": "DEFAULT",
+              "useParenthesesForNegativeValues": false,
+              "shouldFormatInPercentage": false,
               "prefix": "",
               "suffix": ""
             },
@@ -480,6 +532,7 @@
       },
       "pivotTableOptions": {
         "displayEmptyValues": false,
+        "showSidebar": true,
         "measureDisplayMode": "ROWS",
         "displayTotals": {
           "subTotals": {
@@ -492,17 +545,42 @@
           }
         },
         "tableFormatting": {
+          "showRowHeaders": true,
+          "showRowMainHeaders": true,
+          "rowMainHeaders": {
+            "fontSize": 12,
+            "fontColor": "#333",
+            "hasBackground": false
+          },
+          "rowSubheaders": {
+            "fontSize": 12,
+            "fontColor": "#333",
+            "hasBackground": false
+          },
+          "freezeRowHeaders": false,
+          "showColumnHeaders": true,
+          "showColumnMainHeaders": true,
+          "columnMainHeaders": {
+            "fontSize": 12,
+            "fontColor": "#333",
+            "hasBackground": false
+          },
+          "columnSubheaders": {
+            "fontSize": 12,
+            "fontColor": "#333",
+            "hasBackground": false
+          },
+          "values": {
+            "fontSize": 12,
+            "fontColor": "#333",
+            "hasBackground": false
+          },
           "rowHeaders": {
             "fontSize": 12,
             "fontColor": "#333",
             "hasBackground": false
           },
           "columnHeaders": {
-            "fontSize": 12,
-            "fontColor": "#333",
-            "hasBackground": false
-          },
-          "values": {
             "fontSize": 12,
             "fontColor": "#333",
             "hasBackground": false
