@@ -267,7 +267,7 @@
       ]
     },
     {
-      "sectionTitle": "Fill in your audit log path {{ model.visual_recipes_engine }}",
+      "sectionTitle": "Fill in your audit log path { model.visual_recipes_engine }",
       "sectionText": "- Click on one of the following dataset, according to your use case, to set the log path.\n- **Save** and go back to this project setup page to configure the next section.\n\nYou can check the **\"Fill in your audit log path\"** section in [project setup tutorial](article:14)",
       "tiles": [
         {
