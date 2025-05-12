@@ -211,7 +211,6 @@
             {
               "name": "visual_recipes_engine",
               "type": "SELECT",
-              "label": "",
               "defaultValue": "DSS",
               "mandatory": true,
               "canSelectForeign": false,
