@@ -211,7 +211,7 @@
             {
               "name": "visual_recipes_engine",
               "type": "SELECT",
-              "label": "Engine",
+              "label": "Optionally, configure recipe engine",
               "defaultValue": "DSS",
               "mandatory": true,
               "canSelectForeign": false,
@@ -255,7 +255,7 @@
             }
           ],
           "type": "PROJECT_VARIABLES_EDIT",
-          "prompt": "Optionally, configure recipe engine"
+          "prompt": ""
         },
         {
           "scenarioId": "RECONFIGUREINPUT",
