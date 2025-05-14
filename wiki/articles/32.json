@@ -9,6 +9,14 @@
       "details": {},
       "attachedBy": "ayoub.moujane@dataiku.com",
       "attachedOn": 1747215801973
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "SCENARIO",
+      "smartId": "SETUP",
+      "details": {},
+      "attachedBy": "ayoub.moujane@dataiku.com",
+      "attachedOn": 1747215809157
     }
   ],
   "creationTag": {
