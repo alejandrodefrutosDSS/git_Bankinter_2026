@@ -1,7 +1,16 @@
 {
   "name": "Scenarios",
   "layout": "WIKI_ARTICLE",
-  "attachments": [],
+  "attachments": [
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "SCENARIO",
+      "smartId": "RECONFIGUREINPUT",
+      "details": {},
+      "attachedBy": "ayoub.moujane@dataiku.com",
+      "attachedOn": 1747215801973
+    }
+  ],
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
