@@ -17,6 +17,14 @@
       "details": {},
       "attachedBy": "ayoub.moujane@dataiku.com",
       "attachedOn": 1747215809157
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "SCENARIO",
+      "smartId": "BUILDFLOW",
+      "details": {},
+      "attachedBy": "ayoub.moujane@dataiku.com",
+      "attachedOn": 1747215815691
     }
   ],
   "creationTag": {
