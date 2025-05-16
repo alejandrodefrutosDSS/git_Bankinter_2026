@@ -25,6 +25,11 @@
             "type": "DATASET",
             "itemId": "eventserver_cru_logs",
             "partitionsSpec": "CURRENT_DAY"
+          },
+          {
+            "type": "DATASET",
+            "itemId": "eventserver_cru_logs",
+            "partitionsSpec": "PREVIOUS_DAY"
           }
         ],
         "triggerWhenAllFire": false
