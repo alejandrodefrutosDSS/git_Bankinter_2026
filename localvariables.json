@@ -1,5 +1,5 @@
 {
-  "logs_origin": "log4j",
+  "logs_origin": "event_server",
   "logs_connection": "filesystem_managed",
   "logs_partitioning_activated": true,
   "logs_partitioning_period": "HOUR",
