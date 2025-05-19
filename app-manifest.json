@@ -328,6 +328,32 @@
           "prompt": "View dashboard"
         }
       ]
+    },
+    {
+      "sectionTitle": "Continuous build",
+      "tiles": [
+        {
+          "behavior": "INLINE_AUTO_SAVE",
+          "params": [
+            {
+              "name": "activate_continuous_build",
+              "type": "BOOLEAN",
+              "label": "Activate continuous build",
+              "description": "Continuous build will monitor the input datasets for any changes. If some are detected, the flow will be built.",
+              "mandatory": false,
+              "canSelectForeign": false,
+              "markCreatedAsBuilt": false,
+              "allowDuplicates": true,
+              "getChoicesFromPython": false,
+              "triggerParameters": [],
+              "disableAutoReload": false,
+              "canCreateDataset": false,
+              "wt1Loggable": false
+            }
+          ],
+          "type": "PROJECT_VARIABLES_EDIT"
+        }
+      ]
     }
   ],
   "label": "LLM Cost Guard Dataiku Resource Usage Monitoring",
