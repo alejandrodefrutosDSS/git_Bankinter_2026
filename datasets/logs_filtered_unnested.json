@@ -57,9 +57,18 @@
     "compress": "gz"
   },
   "partitioning": {
+    "filePathPattern": "%Y/%M/%D/%H/.*",
     "ignoreNonMatchingFile": false,
-    "considerMissingRequestedPartitionsAsEmpty": false,
-    "dimensions": []
+    "considerMissingRequestedPartitionsAsEmpty": true,
+    "dimensions": [
+      {
+        "name": "HOUR",
+        "params": {
+          "period": "HOUR"
+        },
+        "type": "time"
+      }
+    ]
   },
   "creationTag": {
     "versionNumber": 0,
