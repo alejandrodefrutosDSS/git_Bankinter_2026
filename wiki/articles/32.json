@@ -34,6 +34,14 @@
       },
       "attachedBy": "ayoub.moujane@dataiku.com",
       "attachedOn": 1747215815691
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "SCENARIO",
+      "smartId": "11RECONFIGURECONTINUOUSFLOWBUILD",
+      "details": {},
+      "attachedBy": "ayoub.moujane@dataiku.com",
+      "attachedOn": 1747658774646
     }
   ],
   "creationTag": {
