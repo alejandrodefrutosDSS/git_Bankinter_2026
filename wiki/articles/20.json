@@ -17,7 +17,10 @@
       "attachmentType": "DSS_OBJECT",
       "taggableType": "SCENARIO",
       "smartId": "11RECONFIGURECONTINUOUSFLOWBUILD",
-      "details": {},
+      "details": {
+        "objectDisplayName": "1.1. Reconfigure continuous flow build",
+        "userDisplayName": "Ayoub Moujane"
+      },
       "attachedBy": "ayoub.moujane@dataiku.com",
       "attachedOn": 1747731156359
     },
@@ -25,7 +28,10 @@
       "attachmentType": "DSS_OBJECT",
       "taggableType": "SCENARIO",
       "smartId": "4CONTINUOUSFLOWBUILD",
-      "details": {},
+      "details": {
+        "objectDisplayName": "4. Continuous flow build",
+        "userDisplayName": "Ayoub Moujane"
+      },
       "attachedBy": "ayoub.moujane@dataiku.com",
       "attachedOn": 1747731166307
     },
@@ -33,7 +39,10 @@
       "attachmentType": "DSS_OBJECT",
       "taggableType": "ARTICLE",
       "smartId": "32",
-      "details": {},
+      "details": {
+        "objectDisplayName": "Scenarios",
+        "userDisplayName": "Ayoub Moujane"
+      },
       "attachedBy": "ayoub.moujane@dataiku.com",
       "attachedOn": 1747731306782
     }
