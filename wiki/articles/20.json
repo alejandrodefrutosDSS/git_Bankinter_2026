@@ -20,6 +20,14 @@
       "details": {},
       "attachedBy": "ayoub.moujane@dataiku.com",
       "attachedOn": 1747731156359
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "SCENARIO",
+      "smartId": "4CONTINUOUSFLOWBUILD",
+      "details": {},
+      "attachedBy": "ayoub.moujane@dataiku.com",
+      "attachedOn": 1747731166307
     }
   ],
   "creationTag": {
