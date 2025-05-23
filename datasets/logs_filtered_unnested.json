@@ -212,8 +212,6 @@
     }
   },
   "customFields": {
-    "gdpr_contains_personal_data": "UNSURE",
-    "validation_column_required": false,
-    "notes_column_required": false
+    "gdpr_contains_personal_data": "UNSURE"
   }
 }
