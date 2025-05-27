@@ -234,7 +234,7 @@
   "permissions": [
     {
       "user": "katie.gross@dataiku.com",
-      "admin": false,
+      "admin": true,
       "editPermissions": true,
       "readProjectContent": true,
       "writeProjectContent": true,
