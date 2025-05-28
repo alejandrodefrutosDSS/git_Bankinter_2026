@@ -355,9 +355,9 @@
         },
         {
           "scenarioId": "11RECONFIGURECONTINUOUSFLOWBUILD",
-          "buttonText": "APPLY",
+          "buttonText": "CONFIGURE",
           "type": "SCENARIO_RUN",
-          "prompt": "Scenario"
+          "prompt": "Configure continuous build"
         }
       ]
     }
