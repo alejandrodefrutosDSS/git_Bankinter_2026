@@ -7,6 +7,6 @@
   "managed_dataset_connection": "filesystem_managed",
   "visual_recipes_engine": "DSS",
   "logs_partitioning_build_range": "2025-04-01/2025-05-23",
-  "activate_continuous_build": false,
+  "activate_continuous_build": true,
   "visual_recipes_spark_conf": ""
 }
