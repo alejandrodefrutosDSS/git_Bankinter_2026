@@ -357,7 +357,7 @@
           "scenarioId": "11RECONFIGURECONTINUOUSFLOWBUILD",
           "buttonText": "APPLY",
           "type": "SCENARIO_RUN",
-          "prompt": "fdsfds"
+          "prompt": "Scenario"
         }
       ]
     }
