@@ -292,7 +292,7 @@
     },
     {
       "sectionTitle": "Build your audit logs",
-      "sectionText": "Catchup with your previous audit logs.\nThis operation can take a few minutes to hours, depending on the amount of logs.\nYou can then explore the monitoring dashboard. You will find the dashboard documentation [here](article:23)",
+      "sectionText": "Run your flow on all historical audit logs\nThis operation can take a few minutes to hours, depending on the number of logs.\nYou can then explore the monitoring dashboard. See dashboard documentation [here](article:23)",
       "tiles": [
         {
           "behavior": "INLINE_AUTO_SAVE",
@@ -313,7 +313,8 @@
               "wt1Loggable": false
             }
           ],
-          "type": "PROJECT_VARIABLES_EDIT"
+          "type": "PROJECT_VARIABLES_EDIT",
+          "prompt": "edit partitioning"
         },
         {
           "scenarioId": "SETUP",
@@ -330,7 +331,8 @@
       ]
     },
     {
-      "sectionTitle": "Continuous build",
+      "sectionTitle": "Configure continuous build",
+      "sectionText": "Configure continuous build for the future so that the project and dashboards update automatically.",
       "tiles": [
         {
           "behavior": "INLINE_AUTO_SAVE",
