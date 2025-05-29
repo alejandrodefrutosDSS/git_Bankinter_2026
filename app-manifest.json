@@ -332,7 +332,7 @@
     },
     {
       "sectionTitle": "Configure continuous build",
-      "sectionText": "Configure continuous build for the future so that the project and dashboards update automatically.",
+      "sectionText": "Configure continuous build so that the project and dashboards update automatically in the future.",
       "tiles": [
         {
           "behavior": "INLINE_AUTO_SAVE",
@@ -341,7 +341,7 @@
               "name": "activate_continuous_build",
               "type": "BOOLEAN",
               "label": "Activate continuous build",
-              "description": "Continuous build will monitor the input datasets for any changes. If some are detected, the flow will be built.",
+              "description": "Continuous build will monitor the input datasets, and rebuild the Flow if any changes or new data is detected.",
               "mandatory": false,
               "canSelectForeign": false,
               "markCreatedAsBuilt": false,
