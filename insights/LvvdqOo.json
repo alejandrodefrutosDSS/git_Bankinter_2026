@@ -28,7 +28,7 @@
     "def": {
       "type": "lines",
       "variant": "normal",
-      "name": "",
+      "name": "Cumulative cost ($)",
       "userEditedName": true,
       "displayWithEChartsByDefault": true,
       "genericDimension0": [
