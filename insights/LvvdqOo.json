@@ -465,7 +465,7 @@
           1.748017351698E12
         ],
         "displayBrush": true,
-        "enabled": true,
+        "enabled": false,
         "persisted": true
       },
       "scatterOptions": {
