@@ -283,7 +283,8 @@
         {
           "id": "y_left_0",
           "displayAxis": true,
-          "showAxisTitle": false,
+          "showAxisTitle": true,
+          "axisTitle": "($)",
           "axisTitleFormatting": {
             "fontSize": 15,
             "fontColor": "#333",
