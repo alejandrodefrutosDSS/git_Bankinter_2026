@@ -577,7 +577,7 @@
     "datasetSmartName": "logs_llm_usage_prepared"
   },
   "owner": "ayoub.moujane@dataiku.com",
-  "listed": false,
+  "listed": true,
   "name": "Computation time",
   "dashboardCreationId": "3NZ9w2C",
   "creationTag": {
