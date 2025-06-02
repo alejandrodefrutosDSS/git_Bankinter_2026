@@ -263,7 +263,7 @@
           "id": "y_left_0",
           "displayAxis": true,
           "showAxisTitle": true,
-          "axisTitle": "Usage type Estimated Cost ($) Distribution",
+          "axisTitle": "($)",
           "axisTitleFormatting": {
             "fontSize": 15,
             "fontColor": "#333",
