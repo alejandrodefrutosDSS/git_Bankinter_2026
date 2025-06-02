@@ -685,7 +685,7 @@
     "datasetSmartName": "logs_llm_usage_prepared"
   },
   "owner": "ayoub.moujane@dataiku.com",
-  "listed": false,
+  "listed": true,
   "name": "cost_and_saved_cost_evolution",
   "dashboardCreationId": "3NZ9w2C",
   "creationTag": {
