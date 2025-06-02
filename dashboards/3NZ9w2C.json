@@ -912,7 +912,7 @@
             },
             "titleOptions": {
               "showTitle": "YES",
-              "title": "Avg # of Tokens",
+              "title": "Avg # of Prompt Tokens",
               "fontColor": "#000",
               "fontSize": 13
             },
