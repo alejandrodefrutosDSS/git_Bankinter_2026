@@ -460,13 +460,9 @@
         "persisted": true
       },
       "linesZoomOptions": {
-        "displayInterval": [
-          1.748007375E12,
-          1.748017351698E12
-        ],
         "displayBrush": true,
         "enabled": false,
-        "persisted": true
+        "persisted": false
       },
       "scatterOptions": {
         "equalScales": false,
