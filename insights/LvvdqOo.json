@@ -28,7 +28,7 @@
     "def": {
       "type": "lines",
       "variant": "normal",
-      "name": "Sum of llmUsage_estimatedCostUSD by Date",
+      "name": "",
       "userEditedName": true,
       "displayWithEChartsByDefault": true,
       "genericDimension0": [
