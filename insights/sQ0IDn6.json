@@ -26,9 +26,9 @@
       "_refreshTrigger": 0
     },
     "def": {
-      "type": "grouped_columns",
+      "type": "boxplots",
       "variant": "normal",
-      "name": "Chart",
+      "name": "llmUsage_totalQueries by Date",
       "userEditedName": false,
       "displayWithEChartsByDefault": true,
       "genericDimension0": [],
@@ -78,8 +78,66 @@
         }
       ],
       "tooltipMeasures": [],
-      "boxplotBreakdownDim": [],
-      "boxplotValue": [],
+      "boxplotBreakdownDim": [
+        {
+          "column": "Date",
+          "type": "DATE",
+          "numParams": {
+            "emptyBinsMode": "AVERAGE"
+          },
+          "dateParams": {
+            "mode": "AUTOMATIC"
+          },
+          "maxValues": 0,
+          "generateOthersCategory": true,
+          "forceLastPositionOthers": false,
+          "oneTickPerBin": "AUTO",
+          "filters": [],
+          "isA": "dimension",
+          "possibleSorts": [
+            {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            },
+            {
+              "type": "COUNT",
+              "label": "Count of records, descending",
+              "sortAscending": false
+            },
+            {
+              "type": "COUNT",
+              "label": "Count of records, ascending",
+              "sortAscending": true
+            }
+          ],
+          "sort": {
+            "type": "NATURAL",
+            "label": "Natural ordering",
+            "sortAscending": true
+          },
+          "multiplier": "Auto",
+          "hideTrailingZeros": true,
+          "digitGrouping": "DEFAULT",
+          "useParenthesesForNegativeValues": false,
+          "shouldFormatInPercentage": false
+        }
+      ],
+      "boxplotValue": [
+        {
+          "treatAsAlphanum": false,
+          "isA": "ua",
+          "adminLevel": 0,
+          "multiplier": "Auto",
+          "hideTrailingZeros": true,
+          "digitGrouping": "DEFAULT",
+          "useParenthesesForNegativeValues": false,
+          "shouldFormatInPercentage": false,
+          "column": "llmUsage_totalQueries",
+          "type": "NUMERICAL"
+        }
+      ],
+      "filters": [],
       "xAxisFormatting": {
         "displayAxis": true,
         "showAxisTitle": true,
@@ -224,6 +282,7 @@
         "displayPieLabelsOrValues": true,
         "displayMode": "LABELS",
         "overlappingStrategy": "AUTO",
+        "spacing": 2,
         "placementMode": "AUTO",
         "textFormatting": {
           "fontSize": 11,
@@ -269,10 +328,12 @@
         },
         "customColors": {}
       },
+      "colorGroups": [],
       "bubblesOptions": {
         "defaultRadius": 5.0,
         "singleShape": "FILLED_CIRCLE"
       },
+      "computeMode": "NORMAL",
       "xAxisMode": "NORMAL",
       "yAxisMode": "NORMAL",
       "pieOptions": {
@@ -501,7 +562,9 @@
         },
         "horizontal": {
           "show": false,
-          "displayAxis": {},
+          "displayAxis": {
+            "type": "LEFT_Y_AXIS"
+          },
           "lineFormatting": {
             "type": "FILLED",
             "color": "#d9d9d9",
