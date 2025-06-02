@@ -523,7 +523,7 @@
             "box": {
               "top": 75,
               "left": 0,
-              "width": 6,
+              "width": 36,
               "height": 6
             },
             "clickAction": "DO_NOTHING",
