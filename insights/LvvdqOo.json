@@ -51,41 +51,35 @@
             {
               "type": "NATURAL",
               "label": "Natural ordering",
-              "sortAscending": true,
-              "$$hashKey": "object:5132"
+              "sortAscending": true
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Estimated Cost ($), descending",
-              "$$hashKey": "object:5133"
+              "label": "Estimated Cost ($), descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
               "label": "Estimated Cost ($), ascending",
-              "sortAscending": true,
-              "$$hashKey": "object:5134"
+              "sortAscending": true
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
-              "label": "Estimated Saved Cost ($), descending",
-              "$$hashKey": "object:5135"
+              "label": "Estimated Saved Cost ($), descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
               "label": "Estimated Saved Cost ($), ascending",
-              "sortAscending": true,
-              "$$hashKey": "object:5136"
+              "sortAscending": true
             }
           ],
           "sort": {
             "type": "NATURAL",
             "label": "Natural ordering",
-            "sortAscending": true,
-            "$$hashKey": "object:5132"
+            "sortAscending": true
           },
           "prefix": "",
           "suffix": "",
@@ -289,7 +283,7 @@
         {
           "id": "y_left_0",
           "displayAxis": true,
-          "showAxisTitle": true,
+          "showAxisTitle": false,
           "axisTitleFormatting": {
             "fontSize": 15,
             "fontColor": "#333",
