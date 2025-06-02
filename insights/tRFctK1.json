@@ -266,7 +266,7 @@
           "id": "y_left_0",
           "displayAxis": true,
           "showAxisTitle": true,
-          "axisTitle": "Total Estimated Cost ($) Over Time by Project",
+          "axisTitle": "($)",
           "axisTitleFormatting": {
             "fontSize": 15,
             "fontColor": "#333",
