@@ -51,36 +51,44 @@
             {
               "type": "NATURAL",
               "label": "Natural ordering",
-              "sortAscending": true
+              "sortAscending": true,
+              "$$hashKey": "object:5132"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of llmUsage_estimatedCostUSD, descending"
+              "label": "Estimated Cost ($), descending",
+              "$$hashKey": "object:5133"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of llmUsage_estimatedCostUSD, ascending",
-              "sortAscending": true
+              "label": "Estimated Cost ($), ascending",
+              "sortAscending": true,
+              "$$hashKey": "object:5134"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
-              "label": "Sum of estimated_cost_saved, descending"
+              "label": "Estimated Saved Cost ($), descending",
+              "$$hashKey": "object:5135"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
-              "label": "Sum of estimated_cost_saved, ascending",
-              "sortAscending": true
+              "label": "Estimated Saved Cost ($), ascending",
+              "sortAscending": true,
+              "$$hashKey": "object:5136"
             }
           ],
           "sort": {
             "type": "NATURAL",
             "label": "Natural ordering",
-            "sortAscending": true
+            "sortAscending": true,
+            "$$hashKey": "object:5132"
           },
+          "prefix": "",
+          "suffix": "",
           "multiplier": "Auto",
           "hideTrailingZeros": true,
           "digitGrouping": "DEFAULT",
@@ -107,6 +115,8 @@
           "useParenthesesForNegativeValues": false,
           "shouldFormatInPercentage": false,
           "hideTrailingZeros": true,
+          "prefix": "",
+          "suffix": "",
           "showValue": true,
           "displayLabel": "Estimated Cost ($)",
           "showDisplayLabel": true,
@@ -156,6 +166,8 @@
           "useParenthesesForNegativeValues": false,
           "shouldFormatInPercentage": false,
           "hideTrailingZeros": true,
+          "prefix": "",
+          "suffix": "",
           "showValue": true,
           "displayLabel": "Estimated Saved Cost ($)",
           "showDisplayLabel": true,
