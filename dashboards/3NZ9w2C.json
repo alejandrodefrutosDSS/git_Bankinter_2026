@@ -810,45 +810,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 6,
-              "left": 0,
-              "width": 36,
-              "height": 6
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": true,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "locked": false,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "title": "Avg # of tokens",
-              "fontColor": "#000",
-              "fontSize": 13
-            },
-            "insightId": "9pcVB4Q",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 12,
+              "top": 18,
               "left": 0,
               "width": 36,
               "height": 6
@@ -886,7 +848,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 18,
+              "top": 6,
               "left": 0,
               "width": 36,
               "height": 6
@@ -912,7 +874,7 @@
             },
             "titleOptions": {
               "showTitle": "YES",
-              "title": "Avg # of Prompt Tokens",
+              "title": "Prompt Tokens usage",
               "fontColor": "#000",
               "fontSize": 13
             },
@@ -924,7 +886,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 24,
+              "top": 12,
               "left": 0,
               "width": 36,
               "height": 6
@@ -950,7 +912,7 @@
             },
             "titleOptions": {
               "showTitle": "YES",
-              "title": "Avg # of Completion Tokens",
+              "title": "Completion Tokens Usage",
               "fontColor": "#000",
               "fontSize": 13
             },
