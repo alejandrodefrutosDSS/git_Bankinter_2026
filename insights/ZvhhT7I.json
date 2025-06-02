@@ -218,7 +218,7 @@
           "id": "y_left_0",
           "displayAxis": true,
           "showAxisTitle": true,
-          "axisTitle": "Total Estimated Cost ($) by User",
+          "axisTitle": "($)",
           "axisTitleFormatting": {
             "fontSize": 15,
             "fontColor": "#333",
