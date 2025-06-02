@@ -26,7 +26,7 @@
       "_refreshTrigger": 0
     },
     "def": {
-      "type": "lines",
+      "type": "stacked_area",
       "variant": "normal",
       "name": "Cumulative cost ($)",
       "userEditedName": true,
