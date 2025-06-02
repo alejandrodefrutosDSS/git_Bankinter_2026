@@ -28,7 +28,7 @@
     "def": {
       "type": "boxplots",
       "variant": "normal",
-      "name": "llmUsage_totalPromptTokens by Date",
+      "name": "llmUsage_totalCompletionTokens by Date",
       "userEditedName": false,
       "displayWithEChartsByDefault": true,
       "genericDimension0": [],
@@ -133,7 +133,7 @@
           "digitGrouping": "DEFAULT",
           "useParenthesesForNegativeValues": false,
           "shouldFormatInPercentage": false,
-          "column": "llmUsage_totalPromptTokens",
+          "column": "llmUsage_totalCompletionTokens",
           "type": "NUMERICAL"
         }
       ],
