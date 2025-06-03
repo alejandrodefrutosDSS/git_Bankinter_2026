@@ -15,7 +15,7 @@
           "enabled": false,
           "rules": []
         },
-        "samplingMethod": "HEAD_SEQUENTIAL",
+        "samplingMethod": "FULL",
         "maxRecords": 10000,
         "targetRatio": 0.02,
         "ascending": true,
@@ -133,6 +133,8 @@
           "digitGrouping": "DEFAULT",
           "useParenthesesForNegativeValues": false,
           "shouldFormatInPercentage": false,
+          "prefix": "",
+          "suffix": "",
           "column": "llmUsage_totalComputationTimeMS",
           "type": "NUMERICAL"
         }
