@@ -180,44 +180,7 @@
       "exportEditableDatasets": true,
       "exportPromptStudioHistories": false,
       "exportNotebooks": true,
-      "includedDatasetsData": [
-        {
-          "name": "audit_logs",
-          "type": "Filesystem"
-        },
-        {
-          "name": "audit_logs_llm_usage",
-          "type": "Filesystem"
-        },
-        {
-          "name": "compute_resource_usage_logs",
-          "type": "Filesystem"
-        },
-        {
-          "name": "eventserver_cru_logs",
-          "type": "Filesystem"
-        },
-        {
-          "name": "eventserver_llmusage_logs_cleaned",
-          "type": "Filesystem"
-        },
-        {
-          "name": "logs_filtered_unnested",
-          "type": "Filesystem"
-        },
-        {
-          "name": "logs_llm_usage_prepared",
-          "type": "Filesystem"
-        },
-        {
-          "name": "logs_llm_usage_prepared_by_Project",
-          "type": "Filesystem"
-        },
-        {
-          "name": "logs_llm_usage_prepared_by_Project_complete",
-          "type": "Filesystem"
-        }
-      ],
+      "includedDatasetsData": [],
       "includedSavedModels": [],
       "includedModelEvaluationStores": [],
       "includedManagedFolders": [],
