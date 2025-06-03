@@ -836,7 +836,7 @@
             },
             "titleOptions": {
               "showTitle": "YES",
-              "title": "Prompt Tokens usage",
+              "title": "Prompt Tokens Usage",
               "fontColor": "#000",
               "fontSize": 13
             },
