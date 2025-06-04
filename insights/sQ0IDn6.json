@@ -28,7 +28,7 @@
     "def": {
       "type": "stacked_area",
       "variant": "normal",
-      "name": "Prompt token usage",
+      "name": "Prompt Token Usage",
       "userEditedName": true,
       "displayWithEChartsByDefault": true,
       "genericDimension0": [
@@ -70,6 +70,8 @@
             "label": "Natural ordering",
             "sortAscending": true
           },
+          "prefix": "",
+          "suffix": "",
           "multiplier": "Auto",
           "hideTrailingZeros": true,
           "digitGrouping": "DEFAULT",
@@ -96,6 +98,8 @@
           "useParenthesesForNegativeValues": false,
           "shouldFormatInPercentage": false,
           "hideTrailingZeros": true,
+          "prefix": "",
+          "suffix": "",
           "showValue": true,
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
