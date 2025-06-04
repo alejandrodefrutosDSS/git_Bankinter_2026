@@ -56,23 +56,23 @@
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Estimated Cost ($), descending"
+              "label": "Estimated Saved Cost ($), descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Estimated Cost ($), ascending",
+              "label": "Estimated Saved Cost ($), ascending",
               "sortAscending": true
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
-              "label": "Estimated Saved Cost ($), descending"
+              "label": "Estimated Cost ($), descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
-              "label": "Estimated Saved Cost ($), ascending",
+              "label": "Estimated Cost ($), ascending",
               "sortAscending": true
             }
           ],
@@ -95,7 +95,7 @@
       "animationDimension": [],
       "genericMeasures": [
         {
-          "column": "llmUsage_estimatedCostUSD",
+          "column": "estimated_cost_saved",
           "function": "SUM",
           "type": "NUMERICAL",
           "displayed": true,
@@ -112,7 +112,7 @@
           "prefix": "",
           "suffix": "",
           "showValue": true,
-          "displayLabel": "Estimated Cost ($)",
+          "displayLabel": "Estimated Saved Cost ($)",
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
           "labelFontSize": 16,
@@ -146,7 +146,7 @@
           "colorRules": []
         },
         {
-          "column": "estimated_cost_saved",
+          "column": "llmUsage_estimatedCostUSD",
           "function": "SUM",
           "type": "NUMERICAL",
           "displayed": true,
@@ -163,7 +163,7 @@
           "prefix": "",
           "suffix": "",
           "showValue": true,
-          "displayLabel": "Estimated Saved Cost ($)",
+          "displayLabel": "Estimated Cost ($)",
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
           "labelFontSize": 16,
