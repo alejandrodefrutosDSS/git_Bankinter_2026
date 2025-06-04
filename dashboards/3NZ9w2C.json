@@ -912,7 +912,7 @@
             },
             "titleOptions": {
               "showTitle": "YES",
-              "title": "Computation Time Usage",
+              "title": "Average Computation Time",
               "fontColor": "#000",
               "fontSize": 13
             },
