@@ -224,7 +224,7 @@
           "showAxisTitle": true,
           "axisTitle": "Total # of requests",
           "axisTitleFormatting": {
-            "fontSize": 15,
+            "fontSize": 13,
             "fontColor": "#333",
             "hasBackground": false
           },
@@ -528,7 +528,7 @@
       "useLiveProcessingIfAvailable": true,
       "legendPlacement": "OUTER_RIGHT",
       "legendFormatting": {
-        "fontSize": 11,
+        "fontSize": 13,
         "fontColor": "#333",
         "hasBackground": false
       },
