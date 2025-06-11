@@ -98,6 +98,7 @@
           "prefix": "",
           "suffix": "",
           "showValue": true,
+          "displayLabel": "Total estimated cost (USD)",
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
           "labelFontSize": 16,
