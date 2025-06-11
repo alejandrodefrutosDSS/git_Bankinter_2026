@@ -48,35 +48,41 @@
             {
               "type": "NATURAL",
               "label": "Natural ordering",
-              "sortAscending": true
+              "sortAscending": true,
+              "$$hashKey": "object:1237"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of llmUsage_estimatedCostUSD, descending"
+              "label": "Sum of llmUsage_estimatedCostUSD, descending",
+              "$$hashKey": "object:1238"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
               "label": "Sum of llmUsage_estimatedCostUSD, ascending",
-              "sortAscending": true
+              "sortAscending": true,
+              "$$hashKey": "object:1239"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
-              "label": "Average of estimated_cost_saved, descending"
+              "label": "Average of estimated_cost_saved, descending",
+              "$$hashKey": "object:1240"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
               "label": "Average of estimated_cost_saved, ascending",
-              "sortAscending": true
+              "sortAscending": true,
+              "$$hashKey": "object:1241"
             }
           ],
           "sort": {
             "type": "AGGREGATION",
             "measureIdx": 0,
-            "label": "Sum of llmUsage_estimatedCostUSD, descending"
+            "label": "Sum of llmUsage_estimatedCostUSD, descending",
+            "$$hashKey": "object:1238"
           },
           "prefix": "",
           "suffix": "",
