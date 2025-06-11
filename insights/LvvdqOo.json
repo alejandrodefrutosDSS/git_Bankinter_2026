@@ -51,41 +51,35 @@
             {
               "type": "NATURAL",
               "label": "Natural ordering",
-              "sortAscending": true,
-              "$$hashKey": "object:21083"
+              "sortAscending": true
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Estimated Saved Cost (USD), descending",
-              "$$hashKey": "object:21084"
+              "label": "Estimated Saved Cost (USD), descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
               "label": "Estimated Saved Cost (USD), ascending",
-              "sortAscending": true,
-              "$$hashKey": "object:21085"
+              "sortAscending": true
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
-              "label": "Estimated Cost (USD), descending",
-              "$$hashKey": "object:21086"
+              "label": "Estimated Cost (USD), descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
               "label": "Estimated Cost (USD), ascending",
-              "sortAscending": true,
-              "$$hashKey": "object:21087"
+              "sortAscending": true
             }
           ],
           "sort": {
             "type": "NATURAL",
             "label": "Natural ordering",
-            "sortAscending": true,
-            "$$hashKey": "object:21083"
+            "sortAscending": true
           },
           "prefix": "",
           "suffix": "",
@@ -118,7 +112,7 @@
           "prefix": "",
           "suffix": "",
           "showValue": true,
-          "displayLabel": "Estimated Saved Cost (USD)",
+          "displayLabel": "Estimated Saved Cost (USD) 💰",
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
           "labelFontSize": 16,
@@ -169,7 +163,7 @@
           "prefix": "",
           "suffix": "",
           "showValue": true,
-          "displayLabel": "Estimated Cost (USD)",
+          "displayLabel": "Estimated Cost (USD) 💵",
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
           "labelFontSize": 16,
