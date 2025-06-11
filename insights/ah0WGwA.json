@@ -51,25 +51,31 @@
             {
               "type": "NATURAL",
               "label": "Natural ordering",
-              "sortAscending": true
+              "sortAscending": true,
+              "$$hashKey": "object:2954"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of llmUsage_totalCompletionTokens, descending"
+              "label": "Sum of llmUsage_totalCompletionTokens, descending",
+              "$$hashKey": "object:2955"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
               "label": "Sum of llmUsage_totalCompletionTokens, ascending",
-              "sortAscending": true
+              "sortAscending": true,
+              "$$hashKey": "object:2956"
             }
           ],
           "sort": {
             "type": "NATURAL",
             "label": "Natural ordering",
-            "sortAscending": true
+            "sortAscending": true,
+            "$$hashKey": "object:2954"
           },
+          "prefix": "",
+          "suffix": "",
           "multiplier": "Auto",
           "hideTrailingZeros": true,
           "digitGrouping": "DEFAULT",
@@ -96,6 +102,8 @@
           "useParenthesesForNegativeValues": false,
           "shouldFormatInPercentage": false,
           "hideTrailingZeros": true,
+          "prefix": "",
+          "suffix": "",
           "showValue": true,
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
@@ -177,9 +185,9 @@
       "filters": [],
       "xAxisFormatting": {
         "displayAxis": true,
-        "showAxisTitle": true,
+        "showAxisTitle": false,
         "axisTitleFormatting": {
-          "fontSize": 15,
+          "fontSize": 13,
           "fontColor": "#333",
           "hasBackground": false
         },
@@ -194,7 +202,7 @@
             "suffix": ""
           },
           "axisTicksFormatting": {
-            "fontSize": 12,
+            "fontSize": 13,
             "fontColor": "#333",
             "hasBackground": false
           }
@@ -217,8 +225,9 @@
           "id": "y_left_0",
           "displayAxis": true,
           "showAxisTitle": true,
+          "axisTitle": "# of tokens",
           "axisTitleFormatting": {
-            "fontSize": 15,
+            "fontSize": 13,
             "fontColor": "#333",
             "hasBackground": false
           },
@@ -233,7 +242,7 @@
               "suffix": ""
             },
             "axisTicksFormatting": {
-              "fontSize": 12,
+              "fontSize": 13,
               "fontColor": "#333",
               "hasBackground": false
             }
