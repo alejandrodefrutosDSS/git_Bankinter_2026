@@ -398,7 +398,7 @@
             },
             "titleOptions": {
               "showTitle": "YES",
-              "title": "Cumulative cost and savings ($)",
+              "title": "Cumulative cost and savings 💵",
               "fontColor": "#000",
               "fontSize": 16
             },
