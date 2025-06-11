@@ -625,7 +625,7 @@
               "showTitle": "YES",
               "title": "Total # of Requests",
               "fontColor": "#000",
-              "fontSize": 13
+              "fontSize": 16
             },
             "insightId": "uEROiwP",
             "insightType": "chart",
