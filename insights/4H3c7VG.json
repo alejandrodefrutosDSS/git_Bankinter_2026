@@ -48,24 +48,28 @@
             {
               "type": "NATURAL",
               "label": "Natural ordering",
-              "sortAscending": true
+              "sortAscending": true,
+              "$$hashKey": "object:5213"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of llmUsage_estimatedCostUSD, descending"
+              "label": "Total estimated cost (USD), descending",
+              "$$hashKey": "object:5212"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of llmUsage_estimatedCostUSD, ascending",
-              "sortAscending": true
+              "label": "Total estimated cost (USD), ascending",
+              "sortAscending": true,
+              "$$hashKey": "object:5214"
             }
           ],
           "sort": {
-            "type": "NATURAL",
-            "label": "Natural ordering",
-            "sortAscending": true
+            "type": "AGGREGATION",
+            "measureIdx": 0,
+            "label": "Total estimated cost (USD), descending",
+            "$$hashKey": "object:5212"
           },
           "prefix": "",
           "suffix": "",
