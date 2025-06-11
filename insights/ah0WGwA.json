@@ -51,28 +51,24 @@
             {
               "type": "NATURAL",
               "label": "Natural ordering",
-              "sortAscending": true,
-              "$$hashKey": "object:2954"
+              "sortAscending": true
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of llmUsage_totalCompletionTokens, descending",
-              "$$hashKey": "object:2955"
+              "label": "Sum of llmUsage_totalCompletionTokens, descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
               "label": "Sum of llmUsage_totalCompletionTokens, ascending",
-              "sortAscending": true,
-              "$$hashKey": "object:2956"
+              "sortAscending": true
             }
           ],
           "sort": {
             "type": "NATURAL",
             "label": "Natural ordering",
-            "sortAscending": true,
-            "$$hashKey": "object:2954"
+            "sortAscending": true
           },
           "prefix": "",
           "suffix": "",
@@ -225,7 +221,7 @@
           "id": "y_left_0",
           "displayAxis": true,
           "showAxisTitle": true,
-          "axisTitle": "# of tokens",
+          "axisTitle": "Total # of tokens",
           "axisTitleFormatting": {
             "fontSize": 13,
             "fontColor": "#333",
