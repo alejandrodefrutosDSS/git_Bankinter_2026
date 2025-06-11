@@ -181,7 +181,7 @@
       "filters": [],
       "xAxisFormatting": {
         "displayAxis": true,
-        "showAxisTitle": true,
+        "showAxisTitle": false,
         "axisTitleFormatting": {
           "fontSize": 15,
           "fontColor": "#333",
@@ -198,7 +198,7 @@
             "suffix": ""
           },
           "axisTicksFormatting": {
-            "fontSize": 12,
+            "fontSize": 13,
             "fontColor": "#333",
             "hasBackground": false
           }
@@ -221,8 +221,9 @@
           "id": "y_left_0",
           "displayAxis": true,
           "showAxisTitle": true,
+          "axisTitle": "Total # of Requests",
           "axisTitleFormatting": {
-            "fontSize": 15,
+            "fontSize": 13,
             "fontColor": "#333",
             "hasBackground": false
           },
