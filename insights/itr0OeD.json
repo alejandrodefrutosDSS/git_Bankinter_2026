@@ -48,41 +48,35 @@
             {
               "type": "NATURAL",
               "label": "Natural ordering",
-              "sortAscending": true,
-              "$$hashKey": "object:7116"
+              "sortAscending": true
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of llmUsage_estimatedCostUSD, descending",
-              "$$hashKey": "object:7117"
+              "label": "Sum of llmUsage_estimatedCostUSD, descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
               "label": "Sum of llmUsage_estimatedCostUSD, ascending",
-              "sortAscending": true,
-              "$$hashKey": "object:7118"
+              "sortAscending": true
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
-              "label": "Average of estimated_cost_saved, descending",
-              "$$hashKey": "object:7119"
+              "label": "Average of estimated_cost_saved, descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
               "label": "Average of estimated_cost_saved, ascending",
-              "sortAscending": true,
-              "$$hashKey": "object:7120"
+              "sortAscending": true
             }
           ],
           "sort": {
             "type": "AGGREGATION",
             "measureIdx": 0,
-            "label": "Sum of llmUsage_estimatedCostUSD, descending",
-            "$$hashKey": "object:7117"
+            "label": "Sum of llmUsage_estimatedCostUSD, descending"
           },
           "prefix": "",
           "suffix": "",
@@ -269,7 +263,7 @@
           "id": "y_left_0",
           "displayAxis": true,
           "showAxisTitle": true,
-          "axisTitle": "($)",
+          "axisTitle": "(USD)",
           "axisTitleFormatting": {
             "fontSize": 15,
             "fontColor": "#333",
