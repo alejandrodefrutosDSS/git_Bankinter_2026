@@ -70,7 +70,7 @@
             },
             "titleOptions": {
               "showTitle": "YES",
-              "title": "Total Estimated Cost ($) Over Time by Project",
+              "title": "Total Estimated Cost (USD) 💵 Over Time by Project",
               "fontColor": "#000",
               "fontSize": 16
             },
