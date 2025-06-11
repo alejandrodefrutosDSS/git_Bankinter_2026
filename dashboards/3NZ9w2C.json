@@ -582,7 +582,7 @@
               "showTitle": "YES",
               "title": "Estimated Savings Visualization",
               "fontColor": "#000",
-              "fontSize": 18
+              "fontSize": 16
             },
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
