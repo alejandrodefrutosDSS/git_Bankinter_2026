@@ -400,7 +400,7 @@
               "showTitle": "YES",
               "title": "Cumulative cost and savings ($)",
               "fontColor": "#000",
-              "fontSize": 13
+              "fontSize": 16
             },
             "insightId": "LvvdqOo",
             "insightType": "chart",
