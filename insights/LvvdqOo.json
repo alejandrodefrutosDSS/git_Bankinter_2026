@@ -51,35 +51,41 @@
             {
               "type": "NATURAL",
               "label": "Natural ordering",
-              "sortAscending": true
+              "sortAscending": true,
+              "$$hashKey": "object:18046"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Estimated Saved Cost ($), descending"
+              "label": "Estimated Saved Cost (USD), descending",
+              "$$hashKey": "object:18047"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Estimated Saved Cost ($), ascending",
-              "sortAscending": true
+              "label": "Estimated Saved Cost (USD), ascending",
+              "sortAscending": true,
+              "$$hashKey": "object:18048"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
-              "label": "Estimated Cost ($), descending"
+              "label": "Estimated Cost (USD), descending",
+              "$$hashKey": "object:18049"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
-              "label": "Estimated Cost ($), ascending",
-              "sortAscending": true
+              "label": "Estimated Cost (USD), ascending",
+              "sortAscending": true,
+              "$$hashKey": "object:18050"
             }
           ],
           "sort": {
             "type": "NATURAL",
             "label": "Natural ordering",
-            "sortAscending": true
+            "sortAscending": true,
+            "$$hashKey": "object:18046"
           },
           "prefix": "",
           "suffix": "",
@@ -261,7 +267,7 @@
             "suffix": ""
           },
           "axisTicksFormatting": {
-            "fontSize": 12,
+            "fontSize": 15,
             "fontColor": "#333",
             "hasBackground": false
           }
