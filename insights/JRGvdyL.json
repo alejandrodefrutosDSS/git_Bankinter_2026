@@ -48,28 +48,24 @@
             {
               "type": "NATURAL",
               "label": "Natural ordering",
-              "sortAscending": true,
-              "$$hashKey": "object:3551"
+              "sortAscending": true
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of llmUsage_estimatedCostUSD, descending",
-              "$$hashKey": "object:3550"
+              "label": "Sum of llmUsage_estimatedCostUSD, descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
               "label": "Sum of llmUsage_estimatedCostUSD, ascending",
-              "sortAscending": true,
-              "$$hashKey": "object:3552"
+              "sortAscending": true
             }
           ],
           "sort": {
             "type": "AGGREGATION",
             "measureIdx": 0,
-            "label": "Sum of llmUsage_estimatedCostUSD, descending",
-            "$$hashKey": "object:3550"
+            "label": "Sum of llmUsage_estimatedCostUSD, descending"
           },
           "prefix": "",
           "suffix": "",
@@ -186,7 +182,7 @@
         "showAxisTitle": true,
         "axisTitle": "Provider",
         "axisTitleFormatting": {
-          "fontSize": 15,
+          "fontSize": 13,
           "fontColor": "#333",
           "hasBackground": false
         },
@@ -201,7 +197,7 @@
             "suffix": ""
           },
           "axisTicksFormatting": {
-            "fontSize": 12,
+            "fontSize": 13,
             "fontColor": "#333",
             "hasBackground": false
           }
@@ -226,7 +222,7 @@
           "showAxisTitle": true,
           "axisTitle": "(USD)",
           "axisTitleFormatting": {
-            "fontSize": 15,
+            "fontSize": 13,
             "fontColor": "#333",
             "hasBackground": false
           },
@@ -241,7 +237,7 @@
               "suffix": ""
             },
             "axisTicksFormatting": {
-              "fontSize": 12,
+              "fontSize": 13,
               "fontColor": "#333",
               "hasBackground": false
             }
