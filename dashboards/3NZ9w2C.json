@@ -701,7 +701,7 @@
               "showTitle": "YES",
               "title": "Completion Tokens Usage",
               "fontColor": "#000",
-              "fontSize": 13
+              "fontSize": 16
             },
             "insightId": "ah0WGwA",
             "insightType": "chart",
@@ -739,7 +739,7 @@
               "showTitle": "YES",
               "title": "Average Computation Time",
               "fontColor": "#000",
-              "fontSize": 13
+              "fontSize": 16
             },
             "insightId": "nin7DS1",
             "insightType": "chart",
