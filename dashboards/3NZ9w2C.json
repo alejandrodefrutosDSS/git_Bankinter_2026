@@ -72,7 +72,7 @@
               "showTitle": "YES",
               "title": "Total Estimated Cost ($) Over Time by Project",
               "fontColor": "#000",
-              "fontSize": 13
+              "fontSize": 16
             },
             "insightId": "tRFctK1",
             "insightType": "chart",
