@@ -462,7 +462,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "**LLM Mesh cache**\nDataiku stores the requests and answers in a cache system. If the same request is made later on, the stored answer is used, saving LLM costs. \nYou can **[activate the caching option](https://knowledge.dataiku.com/latest/ml-analytics/gen-ai/concept-llm-connections.html#using-cache-to-reduce-costs)** to reduce your operational costs.",
+              "text": "Dataiku stores the requests and answers in a cache system. If the same request is made later on, the stored answer is used, saving LLM costs. \nYou can **[activate the caching option](https://knowledge.dataiku.com/latest/ml-analytics/gen-ai/concept-llm-connections.html#using-cache-to-reduce-costs)** to reduce your operational costs.",
               "textAlign": "LEFT"
             },
             "backgroundOpacity": 1.0,
@@ -474,9 +474,10 @@
               "size": 1
             },
             "titleOptions": {
-              "showTitle": "NO",
+              "showTitle": "YES",
+              "title": "LLM Mesh cache",
               "fontColor": "#000",
-              "fontSize": 13
+              "fontSize": 16
             },
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
