@@ -195,7 +195,7 @@
             "suffix": ""
           },
           "axisTicksFormatting": {
-            "fontSize": 12,
+            "fontSize": 13,
             "fontColor": "#333",
             "hasBackground": false
           }
@@ -220,7 +220,7 @@
           "showAxisTitle": true,
           "axisTitle": "(USD)",
           "axisTitleFormatting": {
-            "fontSize": 15,
+            "fontSize": 13,
             "fontColor": "#333",
             "hasBackground": false
           },
@@ -235,7 +235,7 @@
               "suffix": ""
             },
             "axisTicksFormatting": {
-              "fontSize": 12,
+              "fontSize": 13,
               "fontColor": "#333",
               "hasBackground": false
             }
