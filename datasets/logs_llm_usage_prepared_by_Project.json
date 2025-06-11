@@ -1,5 +1,5 @@
 {
-  "type": "Filesystem",
+  "type": "S3",
   "managed": true,
   "featureGroup": false,
   "formatType": "csv",
@@ -26,7 +26,7 @@
     }
   },
   "formatParams": {
-    "style": "unix",
+    "style": "excel",
     "charset": "utf8",
     "separator": "\t",
     "quoteChar": "\"",
@@ -70,8 +70,12 @@
   },
   "tags": [],
   "params": {
-    "connection": "filesystem_managed",
-    "path": "${projectKey}/logs_llm_usage_prepared_by_Project",
+    "bucket": "dku-solutions-data-internal",
+    "metastoreSynchronizationEnabled": true,
+    "metastoreDatabaseName": "default",
+    "metastoreTableName": "logs_llm_usage_prepared_by_Project",
+    "connection": "dataiku-managed-storage",
+    "path": "/managed-dss-data/${projectKey}/logs_llm_usage_prepared_by_Project",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",
