@@ -593,7 +593,7 @@
       "useLiveProcessingIfAvailable": true,
       "legendPlacement": "OUTER_RIGHT",
       "legendFormatting": {
-        "fontSize": 11,
+        "fontSize": 13,
         "fontColor": "#333",
         "hasBackground": false
       },
