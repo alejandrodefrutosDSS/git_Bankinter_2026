@@ -44,7 +44,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 22,
+              "top": 18,
               "left": 0,
               "width": 36,
               "height": 9
@@ -208,36 +208,6 @@
             "titleOptions": {
               "showTitle": "YES",
               "title": "Breakdown by usage type",
-              "fontColor": "#000",
-              "fontSize": 18
-            },
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "TEXT",
-            "box": {
-              "top": 19,
-              "left": 0,
-              "width": 36,
-              "height": 3
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "text": "[Documentation](article:23)",
-              "textAlign": "LEFT"
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "locked": false,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "title": "Breakdown by project",
               "fontColor": "#000",
               "fontSize": 18
             },
@@ -522,7 +492,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 8,
+              "top": 6,
               "left": 0,
               "width": 36,
               "height": 10
@@ -554,36 +524,6 @@
             },
             "insightId": "LvvdqOo",
             "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "TEXT",
-            "box": {
-              "top": 6,
-              "left": 0,
-              "width": 36,
-              "height": 2
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "text": "[Documentation](article:23)",
-              "textAlign": "LEFT"
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "locked": false,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "title": "Estimated Savings Visualization",
-              "fontColor": "#000",
-              "fontSize": 16
-            },
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
           }
