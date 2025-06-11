@@ -184,6 +184,7 @@
             },
             "titleOptions": {
               "showTitle": "YES",
+              "title": "Total Estimated Cost (USD) 💵 by Project",
               "fontColor": "#000",
               "fontSize": 16
             },
