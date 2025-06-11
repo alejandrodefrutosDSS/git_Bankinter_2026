@@ -48,28 +48,24 @@
             {
               "type": "NATURAL",
               "label": "Natural ordering",
-              "sortAscending": true,
-              "$$hashKey": "object:5213"
+              "sortAscending": true
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Total estimated cost (USD), descending",
-              "$$hashKey": "object:5212"
+              "label": "Total estimated cost (USD), descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
               "label": "Total estimated cost (USD), ascending",
-              "sortAscending": true,
-              "$$hashKey": "object:5214"
+              "sortAscending": true
             }
           ],
           "sort": {
             "type": "AGGREGATION",
             "measureIdx": 0,
-            "label": "Total estimated cost (USD), descending",
-            "$$hashKey": "object:5212"
+            "label": "Total estimated cost (USD), descending"
           },
           "prefix": "",
           "suffix": "",
@@ -185,7 +181,7 @@
         "displayAxis": true,
         "showAxisTitle": true,
         "axisTitleFormatting": {
-          "fontSize": 15,
+          "fontSize": 13,
           "fontColor": "#333",
           "hasBackground": false
         },
@@ -200,7 +196,7 @@
             "suffix": ""
           },
           "axisTicksFormatting": {
-            "fontSize": 12,
+            "fontSize": 13,
             "fontColor": "#333",
             "hasBackground": false
           }
@@ -225,7 +221,7 @@
           "showAxisTitle": true,
           "axisTitle": "(USD)",
           "axisTitleFormatting": {
-            "fontSize": 15,
+            "fontSize": 13,
             "fontColor": "#333",
             "hasBackground": false
           },
@@ -240,7 +236,7 @@
               "suffix": ""
             },
             "axisTicksFormatting": {
-              "fontSize": 12,
+              "fontSize": 13,
               "fontColor": "#333",
               "hasBackground": false
             }
