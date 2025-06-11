@@ -221,7 +221,7 @@
           "id": "y_left_0",
           "displayAxis": true,
           "showAxisTitle": true,
-          "axisTitle": "Total # of tokens",
+          "axisTitle": "Completion Tokens Usage",
           "axisTitleFormatting": {
             "fontSize": 13,
             "fontColor": "#333",
