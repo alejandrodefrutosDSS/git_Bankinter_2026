@@ -51,28 +51,24 @@
             {
               "type": "NATURAL",
               "label": "Natural ordering",
-              "sortAscending": true,
-              "$$hashKey": "object:2160"
+              "sortAscending": true
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Total Estimated Cost ($) per Project, descending",
-              "$$hashKey": "object:2161"
+              "label": "Total Estimated Cost ($) per Project, descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
               "label": "Total Estimated Cost ($) per Project, ascending",
-              "sortAscending": true,
-              "$$hashKey": "object:2162"
+              "sortAscending": true
             }
           ],
           "sort": {
             "type": "NATURAL",
             "label": "Natural ordering",
-            "sortAscending": true,
-            "$$hashKey": "object:2160"
+            "sortAscending": true
           },
           "prefix": "",
           "suffix": "",
@@ -272,7 +268,7 @@
           "showAxisTitle": true,
           "axisTitle": "(USD)",
           "axisTitleFormatting": {
-            "fontSize": 15,
+            "fontSize": 13,
             "fontColor": "#333",
             "hasBackground": false
           },
