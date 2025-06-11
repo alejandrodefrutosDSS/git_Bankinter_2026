@@ -28,7 +28,7 @@
     "def": {
       "type": "grouped_columns",
       "variant": "normal",
-      "name": "Usage type Estimated Cost ($) Distribution",
+      "name": "Usage type Estimated Cost (USD) 💵 Distribution",
       "userEditedName": true,
       "displayWithEChartsByDefault": true,
       "genericDimension0": [
@@ -48,35 +48,41 @@
             {
               "type": "NATURAL",
               "label": "Natural ordering",
-              "sortAscending": true
+              "sortAscending": true,
+              "$$hashKey": "object:7116"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Sum of llmUsage_estimatedCostUSD, descending"
+              "label": "Sum of llmUsage_estimatedCostUSD, descending",
+              "$$hashKey": "object:7117"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
               "label": "Sum of llmUsage_estimatedCostUSD, ascending",
-              "sortAscending": true
+              "sortAscending": true,
+              "$$hashKey": "object:7118"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
-              "label": "Average of estimated_cost_saved, descending"
+              "label": "Average of estimated_cost_saved, descending",
+              "$$hashKey": "object:7119"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
               "label": "Average of estimated_cost_saved, ascending",
-              "sortAscending": true
+              "sortAscending": true,
+              "$$hashKey": "object:7120"
             }
           ],
           "sort": {
             "type": "AGGREGATION",
             "measureIdx": 0,
-            "label": "Sum of llmUsage_estimatedCostUSD, descending"
+            "label": "Sum of llmUsage_estimatedCostUSD, descending",
+            "$$hashKey": "object:7117"
           },
           "prefix": "",
           "suffix": "",
