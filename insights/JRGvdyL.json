@@ -220,7 +220,7 @@
           "id": "y_left_0",
           "displayAxis": true,
           "showAxisTitle": true,
-          "axisTitle": "($)",
+          "axisTitle": "(USD)",
           "axisTitleFormatting": {
             "fontSize": 15,
             "fontColor": "#333",
@@ -530,7 +530,7 @@
       "useLiveProcessingIfAvailable": true,
       "legendPlacement": "OUTER_RIGHT",
       "legendFormatting": {
-        "fontSize": 11,
+        "fontSize": 13,
         "fontColor": "#333",
         "hasBackground": false
       },
