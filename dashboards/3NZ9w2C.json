@@ -221,6 +221,7 @@
             },
             "titleOptions": {
               "showTitle": "YES",
+              "title": "Total Estimated Cost (USD) 💵 by User",
               "fontColor": "#000",
               "fontSize": 16
             },
