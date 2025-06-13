@@ -20,6 +20,10 @@
       },
       {
         "d": true,
+        "name": "llmUsage_totalComputationTimeSeconds"
+      },
+      {
+        "d": true,
         "name": "Connection type"
       },
       {
@@ -453,6 +457,18 @@
             "matching": "SUBSTRING"
           },
           "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "comment": "Step generated using prompt : I want to add the llmUsage_totalComputationTimeMS in seconds",
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "val(\"llmUsage_totalComputationTimeMS\") / 1000",
+            "column": "llmUsage_totalComputationTimeSeconds"
+          },
+          "alwaysShowComment": false
         }
       ],
       "alwaysShowComment": false
@@ -562,7 +578,7 @@
           "alwaysShowComment": false
         },
         {
-          "preview": true,
+          "preview": false,
           "metaType": "PROCESSOR",
           "disabled": false,
           "type": "CreateColumnWithGREL",
@@ -611,6 +627,7 @@
     "type": 100,
     "llmUsage_totalCompletionTokens": 240,
     "callPath": 300,
+    "llmUsage_totalComputationTimeSeconds": 285,
     "computeResourceUsage_llmUsage_totalCompletionTokens": 300,
     "llmUsage_llmType": 135,
     "Number of LLM cache hit": 188,
@@ -730,6 +747,7 @@
   "coloring": {
     "scheme": "MEANING_AND_STATUS",
     "individualColumns": [],
+    "coloringGroups": [],
     "valueColoringMode": "HASH",
     "individualColumnsRules": []
   }
