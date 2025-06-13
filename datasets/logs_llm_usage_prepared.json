@@ -82,6 +82,7 @@
       {"name":"startTime","type":"date"},
       {"name":"type","type":"string"},
       {"name":"llmUsage_totalComputationTimeMS","type":"bigint"},
+      {"name":"llmUsage_totalComputationTimeSeconds","type":"double"},
       {"name":"Connection type","type":"string"},
       {"name":"llmUsage_totalQueries","type":"bigint"},
       {"name":"llmUsage_totalPromptTokens","type":"bigint"},
