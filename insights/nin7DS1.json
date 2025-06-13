@@ -56,12 +56,12 @@
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Average of llmUsage_totalComputationTimeMS, descending"
+              "label": "Average of llmUsage_totalComputationTimeSeconds, descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Average of llmUsage_totalComputationTimeMS, ascending",
+              "label": "Average of llmUsage_totalComputationTimeSeconds, ascending",
               "sortAscending": true
             }
           ],
@@ -84,7 +84,7 @@
       "animationDimension": [],
       "genericMeasures": [
         {
-          "column": "llmUsage_totalComputationTimeMS",
+          "column": "llmUsage_totalComputationTimeSeconds",
           "function": "AVG",
           "type": "NUMERICAL",
           "displayed": true,
@@ -94,13 +94,10 @@
           "computeMode": "NORMAL",
           "computeModeDim": 0,
           "multiplier": "Auto",
-          "decimalPlaces": 0,
           "digitGrouping": "DEFAULT",
           "useParenthesesForNegativeValues": false,
           "shouldFormatInPercentage": false,
           "hideTrailingZeros": true,
-          "prefix": "",
-          "suffix": "",
           "showValue": true,
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
