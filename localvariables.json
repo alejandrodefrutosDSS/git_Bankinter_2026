@@ -1,5 +1,5 @@
 {
-  "logs_origin": "event_server",
+  "logs_origin": "cloud",
   "logs_connection": "filesystem_managed",
   "logs_partitioning_activated": false,
   "logs_partitioning_period": "HOUR",
