@@ -93,7 +93,7 @@
           "displayType": "column",
           "computeMode": "NORMAL",
           "computeModeDim": 0,
-          "multiplier": "Auto",
+          "multiplier": "Thousands",
           "digitGrouping": "DEFAULT",
           "useParenthesesForNegativeValues": false,
           "shouldFormatInPercentage": false,
