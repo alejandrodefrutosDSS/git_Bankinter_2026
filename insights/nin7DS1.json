@@ -93,7 +93,7 @@
           "displayType": "column",
           "computeMode": "NORMAL",
           "computeModeDim": 0,
-          "multiplier": "Thousands",
+          "multiplier": "Auto",
           "decimalPlaces": 0,
           "digitGrouping": "DEFAULT",
           "useParenthesesForNegativeValues": false,
@@ -230,7 +230,7 @@
           },
           "axisValuesFormatting": {
             "numberFormatting": {
-              "multiplier": "Auto",
+              "multiplier": "Thousands",
               "hideTrailingZeros": true,
               "digitGrouping": "DEFAULT",
               "useParenthesesForNegativeValues": false,
