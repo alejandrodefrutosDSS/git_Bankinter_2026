@@ -270,7 +270,7 @@
     },
     {
       "pendingUserEmail": "christina.hsiao@dataiku.com",
-      "invitationEmailStatus": "PENDING",
+      "invitationEmailStatus": "FAILED",
       "admin": true,
       "editPermissions": true,
       "readProjectContent": true,
