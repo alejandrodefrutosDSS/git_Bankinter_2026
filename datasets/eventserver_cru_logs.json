@@ -1,5 +1,5 @@
 {
-  "type": "S3",
+  "type": "Filesystem",
   "managed": false,
   "featureGroup": false,
   "formatType": "json",
@@ -48,8 +48,7 @@
   },
   "tags": [],
   "params": {
-    "metastoreSynchronizationEnabled": true,
-    "connection": "dataiku-managed-storage",
+    "connection": "filesystem_managed",
     "path": "/event-server/compute-resource-usage/",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
