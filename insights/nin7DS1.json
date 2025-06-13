@@ -98,6 +98,8 @@
           "useParenthesesForNegativeValues": false,
           "shouldFormatInPercentage": false,
           "hideTrailingZeros": true,
+          "prefix": "",
+          "suffix": "",
           "showValue": true,
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
@@ -219,7 +221,7 @@
           "id": "y_left_0",
           "displayAxis": true,
           "showAxisTitle": true,
-          "axisTitle": "(Millisecond)",
+          "axisTitle": "(Second)",
           "axisTitleFormatting": {
             "fontSize": 13,
             "fontColor": "#333",
