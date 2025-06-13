@@ -230,7 +230,7 @@
           },
           "axisValuesFormatting": {
             "numberFormatting": {
-              "multiplier": "Thousands",
+              "multiplier": "Auto",
               "hideTrailingZeros": true,
               "digitGrouping": "DEFAULT",
               "useParenthesesForNegativeValues": false,
