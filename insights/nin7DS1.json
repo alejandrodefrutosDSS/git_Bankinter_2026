@@ -221,7 +221,7 @@
           "id": "y_left_0",
           "displayAxis": true,
           "showAxisTitle": true,
-          "axisTitle": "(Second)",
+          "axisTitle": "(Seconds)",
           "axisTitleFormatting": {
             "fontSize": 13,
             "fontColor": "#333",
