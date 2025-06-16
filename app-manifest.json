@@ -34,7 +34,7 @@
   "useAppHomepage": true,
   "homepageSections": [
     {
-      "sectionTitle": "Welcome to Dataiku GenAI Monitoring",
+      "sectionTitle": "Welcome to Dataiku GenAI Cost Monitoring",
       "sectionText": "Several sections will help you configure the project and your data. You can check the requirements [here](article:15) and the [project setup tutorial](article:14)",
       "tiles": []
     },
