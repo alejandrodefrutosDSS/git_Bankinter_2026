@@ -483,7 +483,7 @@
     "extendedProperties": {}
   },
   "description": "**[Learn more about the project\u0027s goal and value](article:24)**\n\n****\nTo use this project you should follow the [instructions](article:14) to configure your project.",
-  "shortDesc": "[See Requirements](https://knowledge.dataiku.com/latest/solutions/governance/solution-cru.html). Monitor LLM resource usage per projects and users.\nThe project *SOL_GENAI_COST_MONITORING* was copied from *SOL_GENAI_MONITORING* by Ayoub Moujane on Jun 16th 2025",
+  "shortDesc": "[See Requirements](https://knowledge.dataiku.com/latest/solutions/governance/solution-cru.html). Monitor LLM resource cost per projects and users.",
   "tags": [
     "SolutionType:Plug and Play",
     "SolutionLineOfBusiness:IT / Cybersecurity / Data",
