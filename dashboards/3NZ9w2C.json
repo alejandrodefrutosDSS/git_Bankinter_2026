@@ -7,7 +7,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 66,
+              "top": 64,
               "left": 0,
               "width": 10,
               "height": 6
@@ -82,7 +82,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 53,
+              "top": 51,
               "left": 0,
               "width": 36,
               "height": 9
@@ -234,9 +234,9 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 44,
+              "top": 42,
               "left": 0,
-              "width": 36,
+              "width": 32,
               "height": 9
             },
             "clickAction": "DO_NOTHING",
@@ -309,7 +309,7 @@
           {
             "tileType": "TEXT",
             "box": {
-              "top": 62,
+              "top": 60,
               "left": 0,
               "width": 10,
               "height": 4
@@ -376,7 +376,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 62,
+              "top": 60,
               "left": 10,
               "width": 26,
               "height": 10
@@ -415,13 +415,13 @@
             "tileType": "TEXT",
             "box": {
               "top": 42,
-              "left": 0,
-              "width": 8,
+              "left": 32,
+              "width": 4,
               "height": 2
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "[Context documentation 📝](https://doc.dataiku.com/dss/latest/operations/compute-resource-usage-reporting.html#concepts)",
+              "text": "Resource\n- [Context documentation 📝](https://doc.dataiku.com/dss/latest/operations/compute-resource-usage-reporting.html#concepts)\n",
               "textAlign": "LEFT"
             },
             "backgroundOpacity": 1.0,
