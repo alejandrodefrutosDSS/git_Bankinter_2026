@@ -2,7 +2,7 @@
   "type": "step_based",
   "name": "3. Build flow",
   "active": false,
-  "runAsUser": "admin",
+  "runAsUser": "ayoub.moujane@dataiku.com",
   "checklists": {
     "checklists": []
   },

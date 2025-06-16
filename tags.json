@@ -12,6 +12,8 @@
     "SolutionType:Plug and Play": {
       "color": "#EAB8A9"
     },
+    "Version:1.0.1": {},
+    "Version:1.1.0": {},
     "recipe-editor": {
       "color": "#1ac2ab"
     },
@@ -59,8 +61,6 @@
     },
     "SolutionLineOfBusiness:Data / Analytics": {
       "color": "#28aadd"
-    },
-    "Version:1.0.1": {},
-    "Version:1.1.0": {}
+    }
   }
 }
