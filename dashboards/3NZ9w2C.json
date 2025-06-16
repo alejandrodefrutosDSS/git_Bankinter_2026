@@ -7,7 +7,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 76,
+              "top": 66,
               "left": 0,
               "width": 10,
               "height": 6
@@ -44,7 +44,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 16,
+              "top": 6,
               "left": 0,
               "width": 36,
               "height": 9
@@ -82,7 +82,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 63,
+              "top": 53,
               "left": 0,
               "width": 36,
               "height": 9
@@ -120,7 +120,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 43,
+              "top": 33,
               "left": 0,
               "width": 36,
               "height": 9
@@ -158,7 +158,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 25,
+              "top": 15,
               "left": 0,
               "width": 36,
               "height": 9
@@ -196,7 +196,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 34,
+              "top": 24,
               "left": 0,
               "width": 36,
               "height": 9
@@ -234,7 +234,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 54,
+              "top": 44,
               "left": 0,
               "width": 36,
               "height": 9
@@ -273,7 +273,7 @@
             "tileType": "INSIGHT",
             "box": {
               "top": 0,
-              "left": 0,
+              "left": 8,
               "width": 10,
               "height": 6
             },
@@ -309,7 +309,7 @@
           {
             "tileType": "TEXT",
             "box": {
-              "top": 72,
+              "top": 62,
               "left": 0,
               "width": 10,
               "height": 4
@@ -340,7 +340,7 @@
             "tileType": "INSIGHT",
             "box": {
               "top": 0,
-              "left": 10,
+              "left": 18,
               "width": 10,
               "height": 6
             },
@@ -376,7 +376,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 72,
+              "top": 62,
               "left": 10,
               "width": 26,
               "height": 10
@@ -414,7 +414,7 @@
           {
             "tileType": "TEXT",
             "box": {
-              "top": 52,
+              "top": 42,
               "left": 0,
               "width": 8,
               "height": 2
