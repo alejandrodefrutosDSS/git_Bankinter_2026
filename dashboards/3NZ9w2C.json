@@ -82,7 +82,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 61,
+              "top": 63,
               "left": 0,
               "width": 36,
               "height": 9
@@ -234,7 +234,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 52,
+              "top": 54,
               "left": 0,
               "width": 36,
               "height": 9
@@ -408,6 +408,35 @@
             },
             "insightId": "LvvdqOo",
             "insightType": "chart",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "TEXT",
+            "box": {
+              "top": 52,
+              "left": 0,
+              "width": 8,
+              "height": 2
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "text": "[Context documentation 📝](https://doc.dataiku.com/dss/latest/operations/compute-resource-usage-reporting.html#concepts)",
+              "textAlign": "LEFT"
+            },
+            "backgroundOpacity": 1.0,
+            "autoLoad": true,
+            "locked": false,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "titleOptions": {
+              "showTitle": "NO",
+              "fontColor": "#000",
+              "fontSize": 13
+            },
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
           }
