@@ -6,7 +6,10 @@
       "attachmentType": "DSS_OBJECT",
       "taggableType": "ARTICLE",
       "smartId": "23",
-      "details": {},
+      "details": {
+        "objectDisplayName": "GenAI Cost Monitoring page",
+        "userDisplayName": "Ayoub Moujane"
+      },
       "attachedBy": "ayoub.moujane@dataiku.com",
       "attachedOn": 1750064175047
     },
@@ -14,7 +17,10 @@
       "attachmentType": "DSS_OBJECT",
       "taggableType": "ARTICLE",
       "smartId": "30",
-      "details": {},
+      "details": {
+        "objectDisplayName": "GenAI Usage Monitoring page",
+        "userDisplayName": "Ayoub Moujane"
+      },
       "attachedBy": "ayoub.moujane@dataiku.com",
       "attachedOn": 1750064181126
     }
