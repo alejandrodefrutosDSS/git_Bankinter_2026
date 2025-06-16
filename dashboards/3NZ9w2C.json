@@ -7,8 +7,8 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 0,
-              "left": 20,
+              "top": 76,
+              "left": 0,
               "width": 10,
               "height": 6
             },
@@ -309,10 +309,10 @@
           {
             "tileType": "TEXT",
             "box": {
-              "top": 0,
-              "left": 30,
-              "width": 6,
-              "height": 6
+              "top": 72,
+              "left": 0,
+              "width": 10,
+              "height": 4
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
@@ -376,9 +376,9 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 6,
-              "left": 0,
-              "width": 36,
+              "top": 72,
+              "left": 10,
+              "width": 26,
               "height": 10
             },
             "clickAction": "DO_NOTHING",
