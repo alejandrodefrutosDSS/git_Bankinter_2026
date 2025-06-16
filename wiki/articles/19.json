@@ -1,14 +1,16 @@
 {
   "name": "User Interface",
   "layout": "WIKI_ARTICLE",
-  "attachments": [],
-  "versionTag": {
-    "versionNumber": 0,
-    "lastModifiedBy": {
-      "login": "antoine.detorcy@dataiku.com"
-    },
-    "lastModifiedOn": 1678706248737
-  },
+  "attachments": [
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "ARTICLE",
+      "smartId": "23",
+      "details": {},
+      "attachedBy": "ayoub.moujane@dataiku.com",
+      "attachedOn": 1750064175047
+    }
+  ],
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
