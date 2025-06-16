@@ -8,7 +8,9 @@
       "smartId": "19",
       "details": {
         "objectDisplayName": "User Interface",
-        "userDisplayName": "Ayoub Moujane"
+        "userDisplayName": "Ayoub Moujane",
+        "itemNotFound": true,
+        "failedToEnrichItem": true
       },
       "attachedBy": "ayoub.moujane@dataiku.com",
       "attachedOn": 1750057735283
@@ -19,7 +21,9 @@
       "smartId": "18",
       "details": {
         "objectDisplayName": "Installation and configuration",
-        "userDisplayName": "Ayoub Moujane"
+        "userDisplayName": "Ayoub Moujane",
+        "itemNotFound": true,
+        "failedToEnrichItem": true
       },
       "attachedBy": "ayoub.moujane@dataiku.com",
       "attachedOn": 1750057742405
@@ -56,6 +60,14 @@
       },
       "attachedBy": "ayoub.moujane@dataiku.com",
       "attachedOn": 1750057759517
+    },
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "ARTICLE",
+      "smartId": "23",
+      "details": {},
+      "attachedBy": "ayoub.moujane@dataiku.com",
+      "attachedOn": 1750075340616
     }
   ],
   "creationTag": {
