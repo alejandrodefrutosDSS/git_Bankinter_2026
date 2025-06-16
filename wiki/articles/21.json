@@ -6,7 +6,10 @@
       "attachmentType": "DSS_OBJECT",
       "taggableType": "ARTICLE",
       "smartId": "19",
-      "details": {},
+      "details": {
+        "objectDisplayName": "User Interface",
+        "userDisplayName": "Ayoub Moujane"
+      },
       "attachedBy": "ayoub.moujane@dataiku.com",
       "attachedOn": 1750057735283
     },
@@ -14,7 +17,10 @@
       "attachmentType": "DSS_OBJECT",
       "taggableType": "ARTICLE",
       "smartId": "18",
-      "details": {},
+      "details": {
+        "objectDisplayName": "Installation and configuration",
+        "userDisplayName": "Ayoub Moujane"
+      },
       "attachedBy": "ayoub.moujane@dataiku.com",
       "attachedOn": 1750057742405
     },
@@ -22,7 +28,10 @@
       "attachmentType": "DSS_OBJECT",
       "taggableType": "ARTICLE",
       "smartId": "4",
-      "details": {},
+      "details": {
+        "objectDisplayName": "Flow",
+        "userDisplayName": "Ayoub Moujane"
+      },
       "attachedBy": "ayoub.moujane@dataiku.com",
       "attachedOn": 1750057748478
     },
@@ -30,7 +39,10 @@
       "attachmentType": "DSS_OBJECT",
       "taggableType": "ARTICLE",
       "smartId": "25",
-      "details": {},
+      "details": {
+        "objectDisplayName": "FAQ",
+        "userDisplayName": "Ayoub Moujane"
+      },
       "attachedBy": "ayoub.moujane@dataiku.com",
       "attachedOn": 1750057753412
     },
@@ -38,7 +50,10 @@
       "attachmentType": "DSS_OBJECT",
       "taggableType": "ARTICLE",
       "smartId": "32",
-      "details": {},
+      "details": {
+        "objectDisplayName": "Scenarios",
+        "userDisplayName": "Ayoub Moujane"
+      },
       "attachedBy": "ayoub.moujane@dataiku.com",
       "attachedOn": 1750057759517
     }
