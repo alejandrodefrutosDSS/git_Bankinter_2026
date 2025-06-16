@@ -65,7 +65,10 @@
       "attachmentType": "DSS_OBJECT",
       "taggableType": "ARTICLE",
       "smartId": "23",
-      "details": {},
+      "details": {
+        "objectDisplayName": "GenAI Cost Monitoring page",
+        "userDisplayName": "Ayoub Moujane"
+      },
       "attachedBy": "ayoub.moujane@dataiku.com",
       "attachedOn": 1750075340616
     },
@@ -73,7 +76,10 @@
       "attachmentType": "DSS_OBJECT",
       "taggableType": "ARTICLE",
       "smartId": "14",
-      "details": {},
+      "details": {
+        "objectDisplayName": "Setting up the project",
+        "userDisplayName": "Ayoub Moujane"
+      },
       "attachedBy": "ayoub.moujane@dataiku.com",
       "attachedOn": 1750075348104
     }
