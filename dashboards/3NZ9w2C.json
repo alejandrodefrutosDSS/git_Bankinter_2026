@@ -434,6 +434,7 @@
             },
             "titleOptions": {
               "showTitle": "NO",
+              "title": "Text tilesdsd",
               "fontColor": "#000",
               "fontSize": 13
             },
