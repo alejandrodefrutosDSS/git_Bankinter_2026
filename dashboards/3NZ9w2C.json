@@ -421,7 +421,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "Resource\n[Context doc 📝](https://doc.dataiku.com/dss/latest/operations/compute-resource-usage-reporting.html#concepts)\n",
+              "text": "[Context doc 📝](https://doc.dataiku.com/dss/latest/operations/compute-resource-usage-reporting.html#concepts)\n",
               "textAlign": "LEFT"
             },
             "backgroundOpacity": 1.0,
