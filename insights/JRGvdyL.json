@@ -368,9 +368,7 @@
           "fixedValues": false
         },
         "customColors": {
-          "v_AZURE_OPENAI": "#ff7f0e",
-          "v_BEDROCK": "#ad494a",
-          "v_OPENAI": "#1f77b4"
+          "m_llmUsage_estimatedCostUSD_SUM_1": "#ff7f0e"
         }
       },
       "colorGroups": [],
