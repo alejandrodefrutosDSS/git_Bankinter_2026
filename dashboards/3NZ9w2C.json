@@ -365,6 +365,7 @@
             },
             "titleOptions": {
               "showTitle": "NO",
+              "title": "Requests made to LLM Providers",
               "fontColor": "#000",
               "fontSize": 13
             },
