@@ -29,7 +29,7 @@
       "type": "kpi",
       "variant": "normal",
       "name": "Sum of Number of LLM cache miss",
-      "userEditedName": false,
+      "userEditedName": true,
       "displayWithEChartsByDefault": true,
       "genericDimension0": [],
       "genericDimension1": [],
