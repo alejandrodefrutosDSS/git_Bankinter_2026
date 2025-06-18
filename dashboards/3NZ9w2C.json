@@ -108,7 +108,7 @@
             },
             "titleOptions": {
               "showTitle": "YES",
-              "title": "Usage type Estimated Cost (USD) 💵 Distribution",
+              "title": "Total Estimated Cost (USD) 💵 by Usage Type",
               "fontColor": "#000",
               "fontSize": 16
             },
