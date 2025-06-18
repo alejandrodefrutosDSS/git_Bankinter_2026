@@ -475,7 +475,7 @@
           "fixedValues": false
         },
         "customColors": {
-          "v_TEXT_EMBEDDING_EXTRACTION": "#ffbb78"
+          "m_llmUsage_estimatedCostUSD_SUM_1": "#ff7f0e"
         }
       },
       "colorGroups": [],
