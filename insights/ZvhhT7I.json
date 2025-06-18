@@ -178,7 +178,7 @@
       "filters": [],
       "xAxisFormatting": {
         "displayAxis": true,
-        "showAxisTitle": true,
+        "showAxisTitle": false,
         "axisTitleFormatting": {
           "fontSize": 13,
           "fontColor": "#333",
