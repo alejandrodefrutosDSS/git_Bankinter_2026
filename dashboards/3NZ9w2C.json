@@ -422,7 +422,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "[Context doc 📝](https://doc.dataiku.com/dss/latest/operations/compute-resource-usage-reporting.html#concepts)\n",
+              "text": "Read the [ref docs](https://doc.dataiku.com/dss/latest/operations/compute-resource-usage-reporting.html#concepts) more more details on CRU Context.",
               "textAlign": "LEFT"
             },
             "backgroundOpacity": 1.0,
@@ -435,7 +435,7 @@
             },
             "titleOptions": {
               "showTitle": "YES",
-              "title": "Resource",
+              "title": "Context",
               "fontColor": "#000",
               "fontSize": 16
             },
