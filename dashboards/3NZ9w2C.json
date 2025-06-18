@@ -433,7 +433,7 @@
               "size": 1
             },
             "titleOptions": {
-              "showTitle": "NO",
+              "showTitle": "YES",
               "title": "Text tilesdsd",
               "fontColor": "#000",
               "fontSize": 13
