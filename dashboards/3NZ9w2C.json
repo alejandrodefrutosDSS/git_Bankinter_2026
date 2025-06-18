@@ -316,7 +316,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "Dataiku stores the  **requests**  and  **answers**  in a cache system. \n\n **If the same request is made later on, the stored answer is used, saving LLM costs 💰.** \n \nYou can [activate the caching option](https://knowledge.dataiku.com/latest/ml-analytics/gen-ai/concept-llm-connections.html#using-cache-to-reduce-costs) to reduce your operational costs.",
+              "text": "Dataiku stores the  **requests**  and  **answers**  in a cache system. \n\n **If the same request is made again, the stored response is used, saving LLM costs 💰.\n** \n \nYou can [activate the caching option](https://knowledge.dataiku.com/latest/ml-analytics/gen-ai/concept-llm-connections.html#using-cache-to-reduce-costs) to reduce your operational costs.",
               "textAlign": "LEFT"
             },
             "backgroundOpacity": 1.0,
