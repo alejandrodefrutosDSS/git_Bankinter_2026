@@ -417,7 +417,7 @@
               "top": 42,
               "left": 32,
               "width": 4,
-              "height": 2
+              "height": 3
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
