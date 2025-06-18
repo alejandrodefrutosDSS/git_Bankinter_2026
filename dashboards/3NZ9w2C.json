@@ -402,7 +402,7 @@
             },
             "titleOptions": {
               "showTitle": "YES",
-              "title": "Cumulative cost and savings (USD)",
+              "title": "Estimated Cumulative Cost and Savings (USD) 💵",
               "fontColor": "#000",
               "fontSize": 16
             },
