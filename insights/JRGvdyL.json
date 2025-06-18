@@ -179,7 +179,7 @@
       "filters": [],
       "xAxisFormatting": {
         "displayAxis": true,
-        "showAxisTitle": true,
+        "showAxisTitle": false,
         "axisTitle": "Provider",
         "axisTitleFormatting": {
           "fontSize": 13,
