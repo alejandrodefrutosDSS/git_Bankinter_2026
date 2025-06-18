@@ -28,7 +28,7 @@
     "def": {
       "type": "grouped_columns",
       "variant": "normal",
-      "name": "Usage type Estimated Cost (USD) 💵 Distribution",
+      "name": "Usage Type Estimated Cost (USD) 💵 Distribution",
       "userEditedName": true,
       "displayWithEChartsByDefault": true,
       "genericDimension0": [
