@@ -436,7 +436,7 @@
               "showTitle": "YES",
               "title": "Resource",
               "fontColor": "#000",
-              "fontSize": 13
+              "fontSize": 16
             },
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
