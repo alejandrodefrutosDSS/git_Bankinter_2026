@@ -55,7 +55,7 @@
           "prefix": "",
           "suffix": "",
           "showValue": true,
-          "displayLabel": "Requests made to LLM providers",
+          "displayLabel": "Requests made to LLM Providers",
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
           "labelFontSize": 16,
