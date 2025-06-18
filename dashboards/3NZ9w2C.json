@@ -260,7 +260,7 @@
             },
             "titleOptions": {
               "showTitle": "YES",
-              "title": "Context Estimated Cost (USD) 💵 Distribution",
+              "title": "Total Estimated Cost (USD) 💵 by Context",
               "fontColor": "#000",
               "fontSize": 16
             },
