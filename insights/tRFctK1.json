@@ -226,9 +226,10 @@
       "filters": [],
       "xAxisFormatting": {
         "displayAxis": true,
-        "showAxisTitle": false,
+        "showAxisTitle": true,
+        "axisTitle": "Date",
         "axisTitleFormatting": {
-          "fontSize": 15,
+          "fontSize": 13,
           "fontColor": "#333",
           "hasBackground": false
         },
