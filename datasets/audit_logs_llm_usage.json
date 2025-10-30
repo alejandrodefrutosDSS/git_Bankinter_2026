@@ -72,7 +72,7 @@
   "tags": [],
   "params": {
     "connection": "filesystem_managed",
-    "path": "${projectKey}/audit_logs_llm_usage",
+    "path": "/SOL_GENAI_COST_MONITORING.audit_logs_llm_usage",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",

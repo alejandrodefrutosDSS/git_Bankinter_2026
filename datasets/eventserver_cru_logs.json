@@ -49,7 +49,7 @@
   "tags": [],
   "params": {
     "connection": "filesystem_managed",
-    "path": "/event-server/compute-resource-usage/",
+    "path": "/SOL_GENAI_COST_MONITORING.eventserver_cru_logs",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",

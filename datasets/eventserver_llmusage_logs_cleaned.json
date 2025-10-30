@@ -72,7 +72,7 @@
   "tags": [],
   "params": {
     "connection": "filesystem_managed",
-    "path": "${projectKey}/eventserver_llmusage_logs_cleaned",
+    "path": "/SOL_GENAI_COST_MONITORING.eventserver_llmusage_logs_cleaned",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",

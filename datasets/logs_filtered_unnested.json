@@ -72,7 +72,7 @@
   "tags": [],
   "params": {
     "connection": "filesystem_managed",
-    "path": "${projectKey}/logs_filtered_unnested",
+    "path": "/SOL_GENAI_COST_MONITORING.logs_filtered_unnested",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",

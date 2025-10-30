@@ -50,7 +50,7 @@
   "tags": [],
   "params": {
     "connection": "filesystem_managed",
-    "path": "/audit-logs",
+    "path": "/SOL_GENAI_COST_MONITORING.compute_resource_usage_logs",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",

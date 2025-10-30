@@ -71,7 +71,7 @@
   "tags": [],
   "params": {
     "connection": "filesystem_managed",
-    "path": "${projectKey}/logs_llm_usage_prepared_by_Project_complete",
+    "path": "/SOL_GENAI_COST_MONITORING.logs_llm_usage_prepared_by_Project_complete",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",
