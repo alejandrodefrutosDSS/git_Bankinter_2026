@@ -98,60 +98,90 @@
     "user_profile_languages": [
       {
         "from": "ar",
-        "to": "Arabic"
+        "to": "Arabic",
+        "$touched.it.from": true,
+        "$touched.it.to": true
       },
       {
         "from": "zh",
-        "to": "Chinese"
+        "to": "Chinese",
+        "$touched.it.from": true,
+        "$touched.it.to": true
       },
       {
         "from": "en",
-        "to": "English"
+        "to": "English",
+        "$touched.it.from": true,
+        "$touched.it.to": true
       },
       {
         "from": "fr",
-        "to": "French"
+        "to": "French",
+        "$touched.it.from": true,
+        "$touched.it.to": true
       },
       {
         "from": "de",
-        "to": "German"
+        "to": "German",
+        "$touched.it.from": true,
+        "$touched.it.to": true
       },
       {
         "from": "it",
-        "to": "Italian"
+        "to": "Italian",
+        "$touched.it.from": true,
+        "$touched.it.to": true
       },
       {
         "from": "ja",
-        "to": "Japanese"
+        "to": "Japanese",
+        "$touched.it.from": true,
+        "$touched.it.to": true
       },
       {
         "from": "ko",
-        "to": "Korean"
+        "to": "Korean",
+        "$touched.it.from": true,
+        "$touched.it.to": true
       },
       {
         "from": "pt",
-        "to": "Portuguese"
+        "to": "Portuguese",
+        "$touched.it.from": true,
+        "$touched.it.to": true
       },
       {
         "from": "ru",
-        "to": "Russian"
+        "to": "Russian",
+        "$touched.it.from": true,
+        "$touched.it.to": true
       },
       {
         "from": "es",
-        "to": "Spanish"
+        "to": "Spanish",
+        "$touched.it.from": true,
+        "$touched.it.to": true
       }
     ],
-    "default_user_language": "en",
     "user_profile_settings": [],
     "include_user_profile_in_prompt": false,
     "language": "en",
     "log_level": "INFO",
     "http_headers": [],
     "disable_ssl_verification": false,
-    "max_thread_workers_number": 0
+    "max_thread_workers_number": 0,
+    "image_generation_system_prompt": "",
+    "custom_theme_name": "",
+    "projects_keys": [],
+    "answers_ids": [],
+    "agents_ids": [],
+    "augmented_llms": [],
+    "llm_id": "openai:OpenAI:gpt-4.1-nano",
+    "logging_dataset": "conv_history",
+    "user_profile_dataset": "user_profile"
   },
   "name": "test_agent_connect",
-  "apiKey": "e:AES:X2:TyI+00Y7hXisLuU2k6xIQDsu5ol2bay35RJWiLom7NCEcKg0K9F9ASV0RdeMhVAvNbeJ86Ojx/dI8roRHxRnTtyQ1ytwxQsOsly0xUJP1sxVeS/9QrbI",
+  "apiKey": "e:AES:X2:8XICLFqfAd6p84yrYZdu3Mqt/Krt0kwK83JPEZWpH1wgYBunG4EXYIyn0SiLb+rGqp5zi8jXTxEj/hoTGKl15K+q+iboCW/zmKOaylTzC062QE0O+0cr",
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
