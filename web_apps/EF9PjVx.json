@@ -1,0 +1,80 @@
+{
+  "type": "webapp_agent-hub_agent-hub",
+  "hasLegacyBackendURL": false,
+  "params": {
+    "backendEnabled": true,
+    "enableJavascriptModules": true,
+    "autoStartBackend": false,
+    "hideJSSecurityPanel": true,
+    "hideWebAppConfig": true,
+    "envSelection": {
+      "envMode": "INHERIT"
+    },
+    "nbProcesses": 0,
+    "backendAPIAccessEnabled": false,
+    "backendFramework": "FLASK",
+    "libraries": [
+      "dataiku"
+    ],
+    "infra": {
+      "containerSelection": {
+        "containerMode": "INHERIT"
+      },
+      "overrideGlobalK8sExposition": false,
+      "exposition": {
+        "type": "local_process",
+        "params": {}
+      },
+      "scaling": {
+        "initialReplicas": 1,
+        "progressDeadlineSeconds": 600,
+        "hpa": false,
+        "hpaTargetCPUPercent": 0,
+        "hpaTargetMemoryPercent": 0,
+        "hpaMetrics": [],
+        "hpaMinPods": 0,
+        "hpaMaxPods": 0,
+        "hpaAnnotations": []
+      },
+      "podDisruptionBudget": {
+        "enable": false,
+        "isMaxUnavailable": false,
+        "minAvailable": "50%"
+      },
+      "deploymentModifier": {
+        "config": {}
+      }
+    },
+    "forceAuthentication": false
+  },
+  "config": {
+    "LLMs": [],
+    "number_of_documents_to_retrieve": 10,
+    "tool_agent_configurations": [],
+    "augmented_llms_configurations": [],
+    "enable_agents_as_tools": true,
+    "visualization_generation_mode": "AUTO",
+    "max_artifacts_size_mb": 2,
+    "enable_quick_agents": true,
+    "enable_prompt_library": true,
+    "enable_app_smart_mode": true,
+    "permanent_delete_messages": false,
+    "logLevel": "INFO",
+    "homepage_examples": []
+  },
+  "name": "test",
+  "apiKey": "e:AES:X2:V0ERa8Vult3XurrE0lrybIWvqasvDT17UleO/aFVLvkhhrGizlX7tSVIOrY97nejMMNJ/o6MwLVSIvhN4zGJzeYqNhXod54Rb3dyEhC5S+pnf97EsDpR",
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1767786615849
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  },
+  "customFields": {},
+  "isVirtual": false
+}
