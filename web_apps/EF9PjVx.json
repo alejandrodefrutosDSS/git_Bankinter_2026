@@ -74,7 +74,7 @@
     "default_llm_id": "openai:OpenAI:gpt-4.1-nano",
     "default_fs_connection": "filesystem_folders"
   },
-  "name": "test",
+  "name": "test_agent_hub",
   "apiKey": "e:AES:X2:2H95KQ36wJRvM/2mk06WR0ItSs4u1Uua15cGCu9OZ6WjHN/rCnSdgnuyBQEUFvmBUrq8bmrRV9Vi9tDetj86TnYQPt5owprfF2wDEhIfHN8hwQLq/bMa",
   "creationTag": {
     "versionNumber": 0,
