@@ -34,5 +34,41 @@
     "key": "sha256:5l88ijnk:9ee17ace0fa62efa9ee06bc2986bfd551c70d902007ece3408d3a6dd905995ca",
     "label": "Key for Web app test(EF9PjVx)",
     "createdOn": 1767786615756
+  },
+  {
+    "execSQLLike": false,
+    "localDatasets": [
+      {
+        "datasets": [],
+        "privileges": [
+          "READ_DATA",
+          "READ_METADATA",
+          "READ_SCHEMA"
+        ]
+      }
+    ],
+    "projectPrivileges": {
+      "admin": false,
+      "editPermissions": false,
+      "readProjectContent": false,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "publishToDataCollections": false,
+      "shareToWorkspaces": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false,
+      "executeApp": false
+    },
+    "onBehalf": "vfxFvsa",
+    "expiresOn": 0,
+    "id": "eS52doG0Ux5n9zdh",
+    "key": "sha256:kqHz2Qac:5560435a2125da66235cefaf3a9ef7e30094a5c4e2197e03c70154c26cc6e3d8",
+    "label": "Key for Web app test_agent_connect(vfxFvsa)",
+    "createdOn": 1767786967427
   }
 ]

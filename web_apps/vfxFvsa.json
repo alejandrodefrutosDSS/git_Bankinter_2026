@@ -1,0 +1,168 @@
+{
+  "type": "webapp_agent-connect_portal",
+  "hasLegacyBackendURL": false,
+  "params": {
+    "backendEnabled": true,
+    "enableJavascriptModules": true,
+    "autoStartBackend": false,
+    "hideJSSecurityPanel": true,
+    "hideWebAppConfig": false,
+    "envSelection": {
+      "envMode": "INHERIT"
+    },
+    "nbProcesses": 0,
+    "backendAPIAccessEnabled": false,
+    "backendFramework": "FLASK",
+    "libraries": [
+      "dataiku"
+    ],
+    "infra": {
+      "containerSelection": {
+        "containerMode": "INHERIT"
+      },
+      "overrideGlobalK8sExposition": false,
+      "exposition": {
+        "type": "local_process",
+        "params": {}
+      },
+      "scaling": {
+        "initialReplicas": 1,
+        "progressDeadlineSeconds": 600,
+        "hpa": false,
+        "hpaTargetCPUPercent": 0,
+        "hpaTargetMemoryPercent": 0,
+        "hpaMetrics": [],
+        "hpaMinPods": 0,
+        "hpaMaxPods": 0,
+        "hpaAnnotations": []
+      },
+      "podDisruptionBudget": {
+        "enable": false,
+        "isMaxUnavailable": false,
+        "minAvailable": "50%"
+      },
+      "deploymentModifier": {
+        "config": {}
+      }
+    },
+    "forceAuthentication": false
+  },
+  "config": {
+    "agents_descriptions": [],
+    "aug_llms_descriptions": [],
+    "show_advanced_logging_settings": false,
+    "index_chat_history": false,
+    "permanent_delete": true,
+    "feedback_positive_choices": [],
+    "feedback_negative_choices": [],
+    "allow_general_feedback": false,
+    "max_upload_size_mb": 15,
+    "max_n_upload_files": 5,
+    "allow_doc_as_image": true,
+    "docs_per_page_as_image": 5,
+    "pdf_as_image_resize_ratio": 1,
+    "pptx_as_image_resize_ratio": 1,
+    "primer_prompt": "You are a helpful and knowledgeable assistant. Provide clear, concise, and relevant answers. Focus on actionable insights. Avoid speculation and unecessary details. If you’re unsure about something, respond honestly. Your tone should be friendly and professional.",
+    "show_advanced_settings": false,
+    "system_prompt": "The following is a helpful and professional conversation between a user and an assistant. Please assist with the following user query. Provide a clear and concise response. Focus on relevance and utility. Avoid speculation. \n",
+    "force_streaming_mode": false,
+    "force_multi_modal_mode": false,
+    "max_llm_tokens": 2048,
+    "llm_temperature": -1,
+    "use_advanced_title_llm_settings": false,
+    "max_title_llm_tokens": 2048,
+    "title_llm_temperature": -1,
+    "use_advanced_decision_llm_settings": false,
+    "max_decision_llm_tokens": 2048,
+    "decision_llm_temperature": -1,
+    "enable_image_generation": false,
+    "max_images_per_user_per_week": 0,
+    "skip_decision_chain": false,
+    "bypass_permission_check": false,
+    "agents_customization": [],
+    "display_agents_answers": false,
+    "display_source_chunks": true,
+    "display_sql_query": false,
+    "web_app_title": "Ask Anything – Let Agent Connect uncover the best answers tailored just for you!",
+    "web_app_subheading": "Answers are provided by Dataiku Agents, which leverage documents, datasets, and advanced tools to deliver precise and insightful information.",
+    "web_app_input_placeholder": "Ask your question...",
+    "example_questions": [
+      "What are the latest trends in the renewable energy sector?",
+      "Summarize the key policies in our company handbook",
+      "Explain the process for submitting an internal expense report"
+    ],
+    "disclaimer": "This application is powered by a Large Language Model. Review proposed outcomes in context with \u003cspan style\u003d\"color: #267cfb; text-decoration: underline\"\u003eResponsible AI\u003c/span\u003e considerations",
+    "use_custom_rebranding": false,
+    "custom_logo_file_name": "logo.png",
+    "custom_icon_file_name": "answer-icon.png",
+    "user_profile_languages": [
+      {
+        "from": "ar",
+        "to": "Arabic"
+      },
+      {
+        "from": "zh",
+        "to": "Chinese"
+      },
+      {
+        "from": "en",
+        "to": "English"
+      },
+      {
+        "from": "fr",
+        "to": "French"
+      },
+      {
+        "from": "de",
+        "to": "German"
+      },
+      {
+        "from": "it",
+        "to": "Italian"
+      },
+      {
+        "from": "ja",
+        "to": "Japanese"
+      },
+      {
+        "from": "ko",
+        "to": "Korean"
+      },
+      {
+        "from": "pt",
+        "to": "Portuguese"
+      },
+      {
+        "from": "ru",
+        "to": "Russian"
+      },
+      {
+        "from": "es",
+        "to": "Spanish"
+      }
+    ],
+    "default_user_language": "en",
+    "user_profile_settings": [],
+    "include_user_profile_in_prompt": false,
+    "language": "en",
+    "log_level": "INFO",
+    "http_headers": [],
+    "disable_ssl_verification": false,
+    "max_thread_workers_number": 0
+  },
+  "name": "test_agent_connect",
+  "apiKey": "e:AES:X2:TyI+00Y7hXisLuU2k6xIQDsu5ol2bay35RJWiLom7NCEcKg0K9F9ASV0RdeMhVAvNbeJ86Ojx/dI8roRHxRnTtyQ1ytwxQsOsly0xUJP1sxVeS/9QrbI",
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1767786967449
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  },
+  "customFields": {},
+  "isVirtual": false
+}
