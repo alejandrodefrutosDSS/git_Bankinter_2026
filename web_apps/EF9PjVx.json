@@ -71,10 +71,11 @@
     "augmented_llms_ids": [],
     "tools": [],
     "embedding_llm": "openai:OpenAI:text-embedding-3-small",
-    "default_llm_id": "openai:OpenAI:gpt-4.1-nano"
+    "default_llm_id": "openai:OpenAI:gpt-4.1-nano",
+    "default_fs_connection": "filesystem_folders"
   },
   "name": "test",
-  "apiKey": "e:AES:X2:9gAH+KIXq+7gph804tgO9mI7NpaAMzSf+VK3GwzPaj/4VJpTxngwerR1S2OOAkWj/Z/iDpVo+WLpTBLVd4cnzKMf115hQ5BkSvg4WRwRzpPLH4a/K00T",
+  "apiKey": "e:AES:X2:2H95KQ36wJRvM/2mk06WR0ItSs4u1Uua15cGCu9OZ6WjHN/rCnSdgnuyBQEUFvmBUrq8bmrRV9Vi9tDetj86TnYQPt5owprfF2wDEhIfHN8hwQLq/bMa",
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
