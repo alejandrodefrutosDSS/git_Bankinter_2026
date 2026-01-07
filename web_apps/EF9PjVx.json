@@ -48,7 +48,11 @@
     "forceAuthentication": false
   },
   "config": {
-    "LLMs": [],
+    "LLMs": [
+      {
+        "llm_id": "openai:OpenAI:gpt-4.1-nano"
+      }
+    ],
     "number_of_documents_to_retrieve": 10,
     "tool_agent_configurations": [],
     "augmented_llms_configurations": [],
@@ -60,10 +64,17 @@
     "enable_app_smart_mode": true,
     "permanent_delete_messages": false,
     "logLevel": "INFO",
-    "homepage_examples": []
+    "homepage_examples": [],
+    "globalSystemPrompt": "",
+    "projects_keys": [],
+    "agents_ids": [],
+    "augmented_llms_ids": [],
+    "tools": [],
+    "embedding_llm": "openai:OpenAI:text-embedding-3-small",
+    "default_llm_id": "openai:OpenAI:gpt-4.1-nano"
   },
   "name": "test",
-  "apiKey": "e:AES:X2:V0ERa8Vult3XurrE0lrybIWvqasvDT17UleO/aFVLvkhhrGizlX7tSVIOrY97nejMMNJ/o6MwLVSIvhN4zGJzeYqNhXod54Rb3dyEhC5S+pnf97EsDpR",
+  "apiKey": "e:AES:X2:9gAH+KIXq+7gph804tgO9mI7NpaAMzSf+VK3GwzPaj/4VJpTxngwerR1S2OOAkWj/Z/iDpVo+WLpTBLVd4cnzKMf115hQ5BkSvg4WRwRzpPLH4a/K00T",
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
