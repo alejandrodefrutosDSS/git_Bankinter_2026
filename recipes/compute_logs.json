@@ -34,6 +34,10 @@
         {
           "ref": "logs",
           "appendMode": false
+        },
+        {
+          "ref": "conv",
+          "appendMode": false
         }
       ]
     }
