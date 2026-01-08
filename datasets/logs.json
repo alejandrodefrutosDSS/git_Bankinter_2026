@@ -61,8 +61,19 @@
     "numPartitions": -1
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {"name":"conversation_id","type":"string"},
+      {"name":"user_id","type":"string"},
+      {"name":"title","type":"string"},
+      {"name":"agent_ids","type":"string"},
+      {"name":"last_updated","type":"date"},
+      {"name":"created_at","type":"date"},
+      {"name":"last_modified","type":"date"},
+      {"name":"status","type":"string"},
+      {"name":"llm_id","type":"string"},
+      {"name":"agents_enabled","type":"bigint"}
+    ],
+    "userModified": false
   },
   "typeSystemVersion": "V2",
   "dkuProperties": [],
