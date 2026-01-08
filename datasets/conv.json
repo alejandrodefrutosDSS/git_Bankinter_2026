@@ -61,8 +61,27 @@
     "numPartitions": -1
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {"name":"id","type":"string"},
+      {"name":"conversation_id","type":"string"},
+      {"name":"role","type":"string"},
+      {"name":"content","type":"string"},
+      {"name":"event_log","type":"string"},
+      {"name":"created_at","type":"date"},
+      {"name":"actions","type":"string"},
+      {"name":"artifacts","type":"string"},
+      {"name":"selected_agent_ids","type":"string"},
+      {"name":"used_agent_ids","type":"string"},
+      {"name":"feedback_rating","type":"bigint"},
+      {"name":"feedback_text","type":"string"},
+      {"name":"feedback_by","type":"string"},
+      {"name":"feedback_updated_at","type":"date"},
+      {"name":"trace","type":"string"},
+      {"name":"status","type":"string"},
+      {"name":"llm_id","type":"string"},
+      {"name":"agents_enabled","type":"bigint"}
+    ],
+    "userModified": false
   },
   "typeSystemVersion": "V2",
   "dkuProperties": [],
