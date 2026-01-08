@@ -70,5 +70,41 @@
     "key": "sha256:kqHz2Qac:5560435a2125da66235cefaf3a9ef7e30094a5c4e2197e03c70154c26cc6e3d8",
     "label": "Key for Web app test_agent_connect(vfxFvsa)",
     "createdOn": 1767786967427
+  },
+  {
+    "execSQLLike": false,
+    "localDatasets": [
+      {
+        "datasets": [],
+        "privileges": [
+          "READ_DATA",
+          "READ_METADATA",
+          "READ_SCHEMA"
+        ]
+      }
+    ],
+    "projectPrivileges": {
+      "admin": false,
+      "editPermissions": false,
+      "readProjectContent": false,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "publishToDataCollections": false,
+      "shareToWorkspaces": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false,
+      "executeApp": false
+    },
+    "onBehalf": "rN7AU77",
+    "expiresOn": 0,
+    "id": "DmyrTs9J7EJrjYfq",
+    "key": "sha256:W8oPZDVB:64bca4799ddfb473b3065e68a4f17532cb2384868d7e565c48b28a28d8bfc958",
+    "label": "Key for Web app Connect without agent(rN7AU77)",
+    "createdOn": 1767869096466
   }
 ]
