@@ -2,7 +2,16 @@
   "type": "CustomCode_export-agent-hub-data",
   "neverRecomputeExistingPartitions": false,
   "params": {
-    "customConfig": {},
+    "customConfig": {
+      "table_exports": [
+        {
+          "table_name": "conversations"
+        }
+      ],
+      "decompress_blobs": true,
+      "project_key": "SOL_GENAI_COST_MONITORING",
+      "webapp_id": "EF9PjVx"
+    },
     "containerSelection": {
       "containerMode": "INHERIT"
     }
