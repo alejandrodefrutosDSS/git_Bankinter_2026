@@ -6,6 +6,9 @@
       "table_exports": [
         {
           "table_name": "conversations"
+        },
+        {
+          "table_name": "messages"
         }
       ],
       "decompress_blobs": true,
