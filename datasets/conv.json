@@ -72,14 +72,14 @@
       {"name":"artifacts","type":"string"},
       {"name":"selected_agent_ids","type":"string"},
       {"name":"used_agent_ids","type":"string"},
+      {"name":"llm_id","type":"string"},
+      {"name":"agents_enabled","type":"bigint"},
       {"name":"feedback_rating","type":"bigint"},
       {"name":"feedback_text","type":"string"},
       {"name":"feedback_by","type":"string"},
       {"name":"feedback_updated_at","type":"date"},
       {"name":"trace","type":"string"},
-      {"name":"status","type":"string"},
-      {"name":"llm_id","type":"string"},
-      {"name":"agents_enabled","type":"bigint"}
+      {"name":"status","type":"string"}
     ],
     "userModified": false
   },
