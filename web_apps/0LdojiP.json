@@ -1,0 +1,66 @@
+{
+  "type": "webapp_agent-hub_agent-hub",
+  "hasLegacyBackendURL": false,
+  "params": {
+    "backendEnabled": true,
+    "enableJavascriptModules": true,
+    "autoStartBackend": false,
+    "hideJSSecurityPanel": true,
+    "hideWebAppConfig": false,
+    "envSelection": {
+      "envMode": "INHERIT"
+    },
+    "nbProcesses": 0,
+    "backendAPIAccessEnabled": false,
+    "backendFramework": "FLASK",
+    "libraries": [
+      "dataiku"
+    ],
+    "infra": {
+      "containerSelection": {
+        "containerMode": "INHERIT"
+      },
+      "overrideGlobalK8sExposition": false,
+      "exposition": {
+        "type": "local_process",
+        "params": {}
+      },
+      "scaling": {
+        "initialReplicas": 1,
+        "progressDeadlineSeconds": 600,
+        "hpa": false,
+        "hpaTargetCPUPercent": 0,
+        "hpaTargetMemoryPercent": 0,
+        "hpaMetrics": [],
+        "hpaMinPods": 0,
+        "hpaMaxPods": 0,
+        "hpaAnnotations": []
+      },
+      "podDisruptionBudget": {
+        "enable": false,
+        "isMaxUnavailable": false,
+        "minAvailable": "50%"
+      },
+      "deploymentModifier": {
+        "config": {}
+      }
+    },
+    "forceAuthentication": false
+  },
+  "config": {},
+  "name": "make_it_fail",
+  "apiKey": "e:AES:X2:2iqDKNm7lWGa2u/KTE0vN52MoMpIe4DG2C6DK9rAgBYcBsL9wFCXEaXpuKcLOAOPlWjZZNss0ayG6JkeIaHXswXwnPbXpQtIrxaG2G8GIUTz45w6orNk",
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1768215798678
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  },
+  "customFields": {},
+  "isVirtual": false
+}
