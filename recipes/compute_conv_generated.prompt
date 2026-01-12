@@ -1,12 +1,45 @@
 {
+  "filter": {
+    "uiData": {
+      "mode": "\u0026\u0026",
+      "conditions": []
+    },
+    "distinct": false,
+    "enabled": false
+  },
   "rawQueryOutputMode": "RAW_WITHOUT_FULL_IMAGES",
   "completionSettings": {
     "stopSequences": []
   },
   "rawResponseOutputMode": "RAW_WITHOUT_TRACES",
+  "llmId": "openai:OpenAI:gpt-4.1-nano",
   "prompt": {
     "guardrailsPipelineSettings": {
-      "guardrails": []
+      "guardrails": [
+        {
+          "type": "PIIDetector",
+          "params": {
+            "filterQueries": true,
+            "detectionAction": "MASK",
+            "supportedLanguages": [
+              "en",
+              "fr",
+              "de",
+              "nl",
+              "es",
+              "it"
+            ],
+            "unsupportedLanguageAction": "IGNORE",
+            "confidenceThreshold": 0.2,
+            "excludedEntities": [],
+            "entitiesMode": "ALL",
+            "charsToMask": 12,
+            "filterResponses": true,
+            "includedEntities": []
+          },
+          "enabled": true
+        }
+      ]
     },
     "promptTemplateInputs": [],
     "resultValidation": {
@@ -19,7 +52,8 @@
     "chatMessages": {},
     "structuredPromptExamples": [],
     "textPromptTemplateInputs": [],
-    "promptMode": "PROMPT_TEMPLATE_STRUCTURED"
+    "promptMode": "PROMPT_TEMPLATE_STRUCTURED",
+    "structuredPromptPrefix": "hola, me llamo Alejandro"
   },
   "performFiltering": false
 }
