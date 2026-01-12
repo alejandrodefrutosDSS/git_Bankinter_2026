@@ -106,5 +106,41 @@
     "key": "sha256:1VnSnCx5:09432783868724fb1d41388b304540135c57f099dbca05f4827ce590539935f9",
     "label": "Key for Web app tracer(djH3kY6)",
     "createdOn": 1768212079806
+  },
+  {
+    "execSQLLike": false,
+    "localDatasets": [
+      {
+        "datasets": [],
+        "privileges": [
+          "READ_DATA",
+          "READ_METADATA",
+          "READ_SCHEMA"
+        ]
+      }
+    ],
+    "projectPrivileges": {
+      "admin": false,
+      "editPermissions": false,
+      "readProjectContent": false,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "publishToDataCollections": false,
+      "shareToWorkspaces": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false,
+      "executeApp": false
+    },
+    "onBehalf": "hDbjM9Z",
+    "expiresOn": 0,
+    "id": "LwvF6flHBtBF8HCq",
+    "key": "sha256:h6JcbA80:0068fede950e0091cd0c0f30e3980a81755b5cd7564e7badc31a28cc8bbd6081",
+    "label": "Key for Web app test_plugin(hDbjM9Z)",
+    "createdOn": 1768215679488
   }
 ]
