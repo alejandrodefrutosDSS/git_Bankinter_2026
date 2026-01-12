@@ -2,7 +2,8 @@
   "typeBadges": {
     "AGENT": [
       "WEB_APP:EF9PjVx",
-      "WEB_APP:vfxFvsa"
+      "WEB_APP:vfxFvsa",
+      "WEB_APP:0LdojiP"
     ],
     "LLM": [
       "RECIPE:compute_conv_generated"
