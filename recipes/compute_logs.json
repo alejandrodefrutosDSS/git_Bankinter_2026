@@ -12,8 +12,7 @@
         }
       ],
       "decompress_blobs": true,
-      "project_key": "SOL_GENAI_COST_MONITORING",
-      "webapp_id": "EF9PjVx"
+      "project_key": "PAT"
     },
     "containerSelection": {
       "containerMode": "INHERIT"
