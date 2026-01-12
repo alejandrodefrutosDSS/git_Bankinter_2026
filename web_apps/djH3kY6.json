@@ -1,0 +1,70 @@
+{
+  "type": "webapp_traces-explorer_traces-explorer",
+  "hasLegacyBackendURL": false,
+  "params": {
+    "backendEnabled": true,
+    "enableJavascriptModules": true,
+    "autoStartBackend": false,
+    "hideJSSecurityPanel": true,
+    "hideWebAppConfig": false,
+    "envSelection": {
+      "envMode": "INHERIT"
+    },
+    "nbProcesses": 0,
+    "backendAPIAccessEnabled": false,
+    "backendFramework": "FLASK",
+    "libraries": [
+      "dataiku",
+      "font_awesome",
+      "jquery"
+    ],
+    "infra": {
+      "containerSelection": {
+        "containerMode": "INHERIT"
+      },
+      "overrideGlobalK8sExposition": false,
+      "exposition": {
+        "type": "local_process",
+        "params": {}
+      },
+      "scaling": {
+        "initialReplicas": 1,
+        "progressDeadlineSeconds": 600,
+        "hpa": false,
+        "hpaTargetCPUPercent": 0,
+        "hpaTargetMemoryPercent": 0,
+        "hpaMetrics": [],
+        "hpaMinPods": 0,
+        "hpaMaxPods": 0,
+        "hpaAnnotations": []
+      },
+      "podDisruptionBudget": {
+        "enable": false,
+        "isMaxUnavailable": false,
+        "minAvailable": "50%"
+      },
+      "deploymentModifier": {
+        "config": {}
+      }
+    },
+    "forceAuthentication": false
+  },
+  "config": {
+    "log_level": "INFO"
+  },
+  "name": "tracer",
+  "apiKey": "e:AES:X2:+GD5k6fadhCWbwYIZG9KKedBeAWPWoIDkRSpPkTCq67OdhvoPUBNI7pChweMnvwbGvtTqckBjXGE/KY0FDEolpG/G6Iaf+wEfDlWBlvlcQs86rBqVA3E",
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1768212079853
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  },
+  "customFields": {},
+  "isVirtual": false
+}

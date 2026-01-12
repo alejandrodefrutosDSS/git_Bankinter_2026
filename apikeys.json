@@ -106,5 +106,41 @@
     "key": "sha256:oT6ptxRH:3dc0d6e113c6b97b9558a08eec5e71779bd59f93ed87bf2c736d3165ad23c5b6",
     "label": "Key for Web app without agent(thsR1DO)",
     "createdOn": 1767869124108
+  },
+  {
+    "execSQLLike": false,
+    "localDatasets": [
+      {
+        "datasets": [],
+        "privileges": [
+          "READ_DATA",
+          "READ_METADATA",
+          "READ_SCHEMA"
+        ]
+      }
+    ],
+    "projectPrivileges": {
+      "admin": false,
+      "editPermissions": false,
+      "readProjectContent": false,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "publishToDataCollections": false,
+      "shareToWorkspaces": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false,
+      "executeApp": false
+    },
+    "onBehalf": "djH3kY6",
+    "expiresOn": 0,
+    "id": "T2P7t7TCmmNctuxi",
+    "key": "sha256:1VnSnCx5:09432783868724fb1d41388b304540135c57f099dbca05f4827ce590539935f9",
+    "label": "Key for Web app tracer(djH3kY6)",
+    "createdOn": 1768212079806
   }
 ]
