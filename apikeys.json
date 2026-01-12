@@ -100,42 +100,6 @@
       "manageAdditionalDashboardUsers": false,
       "executeApp": false
     },
-    "onBehalf": "thsR1DO",
-    "expiresOn": 0,
-    "id": "gIhY2X8ezSuvlEBd",
-    "key": "sha256:oT6ptxRH:3dc0d6e113c6b97b9558a08eec5e71779bd59f93ed87bf2c736d3165ad23c5b6",
-    "label": "Key for Web app without agent(thsR1DO)",
-    "createdOn": 1767869124108
-  },
-  {
-    "execSQLLike": false,
-    "localDatasets": [
-      {
-        "datasets": [],
-        "privileges": [
-          "READ_DATA",
-          "READ_METADATA",
-          "READ_SCHEMA"
-        ]
-      }
-    ],
-    "projectPrivileges": {
-      "admin": false,
-      "editPermissions": false,
-      "readProjectContent": false,
-      "writeProjectContent": false,
-      "exportDatasetsData": false,
-      "readDashboards": false,
-      "writeDashboards": false,
-      "moderateDashboards": false,
-      "publishToDataCollections": false,
-      "shareToWorkspaces": false,
-      "runScenarios": false,
-      "manageDashboardAuthorizations": false,
-      "manageExposedElements": false,
-      "manageAdditionalDashboardUsers": false,
-      "executeApp": false
-    },
     "onBehalf": "djH3kY6",
     "expiresOn": 0,
     "id": "T2P7t7TCmmNctuxi",
