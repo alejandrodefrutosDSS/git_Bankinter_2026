@@ -164,7 +164,7 @@
     "log_level": "INFO",
     "http_headers": [],
     "max_thread_workers_number": 0,
-    "custom_theme_name": "only_background",
+    "custom_theme_name": "SOL_GENAI_COST_MONITORING_test_aIWYTKe",
     "image_generation_system_prompt": "",
     "knowledge_bank_custom_name": "",
     "knowledge_bank_description": "",
@@ -181,7 +181,7 @@
     "user_profile_dataset": "user_answer"
   },
   "name": "test",
-  "apiKey": "e:AES:X2:MWbWxYMr6CpfvdIdlT0EVBZ+gtuT7oKpl0O4tP1VKP3yk5IvnGrtBgSZMwt6X25ywgXnGGhNH7HHV/fI2zXCv5zqwcHOIP1XMF3BwBf560kenlZ/k4As",
+  "apiKey": "e:AES:X2:oEwCwga/gHSizG/Gl1PbjEA/uViG7J5786PoxgWJfX0C1gVeG5N5wGXBt6nvj1P5PTnKXieeEjthjMchu5p8/fevcUe2fOQDQkB3VY36PyNgcUve0Nvg",
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
