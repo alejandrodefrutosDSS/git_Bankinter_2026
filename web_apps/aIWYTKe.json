@@ -177,11 +177,11 @@
     "knowledge_sources_context_metadata": [],
     "sql_retrieval_table_list": [],
     "llm_id": "openai:OpenAI:gpt-4.1-nano",
-    "logging_dataset": "conv",
-    "user_profile_dataset": "user_profile"
+    "logging_dataset": "conv_answer",
+    "user_profile_dataset": "user_answer"
   },
   "name": "test",
-  "apiKey": "e:AES:X2:QBkxZpbGqyn33V7yAy0yzeucsp+z/JRLaei4QRC6CXzJfCgPM3u7fKI6gsq5ebcm+V4F6ym3p1CZkcxj0N9GE0I6CX4/EyzG6TTaEQQ+mhPQF3Fjooub",
+  "apiKey": "e:AES:X2:6je2cDhEyIuRJ3Zr3FAqUemFtANEOdr8/ffw5AWWdjx3fmM1Y4uDm6YaLiYb88Q3CBeUyJmHhnYgM9rS+xXqKglTnBkVNx1HU6O0Cw8/Vd/AW0Rc66hj",
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
