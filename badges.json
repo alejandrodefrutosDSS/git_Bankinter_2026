@@ -6,7 +6,8 @@
       "WEB_APP:0LdojiP"
     ],
     "LLM": [
-      "RECIPE:compute_conv_generated"
+      "RECIPE:compute_conv_generated",
+      "WEB_APP:aIWYTKe"
     ]
   }
 }
