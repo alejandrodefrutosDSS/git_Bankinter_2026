@@ -31,6 +31,7 @@
     "extractFromSingleElement": false,
     "nestedArraysMaxElements": 100,
     "nestedArraysMaxContentSize": 300000,
+    "legacyNestedTyping": true,
     "headerRow": false
   },
   "partitioning": {
