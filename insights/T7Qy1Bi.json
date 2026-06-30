@@ -9,11 +9,11 @@
           "distinct": false,
           "enabled": false,
           "uiData": {
-            "mode": "\u0026\u0026",
+            "mode": "&&",
             "conditions": [
               {
                 "input": "llmUsage_estimatedCostUSD",
-                "operator": "\u003e  [number]",
+                "operator": ">  [number]",
                 "col": "type",
                 "num": 0.0,
                 "num2": 0.0
@@ -67,7 +67,7 @@
           "prefix": "",
           "suffix": "",
           "showValue": true,
-          "displayLabel": "Total Estimated Cost (USD) 💵",
+          "displayLabel": "Total Estimated Cost (USD) \ud83d\udcb5",
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
           "labelFontSize": 16,
@@ -578,7 +578,8 @@
             "size": 1
           }
         }
-      }
+      },
+      "id": "2a49fea4"
     },
     "customMeasures": [],
     "datasetSmartName": "logs_llm_usage_prepared"

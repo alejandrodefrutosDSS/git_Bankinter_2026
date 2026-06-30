@@ -566,7 +566,8 @@
             "size": 1
           }
         }
-      }
+      },
+      "id": "56b87002"
     },
     "customMeasures": [],
     "datasetSmartName": "logs_llm_usage_prepared"

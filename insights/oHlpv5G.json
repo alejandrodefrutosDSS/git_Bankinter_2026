@@ -55,7 +55,7 @@
           "prefix": "",
           "suffix": "",
           "showValue": true,
-          "displayLabel": "Requests answered by LLM Mesh cache 💰",
+          "displayLabel": "Requests answered by LLM Mesh cache \ud83d\udcb0",
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
           "labelFontSize": 16,
@@ -566,7 +566,8 @@
             "size": 1
           }
         }
-      }
+      },
+      "id": "f4955b18"
     },
     "customMeasures": [],
     "datasetSmartName": "logs_llm_usage_prepared"

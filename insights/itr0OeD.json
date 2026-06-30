@@ -28,7 +28,7 @@
     "def": {
       "type": "grouped_columns",
       "variant": "normal",
-      "name": "Usage Type Estimated Cost (USD) 💵 Distribution",
+      "name": "Usage Type Estimated Cost (USD) \ud83d\udcb5 Distribution",
       "userEditedName": true,
       "displayWithEChartsByDefault": true,
       "genericDimension0": [
@@ -715,7 +715,8 @@
             "size": 1
           }
         }
-      }
+      },
+      "id": "a941c73f"
     },
     "customMeasures": [],
     "datasetSmartName": "logs_llm_usage_prepared"
