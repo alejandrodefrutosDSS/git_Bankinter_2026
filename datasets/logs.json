@@ -67,11 +67,10 @@
       {"name":"title","type":"string"},
       {"name":"agent_ids","type":"string"},
       {"name":"llm_id","type":"string"},
-      {"name":"agents_enabled","type":"bigint"},
-      {"name":"last_updated","type":"date"},
-      {"name":"created_at","type":"date"},
-      {"name":"last_modified","type":"date"},
-      {"name":"status","type":"string"}
+      {"name":"agents_enabled","type":"boolean"},
+      {"name":"status","type":"string"},
+      {"name":"created_at","type":"datetimenotz"},
+      {"name":"last_modified","type":"datetimenotz"}
     ],
     "userModified": false
   },
