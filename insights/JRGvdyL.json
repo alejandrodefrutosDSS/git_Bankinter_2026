@@ -89,6 +89,8 @@
             "measureIdx": 0,
             "label": "Sum of llmUsage_estimatedCostUSD, descending"
           },
+          "prefix": "",
+          "suffix": "",
           "multiplier": "Auto",
           "hideTrailingZeros": true,
           "digitGrouping": "DEFAULT",
@@ -585,7 +587,7 @@
         "displayPointer": false
       },
       "useLiveProcessingIfAvailable": true,
-      "legendPlacement": "OUTER_RIGHT",
+      "legendPlacement": "INNER_TOP_RIGHT",
       "legendFormatting": {
         "fontSize": 13,
         "fontColor": "#333",
