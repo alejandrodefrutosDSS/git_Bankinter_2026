@@ -49,8 +49,8 @@
   },
   "tags": [],
   "params": {
-    "connection": "filesystem_managed",
-    "path": "/SOL_GENAI_COST_MONITORING.audit_logs",
+    "connection": "log4j-logs",
+    "path": "/audit.log",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",
