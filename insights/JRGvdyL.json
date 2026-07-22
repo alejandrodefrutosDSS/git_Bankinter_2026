@@ -26,6 +26,7 @@
       "_refreshTrigger": 1722335156858
     },
     "def": {
+      "id": "b9d8fe7f",
       "type": "grouped_columns",
       "variant": "normal",
       "name": "Connection type Estimated Cost ($) Distribution",
@@ -33,10 +34,13 @@
       "displayWithEChartsByDefault": true,
       "genericDimension0": [
         {
-          "column": "Connection type",
-          "type": "ALPHANUM",
           "numParams": {
-            "emptyBinsMode": "ZEROS"
+            "mode": "FIXED_NB",
+            "emptyBinsMode": "ZEROS",
+            "binSize": 1.0,
+            "niceBounds": false,
+            "customBinValues": [],
+            "nbBins": 10
           },
           "maxValues": 20,
           "generateOthersCategory": true,
@@ -44,26 +48,9 @@
           "oneTickPerBin": "NO",
           "filters": [],
           "isA": "dimension",
-          "possibleSorts": [
-            {
-              "type": "NATURAL",
-              "label": "Natural ordering",
-              "sortAscending": true
-            },
-            {
-              "type": "AGGREGATION",
-              "measureIdx": 0,
-              "label": "Sum of llmUsage_estimatedCostUSD, descending"
-            },
-            {
-              "type": "AGGREGATION",
-              "measureIdx": 0,
-              "label": "Sum of llmUsage_estimatedCostUSD, ascending",
-              "sortAscending": true
-            }
-          ],
           "sort": {
             "type": "AGGREGATION",
+            "sortId": "llmUsage_estimatedCostUSD SUM 50 NORMAL0 desc",
             "measureIdx": 0,
             "label": "Sum of llmUsage_estimatedCostUSD, descending"
           },
@@ -74,10 +61,44 @@
           "digitGrouping": "DEFAULT",
           "useParenthesesForNegativeValues": false,
           "shouldFormatInPercentage": false,
-          "displayLabel": ""
+          "useLastValueAsTotal": false,
+          "displayLabel": "",
+          "column": "Connection type",
+          "type": "ALPHANUM"
         }
       ],
-      "genericDimension1": [],
+      "genericDimension1": [
+        {
+          "numParams": {
+            "mode": "FIXED_NB",
+            "emptyBinsMode": "ZEROS",
+            "binSize": 1.0,
+            "niceBounds": false,
+            "customBinValues": [],
+            "nbBins": 10
+          },
+          "maxValues": 20,
+          "generateOthersCategory": true,
+          "forceLastPositionOthers": false,
+          "oneTickPerBin": "AUTO",
+          "filters": [],
+          "isA": "dimension",
+          "sort": {
+            "type": "AGGREGATION",
+            "sortId": "llmUsage_estimatedCostUSD SUM 50 NORMAL0 desc",
+            "measureIdx": 0,
+            "label": "Sum of llmUsage_estimatedCostUSD, descending"
+          },
+          "multiplier": "Auto",
+          "hideTrailingZeros": true,
+          "digitGrouping": "DEFAULT",
+          "useParenthesesForNegativeValues": false,
+          "shouldFormatInPercentage": false,
+          "useLastValueAsTotal": false,
+          "column": "LLM identifier",
+          "type": "ALPHANUM"
+        }
+      ],
       "facetDimension": [],
       "animationDimension": [],
       "genericMeasures": [
@@ -89,6 +110,8 @@
           "isA": "measure",
           "displayAxis": "axis1",
           "displayType": "column",
+          "isUnaggregated": false,
+          "uaComputeMode": "STACK",
           "computeMode": "NORMAL",
           "computeModeDim": 0,
           "multiplier": "Auto",
@@ -101,7 +124,6 @@
           "showValue": true,
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
-          "labelFontSize": 16,
           "percentile": 50.0,
           "isCustomPercentile": false,
           "kpiTextAlign": "CENTER",
@@ -114,7 +136,7 @@
             "hasBackground": false
           },
           "labelTextFormatting": {
-            "fontSize": 11,
+            "fontSize": 16,
             "fontColor": "#333",
             "hasBackground": false
           },
@@ -127,11 +149,18 @@
               "backgroundColor": "#D9D9D9BF"
             },
             "addDetails": false,
-            "additionalMeasures": []
+            "additionalMeasures": [],
+            "placementMode": "AUTO",
+            "spacing": 2
           },
           "colorRules": []
         }
       ],
+      "genericHierarchyDimension": [],
+      "yHierarchyDimension": [],
+      "xHierarchyDimension": [],
+      "groupHierarchyDimension": [],
+      "boxplotBreakdownHierarchyDimension": [],
       "xDimension": [],
       "yDimension": [],
       "uaXDimension": [],
@@ -179,7 +208,11 @@
       "filters": [],
       "xAxisFormatting": {
         "displayAxis": true,
+        "displayLineAndTicks": true,
         "showAxisTitle": false,
+        "showAxisLabels": true,
+        "labelAutoRotation": true,
+        "labelRotationAngle": 0.0,
         "axisTitle": "Provider",
         "axisTitleFormatting": {
           "fontSize": 13,
@@ -219,7 +252,11 @@
         {
           "id": "y_left_0",
           "displayAxis": true,
+          "displayLineAndTicks": true,
           "showAxisTitle": true,
+          "showAxisLabels": true,
+          "labelAutoRotation": true,
+          "labelRotationAngle": 0.0,
           "axisTitle": "(USD)",
           "axisTitleFormatting": {
             "fontSize": 13,
@@ -258,7 +295,11 @@
         {
           "id": "y_right_0",
           "displayAxis": true,
+          "displayLineAndTicks": true,
           "showAxisTitle": true,
+          "showAxisLabels": true,
+          "labelAutoRotation": true,
+          "labelRotationAngle": 0.0,
           "axisTitleFormatting": {
             "fontSize": 15,
             "fontColor": "#333",
@@ -296,10 +337,15 @@
       ],
       "radialAxisFormatting": {
         "showAxisTitle": false,
-        "axisTitleFormatting": {
-          "fontSize": 15,
-          "fontColor": "#333",
-          "hasBackground": false
+        "showAxisLabels": true,
+        "labelAutoRotation": true,
+        "labelRotationAngle": 0.0,
+        "axisValuesFormatting": {
+          "axisTicksFormatting": {
+            "fontSize": 15,
+            "fontColor": "#333",
+            "hasBackground": false
+          }
         },
         "ticksConfig": {
           "mode": "INTERVAL"
@@ -309,7 +355,6 @@
         "includeZero": true
       },
       "smoothing": true,
-      "showLegend": true,
       "strokeWidth": 2,
       "fillOpacity": 0.6,
       "tooltipOptions": {
@@ -323,7 +368,6 @@
         "displayPieLabelsOrValues": true,
         "displayMode": "LABELS",
         "overlappingStrategy": "AUTO",
-        "spacing": 2,
         "placementMode": "AUTO",
         "textFormatting": {
           "fontSize": 11,
@@ -340,6 +384,7 @@
             "hasBackground": false
           },
           "addDetails": false,
+          "placementMode": "AUTO",
           "additionalMeasures": []
         }
       },
@@ -368,7 +413,9 @@
           "fixedValues": false
         },
         "customColors": {
-          "m_llmUsage_estimatedCostUSD_SUM_1": "#ff7f0e"
+          "v_openai:OpenAI:gpt-4.1": "#1f77b4",
+          "v_openai:OpenAI:gpt-4.1-mini": "#aec7e8",
+          "v_openai:OpenAI:gpt-4.1-nano": "#ff7f0e"
         }
       },
       "colorGroups": [],
@@ -381,6 +428,9 @@
       "yAxisMode": "NORMAL",
       "pieOptions": {
         "donutHoleSize": 54.0
+      },
+      "drilldownOptions": {
+        "displayBreadcrumb": true
       },
       "scatterZoomOptions": {
         "scale": [
@@ -395,6 +445,11 @@
         "enabled": true,
         "persisted": true
       },
+      "waterfallOptions": {
+        "totalBarDisplayMode": "RIGHT",
+        "useSemanticWatertfallColors": true,
+        "totalBarLabel": ""
+      },
       "linesZoomOptions": {
         "displayBrush": true,
         "enabled": true,
@@ -403,15 +458,6 @@
       "scatterOptions": {
         "equalScales": false,
         "identityLine": false,
-        "connectPoints": {
-          "enabled": false,
-          "splitBy": "COLOR",
-          "lineFormatting": {
-            "color": "#000",
-            "size": 1
-          }
-        },
-        "optimizeRendering": false,
         "regression": {
           "show": false,
           "displayFormula": false,
@@ -428,9 +474,6 @@
             "backgroundColor": "#D9D9D9BF"
           }
         },
-        "numberOfRecords": 1000000.0
-      },
-      "scatterMPOptions": {
         "connectPoints": {
           "enabled": false,
           "splitBy": "COLOR",
@@ -440,6 +483,11 @@
           }
         },
         "optimizeRendering": false,
+        "numberOfRecords": 1000000.0,
+        "overviewEnabled": false,
+        "overviewDetailRawPointThreshold": 50000.0
+      },
+      "scatterMPOptions": {
         "pairColorOptions": {
           "singleColor": "#659a88",
           "transparency": 0.75,
@@ -453,7 +501,18 @@
           },
           "customColors": {}
         },
-        "numberOfRecords": 1000000.0
+        "connectPoints": {
+          "enabled": false,
+          "splitBy": "COLOR",
+          "lineFormatting": {
+            "color": "#000",
+            "size": 1
+          }
+        },
+        "optimizeRendering": false,
+        "numberOfRecords": 1000000.0,
+        "overviewEnabled": false,
+        "overviewDetailRawPointThreshold": 50000.0
       },
       "mapOptions": {
         "tilesLayer": "cartodb-positron",
@@ -614,10 +673,11 @@
             "size": 1
           }
         }
-      },
-      "id": "b9d8fe7f"
+      }
     },
     "customMeasures": [],
+    "reusableDimensions": [],
+    "hierarchies": [],
     "datasetSmartName": "logs_llm_usage_prepared"
   },
   "owner": "divya.thomas@dataiku.com",
