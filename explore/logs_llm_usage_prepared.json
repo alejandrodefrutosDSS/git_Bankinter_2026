@@ -73,6 +73,10 @@
           "d": true
         },
         {
+          "name": "llmUsage_totalComputationTimeSeconds",
+          "d": true
+        },
+        {
           "name": "Connection type",
           "d": true
         },
@@ -241,7 +245,7 @@
       "serverTimestamp_minutes": 211,
       "serverTimestamp_minutes_str": 239,
       "severity": 106,
-      "startTime": 113,
+      "startTime": 319,
       "topic": 100,
       "type": 100,
       "user": 100,
@@ -258,14 +262,16 @@
       "Number of LLM cache hit": 188,
       "Context": 113,
       "dssNodeId": 100,
-      "dssNodeName": 100
+      "dssNodeName": 100,
+      "llmUsage_totalComputationTimeSeconds": 285
     },
     "columnUseScientificNotationByName": {},
     "coloring": {
       "scheme": "MEANING_AND_STATUS",
       "individualColumns": [],
       "individualColumnsRules": [],
-      "valueColoringMode": "HASH"
+      "valueColoringMode": "HASH",
+      "coloringGroups": []
     },
     "sorting": [
       {
@@ -368,6 +374,7 @@
       "copySelectionFromScript": true,
       "engineType": "LINO",
       "def": {
+        "id": "cbf9ccf0",
         "type": "grouped_columns",
         "variant": "normal",
         "name": "New chart",
@@ -426,6 +433,9 @@
         "xAxisFormatting": {
           "displayAxis": true,
           "showAxisTitle": true,
+          "showAxisLabels": true,
+          "labelAutoRotation": true,
+          "labelRotationAngle": 0.0,
           "axisTitleFormatting": {
             "fontSize": 15,
             "fontColor": "#333",
@@ -464,6 +474,9 @@
             "id": "y_left_0",
             "displayAxis": true,
             "showAxisTitle": true,
+            "showAxisLabels": true,
+            "labelAutoRotation": true,
+            "labelRotationAngle": 0.0,
             "axisTitleFormatting": {
               "fontSize": 15,
               "fontColor": "#333",
@@ -501,6 +514,9 @@
             "id": "y_right_0",
             "displayAxis": true,
             "showAxisTitle": true,
+            "showAxisLabels": true,
+            "labelAutoRotation": true,
+            "labelRotationAngle": 0.0,
             "axisTitleFormatting": {
               "fontSize": 15,
               "fontColor": "#333",
@@ -537,6 +553,9 @@
         ],
         "radialAxisFormatting": {
           "showAxisTitle": false,
+          "showAxisLabels": true,
+          "labelAutoRotation": true,
+          "labelRotationAngle": 0.0,
           "axisTitleFormatting": {
             "fontSize": 15,
             "fontColor": "#333",
@@ -550,7 +569,6 @@
           "includeZero": true
         },
         "smoothing": true,
-        "showLegend": true,
         "strokeWidth": 2,
         "fillOpacity": 0.6,
         "tooltipOptions": {
@@ -579,6 +597,7 @@
               "hasBackground": false
             },
             "addDetails": false,
+            "placementMode": "AUTO",
             "additionalMeasures": []
           }
         },
@@ -617,6 +636,9 @@
         "pieOptions": {
           "donutHoleSize": 54.0
         },
+        "drilldownOptions": {
+          "displayBreadcrumb": true
+        },
         "scatterZoomOptions": {
           "scale": [
             1.0,
@@ -630,6 +652,11 @@
           "enabled": true,
           "persisted": true
         },
+        "waterfallOptions": {
+          "totalBarDisplayMode": "RIGHT",
+          "useSemanticWatertfallColors": true,
+          "totalBarLabel": ""
+        },
         "linesZoomOptions": {
           "displayBrush": true,
           "enabled": true,
@@ -638,15 +665,6 @@
         "scatterOptions": {
           "equalScales": false,
           "identityLine": false,
-          "connectPoints": {
-            "enabled": false,
-            "splitBy": "COLOR",
-            "lineFormatting": {
-              "color": "#000",
-              "size": 1
-            }
-          },
-          "optimizeRendering": false,
           "regression": {
             "show": false,
             "displayFormula": false,
@@ -663,9 +681,6 @@
               "backgroundColor": "#D9D9D9BF"
             }
           },
-          "numberOfRecords": 100000.0
-        },
-        "scatterMPOptions": {
           "connectPoints": {
             "enabled": false,
             "splitBy": "COLOR",
@@ -675,6 +690,11 @@
             }
           },
           "optimizeRendering": false,
+          "numberOfRecords": 100000.0,
+          "overviewEnabled": false,
+          "overviewDetailRawPointThreshold": 50000.0
+        },
+        "scatterMPOptions": {
           "pairColorOptions": {
             "singleColor": "#659a88",
             "transparency": 0.75,
@@ -688,7 +708,18 @@
             },
             "customColors": {}
           },
-          "numberOfRecords": 100000.0
+          "connectPoints": {
+            "enabled": false,
+            "splitBy": "COLOR",
+            "lineFormatting": {
+              "color": "#000",
+              "size": 1
+            }
+          },
+          "optimizeRendering": false,
+          "numberOfRecords": 100000.0,
+          "overviewEnabled": false,
+          "overviewDetailRawPointThreshold": 50000.0
         },
         "mapOptions": {
           "tilesLayer": "cartodb-positron",
@@ -828,13 +859,14 @@
               "size": 1
             }
           }
-        },
-        "id": "cbf9ccf0"
+        }
       }
     }
   ],
   "interactiveSearch": {
     "savedQueries": []
   },
-  "customMeasures": []
+  "customMeasures": [],
+  "reusableDimensions": [],
+  "hierarchies": []
 }
