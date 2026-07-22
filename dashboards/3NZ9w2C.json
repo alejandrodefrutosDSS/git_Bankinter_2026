@@ -5,274 +5,39 @@
       "grid": {
         "tiles": [
           {
-            "tileType": "INSIGHT",
+            "tileType": "TITLE",
             "box": {
-              "top": 65,
+              "top": 0,
               "left": 0,
-              "width": 10,
-              "height": 5
+              "width": 36,
+              "height": 2
             },
             "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
             "backgroundOpacity": 1.0,
+            "backgroundColor": "#ffffff",
             "autoLoad": true,
-            "locked": false,
+            "locked": true,
+            "isDisplacing": true,
             "borderOptions": {
-              "color": "#D9D9D9",
+              "color": "#CCCCCC",
               "radius": 0,
-              "size": 1
+              "size": 0
             },
             "titleOptions": {
               "showTitle": "NO",
-              "fontColor": "#000",
+              "fontColor": "#000000",
               "fontSize": 13
             },
-            "insightId": "oHlpv5G",
-            "insightType": "chart",
             "displayMode": "INSIGHT",
+            "useDashboardSpacing": true,
+            "tileSpacing": 8,
+            "padding": 0,
             "resizeImageMode": "FIT_SIZE"
           },
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 6,
-              "left": 0,
-              "width": 36,
-              "height": 9
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": true,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "locked": false,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "title": "Total Estimated Cost (USD) 💵 Over Time by Project",
-              "fontColor": "#000",
-              "fontSize": 16
-            },
-            "insightId": "tRFctK1",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 51,
-              "left": 0,
-              "width": 36,
-              "height": 9
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "locked": false,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "title": "Total Estimated Cost (USD) 💵 by Usage Type",
-              "fontColor": "#000",
-              "fontSize": 16
-            },
-            "insightId": "itr0OeD",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 33,
-              "left": 0,
-              "width": 36,
-              "height": 9
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "locked": false,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "title": "Total Estimated Cost (USD) 💵 by Provider",
-              "fontColor": "#000",
-              "fontSize": 16
-            },
-            "insightId": "JRGvdyL",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 15,
-              "left": 0,
-              "width": 36,
-              "height": 9
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "locked": false,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "title": "Total Estimated Cost (USD) 💵 by Project",
-              "fontColor": "#000",
-              "fontSize": 16
-            },
-            "insightId": "ns5es5X",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 24,
-              "left": 0,
-              "width": 36,
-              "height": 9
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "locked": false,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "title": "Total Estimated Cost (USD) 💵 by User",
-              "fontColor": "#000",
-              "fontSize": 16
-            },
-            "insightId": "ZvhhT7I",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 42,
-              "left": 0,
-              "width": 31,
-              "height": 9
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showBrush": false,
-              "inheritLegendPlacement": true,
-              "legendPlacement": "OUTER_RIGHT",
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "locked": false,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "title": "Total Estimated Cost (USD) 💵 by Context",
-              "fontColor": "#000",
-              "fontSize": 16
-            },
-            "insightId": "4H3c7VG",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 0,
+              "top": 2,
               "left": 8,
               "width": 10,
               "height": 6
@@ -280,17 +45,23 @@
             "clickAction": "DO_NOTHING",
             "tileParams": {
               "showXAxis": true,
+              "showXAxisTitle": true,
               "showYAxis": true,
+              "showYAxisTitle": true,
               "showLegend": false,
               "showBrush": false,
+              "showBreadcrumb": true,
               "inheritLegendPlacement": true,
               "legendPlacement": "OUTER_RIGHT",
               "showTooltips": true,
-              "autoPlayAnimation": true
+              "autoPlayAnimation": true,
+              "useInsightTheme": false
             },
             "backgroundOpacity": 1.0,
+            "backgroundColor": "#ffffff",
             "autoLoad": true,
             "locked": false,
+            "isDisplacing": false,
             "borderOptions": {
               "color": "#D9D9D9",
               "radius": 0,
@@ -304,42 +75,15 @@
             "insightId": "T7Qy1Bi",
             "insightType": "chart",
             "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "TEXT",
-            "box": {
-              "top": 60,
-              "left": 0,
-              "width": 10,
-              "height": 5
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "text": "Dataiku stores the  **requests**  and  **answers**  in a cache.\n\n**If the same request is made again, the stored response is used, saving LLM costs 💰.** \n\nYou can [activate the caching option](https://knowledge.dataiku.com/latest/ml-analytics/gen-ai/concept-llm-connections.html#using-cache-to-reduce-costs) to reduce your operational costs.",
-              "textAlign": "LEFT"
-            },
-            "backgroundOpacity": 1.0,
-            "autoLoad": true,
-            "locked": false,
-            "borderOptions": {
-              "color": "#D9D9D9",
-              "radius": 0,
-              "size": 1
-            },
-            "titleOptions": {
-              "showTitle": "YES",
-              "title": "Benefits of Caching",
-              "fontColor": "#000",
-              "fontSize": 16
-            },
-            "displayMode": "INSIGHT",
+            "useDashboardSpacing": true,
+            "tileSpacing": 8,
+            "padding": 0,
             "resizeImageMode": "FIT_SIZE"
           },
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 0,
+              "top": 2,
               "left": 18,
               "width": 10,
               "height": 6
@@ -347,17 +91,23 @@
             "clickAction": "DO_NOTHING",
             "tileParams": {
               "showXAxis": true,
+              "showXAxisTitle": true,
               "showYAxis": true,
+              "showYAxisTitle": true,
               "showLegend": false,
               "showBrush": false,
+              "showBreadcrumb": true,
               "inheritLegendPlacement": true,
               "legendPlacement": "OUTER_RIGHT",
               "showTooltips": true,
-              "autoPlayAnimation": true
+              "autoPlayAnimation": true,
+              "useInsightTheme": false
             },
             "backgroundOpacity": 1.0,
+            "backgroundColor": "#ffffff",
             "autoLoad": true,
             "locked": false,
+            "isDisplacing": false,
             "borderOptions": {
               "color": "#D9D9D9",
               "radius": 0,
@@ -372,12 +122,369 @@
             "insightId": "de5Zk0Q",
             "insightType": "chart",
             "displayMode": "INSIGHT",
+            "useDashboardSpacing": true,
+            "tileSpacing": 8,
+            "padding": 0,
             "resizeImageMode": "FIT_SIZE"
           },
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 60,
+              "top": 8,
+              "left": 0,
+              "width": 36,
+              "height": 9
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "showXAxis": true,
+              "showXAxisTitle": true,
+              "showYAxis": true,
+              "showYAxisTitle": true,
+              "showLegend": true,
+              "showBrush": false,
+              "showBreadcrumb": true,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showTooltips": true,
+              "autoPlayAnimation": true,
+              "useInsightTheme": false
+            },
+            "backgroundOpacity": 1.0,
+            "backgroundColor": "#ffffff",
+            "autoLoad": true,
+            "locked": false,
+            "isDisplacing": false,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "titleOptions": {
+              "showTitle": "YES",
+              "title": "Total Estimated Cost (USD) 💵 Over Time by Project",
+              "fontColor": "#000",
+              "fontSize": 16
+            },
+            "insightId": "tRFctK1",
+            "insightType": "chart",
+            "displayMode": "INSIGHT",
+            "useDashboardSpacing": true,
+            "tileSpacing": 8,
+            "padding": 0,
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 17,
+              "left": 0,
+              "width": 36,
+              "height": 9
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "showXAxis": true,
+              "showXAxisTitle": true,
+              "showYAxis": true,
+              "showYAxisTitle": true,
+              "showLegend": false,
+              "showBrush": false,
+              "showBreadcrumb": true,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showTooltips": true,
+              "autoPlayAnimation": true,
+              "useInsightTheme": false
+            },
+            "backgroundOpacity": 1.0,
+            "backgroundColor": "#ffffff",
+            "autoLoad": true,
+            "locked": false,
+            "isDisplacing": false,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "titleOptions": {
+              "showTitle": "YES",
+              "title": "Total Estimated Cost (USD) 💵 by Project",
+              "fontColor": "#000",
+              "fontSize": 16
+            },
+            "insightId": "ns5es5X",
+            "insightType": "chart",
+            "displayMode": "INSIGHT",
+            "useDashboardSpacing": true,
+            "tileSpacing": 8,
+            "padding": 0,
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 26,
+              "left": 0,
+              "width": 36,
+              "height": 9
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "showXAxis": true,
+              "showXAxisTitle": true,
+              "showYAxis": true,
+              "showYAxisTitle": true,
+              "showLegend": false,
+              "showBrush": false,
+              "showBreadcrumb": true,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showTooltips": true,
+              "autoPlayAnimation": true,
+              "useInsightTheme": false
+            },
+            "backgroundOpacity": 1.0,
+            "backgroundColor": "#ffffff",
+            "autoLoad": true,
+            "locked": false,
+            "isDisplacing": false,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "titleOptions": {
+              "showTitle": "YES",
+              "title": "Total Estimated Cost (USD) 💵 by User",
+              "fontColor": "#000",
+              "fontSize": 16
+            },
+            "insightId": "ZvhhT7I",
+            "insightType": "chart",
+            "displayMode": "INSIGHT",
+            "useDashboardSpacing": true,
+            "tileSpacing": 8,
+            "padding": 0,
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 35,
+              "left": 0,
+              "width": 36,
+              "height": 9
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "showXAxis": true,
+              "showXAxisTitle": true,
+              "showYAxis": true,
+              "showYAxisTitle": true,
+              "showLegend": true,
+              "showBrush": false,
+              "showBreadcrumb": true,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showTooltips": true,
+              "autoPlayAnimation": true,
+              "useInsightTheme": false
+            },
+            "backgroundOpacity": 1.0,
+            "backgroundColor": "#ffffff",
+            "autoLoad": true,
+            "locked": false,
+            "isDisplacing": false,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "titleOptions": {
+              "showTitle": "YES",
+              "title": "Total Estimated Cost (USD) 💵 by Provider",
+              "fontColor": "#000",
+              "fontSize": 16
+            },
+            "insightId": "JRGvdyL",
+            "insightType": "chart",
+            "displayMode": "INSIGHT",
+            "useDashboardSpacing": true,
+            "tileSpacing": 8,
+            "padding": 0,
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 44,
+              "left": 0,
+              "width": 31,
+              "height": 9
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "showXAxis": true,
+              "showXAxisTitle": true,
+              "showYAxis": true,
+              "showYAxisTitle": true,
+              "showLegend": false,
+              "showBrush": false,
+              "showBreadcrumb": true,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showTooltips": true,
+              "autoPlayAnimation": true,
+              "useInsightTheme": false
+            },
+            "backgroundOpacity": 1.0,
+            "backgroundColor": "#ffffff",
+            "autoLoad": true,
+            "locked": false,
+            "isDisplacing": false,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "titleOptions": {
+              "showTitle": "YES",
+              "title": "Total Estimated Cost (USD) 💵 by Context",
+              "fontColor": "#000",
+              "fontSize": 16
+            },
+            "insightId": "4H3c7VG",
+            "insightType": "chart",
+            "displayMode": "INSIGHT",
+            "useDashboardSpacing": true,
+            "tileSpacing": 8,
+            "padding": 0,
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "TEXT",
+            "box": {
+              "top": 44,
+              "left": 31,
+              "width": 5,
+              "height": 9
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "text": "Read the [ref docs](https://doc.dataiku.com/dss/latest/operations/compute-resource-usage-reporting.html#concepts) more more details on CRU Context.",
+              "textAlign": "LEFT",
+              "verticalAlign": "TOP"
+            },
+            "backgroundOpacity": 1.0,
+            "backgroundColor": "#ffffff",
+            "autoLoad": true,
+            "locked": false,
+            "isDisplacing": false,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "titleOptions": {
+              "showTitle": "YES",
+              "title": "Context",
+              "fontColor": "#000",
+              "fontSize": 16
+            },
+            "displayMode": "INSIGHT",
+            "useDashboardSpacing": true,
+            "tileSpacing": 8,
+            "padding": 0,
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 53,
+              "left": 0,
+              "width": 36,
+              "height": 9
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "showXAxis": true,
+              "showXAxisTitle": true,
+              "showYAxis": true,
+              "showYAxisTitle": true,
+              "showLegend": false,
+              "showBrush": false,
+              "showBreadcrumb": true,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showTooltips": true,
+              "autoPlayAnimation": true,
+              "useInsightTheme": false
+            },
+            "backgroundOpacity": 1.0,
+            "backgroundColor": "#ffffff",
+            "autoLoad": true,
+            "locked": false,
+            "isDisplacing": false,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "titleOptions": {
+              "showTitle": "YES",
+              "title": "Total Estimated Cost (USD) 💵 by Usage Type",
+              "fontColor": "#000",
+              "fontSize": 16
+            },
+            "insightId": "itr0OeD",
+            "insightType": "chart",
+            "displayMode": "INSIGHT",
+            "useDashboardSpacing": true,
+            "tileSpacing": 8,
+            "padding": 0,
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "TEXT",
+            "box": {
+              "top": 62,
+              "left": 0,
+              "width": 10,
+              "height": 5
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "text": "Dataiku stores the  **requests**  and  **answers**  in a cache.\n\n**If the same request is made again, the stored response is used, saving LLM costs 💰.** \n\nYou can [activate the caching option](https://knowledge.dataiku.com/latest/ml-analytics/gen-ai/concept-llm-connections.html#using-cache-to-reduce-costs) to reduce your operational costs.",
+              "textAlign": "LEFT",
+              "verticalAlign": "TOP"
+            },
+            "backgroundOpacity": 1.0,
+            "backgroundColor": "#ffffff",
+            "autoLoad": true,
+            "locked": false,
+            "isDisplacing": false,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "titleOptions": {
+              "showTitle": "YES",
+              "title": "Benefits of Caching",
+              "fontColor": "#000",
+              "fontSize": 16
+            },
+            "displayMode": "INSIGHT",
+            "useDashboardSpacing": true,
+            "tileSpacing": 8,
+            "padding": 0,
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 62,
               "left": 10,
               "width": 26,
               "height": 10
@@ -385,17 +492,23 @@
             "clickAction": "DO_NOTHING",
             "tileParams": {
               "showXAxis": true,
+              "showXAxisTitle": true,
               "showYAxis": true,
+              "showYAxisTitle": true,
               "showLegend": true,
               "showBrush": false,
+              "showBreadcrumb": true,
               "inheritLegendPlacement": true,
               "legendPlacement": "OUTER_RIGHT",
               "showTooltips": true,
-              "autoPlayAnimation": true
+              "autoPlayAnimation": true,
+              "useInsightTheme": false
             },
             "backgroundOpacity": 1.0,
+            "backgroundColor": "#ffffff",
             "autoLoad": true,
             "locked": false,
+            "isDisplacing": false,
             "borderOptions": {
               "color": "#D9D9D9",
               "radius": 0,
@@ -410,36 +523,55 @@
             "insightId": "LvvdqOo",
             "insightType": "chart",
             "displayMode": "INSIGHT",
+            "useDashboardSpacing": true,
+            "tileSpacing": 8,
+            "padding": 0,
             "resizeImageMode": "FIT_SIZE"
           },
           {
-            "tileType": "TEXT",
+            "tileType": "INSIGHT",
             "box": {
-              "top": 42,
-              "left": 31,
-              "width": 5,
-              "height": 9
+              "top": 67,
+              "left": 0,
+              "width": 10,
+              "height": 5
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "Read the [ref docs](https://doc.dataiku.com/dss/latest/operations/compute-resource-usage-reporting.html#concepts) more more details on CRU Context.",
-              "textAlign": "LEFT"
+              "showXAxis": true,
+              "showXAxisTitle": true,
+              "showYAxis": true,
+              "showYAxisTitle": true,
+              "showLegend": false,
+              "showBrush": false,
+              "showBreadcrumb": true,
+              "inheritLegendPlacement": true,
+              "legendPlacement": "OUTER_RIGHT",
+              "showTooltips": true,
+              "autoPlayAnimation": true,
+              "useInsightTheme": false
             },
             "backgroundOpacity": 1.0,
+            "backgroundColor": "#ffffff",
             "autoLoad": true,
             "locked": false,
+            "isDisplacing": false,
             "borderOptions": {
               "color": "#D9D9D9",
               "radius": 0,
               "size": 1
             },
             "titleOptions": {
-              "showTitle": "YES",
-              "title": "Context",
+              "showTitle": "NO",
               "fontColor": "#000",
-              "fontSize": 16
+              "fontSize": 13
             },
+            "insightId": "oHlpv5G",
+            "insightType": "chart",
             "displayMode": "INSIGHT",
+            "useDashboardSpacing": true,
+            "tileSpacing": 8,
+            "padding": 0,
             "resizeImageMode": "FIT_SIZE"
           }
         ]
@@ -472,6 +604,7 @@
           "isA": "filter",
           "isAGlobalFilter": true,
           "useMinimalUi": false,
+          "isDrill": false,
           "excludeOtherValues": false,
           "allValuesInSample": false,
           "active": true,
@@ -488,6 +621,7 @@
           "excludedValues": {},
           "isAGlobalFilter": true,
           "useMinimalUi": false,
+          "isDrill": false,
           "excludeOtherValues": false,
           "allValuesInSample": false,
           "active": true,
@@ -504,6 +638,7 @@
           "excludedValues": {},
           "isAGlobalFilter": true,
           "useMinimalUi": false,
+          "isDrill": false,
           "excludeOtherValues": false,
           "allValuesInSample": false,
           "active": true,
@@ -522,6 +657,7 @@
           "excludedValues": {},
           "isAGlobalFilter": true,
           "useMinimalUi": false,
+          "isDrill": false,
           "excludeOtherValues": false,
           "allValuesInSample": false,
           "active": true,
@@ -537,6 +673,7 @@
           "excludedValues": {},
           "isAGlobalFilter": true,
           "useMinimalUi": false,
+          "isDrill": false,
           "excludeOtherValues": false,
           "allValuesInSample": false,
           "active": true,
@@ -553,6 +690,7 @@
           "excludedValues": {},
           "isAGlobalFilter": true,
           "useMinimalUi": false,
+          "isDrill": false,
           "excludeOtherValues": false,
           "allValuesInSample": false,
           "active": true,
@@ -569,6 +707,7 @@
           "excludedValues": {},
           "isAGlobalFilter": true,
           "useMinimalUi": false,
+          "isDrill": false,
           "excludeOtherValues": false,
           "allValuesInSample": false,
           "active": true,
@@ -585,6 +724,7 @@
           "excludedValues": {},
           "isAGlobalFilter": true,
           "useMinimalUi": false,
+          "isDrill": false,
           "excludeOtherValues": false,
           "allValuesInSample": false,
           "active": true,
@@ -625,11 +765,25 @@
   "owner": "divya.thomas@dataiku.com",
   "listed": true,
   "name": "GenAI Cost Monitoring",
+  "pageSectionSettings": {
+    "zoomMode": "FIT_TO_WIDTH",
+    "shouldDisplayPageSeparators": false,
+    "pageSectionFormat": {
+      "formatName": "A4",
+      "xInPx": 1754,
+      "yInPx": 1240,
+      "dpi": 150,
+      "orientation": "LANDSCAPE",
+      "ratio": 1.414516129032258
+    }
+  },
   "showGrid": true,
+  "autoStackUp": false,
   "columnNumber": 36,
   "showNavigationArrows": false,
   "reloadWhenEventReceived": false,
   "tileSpacing": 8,
+  "circularNavigation": false,
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
