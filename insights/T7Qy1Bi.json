@@ -9,11 +9,11 @@
           "distinct": false,
           "enabled": false,
           "uiData": {
-            "mode": "&&",
+            "mode": "\u0026\u0026",
             "conditions": [
               {
                 "input": "llmUsage_estimatedCostUSD",
-                "operator": ">  [number]",
+                "operator": "\u003e  [number]",
                 "col": "type",
                 "num": 0.0,
                 "num2": 0.0
@@ -38,6 +38,7 @@
       "_refreshTrigger": 1732285986176
     },
     "def": {
+      "id": "2a49fea4",
       "type": "kpi",
       "variant": "normal",
       "name": "Sum of llmUsage_estimatedCostUSD",
@@ -56,6 +57,8 @@
           "isA": "measure",
           "displayAxis": "axis1",
           "displayType": "column",
+          "isUnaggregated": false,
+          "uaComputeMode": "STACK",
           "computeMode": "NORMAL",
           "computeModeDim": 0,
           "multiplier": "Auto",
@@ -67,10 +70,9 @@
           "prefix": "",
           "suffix": "",
           "showValue": true,
-          "displayLabel": "Total Estimated Cost (USD) \ud83d\udcb5",
+          "displayLabel": "Total Estimated Cost (USD) 💵",
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
-          "labelFontSize": 16,
           "percentile": 50.0,
           "isCustomPercentile": false,
           "kpiTextAlign": "CENTER",
@@ -83,7 +85,7 @@
             "hasBackground": false
           },
           "labelTextFormatting": {
-            "fontSize": 11,
+            "fontSize": 16,
             "fontColor": "#333",
             "hasBackground": false
           },
@@ -96,11 +98,17 @@
               "backgroundColor": "#D9D9D9BF"
             },
             "addDetails": false,
-            "additionalMeasures": []
+            "additionalMeasures": [],
+            "placementMode": "AUTO"
           },
           "colorRules": []
         }
       ],
+      "genericHierarchyDimension": [],
+      "yHierarchyDimension": [],
+      "xHierarchyDimension": [],
+      "groupHierarchyDimension": [],
+      "boxplotBreakdownHierarchyDimension": [],
       "xDimension": [],
       "yDimension": [],
       "uaXDimension": [],
@@ -148,7 +156,11 @@
       "filters": [],
       "xAxisFormatting": {
         "displayAxis": true,
+        "displayLineAndTicks": true,
         "showAxisTitle": true,
+        "showAxisLabels": true,
+        "labelAutoRotation": true,
+        "labelRotationAngle": 0.0,
         "axisTitleFormatting": {
           "fontSize": 15,
           "fontColor": "#333",
@@ -187,7 +199,11 @@
         {
           "id": "y_left_0",
           "displayAxis": true,
+          "displayLineAndTicks": true,
           "showAxisTitle": true,
+          "showAxisLabels": true,
+          "labelAutoRotation": true,
+          "labelRotationAngle": 0.0,
           "axisTitleFormatting": {
             "fontSize": 15,
             "fontColor": "#333",
@@ -225,7 +241,11 @@
         {
           "id": "y_right_0",
           "displayAxis": true,
+          "displayLineAndTicks": true,
           "showAxisTitle": true,
+          "showAxisLabels": true,
+          "labelAutoRotation": true,
+          "labelRotationAngle": 0.0,
           "axisTitleFormatting": {
             "fontSize": 15,
             "fontColor": "#333",
@@ -263,10 +283,15 @@
       ],
       "radialAxisFormatting": {
         "showAxisTitle": false,
-        "axisTitleFormatting": {
-          "fontSize": 15,
-          "fontColor": "#333",
-          "hasBackground": false
+        "showAxisLabels": true,
+        "labelAutoRotation": true,
+        "labelRotationAngle": 0.0,
+        "axisValuesFormatting": {
+          "axisTicksFormatting": {
+            "fontSize": 15,
+            "fontColor": "#333",
+            "hasBackground": false
+          }
         },
         "ticksConfig": {
           "mode": "INTERVAL"
@@ -276,7 +301,6 @@
         "includeZero": true
       },
       "smoothing": true,
-      "showLegend": true,
       "strokeWidth": 2,
       "fillOpacity": 0.6,
       "tooltipOptions": {
@@ -306,6 +330,7 @@
             "hasBackground": false
           },
           "addDetails": false,
+          "placementMode": "AUTO",
           "additionalMeasures": []
         }
       },
@@ -346,6 +371,9 @@
       "pieOptions": {
         "donutHoleSize": 54.0
       },
+      "drilldownOptions": {
+        "displayBreadcrumb": true
+      },
       "scatterZoomOptions": {
         "scale": [
           1.0,
@@ -359,6 +387,11 @@
         "enabled": true,
         "persisted": true
       },
+      "waterfallOptions": {
+        "totalBarDisplayMode": "RIGHT",
+        "useSemanticWatertfallColors": true,
+        "totalBarLabel": ""
+      },
       "linesZoomOptions": {
         "displayBrush": true,
         "enabled": true,
@@ -367,15 +400,6 @@
       "scatterOptions": {
         "equalScales": false,
         "identityLine": false,
-        "connectPoints": {
-          "enabled": false,
-          "splitBy": "COLOR",
-          "lineFormatting": {
-            "color": "#000",
-            "size": 1
-          }
-        },
-        "optimizeRendering": false,
         "regression": {
           "show": false,
           "displayFormula": false,
@@ -392,9 +416,6 @@
             "backgroundColor": "#D9D9D9BF"
           }
         },
-        "numberOfRecords": 1000000.0
-      },
-      "scatterMPOptions": {
         "connectPoints": {
           "enabled": false,
           "splitBy": "COLOR",
@@ -404,6 +425,11 @@
           }
         },
         "optimizeRendering": false,
+        "numberOfRecords": 1000000.0,
+        "overviewEnabled": false,
+        "overviewDetailRawPointThreshold": 50000.0
+      },
+      "scatterMPOptions": {
         "pairColorOptions": {
           "singleColor": "#659a88",
           "transparency": 0.75,
@@ -417,7 +443,18 @@
           },
           "customColors": {}
         },
-        "numberOfRecords": 1000000.0
+        "connectPoints": {
+          "enabled": false,
+          "splitBy": "COLOR",
+          "lineFormatting": {
+            "color": "#000",
+            "size": 1
+          }
+        },
+        "optimizeRendering": false,
+        "numberOfRecords": 1000000.0,
+        "overviewEnabled": false,
+        "overviewDetailRawPointThreshold": 50000.0
       },
       "mapOptions": {
         "tilesLayer": "cartodb-positron",
@@ -578,10 +615,11 @@
             "size": 1
           }
         }
-      },
-      "id": "2a49fea4"
+      }
     },
     "customMeasures": [],
+    "reusableDimensions": [],
+    "hierarchies": [],
     "datasetSmartName": "logs_llm_usage_prepared"
   },
   "owner": "fabien.daoulas@dataiku.com",
