@@ -62,7 +62,7 @@
           "computeMode": "NORMAL",
           "computeModeDim": 0,
           "multiplier": "Auto",
-          "decimalPlaces": 0,
+          "decimalPlaces": 3,
           "digitGrouping": "DEFAULT",
           "useParenthesesForNegativeValues": false,
           "shouldFormatInPercentage": false,
