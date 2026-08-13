@@ -26,6 +26,7 @@
       "_refreshTrigger": 0
     },
     "def": {
+      "id": "343df686",
       "type": "stacked_columns",
       "variant": "normal",
       "name": "Total Estimated Cost ($)",
@@ -33,13 +34,17 @@
       "displayWithEChartsByDefault": true,
       "genericDimension0": [
         {
-          "column": "Date",
-          "type": "DATE",
           "numParams": {
-            "emptyBinsMode": "AVERAGE"
+            "mode": "FIXED_NB",
+            "emptyBinsMode": "AVERAGE",
+            "binSize": 1.0,
+            "niceBounds": false,
+            "customBinValues": [],
+            "nbBins": 10
           },
           "dateParams": {
-            "mode": "AUTOMATIC"
+            "mode": "AUTOMATIC",
+            "maxBinNumberForAutomaticMode": 0
           },
           "maxValues": 0,
           "generateOthersCategory": true,
@@ -47,26 +52,9 @@
           "oneTickPerBin": "NO",
           "filters": [],
           "isA": "dimension",
-          "possibleSorts": [
-            {
-              "type": "NATURAL",
-              "label": "Natural ordering",
-              "sortAscending": true
-            },
-            {
-              "type": "AGGREGATION",
-              "measureIdx": 0,
-              "label": "Total Estimated Cost ($) per Project, descending"
-            },
-            {
-              "type": "AGGREGATION",
-              "measureIdx": 0,
-              "label": "Total Estimated Cost ($) per Project, ascending",
-              "sortAscending": true
-            }
-          ],
           "sort": {
             "type": "NATURAL",
+            "sortId": "NATURAL",
             "label": "Natural ordering",
             "sortAscending": true
           },
@@ -76,15 +64,21 @@
           "hideTrailingZeros": true,
           "digitGrouping": "DEFAULT",
           "useParenthesesForNegativeValues": false,
-          "shouldFormatInPercentage": false
+          "shouldFormatInPercentage": false,
+          "useLastValueAsTotal": false,
+          "column": "Date",
+          "type": "DATE"
         }
       ],
       "genericDimension1": [
         {
-          "column": "Project",
-          "type": "ALPHANUM",
           "numParams": {
-            "emptyBinsMode": "ZEROS"
+            "mode": "FIXED_NB",
+            "emptyBinsMode": "ZEROS",
+            "binSize": 1.0,
+            "niceBounds": false,
+            "customBinValues": [],
+            "nbBins": 10
           },
           "maxValues": 20,
           "generateOthersCategory": true,
@@ -92,26 +86,9 @@
           "oneTickPerBin": "NO",
           "filters": [],
           "isA": "dimension",
-          "possibleSorts": [
-            {
-              "type": "NATURAL",
-              "label": "Natural ordering",
-              "sortAscending": true
-            },
-            {
-              "type": "AGGREGATION",
-              "measureIdx": 0,
-              "label": "Total Estimated Cost ($) per Project, descending"
-            },
-            {
-              "type": "AGGREGATION",
-              "measureIdx": 0,
-              "label": "Total Estimated Cost ($) per Project, ascending",
-              "sortAscending": true
-            }
-          ],
           "sort": {
             "type": "AGGREGATION",
+            "sortId": "llmUsage_estimatedCostUSD SUM 50 NORMAL0 desc",
             "measureIdx": 0,
             "label": "Total Estimated Cost ($) per Project, descending"
           },
@@ -121,7 +98,10 @@
           "hideTrailingZeros": true,
           "digitGrouping": "DEFAULT",
           "useParenthesesForNegativeValues": false,
-          "shouldFormatInPercentage": false
+          "shouldFormatInPercentage": false,
+          "useLastValueAsTotal": false,
+          "column": "Project",
+          "type": "ALPHANUM"
         }
       ],
       "facetDimension": [],
@@ -135,6 +115,8 @@
           "isA": "measure",
           "displayAxis": "axis1",
           "displayType": "column",
+          "isUnaggregated": false,
+          "uaComputeMode": "STACK",
           "computeMode": "NORMAL",
           "computeModeDim": 0,
           "multiplier": "Auto",
@@ -148,7 +130,6 @@
           "displayLabel": "Total Estimated Cost ($) per Project",
           "showDisplayLabel": true,
           "labelPosition": "BOTTOM",
-          "labelFontSize": 16,
           "percentile": 50.0,
           "isCustomPercentile": false,
           "kpiTextAlign": "CENTER",
@@ -161,7 +142,7 @@
             "hasBackground": false
           },
           "labelTextFormatting": {
-            "fontSize": 11,
+            "fontSize": 16,
             "fontColor": "#333",
             "hasBackground": false
           },
@@ -174,11 +155,18 @@
               "backgroundColor": "#D9D9D9BF"
             },
             "addDetails": false,
-            "additionalMeasures": []
+            "additionalMeasures": [],
+            "placementMode": "AUTO",
+            "spacing": 5
           },
           "colorRules": []
         }
       ],
+      "genericHierarchyDimension": [],
+      "yHierarchyDimension": [],
+      "xHierarchyDimension": [],
+      "groupHierarchyDimension": [],
+      "boxplotBreakdownHierarchyDimension": [],
       "xDimension": [],
       "yDimension": [],
       "uaXDimension": [],
@@ -226,7 +214,11 @@
       "filters": [],
       "xAxisFormatting": {
         "displayAxis": true,
+        "displayLineAndTicks": true,
         "showAxisTitle": false,
+        "showAxisLabels": true,
+        "labelAutoRotation": true,
+        "labelRotationAngle": 0.0,
         "axisTitle": "Date",
         "axisTitleFormatting": {
           "fontSize": 13,
@@ -266,7 +258,11 @@
         {
           "id": "y_left_0",
           "displayAxis": true,
+          "displayLineAndTicks": true,
           "showAxisTitle": true,
+          "showAxisLabels": true,
+          "labelAutoRotation": true,
+          "labelRotationAngle": 0.0,
           "axisTitle": "(USD)",
           "axisTitleFormatting": {
             "fontSize": 13,
@@ -305,7 +301,11 @@
         {
           "id": "y_right_0",
           "displayAxis": true,
+          "displayLineAndTicks": true,
           "showAxisTitle": true,
+          "showAxisLabels": true,
+          "labelAutoRotation": true,
+          "labelRotationAngle": 0.0,
           "axisTitleFormatting": {
             "fontSize": 15,
             "fontColor": "#333",
@@ -343,10 +343,15 @@
       ],
       "radialAxisFormatting": {
         "showAxisTitle": false,
-        "axisTitleFormatting": {
-          "fontSize": 15,
-          "fontColor": "#333",
-          "hasBackground": false
+        "showAxisLabels": true,
+        "labelAutoRotation": true,
+        "labelRotationAngle": 0.0,
+        "axisValuesFormatting": {
+          "axisTicksFormatting": {
+            "fontSize": 15,
+            "fontColor": "#333",
+            "hasBackground": false
+          }
         },
         "ticksConfig": {
           "mode": "INTERVAL"
@@ -356,7 +361,6 @@
         "includeZero": true
       },
       "smoothing": true,
-      "showLegend": true,
       "strokeWidth": 2,
       "fillOpacity": 0.6,
       "tooltipOptions": {
@@ -370,7 +374,6 @@
         "displayPieLabelsOrValues": false,
         "displayMode": "VALUES_AND_TOTALS",
         "overlappingStrategy": "AUTO",
-        "spacing": 5,
         "placementMode": "AUTO",
         "textFormatting": {
           "fontSize": 11,
@@ -387,6 +390,8 @@
             "hasBackground": false
           },
           "addDetails": false,
+          "placementMode": "AUTO",
+          "spacing": 5,
           "additionalMeasures": []
         }
       },
@@ -496,7 +501,11 @@
           ],
           "fixedValues": false
         },
-        "customColors": {}
+        "customColors": {
+          "v_AGENT_HUB_SPUERKNEESS": "#1f77b4",
+          "v_ac_user_agent_1786356556032": "#aec7e8",
+          "v_AGENT_HUB_SPUERKNEESS_AGENT1": "#ff7f0e"
+        }
       },
       "colorGroups": [],
       "bubblesOptions": {
@@ -508,6 +517,9 @@
       "yAxisMode": "NORMAL",
       "pieOptions": {
         "donutHoleSize": 54.0
+      },
+      "drilldownOptions": {
+        "displayBreadcrumb": true
       },
       "scatterZoomOptions": {
         "scale": [
@@ -522,6 +534,11 @@
         "enabled": true,
         "persisted": true
       },
+      "waterfallOptions": {
+        "totalBarDisplayMode": "RIGHT",
+        "useSemanticWatertfallColors": true,
+        "totalBarLabel": ""
+      },
       "linesZoomOptions": {
         "displayBrush": true,
         "enabled": true,
@@ -530,15 +547,6 @@
       "scatterOptions": {
         "equalScales": false,
         "identityLine": false,
-        "connectPoints": {
-          "enabled": false,
-          "splitBy": "COLOR",
-          "lineFormatting": {
-            "color": "#000",
-            "size": 1
-          }
-        },
-        "optimizeRendering": false,
         "regression": {
           "show": false,
           "displayFormula": false,
@@ -555,9 +563,6 @@
             "backgroundColor": "#D9D9D9BF"
           }
         },
-        "numberOfRecords": 100000.0
-      },
-      "scatterMPOptions": {
         "connectPoints": {
           "enabled": false,
           "splitBy": "COLOR",
@@ -567,6 +572,11 @@
           }
         },
         "optimizeRendering": false,
+        "numberOfRecords": 100000.0,
+        "overviewEnabled": false,
+        "overviewDetailRawPointThreshold": 50000.0
+      },
+      "scatterMPOptions": {
         "pairColorOptions": {
           "singleColor": "#659a88",
           "transparency": 0.75,
@@ -580,7 +590,18 @@
           },
           "customColors": {}
         },
-        "numberOfRecords": 100000.0
+        "connectPoints": {
+          "enabled": false,
+          "splitBy": "COLOR",
+          "lineFormatting": {
+            "color": "#000",
+            "size": 1
+          }
+        },
+        "optimizeRendering": false,
+        "numberOfRecords": 100000.0,
+        "overviewEnabled": false,
+        "overviewDetailRawPointThreshold": 50000.0
       },
       "mapOptions": {
         "tilesLayer": "cartodb-positron",
@@ -739,10 +760,11 @@
             "size": 1
           }
         }
-      },
-      "id": "343df686"
+      }
     },
     "customMeasures": [],
+    "reusableDimensions": [],
+    "hierarchies": [],
     "datasetSmartName": "logs_llm_usage_prepared"
   },
   "owner": "divya.thomas@dataiku.com",
