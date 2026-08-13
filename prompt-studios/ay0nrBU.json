@@ -1,6 +1,38 @@
 {
   "name": "toto",
-  "prompts": [],
+  "prompts": [
+    {
+      "id": "337zqn7isq",
+      "prompt": {
+        "promptMode": "RAW_PROMPT",
+        "promptTemplateInputs": [],
+        "structuredPromptExamples": [],
+        "textPromptTemplateInputs": [],
+        "rawPromptText": "write a 1000 words text",
+        "streamingDisabled": false,
+        "debugEventsEnabled": false,
+        "guardrailsPipelineSettings": {
+          "guardrails": []
+        },
+        "resultValidation": {
+          "expectedFormat": "NONE",
+          "requiredJSONObjectKeys": [],
+          "forbiddenTerms": []
+        }
+      },
+      "llmId": "openai:OpenAI:gpt-4.1-nano",
+      "containerSelection": {
+        "containerMode": "INHERIT"
+      },
+      "llmSettings": {
+        "stopSequences": []
+      },
+      "nbRows": 8,
+      "inlinePromptTemplateQueries": [],
+      "tags": [],
+      "starred": false
+    }
+  ],
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
