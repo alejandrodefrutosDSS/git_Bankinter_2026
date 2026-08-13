@@ -385,6 +385,11 @@
         "facetDimension": [],
         "animationDimension": [],
         "genericMeasures": [],
+        "genericHierarchyDimension": [],
+        "yHierarchyDimension": [],
+        "xHierarchyDimension": [],
+        "groupHierarchyDimension": [],
+        "boxplotBreakdownHierarchyDimension": [],
         "xDimension": [],
         "yDimension": [],
         "uaXDimension": [],
@@ -432,6 +437,7 @@
         "filters": [],
         "xAxisFormatting": {
           "displayAxis": true,
+          "displayLineAndTicks": true,
           "showAxisTitle": true,
           "showAxisLabels": true,
           "labelAutoRotation": true,
@@ -444,6 +450,7 @@
           "axisValuesFormatting": {
             "numberFormatting": {
               "multiplier": "Auto",
+              "hideTrailingZeros": true,
               "digitGrouping": "DEFAULT",
               "useParenthesesForNegativeValues": false,
               "shouldFormatInPercentage": false,
@@ -473,6 +480,7 @@
           {
             "id": "y_left_0",
             "displayAxis": true,
+            "displayLineAndTicks": true,
             "showAxisTitle": true,
             "showAxisLabels": true,
             "labelAutoRotation": true,
@@ -485,6 +493,7 @@
             "axisValuesFormatting": {
               "numberFormatting": {
                 "multiplier": "Auto",
+                "hideTrailingZeros": true,
                 "digitGrouping": "DEFAULT",
                 "useParenthesesForNegativeValues": false,
                 "shouldFormatInPercentage": false,
@@ -513,6 +522,7 @@
           {
             "id": "y_right_0",
             "displayAxis": true,
+            "displayLineAndTicks": true,
             "showAxisTitle": true,
             "showAxisLabels": true,
             "labelAutoRotation": true,
@@ -525,6 +535,7 @@
             "axisValuesFormatting": {
               "numberFormatting": {
                 "multiplier": "Auto",
+                "hideTrailingZeros": true,
                 "digitGrouping": "DEFAULT",
                 "useParenthesesForNegativeValues": false,
                 "shouldFormatInPercentage": false,
@@ -556,10 +567,12 @@
           "showAxisLabels": true,
           "labelAutoRotation": true,
           "labelRotationAngle": 0.0,
-          "axisTitleFormatting": {
-            "fontSize": 15,
-            "fontColor": "#333",
-            "hasBackground": false
+          "axisValuesFormatting": {
+            "axisTicksFormatting": {
+              "fontSize": 15,
+              "fontColor": "#333",
+              "hasBackground": false
+            }
           },
           "ticksConfig": {
             "mode": "INTERVAL"
@@ -606,6 +619,7 @@
         "multiTooltips": false,
         "animationFrameDuration": 3000,
         "animationRepeat": true,
+        "colorMode": "UNIQUE_SCALE",
         "colorOptions": {
           "ccScaleMode": "NORMAL",
           "paletteType": "CONTINUOUS",
@@ -626,6 +640,7 @@
           },
           "customColors": {}
         },
+        "colorGroups": [],
         "bubblesOptions": {
           "defaultRadius": 5.0,
           "singleShape": "FILLED_CIRCLE"
@@ -773,6 +788,7 @@
             "axisValuesFormatting": {
               "numberFormatting": {
                 "multiplier": "Auto",
+                "hideTrailingZeros": true,
                 "digitGrouping": "DEFAULT",
                 "useParenthesesForNegativeValues": false,
                 "shouldFormatInPercentage": false,
@@ -814,9 +830,29 @@
           "tableFormatting": {
             "showRowHeaders": true,
             "showRowMainHeaders": true,
+            "rowMainHeaders": {
+              "fontSize": 12,
+              "fontColor": "#333",
+              "hasBackground": false
+            },
+            "rowSubheaders": {
+              "fontSize": 12,
+              "fontColor": "#333",
+              "hasBackground": false
+            },
             "freezeRowHeaders": false,
             "showColumnHeaders": true,
             "showColumnMainHeaders": true,
+            "columnMainHeaders": {
+              "fontSize": 12,
+              "fontColor": "#333",
+              "hasBackground": false
+            },
+            "columnSubheaders": {
+              "fontSize": 12,
+              "fontColor": "#333",
+              "hasBackground": false
+            },
             "values": {
               "fontSize": 12,
               "fontColor": "#333",
