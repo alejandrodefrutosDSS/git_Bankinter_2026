@@ -12,7 +12,8 @@
       "scheme": "MEANING_AND_STATUS",
       "individualColumns": [],
       "individualColumnsRules": [],
-      "valueColoringMode": "HASH"
+      "valueColoringMode": "HASH",
+      "coloringGroups": []
     },
     "sorting": [],
     "analysisColumnData": {},
@@ -74,6 +75,7 @@
       "copySelectionFromScript": true,
       "engineType": "LINO",
       "def": {
+        "id": "f9412ef4",
         "type": "grouped_columns",
         "variant": "normal",
         "name": "New chart",
@@ -84,6 +86,11 @@
         "facetDimension": [],
         "animationDimension": [],
         "genericMeasures": [],
+        "genericHierarchyDimension": [],
+        "yHierarchyDimension": [],
+        "xHierarchyDimension": [],
+        "groupHierarchyDimension": [],
+        "boxplotBreakdownHierarchyDimension": [],
         "xDimension": [],
         "yDimension": [],
         "uaXDimension": [],
@@ -128,9 +135,14 @@
         "tooltipMeasures": [],
         "boxplotBreakdownDim": [],
         "boxplotValue": [],
+        "filters": [],
         "xAxisFormatting": {
           "displayAxis": true,
+          "displayLineAndTicks": true,
           "showAxisTitle": true,
+          "showAxisLabels": true,
+          "labelAutoRotation": true,
+          "labelRotationAngle": 0.0,
           "axisTitleFormatting": {
             "fontSize": 15,
             "fontColor": "#333",
@@ -169,7 +181,11 @@
           {
             "id": "y_left_0",
             "displayAxis": true,
+            "displayLineAndTicks": true,
             "showAxisTitle": true,
+            "showAxisLabels": true,
+            "labelAutoRotation": true,
+            "labelRotationAngle": 0.0,
             "axisTitleFormatting": {
               "fontSize": 15,
               "fontColor": "#333",
@@ -207,7 +223,11 @@
           {
             "id": "y_right_0",
             "displayAxis": true,
+            "displayLineAndTicks": true,
             "showAxisTitle": true,
+            "showAxisLabels": true,
+            "labelAutoRotation": true,
+            "labelRotationAngle": 0.0,
             "axisTitleFormatting": {
               "fontSize": 15,
               "fontColor": "#333",
@@ -245,10 +265,15 @@
         ],
         "radialAxisFormatting": {
           "showAxisTitle": false,
-          "axisTitleFormatting": {
-            "fontSize": 15,
-            "fontColor": "#333",
-            "hasBackground": false
+          "showAxisLabels": true,
+          "labelAutoRotation": true,
+          "labelRotationAngle": 0.0,
+          "axisValuesFormatting": {
+            "axisTicksFormatting": {
+              "fontSize": 15,
+              "fontColor": "#333",
+              "hasBackground": false
+            }
           },
           "ticksConfig": {
             "mode": "INTERVAL"
@@ -258,7 +283,6 @@
           "includeZero": true
         },
         "smoothing": true,
-        "showLegend": true,
         "strokeWidth": 2,
         "fillOpacity": 0.6,
         "tooltipOptions": {
@@ -287,6 +311,7 @@
               "hasBackground": false
             },
             "addDetails": false,
+            "placementMode": "AUTO",
             "additionalMeasures": []
           }
         },
@@ -316,14 +341,19 @@
           },
           "customColors": {}
         },
+        "colorGroups": [],
         "bubblesOptions": {
           "defaultRadius": 5.0,
           "singleShape": "FILLED_CIRCLE"
         },
+        "computeMode": "NORMAL",
         "xAxisMode": "NORMAL",
         "yAxisMode": "NORMAL",
         "pieOptions": {
           "donutHoleSize": 54.0
+        },
+        "drilldownOptions": {
+          "displayBreadcrumb": true
         },
         "scatterZoomOptions": {
           "scale": [
@@ -338,6 +368,11 @@
           "enabled": true,
           "persisted": true
         },
+        "waterfallOptions": {
+          "totalBarDisplayMode": "RIGHT",
+          "useSemanticWatertfallColors": true,
+          "totalBarLabel": ""
+        },
         "linesZoomOptions": {
           "displayBrush": true,
           "enabled": true,
@@ -346,15 +381,6 @@
         "scatterOptions": {
           "equalScales": false,
           "identityLine": false,
-          "connectPoints": {
-            "enabled": false,
-            "splitBy": "COLOR",
-            "lineFormatting": {
-              "color": "#000",
-              "size": 1
-            }
-          },
-          "optimizeRendering": false,
           "regression": {
             "show": false,
             "displayFormula": false,
@@ -371,9 +397,6 @@
               "backgroundColor": "#D9D9D9BF"
             }
           },
-          "numberOfRecords": 1000000.0
-        },
-        "scatterMPOptions": {
           "connectPoints": {
             "enabled": false,
             "splitBy": "COLOR",
@@ -383,6 +406,11 @@
             }
           },
           "optimizeRendering": false,
+          "numberOfRecords": 1000000.0,
+          "overviewEnabled": false,
+          "overviewDetailRawPointThreshold": 50000.0
+        },
+        "scatterMPOptions": {
           "pairColorOptions": {
             "singleColor": "#659a88",
             "transparency": 0.75,
@@ -396,7 +424,18 @@
             },
             "customColors": {}
           },
-          "numberOfRecords": 1000000.0
+          "connectPoints": {
+            "enabled": false,
+            "splitBy": "COLOR",
+            "lineFormatting": {
+              "color": "#000",
+              "size": 1
+            }
+          },
+          "optimizeRendering": false,
+          "numberOfRecords": 1000000.0,
+          "overviewEnabled": false,
+          "overviewDetailRawPointThreshold": 50000.0
         },
         "mapOptions": {
           "tilesLayer": "cartodb-positron",
@@ -548,20 +587,23 @@
           },
           "horizontal": {
             "show": false,
-            "displayAxis": {},
+            "displayAxis": {
+              "type": "LEFT_Y_AXIS"
+            },
             "lineFormatting": {
               "type": "FILLED",
               "color": "#d9d9d9",
               "size": 1
             }
           }
-        },
-        "id": "f9412ef4"
+        }
       }
     }
   ],
   "interactiveSearch": {
     "savedQueries": []
   },
-  "customMeasures": []
+  "customMeasures": [],
+  "reusableDimensions": [],
+  "hierarchies": []
 }
