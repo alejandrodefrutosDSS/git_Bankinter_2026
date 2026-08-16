@@ -31,6 +31,37 @@
       "inlinePromptTemplateQueries": [],
       "tags": [],
       "starred": false
+    },
+    {
+      "id": "7vkqtnq4nk",
+      "prompt": {
+        "promptMode": "RAW_PROMPT",
+        "promptTemplateInputs": [],
+        "structuredPromptExamples": [],
+        "textPromptTemplateInputs": [],
+        "rawPromptText": "Explain in simple terms what Generative AI is and why prompts matter for it",
+        "streamingDisabled": false,
+        "debugEventsEnabled": false,
+        "guardrailsPipelineSettings": {
+          "guardrails": []
+        },
+        "resultValidation": {
+          "expectedFormat": "NONE",
+          "requiredJSONObjectKeys": [],
+          "forbiddenTerms": []
+        }
+      },
+      "llmId": "openai:OpenAI:gpt-4.1-nano",
+      "containerSelection": {
+        "containerMode": "INHERIT"
+      },
+      "llmSettings": {
+        "stopSequences": []
+      },
+      "nbRows": 8,
+      "inlinePromptTemplateQueries": [],
+      "tags": [],
+      "starred": false
     }
   ],
   "creationTag": {
