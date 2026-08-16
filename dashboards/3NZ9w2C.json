@@ -38,7 +38,7 @@
             "tileType": "INSIGHT",
             "box": {
               "top": 2,
-              "left": 8,
+              "left": 2,
               "width": 10,
               "height": 6
             },
@@ -84,7 +84,7 @@
             "tileType": "INSIGHT",
             "box": {
               "top": 2,
-              "left": 18,
+              "left": 12,
               "width": 10,
               "height": 6
             },
@@ -130,7 +130,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 8,
+              "top": 20,
               "left": 0,
               "width": 36,
               "height": 9
@@ -177,7 +177,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 17,
+              "top": 29,
               "left": 0,
               "width": 36,
               "height": 9
@@ -224,7 +224,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 26,
+              "top": 38,
               "left": 0,
               "width": 36,
               "height": 9
@@ -271,7 +271,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 35,
+              "top": 47,
               "left": 0,
               "width": 36,
               "height": 9
@@ -318,7 +318,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 44,
+              "top": 56,
               "left": 0,
               "width": 31,
               "height": 9
@@ -365,7 +365,7 @@
           {
             "tileType": "TEXT",
             "box": {
-              "top": 44,
+              "top": 56,
               "left": 31,
               "width": 5,
               "height": 9
@@ -401,7 +401,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 53,
+              "top": 65,
               "left": 0,
               "width": 36,
               "height": 9
@@ -448,7 +448,7 @@
           {
             "tileType": "TEXT",
             "box": {
-              "top": 62,
+              "top": 74,
               "left": 0,
               "width": 10,
               "height": 5
@@ -484,7 +484,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 62,
+              "top": 74,
               "left": 10,
               "width": 26,
               "height": 10
@@ -531,7 +531,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 67,
+              "top": 79,
               "left": 0,
               "width": 10,
               "height": 5
@@ -577,7 +577,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 72,
+              "top": 84,
               "left": 0,
               "width": 12,
               "height": 12
@@ -623,8 +623,8 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 72,
-              "left": 12,
+              "top": 2,
+              "left": 24,
               "width": 12,
               "height": 12
             },
