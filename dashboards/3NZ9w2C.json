@@ -623,8 +623,8 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": -1,
-              "left": -1,
+              "top": 72,
+              "left": 12,
               "width": 12,
               "height": 12
             },
