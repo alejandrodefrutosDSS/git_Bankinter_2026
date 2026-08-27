@@ -32,7 +32,8 @@
             "useDashboardSpacing": true,
             "tileSpacing": 8,
             "padding": 0,
-            "resizeImageMode": "FIT_SIZE"
+            "resizeImageMode": "FIT_SIZE",
+            "id": "7e3d61be-0c5d-4312-a50a-d340485c5a88"
           },
           {
             "tileType": "INSIGHT",
@@ -78,7 +79,8 @@
             "useDashboardSpacing": true,
             "tileSpacing": 8,
             "padding": 0,
-            "resizeImageMode": "FIT_SIZE"
+            "resizeImageMode": "FIT_SIZE",
+            "id": "ee86eefc-6c1e-4912-ab93-678f0fc76080"
           },
           {
             "tileType": "INSIGHT",
@@ -125,7 +127,8 @@
             "useDashboardSpacing": true,
             "tileSpacing": 8,
             "padding": 0,
-            "resizeImageMode": "FIT_SIZE"
+            "resizeImageMode": "FIT_SIZE",
+            "id": "57cc89ea-0581-4ad6-acde-4bf86e2c9b81"
           },
           {
             "tileType": "INSIGHT",
@@ -162,7 +165,7 @@
             },
             "titleOptions": {
               "showTitle": "YES",
-              "title": "Total Estimated Cost (USD) 💵 Over Time by Project",
+              "title": "Total Estimated Cost (USD) \ud83d\udcb5 Over Time by Project",
               "fontColor": "#000",
               "fontSize": 16
             },
@@ -172,7 +175,8 @@
             "useDashboardSpacing": true,
             "tileSpacing": 8,
             "padding": 0,
-            "resizeImageMode": "FIT_SIZE"
+            "resizeImageMode": "FIT_SIZE",
+            "id": "5f2917ae-d3f3-4b6f-a07d-3b3c78f595b4"
           },
           {
             "tileType": "INSIGHT",
@@ -209,7 +213,7 @@
             },
             "titleOptions": {
               "showTitle": "YES",
-              "title": "Total Estimated Cost (USD) 💵 by Project",
+              "title": "Total Estimated Cost (USD) \ud83d\udcb5 by Project",
               "fontColor": "#000",
               "fontSize": 16
             },
@@ -219,7 +223,8 @@
             "useDashboardSpacing": true,
             "tileSpacing": 8,
             "padding": 0,
-            "resizeImageMode": "FIT_SIZE"
+            "resizeImageMode": "FIT_SIZE",
+            "id": "ce062b03-10f2-4e88-a023-4b469d8cc977"
           },
           {
             "tileType": "INSIGHT",
@@ -256,7 +261,7 @@
             },
             "titleOptions": {
               "showTitle": "YES",
-              "title": "Total Estimated Cost (USD) 💵 by User",
+              "title": "Total Estimated Cost (USD) \ud83d\udcb5 by User",
               "fontColor": "#000",
               "fontSize": 16
             },
@@ -266,7 +271,8 @@
             "useDashboardSpacing": true,
             "tileSpacing": 8,
             "padding": 0,
-            "resizeImageMode": "FIT_SIZE"
+            "resizeImageMode": "FIT_SIZE",
+            "id": "1e4a948b-e9fb-418e-b841-b22ebb365c11"
           },
           {
             "tileType": "INSIGHT",
@@ -303,7 +309,7 @@
             },
             "titleOptions": {
               "showTitle": "YES",
-              "title": "Total Estimated Cost (USD) 💵 by Provider",
+              "title": "Total Estimated Cost (USD) \ud83d\udcb5 by Provider",
               "fontColor": "#000",
               "fontSize": 16
             },
@@ -313,7 +319,8 @@
             "useDashboardSpacing": true,
             "tileSpacing": 8,
             "padding": 0,
-            "resizeImageMode": "FIT_SIZE"
+            "resizeImageMode": "FIT_SIZE",
+            "id": "c43d9559-7e97-4c30-b20d-7b62e2def4c5"
           },
           {
             "tileType": "INSIGHT",
@@ -350,7 +357,7 @@
             },
             "titleOptions": {
               "showTitle": "YES",
-              "title": "Total Estimated Cost (USD) 💵 by Context",
+              "title": "Total Estimated Cost (USD) \ud83d\udcb5 by Context",
               "fontColor": "#000",
               "fontSize": 16
             },
@@ -360,7 +367,8 @@
             "useDashboardSpacing": true,
             "tileSpacing": 8,
             "padding": 0,
-            "resizeImageMode": "FIT_SIZE"
+            "resizeImageMode": "FIT_SIZE",
+            "id": "bfcdcb86-4abd-4292-9875-0ee1d2e7c240"
           },
           {
             "tileType": "TEXT",
@@ -396,7 +404,8 @@
             "useDashboardSpacing": true,
             "tileSpacing": 8,
             "padding": 0,
-            "resizeImageMode": "FIT_SIZE"
+            "resizeImageMode": "FIT_SIZE",
+            "id": "713dac42-f521-4c67-9b05-344baac86b62"
           },
           {
             "tileType": "INSIGHT",
@@ -433,7 +442,7 @@
             },
             "titleOptions": {
               "showTitle": "YES",
-              "title": "Total Estimated Cost (USD) 💵 by Usage Type",
+              "title": "Total Estimated Cost (USD) \ud83d\udcb5 by Usage Type",
               "fontColor": "#000",
               "fontSize": 16
             },
@@ -443,7 +452,8 @@
             "useDashboardSpacing": true,
             "tileSpacing": 8,
             "padding": 0,
-            "resizeImageMode": "FIT_SIZE"
+            "resizeImageMode": "FIT_SIZE",
+            "id": "27d3344d-9736-4ef0-879e-eb7c4f818e74"
           },
           {
             "tileType": "TEXT",
@@ -455,7 +465,7 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "text": "Dataiku stores the  **requests**  and  **answers**  in a cache.\n\n**If the same request is made again, the stored response is used, saving LLM costs 💰.** \n\nYou can [activate the caching option](https://knowledge.dataiku.com/latest/ml-analytics/gen-ai/concept-llm-connections.html#using-cache-to-reduce-costs) to reduce your operational costs.",
+              "text": "Dataiku stores the  **requests**  and  **answers**  in a cache.\n\n**If the same request is made again, the stored response is used, saving LLM costs \ud83d\udcb0.** \n\nYou can [activate the caching option](https://knowledge.dataiku.com/latest/ml-analytics/gen-ai/concept-llm-connections.html#using-cache-to-reduce-costs) to reduce your operational costs.",
               "textAlign": "LEFT",
               "verticalAlign": "TOP"
             },
@@ -479,7 +489,8 @@
             "useDashboardSpacing": true,
             "tileSpacing": 8,
             "padding": 0,
-            "resizeImageMode": "FIT_SIZE"
+            "resizeImageMode": "FIT_SIZE",
+            "id": "d5ae8b9e-153f-4352-93f2-bb4210b86443"
           },
           {
             "tileType": "INSIGHT",
@@ -516,7 +527,7 @@
             },
             "titleOptions": {
               "showTitle": "YES",
-              "title": "Estimated Cumulative Cost and Savings (USD) 💵",
+              "title": "Estimated Cumulative Cost and Savings (USD) \ud83d\udcb5",
               "fontColor": "#000",
               "fontSize": 16
             },
@@ -526,7 +537,8 @@
             "useDashboardSpacing": true,
             "tileSpacing": 8,
             "padding": 0,
-            "resizeImageMode": "FIT_SIZE"
+            "resizeImageMode": "FIT_SIZE",
+            "id": "6b1ee6e4-9d44-4534-af26-30022690002c"
           },
           {
             "tileType": "INSIGHT",
@@ -572,7 +584,8 @@
             "useDashboardSpacing": true,
             "tileSpacing": 8,
             "padding": 0,
-            "resizeImageMode": "FIT_SIZE"
+            "resizeImageMode": "FIT_SIZE",
+            "id": "ed4f2815-101d-424b-b79a-21210ef07a9f"
           },
           {
             "tileType": "INSIGHT",
@@ -618,7 +631,8 @@
             "useDashboardSpacing": true,
             "tileSpacing": 8,
             "padding": 0,
-            "resizeImageMode": "FIT_SIZE"
+            "resizeImageMode": "FIT_SIZE",
+            "id": "a76c822f-c7b6-4ad7-a747-470c9a3842d4"
           },
           {
             "tileType": "INSIGHT",
@@ -664,7 +678,8 @@
             "useDashboardSpacing": true,
             "tileSpacing": 8,
             "padding": 0,
-            "resizeImageMode": "FIT_SIZE"
+            "resizeImageMode": "FIT_SIZE",
+            "id": "c05fb809-db8a-4ca3-b3b1-e703e1496a00"
           }
         ]
       },
