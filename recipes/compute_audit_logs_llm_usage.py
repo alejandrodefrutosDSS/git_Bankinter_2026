@@ -2,7 +2,8 @@
 import dataiku
 import pandas as pd, numpy as np
 from dataiku import pandasutils as pdu
-
+import json
+import requests
 
 mapping_audit_logs = {
     "message.msgType": "msgType",
