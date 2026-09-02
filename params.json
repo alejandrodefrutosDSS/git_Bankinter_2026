@@ -182,6 +182,7 @@
       "exportNotebooks": true,
       "exportDatasetResources": true,
       "exportAgentReviews": false,
+      "exportCobuildChats": false,
       "includedDatasetsData": [
         {
           "name": "audit_logs",
@@ -250,6 +251,7 @@
       "showFlowZoneDescriptions": false
     },
     "gitCommitMode": "AUTO",
+    "useRemoteGit": true,
     "disableAutomaticTriggers": false,
     "integrations": {
       "integrations": []
@@ -400,6 +402,12 @@
     },
     "cobuildSettings": {
       "customPromptMode": "APPEND_TO_GLOBAL"
+    },
+    "dssMcpServerSettings": {
+      "exposeAgents": "EXPOSE_NONE",
+      "exposeTools": "EXPOSE_NONE",
+      "chosenAgentIds": [],
+      "chosenToolIds": []
     }
   },
   "name": "GenAI Cost Monitoring",
