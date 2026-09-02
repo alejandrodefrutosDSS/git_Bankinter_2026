@@ -18,6 +18,7 @@
       "font_awesome",
       "jquery"
     ],
+    "runAs": "admin",
     "infra": {
       "containerSelection": {
         "containerMode": "INHERIT"
